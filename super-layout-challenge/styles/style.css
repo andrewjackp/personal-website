@@ -5,15 +5,32 @@
 body {
 	min-height: 100vh;
 }
+
+
+section {
+	padding: 10px;
+	gap: 10px;
+	overflow: hidden;
+}
+
+.inner-column {
+	display: block;
+	padding: 20px;
+	max-width: 9800px;
+	margin-inline: auto;
+	z-index: 1;
+}
+
 /* structure */
-header {
+.site-header {
 	padding: 10px;
 	color: white;
 	font-family: sans-serif;
 	font-size: 1.5em;
    font-weight: 700;
    letter-spacing: 0.12em;
-   background: #5787c1;
+   text-shadow: 1.1px 1px black;
+   background: #b6d5e6;
 	picture {
 		display: block;
 	}
@@ -32,36 +49,36 @@ header {
 	}
 }
 
-section {
-	padding: 10px;
-/*	border: 2px solid red;*/
-	gap: 10px;
-	overflow: hidden;
-}
-
 .welcome {
-/*	background-color: rgba(50, 205, 50);*/
-	background: linear-gradient(0.25turn, #4aa63f82, #ba38384a, #13db58de);
+	background-color: #54bd9c;
+	@media (max-width: 799px) {
+		.wrestling-ring-img {
+			display: none;
+	}
+		.second-welcome-img {
+			display: none;
+	}
+	}
 }
 
 .media-links {
 	background-color: beige;
-}
-
-.site-footer {
-	background-color: #3a4875;
-	padding: 70px;
-	li, a {
-		color: white;
+	position: relative;
+	.inner-column {
+		padding: 50px;
 	}
 }
 
-.inner-column {
-/*	border: 1px solid black;*/
-	display: block;
-	padding: 20px;
-	max-width: 900px;
-	margin-inline: auto;
+.site-footer {
+	background-color: #b6d5e6;
+	padding: 10px;
+	z-index: 1;
+	font-family: basetica-regular;
+	text-shadow: 1.1px 1px black;
+	position: relative;
+	li, a {
+		color: white;
+	}
 }
 
 li {
@@ -73,7 +90,8 @@ li {
 	picture {
 		display: block;
 		height: auto;
-		max-width: 500px;
+		max-width: 1000px;
+		margin-bottom: 1em;
 		img {
 		display: block;
 		width: 100%;
@@ -85,8 +103,9 @@ li {
 		display: none;
 	}
 	.welcome-title {
-		font-size: clamp(1.4em, 7vw, 2em);
+		font-size: clamp(1em, 3vw, 2.4em);
 		line-height: 1em;
+		font-family: basetica-regular;
 	}
 }
 
@@ -104,7 +123,7 @@ li {
 	font-family: basetica-regular;
 	picture {
 		aspect-ratio: 1 / 1;
-		max-width: 100px;
+		max-width: 200px;
 		img {
 			width: 100%;
 			height: 100%;
@@ -112,24 +131,32 @@ li {
 			border-radius: 50%;
 			border: 1px solid black;
 		}
-	}		
+	}	
+	.info {
+		line-height: 1.28em;
+		max-width: 250px;
+	}	
 	.title {
-		font-size: clamp(1.3em, 3vw, 2em);
+		font-size: clamp(1em, 5vw, 1.5em);
 		margin-top: 0.28em;
 	}
 	.sub-title {
-		font-size: 0.8em;
+		font-size: clamp(1em, 3vw, 0.5em);
 	}
 	.caption {
-		font-size: clamp(0.8em, 2vw, 2em);
+		font-size: clamp(1em, 3vw, 0.5em);
 	}
+}
+
+.media-links .wrestling-ring-img {
+	display:none;
 }
 
 @media (min-width: 500px) {
 	.welcome .card {
 		flex-direction: row;
 		align-items: center;
-		max-width: 550px;
+		max-width: 1000px;
 		gap: 10px;
 	}
 
@@ -142,17 +169,37 @@ li {
 	.welcome .inner-column {
 		padding: 40px;
 	}
+	.media-links .wrestling-ring-img {
+		display: block;
+		position: absolute;
+      right: 0%;
+      bottom: -5%;
+      max-width: 200px;
+	}
+	.site-footer .inner-column {
+		padding: 30px;
+		position: relative;
+		z-index: 1
+	}
 }
 
 @media (min-width: 800px) {
-	header .inner-column {
-		max-width: 600px;
+	.site-header .inner-column {
+		max-width: 800px;
+		padding: 16px;
+	}
+
+	.site-footer .inner-column {
+		padding: 30px;
+		position: relative;
+		z-index: 1
 	}
 	.welcome {
 		padding: 30px;
 		display: flex;
     	flex-direction: row;
     	justify-content: center;
+    	position: relative;
 	}
 	.media-links ul {
 		display: flex;
@@ -166,6 +213,41 @@ li {
 		align-items: center;
 		gap: 10px;
 	}
+
+	.media-links .wrestling-ring-img {
+		display: block;
+		position: absolute;
+      right: 0%;
+      bottom: -10%;
+      max-width: 199px;
+	}
+
+	.welcome .wrestling-ring-img {
+	   display: block;
+      position: absolute;
+      left: -6%;
+      bottom: -1%;
+      max-width: 239px;
+	}
+
+	.second-welcome-img {
+		picture {
+			display: block;
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		display: block;
+		position: absolute;
+      right: 15%;
+      bottom: -10%;
+      max-width: 199px;
+	}
+
 	.welcome .card {
 		flex-direction: row;
       align-items: flex-start;
