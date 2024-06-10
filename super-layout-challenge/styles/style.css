@@ -141,6 +141,9 @@ li {
 		line-height: 1.28em;
 		max-width: 250px;
 	}	
+	picture + .info {
+		margin-top: 1em;
+	}
 	.title {
 		font-size: clamp(1em, 5vw, 1.5em);
 		margin-top: 0.28em;
