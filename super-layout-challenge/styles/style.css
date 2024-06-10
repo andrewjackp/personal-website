@@ -1,22 +1,29 @@
 * {
 	box-sizing: border-box;
+	font-family: sans;
 }
 
 body {
 	min-height: 100vh;
+	display: flex;
+  	flex-direction: column;
+}
+
+main {
+	flex: 1;
+	background-color: beige;
 }
 
 
 section {
 	padding: 10px;
 	gap: 10px;
-	overflow: hidden;
 }
 
 .inner-column {
 	display: block;
 	padding: 20px;
-	max-width: 9800px;
+	max-width: 980px;
 	margin-inline: auto;
 	z-index: 1;
 }
@@ -75,7 +82,6 @@ section {
 	z-index: 1;
 	font-family: basetica-regular;
 	text-shadow: 1.1px 1px black;
-	position: relative;
 	li, a {
 		color: white;
 	}
@@ -89,12 +95,11 @@ li {
 .welcome .card {
 	picture {
 		display: block;
-		height: auto;
-		max-width: 1000px;
 		margin-bottom: 1em;
 		img {
 		display: block;
 		width: 100%;
+		height: auto;
 		border: none;
 		border-radius: 0%;
 		}	
@@ -146,10 +151,23 @@ li {
 	.caption {
 		font-size: clamp(1em, 3vw, 0.5em);
 	}
+	.caption + .link {
+		line-height: 1.5em;
+	} 
 }
 
 .media-links .wrestling-ring-img {
 	display:none;
+}
+
+.link {
+	border: 1px solid black;
+   border-radius: 10%;
+   padding: 5px;
+   /* text-align: center; */
+   background-color: #6fba9e;
+   color: white;
+   margin-top: 0.5em;
 }
 
 @media (min-width: 500px) {
@@ -166,34 +184,19 @@ li {
 		align-items: center;
 		gap: 20px;
 	}
-	.welcome .inner-column {
-		padding: 40px;
-	}
 	.media-links .wrestling-ring-img {
 		display: block;
-		position: absolute;
+      position: absolute;
       right: 0%;
-      bottom: -5%;
-      max-width: 200px;
-	}
-	.site-footer .inner-column {
-		padding: 30px;
-		position: relative;
-		z-index: 1
+      bottom: -44px;
+      width: 26%;
+      height: 19%;
+      z-index: 0;
+      background-color: transparent;
 	}
 }
 
 @media (min-width: 800px) {
-	.site-header .inner-column {
-		max-width: 800px;
-		padding: 16px;
-	}
-
-	.site-footer .inner-column {
-		padding: 30px;
-		position: relative;
-		z-index: 1
-	}
 	.welcome {
 		padding: 30px;
 		display: flex;
@@ -216,17 +219,19 @@ li {
 
 	.media-links .wrestling-ring-img {
 		display: block;
-		position: absolute;
+      position: absolute;
       right: 0%;
-      bottom: -10%;
-      max-width: 199px;
+      bottom: -40px;
+      width: 26%;
+      height: 32%;
+      z-index: 0;
 	}
 
 	.welcome .wrestling-ring-img {
 	   display: block;
       position: absolute;
       left: -6%;
-      bottom: -1%;
+      top: 35%;
       max-width: 239px;
 	}
 
