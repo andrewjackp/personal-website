@@ -12,17 +12,10 @@ body {
 }
 
 .page-content {
-	display: flex;
-	flex-direction: column;
 	flex-grow: 1;
+	background-color: #ec3568;
 }
 
-.page-section {
-	height: 160px;
-   display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-}
 
 /* STRUCTURE */
 .inner-column {
@@ -39,6 +32,7 @@ body {
 		padding-top: 10px;
 		padding-bottom: 3em;
 	}
+	margin-bottom: 2em;
 }
 
 .page-section {
@@ -47,7 +41,6 @@ body {
 
 .site-footer {
 	background-color: black;
-	flex: 1;
 	color: white;
 }
 
@@ -89,7 +82,11 @@ body {
 		border: 1px solid black;
 		padding: 10px;
 		width: 75%;
-		margin: 10px 20px 55px 13px;
+		position: absolute;
+		bottom: 5%;
+		left: 2%;
+		margin-top: 2em;
+		margin-bottom: 2em;
 	}
 	@media (min-width: 1000px){
 		display: none;
@@ -130,12 +127,13 @@ button {
 
 @media (min-width: 700px) {
 	.welcome .inner-column {
+		position: relative;
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: flex-end;
 		align-items: center;
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 10px;
+		padding-bottom: 130px;
 
 		picture {
 			width: 70%;
