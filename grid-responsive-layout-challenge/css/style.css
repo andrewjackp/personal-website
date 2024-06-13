@@ -24,6 +24,16 @@ body {
 	max-width: 900px;
 	margin-inline: auto;
 	padding: 10px;
+	border: 1px solid black;
+}
+
+.site-header {
+	border: 3px solid red;
+}
+
+.site-nav {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
 }
 
 .welcome {
@@ -42,6 +52,8 @@ body {
 .site-footer {
 	background-color: black;
 	color: white;
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 /* MODULES */
@@ -114,10 +126,11 @@ button {
 		display: grid;
 	}
 	.card-grid {
-		margin-bottom: 5em;	
+		display: grid;
 	}
 	.card {
 		grid-template-columns: 1fr 1fr;
+		gap: 10px;
 
 		.info {
 			margin-top: 0;
@@ -128,12 +141,12 @@ button {
 }
 
 @media (min-width: 700px) {
-	
+
 	.welcome .inner-column {
 
 		position: relative;
 		display: grid;
- 		grid-template-columns: 1fr 1fr;
+ 		grid-template-columns: 1fr 43% 35px 5vw;
  		direction: rtl;
  		gap: 10px;
 	
@@ -186,11 +199,6 @@ button {
 
 	}
 
-	.page-section {
-		.inner-column {
-			max-width: 970px;
-		}
-	}
 
 	.card-grid {
 		gap: 0;
@@ -198,7 +206,7 @@ button {
 
 	.card {
 		background-color: unset;
-		grid-template-columns: 228px 223px;
+		grid-template-columns: 1fr 43% 35px 5vw;
       overflow: hidden;
 
 		.info {
