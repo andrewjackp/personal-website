@@ -5,6 +5,7 @@
 html {
 	background-color: #f6c2cb;
 	font-family: Arimo;
+	--pink: #ec3568;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
 
 .page-content {
 	flex-grow: 1;
-	background-color: #ec3568;
 }
 
 
@@ -29,7 +29,9 @@ body {
 }
 
 .site-header {
-	border: 3px solid red;
+	border-bottom: 1px solid black;
+	background-color: white;
+	z-index: 1;
 
 	.inner-column {
 		display: flex;
@@ -60,17 +62,103 @@ body {
 
 .welcome {
 	background-color: #f6c2cb;
+	position: relative;
+	z-index: 5;
 	.inner-column {
 		padding-top: 10px;
 		padding-bottom: 3em;
 	}
 	margin-bottom: 2em;
+
+}
+
+.welcome .wrestling-ring {
+		position: absolute;
+		opacity: 1;
+}
+
+.welcome .wrestling-ring.one {
+	width: 20vw;
+   top: 0;
+   left: 0;
+   transform: translate(-15%, -15%);
+}
+
+.welcome .wrestling-ring img {
+	opacity: .2;
+}
+
+@media (min-width: 400px) {
+	.welcome .inner-column {
+		display: grid;
+	}
+}
+
+@media (min-width: 600px) {
+
+	.welcome .inner-column {
+		position: relative;
+		padding-top: 10px;
+		padding-bottom: 130px;
+	}
+
+	.welcome .wrestling-ring.one{
+		left: 3vw;
+      top: 0;
+    }
+	}
+}
+
+@media (min-width: 900px) {
+
+	.welcome .inner-column {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	.welcome .wrestling-ring.one {
+		width: 30%;
+		top: initial;
+		bottom: 0;
+		left: -5%;
+		transform: translate(0, 50%);
+	}
 }
 
 .page-section {
-	background-color: #ec3568;
+	background-color: var(--pink);
 }
 
+.page-section .wrestling-ring.two {
+		opacity: 0;
+}
+
+.page-section .wrestling-ring {
+	position: absolute;
+	opacity: 1;
+}
+
+.page-section .wrestling-ring img {
+	opacity: 1;
+}
+
+@media (min-width: 600px) {
+	.page-section .wrestling-ring.two {
+		width: 20vw;
+      opacity: .5;
+      position: absolute;
+      bottom: 96%;
+      right: 0;
+		transform: translate(0, -50%);
+	}
+}
+
+@media (min-width: 900px) {
+	.page-section .wrestling-ring.two {
+		transform: translate(50%, -10%);
+		right: 14%;
+	}
+}
 
 .media-links {
 	background-color: beige;
@@ -248,9 +336,7 @@ button {
 /* RESPONSIVE */
 
 @media (min-width: 400px) {
-	.welcome .inner-column {
-		display: grid;
-	}
+	
 	.card-grid {
 		display: grid;
 	}
@@ -267,13 +353,6 @@ button {
 
 @media (min-width: 600px) {
 
-	.welcome .inner-column {
-
-		position: relative;
-		padding-top: 10px;
-		padding-bottom: 130px;
-		
-	}
 
 	graphic-diptych {
 		display: grid;
@@ -317,10 +396,6 @@ button {
 
 @media (min-width: 900px) {
 	
-	.welcome .inner-column {
-		padding-top: 30px;
-		padding-bottom: 50px;
-	}
 
 	graphic-diptych {
 		display: grid;

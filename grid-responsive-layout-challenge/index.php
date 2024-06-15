@@ -1,33 +1,8 @@
-<!doctype html>
-
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title>Responsive Layout Challenge</title>
-		<meta name='description' content='grid experiments'>
-		<meta property='og:image' content='https://peprojects.dev/beta-one/andy/grid-responsive-layout-challenge/images/meta-wrestle.jpg'>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header class='site-header'>
-			<div class='inner-column'>
-					<a href="#"><picture>
-						<img src="images/ajpw-logo.png" alt="ajpw">
-					</picture></a>
-				<nav class='site-nav'>
-					<ul class="nav-list">
-						<li class="nav-items">
-							<li><a href="#">First Page</a></li>
-							<li><a href="#">Second Page</a></li>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-
-		<main class='page-content'>
-			<section class='welcome'>
+<?php include('header.php'); ?>
+<section class='welcome'>
+		<div class="wrestling-ring one">
+			<img src="images/wrestling-ring.svg" alt="rassle-ring">
+		</div>
 				<div class="inner-column">
 					<graphic-diptych>
 						<picture>
@@ -51,6 +26,10 @@
 			<section class='page-section'>
 
 				<h2 class='visually-hidden'>Pick a griddy</h2>
+				
+					<div class="wrestling-ring two">
+						<img src="images/wrestling-ring.svg" alt="rassle-ring">
+					</div>
 
 				<div class="inner-column">
 
@@ -84,14 +63,14 @@
 				</div>
 			</section>
 
-			<section class="media-links">
-			<div class="inner-column">
-				<ul class="wrestler-card-grid">
-					<li>
-						<article class='wrestler-card'>
-							<picture>
-								<img src="images/akirataue.jpg" alt="pics">
-							</picture>
+		<section class="media-links">
+				<div class="inner-column">
+					<ul class="wrestler-card-grid">
+						<li>
+							<article class='wrestler-card'>
+								<picture>
+									<img src="images/akirataue.jpg" alt="pics">
+								</picture>
 
 							<div class="info">
 								<span class='media-links title'>Akira Taue</span>
@@ -130,52 +109,7 @@
 							</article>
 					</li>
 				</ul>
-
 		</main>
-
-		<footer class='site-footer'>
-			<div class="inner-column">
-				<footer-graphic>
-					<a href="#">
-						<picture>
-							<img src="images/wrestling-ring.svg" alt="ring">
-						</picture>
-					</a>
-				<nav>
-					<a href="#">Website</a>
-					<a href="#">by Andy</a>
-				</nav>
-				</footer-graphic>
-
-				<footer-list>
-					<ul>
-						<li>
-							<a href="#">Twitter</a>
-						</li>
-							<li>
-							<a href="#">Instagram</a>
-						</li>
-							<li>
-							<a href="#">GitHub</a>
-						</li>
-							<li>
-							<a href="#">Tout</a>
-						</li>
-					</ul>
-				</footer-list>
-
-				<footer-graphic>
-					<a href="#">
-						<picture>
-							<img src="images/wrestling-ring.svg" alt="ring">
-						</picture>
-					</a>
-				<nav>
-					<a href="#">Website</a>
-					<a href="#">by Andy</a>
-				</nav>
-				</footer-graphic>
-			</div>
-		</footer>
+		<?php include('footer.php'); ?>
 	</body>
 </html>
