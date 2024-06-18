@@ -1,0 +1,142 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/* PAGE */
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+inner-column {
+	display: block;
+	border: 1px solid black;
+	padding: 20px;
+	max-width: 900px;
+	margin-inline: auto;
+}
+
+/* SECTIONS */
+.site-header inner-column {
+	display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 10px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+   gap: 10px;
+}
+
+@media (min-width: 600px) {
+	nav {
+		flex-direction: row;
+	}
+}
+
+.media-links inner-column {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+}
+
+@media (min-width: 900px) {
+	.media-links inner-column {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+}
+
+
+.welcome {
+	span {
+		max-width: 50ch;
+	}
+}
+
+.history-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-multi {
+	article {
+			border-top: 1px solid black;
+			padding: 10px;
+			picture {
+				max-width: 30%;
+				float: right;
+			}
+			overflow: hidden;
+			.info {
+				max-width: 70%;
+				float: left;
+				text-align: left;
+				line-height: 1.28em;
+		}
+	}
+	.mid-voice {
+		font-size: 18px;
+		font-style: italic;
+	}
+	.loud-voice {
+		margin-bottom: .5em;
+	}
+	.info + .info {
+		margin: 10px;
+	}
+	.mid-voice + span {
+		margin-top: .5em;
+	}
+}
+
+
+/* TYPOGRAPHY */
+.loud-voice {
+	font-size: clamp(32px, 4vw, 48px);
+	line-height: 1em;
+}
+
+.mid-voice {
+	font-size: clamp(14px, 3vw, 25px);
+}
+
+.loud-voice + .mid-voice {
+	margin-top: 1em;
+}
+
+.loud-voice + .info {
+	margin-top: 1em;
+}
+
+/* MODULES */
+graphic-diptych {
+	display: flex;
+	flex-direction: column;
+	.mid-voice + .site-button {
+			margin-top: 0.5em;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+	graphic-diptych {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: 10px;
+
+		.info {
+			margin-top: 6em;
+		}
+	}
+}
+
+@media 
