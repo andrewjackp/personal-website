@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 
 html {
-	background-color: #f6c2cb;
+	background-color: #f5f5df;
 	font-family: Arimo;
 	--pink: #ec3568;
 }
@@ -16,6 +16,8 @@ body {
 
 .page-content {
 	flex-grow: 1;
+	z-index: 5;
+	position: relative;
 }
 
 
@@ -65,8 +67,7 @@ body {
 	position: relative;
 	z-index: 5;
 	.inner-column {
-		padding-top: 10px;
-		padding-bottom: 3em;
+		padding-top: 45px;
 	}
 	margin-bottom: 2em;
 
@@ -81,7 +82,7 @@ body {
 	width: 20vw;
    top: 0;
    left: 0;
-   transform: translate(-15%, -15%);
+   transform: translate(-15%, 25%);
 }
 
 .welcome .wrestling-ring img {
@@ -98,7 +99,7 @@ body {
 
 	.welcome .inner-column {
 		position: relative;
-		padding-top: 10px;
+		padding-top: 30px;
 		padding-bottom: 130px;
 	}
 
@@ -110,53 +111,50 @@ body {
 }
 
 @media (min-width: 900px) {
-
-	.welcome .inner-column {
+	.welcome {
+		position: relative;
 		padding-top: 30px;
-		padding-bottom: 50px;
-	}
-
-	.welcome .wrestling-ring.one {
-		width: 30%;
-		top: initial;
-		bottom: 0;
-		left: -5%;
-		transform: translate(0, 50%);
+		padding-bottom: 0px !important;
 	}
 }
 
 .page-section {
-	background-color: var(--pink);
+	background-color: beige;
+	position: relative;
+	z-index: 5;
+	border: 1px solid black;
+
+	picture {
+		border-radius: 5%;
+	}
 }
 
-.page-section .wrestling-ring.two {
+.media-links .wrestling-ring.two {
 		opacity: 0;
 }
 
-.page-section .wrestling-ring {
+.media-links .wrestling-ring {
 	position: absolute;
 	opacity: 1;
 }
 
-.page-section .wrestling-ring img {
+.media-links .wrestling-ring img {
 	opacity: 1;
 }
 
 @media (min-width: 600px) {
-	.page-section .wrestling-ring.two {
-		width: 20vw;
+	.media-links .wrestling-ring.two {
+		width: 30vw;
       opacity: .5;
       position: absolute;
-      bottom: 96%;
+      top: 45%;
       right: 0;
-		transform: translate(0, -50%);
 	}
 }
 
 @media (min-width: 900px) {
-	.page-section .wrestling-ring.two {
-		transform: translate(50%, -10%);
-		right: 14%;
+	.media-links .wrestling-ring.two {
+		width: 12vw;
 	}
 }
 
@@ -188,6 +186,7 @@ body {
     	justify-content: space-between;
 	}
 }
+
 
 footer-graphic {
 	display: flex;
@@ -237,9 +236,9 @@ footer-list {
 }
 
 .loud-voice {
-	font-size: clamp(1.5em, 3vw, 2em);
+	font-family: Arimo;
+	font-size: clamp(15px, 3vw, 1.25em);
 	margin-top: 0.5em;
-	font-size: 34px;
 	line-height: 1.1;
 }
 
@@ -333,6 +332,51 @@ button {
 	} 
 }
 
+
+.text-layout {
+	padding: 20px;
+}
+
+.text-layout .text-heading {
+		font-size: clamp(20px, 4vw, 50px);
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+text-diptych {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+
+	.text-title {
+		margin-bottom: 15px;
+	}
+
+	.paragraphs {
+		margin-bottom: 2.5em;
+
+		p + p {
+			margin-top: 1em;
+		}
+	}
+}
+
+@media (min-width: 900px) {
+	text-diptych {
+		flex-direction: row;
+
+		.text-title {
+		margin-bottom: 15px;
+		width: 50%;
+	}
+
+		.paragraphs {
+		width: 50%;
+	}
+	}
+}
+
 /* RESPONSIVE */
 
 @media (min-width: 400px) {
@@ -381,6 +425,7 @@ button {
 	}
 	.card {
 		grid-template-columns: 2fr;
+		border-radius: 5%;
 
 		.info {
 			margin-top: 0.5em;

@@ -15,9 +15,9 @@
 						</div>	
 					</graphic-diptych>
 
-					<div class="some-bonus-thing">
-					Some bonus thing
-				</div>
+						<div class="some-bonus-thing">
+						Some bonus thing
+						</div>
 
 				</div>
 			
@@ -26,13 +26,8 @@
 			<section class='page-section'>
 
 				<h2 class='visually-hidden'>Pick a griddy</h2>
-				
-					<div class="wrestling-ring two">
-						<img src="images/wrestling-ring.svg" alt="rassle-ring">
-					</div>
 
 				<div class="inner-column">
-
 					<ul>
 						<li class='card-grid'>
 							
@@ -42,7 +37,7 @@
 								</picture>
 	
 								<div class="info">
-									<h3 class='mid-voice'>Heading here</h3>
+									<h3 class='loud-voice'>Heading here</h3>
 								</div>
 								
 							</article>
@@ -53,7 +48,7 @@
 								</picture>
 	
 								<div class="info">
-									<h3 class='mid-voice'>Heading here</h3>
+									<h3 class='loud-voice'>Heading here</h3>
 								</div>
 
 							</article>
@@ -65,6 +60,9 @@
 
 		<section class="media-links">
 				<div class="inner-column">
+					<div class="wrestling-ring two">
+						<img src="images/wrestling-ring.svg" alt="rassle-ring">
+					</div>
 					<ul class="wrestler-card-grid">
 						<li>
 							<article class='wrestler-card'>
@@ -109,6 +107,15 @@
 							</article>
 					</li>
 				</ul>
+			</div>
+		</section>
+
+		<section class="text-layout">
+			<div class="inner-column">
+				<?php include('text-layout.php'); ?>
+			</div>
+		</section>
+
 		</main>
 		<?php include('footer.php'); ?>
 	</body>
