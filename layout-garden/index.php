@@ -116,6 +116,12 @@
 			</div>
 		</section>
 
+		<section class="reviews-layout">
+			<div class="inner-column">
+				<?php include('modules/reviews.php'); ?>
+			</div>
+		</section>
+
 		</main>
 		<?php include('footer.php'); ?>
 	</body>

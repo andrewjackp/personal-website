@@ -377,6 +377,72 @@ text-diptych {
 	}
 }
 
+.review-text-heading {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	padding: 20px;
+	margin-bottom: 2em;
+}
+.review-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	card-diptych {
+		display: flex;
+		flex-direction: column;
+		border-bottom: 1px solid grey;
+		width: 100%;
+
+		.info {
+			text-align: center;
+		}
+		picture {
+			height: 360px;
+		}
+		img {
+			height: 100%;
+		}
+}
+	.info {
+		display:flex;
+		flex-direction: column;
+		margin-bottom: 1em;
+	}
+} 
+
+	card-diptych-sublist {
+		display: flex;
+		flex-direction: row-reverse;
+		border-bottom: 1px solid grey;
+		justify-content: space-between;
+		align-items: center;
+		picture {
+			max-width: 30%;
+		}
+		.preview {
+			max-width: 40ch;
+		}
+	}
+
+@media (min-width: 900px) {
+	.review-container {
+		display: flex;
+		flex-direction: row;
+		gap: 55px;
+	}
+
+	card-diptych {
+		position: static;
+		picture {
+			height: 465px;
+		}
+		img {
+			height: 100%;
+		}
+	}
+}
+
 /* RESPONSIVE */
 
 @media (min-width: 400px) {
