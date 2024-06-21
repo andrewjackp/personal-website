@@ -128,6 +128,11 @@
 			</div>
 		</section>
 
+		<section class="groundwork-cards">
+			<div class="inner-column">
+				<?php include('modules/groundwork-cards.php'); ?>
+			</div>
+		</section>
 		</main>
 		<?php include('footer.php'); ?>
 	</body>

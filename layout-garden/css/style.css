@@ -25,7 +25,7 @@ body {
 .inner-column {
 	display: block;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1500px;
 	margin-inline: auto;
 	padding: 10px;
 }
@@ -472,8 +472,6 @@ text-diptych {
 
 	graphic-diptych {
 		display: grid;
-		direction: rtl;
-      grid-template-columns: 1fr 20% 150px 1vw;
 
       .site-button {
 	      margin-right: 65px;
@@ -481,13 +479,12 @@ text-diptych {
       }
 
       picture {
-      	margin-right: 10px;
+      	grid-column: 3 / 4;
       }
 
       .info {
-      	position: absolute;
-    		left: 10px;
-    		top: 15%;
+      	grid-column: 2 / 3;
+         grid-row: 1 / 4;
       }
 	}
 
@@ -516,13 +513,14 @@ text-diptych {
 
 	graphic-diptych {
 		display: grid;
-		direction: ltr;
-      grid-template-columns: 1fr 15% 132px 5vw;
+
+		picture {
+			grid-column: 1 / 2;
+		}
 
        .info {
-      	position: absolute;
-      	left: 65%;
-      	top: 25%;
+       	align-self: center;
+       	margin-left: 0.5em;
      }
    }
 	.page-section .inner-column {
