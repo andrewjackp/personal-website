@@ -9,7 +9,7 @@
 				</picture>
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
-						<h2 class='loud-voice'>subheader: and the type of coffee this is</h2>
+						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
 							<span class='description'>Medium roast | toast notes | etc </span>
 				</div>
 				<a class='button'>quick add</a>
@@ -23,7 +23,7 @@
 				</picture>
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
-						<h2 class='loud-voice'>subheader: and the type of coffee this is</h2>
+						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
 							<span class='description'>Medium roast | toast notes | etc </span>
 				</div>
 				<a class='button'>quick add</a>
@@ -37,7 +37,7 @@
 				</picture>
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
-						<h2 class='loud-voice'>subheader: and the type of coffee this is</h2>
+						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
 							<span class='description'>Medium roast | toast notes | etc </span>
 				</div>
 				<a class='button'>quick add</a>
@@ -51,7 +51,7 @@
 				</picture>
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
-						<h2 class='loud-voice'>subheader: and the type of coffee this is</h2>
+						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
 							<span class='description'>Medium roast | toast notes | etc </span>
 				</div>
 				<a class='button'>quick add</a>
