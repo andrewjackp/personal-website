@@ -25,7 +25,7 @@ body {
 .inner-column {
 	display: block;
 	width: 100%;
-	max-width: 900px;
+	max-width: 1000px;
 	margin-inline: auto;
 	padding: 10px;
 }
@@ -147,7 +147,7 @@ body {
 		width: 30vw;
       opacity: .5;
       position: absolute;
-      top: 45%;
+      top: 18%;
       right: 0;
 	}
 }
@@ -420,6 +420,10 @@ text-diptych {
 		picture {
 			max-width: 30%;
 		}
+		img {
+			object-fit: cover;
+    		aspect-ratio: 1 / 1;
+		}
 		.preview {
 			max-width: 40ch;
 		}
@@ -433,7 +437,9 @@ text-diptych {
 	}
 
 	card-diptych {
-		position: static;
+		position: sticky;
+      top: 0;
+      align-self: start;
 		picture {
 			height: 465px;
 		}
@@ -553,4 +559,6 @@ text-diptych {
       grid-template-columns: none;
     }
 }
+}
+
 }

@@ -122,6 +122,12 @@
 			</div>
 		</section>
 
+		<section class="market-cards">
+			<div class="inner-column">
+				<?php include('modules/market-cards.php'); ?>
+			</div>
+		</section>
+
 		</main>
 		<?php include('footer.php'); ?>
 	</body>
