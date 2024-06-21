@@ -25,7 +25,7 @@ body {
 .inner-column {
 	display: block;
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	margin-inline: auto;
 	padding: 10px;
 }
@@ -219,10 +219,10 @@ footer-list {
 /* MODULES */
 
 .card {
-	background-color: #f6c2cb;
 	padding: 10px;
 	margin-bottom: 1em;
 	display: grid;
+	border: 1px solid black;
 }
 
 .card-grid {
@@ -494,7 +494,6 @@ text-diptych {
 	}
 	.card {
 		grid-template-columns: 2fr;
-		border-radius: 5%;
 
 		.info {
 			margin-top: 0.5em;
@@ -538,7 +537,6 @@ text-diptych {
 
 		.info {
 			margin-top: 0;
-			background-color: #f6c2cb;
 
 			.mid-voice {
 				padding: 10px;

@@ -4,9 +4,9 @@
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title>Responsive Layout Challenge</title>
-		<meta name='description' content='grid experiments'>
-		<meta property='og:image' content='https://peprojects.dev/beta-one/andy/grid-responsive-layout-challenge/images/grid-screenshot.jpg'>
+		<title>Layout Garden</title>
+		<meta name='description' content='Layout Garden'>
+		<meta property='og:image' content='https://peprojects.dev/beta-one/andy/layout-garden/images/meta-wrestle.jpg'>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
