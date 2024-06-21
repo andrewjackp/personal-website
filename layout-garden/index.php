@@ -4,21 +4,7 @@
 			<img src="images/wrestling-ring.svg" alt="rassle-ring">
 		</div>
 				<div class="inner-column">
-					<graphic-diptych>
-						<picture>
-							<img src="images/rectangle.png" alt="$todo">
-						</picture>
-
-						<div class="info">
-							<h1 class='loud-voice'>Heading level 1</h1>
-								<button class='site-button'><a href="#">click here</a></button>
-						</div>	
-					</graphic-diptych>
-
-						<div class="some-bonus-thing">
-						Some bonus thing
-						</div>
-
+					<?php include('modules/welcome.php'); ?>
 				</div>
 			
 			</section>
@@ -28,33 +14,7 @@
 				<h2 class='visually-hidden'>Pick a griddy</h2>
 
 				<div class="inner-column">
-					<ul>
-						<li class='card-grid'>
-							
-							<article class='card'>
-								<picture>
-									<img src="images/	rectangle.png" alt="$todo"	>
-								</picture>
-	
-								<div class="info">
-									<h3 class='loud-voice'>Heading here</h3>
-								</div>
-								
-							</article>
-	
-							<article class='card'>
-								<picture>
-									<img src="images/	rectangle.png" alt="$todo"	>
-								</picture>
-	
-								<div class="info">
-									<h3 class='loud-voice'>Heading here</h3>
-								</div>
-
-							</article>
-
-						</li>
-					</ul>
+					<?php include('modules/heading-cards.php'); ?>
 				</div>
 			</section>
 
