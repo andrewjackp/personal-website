@@ -24,7 +24,7 @@
 
 		<section class="text-layout">
 			<div class="inner-column">
-				<?php include('text-layout.php'); ?>
+				<?php include('modules/text-layout.php'); ?>
 			</div>
 		</section>
 
@@ -43,6 +43,24 @@
 		<section class="groundwork-cards">
 			<div class="inner-column">
 				<?php include('modules/groundwork-cards.php'); ?>
+			</div>
+		</section>
+
+		<section class="text-grid-layout">
+			<div class="inner-column">
+				<?php include('modules/textgrid.php'); ?>
+			</div>
+		</section>
+
+		<section class="paint-cards-layout">
+			<div class="inner-column">
+				<?php include('modules/paint-cards.php'); ?>
+			</div>
+		</section>
+
+		<section class="alt-text-layout-section">
+			<div class="inner-column">
+				<?php include('modules/alt-text-layout.php'); ?>
 			</div>
 		</section>
 		</main>

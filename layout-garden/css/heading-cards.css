@@ -32,7 +32,7 @@
 @media (min-width: 900px) {
     .heading-card {
     	background-color: unset;
-      grid-template-columns: 200px 99% 5vw;
+      grid-template-columns: 1fr 1fr;
       overflow: hidden;
         .info {
         		margin-top: 0;

@@ -1,0 +1,36 @@
+
+
+/* page modules */
+
+.text-grid {
+	display: grid;
+	.loud-voice {
+	text-align: center;
+}
+
+}
+
+.text-card {
+	padding: 20px;
+
+	.soft-voice {
+		font-size: 25px;
+		margin-bottom: 1.5em;
+	}
+
+	p {
+		line-height: 1.5em;
+	}
+}
+
+@media (min-width: 600px) {
+	.text-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 900px) {
+	.text-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

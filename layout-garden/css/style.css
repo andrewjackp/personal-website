@@ -321,6 +321,7 @@ button {
 	.info {
 		line-height: 1.28em;
 		max-width: 250px;
+		padding: 11px;
 	}	
 	picture + .info {
 		margin-top: 1em;
