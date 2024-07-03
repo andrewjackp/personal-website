@@ -13,10 +13,16 @@ body {
 	flex-grow: 1;
 }
 
+html {
+	--dark: black;
+}
+
 inner-column {
 	display: block;
 	border: 1px solid black;
 	padding: 20px;
+	padding-top: 2em;
+   padding-bottom: 2em;
 	max-width: 900px;
 	margin-inline: auto;
 }
@@ -28,6 +34,12 @@ inner-column {
    justify-content: space-around;
    align-items: center;
    gap: 10px;
+}
+
+.site-header {
+	picture {
+		max-width: 100px;
+	}
 }
 
 nav {
@@ -51,8 +63,8 @@ nav {
 @media (min-width: 900px) {
 	.media-links inner-column {
 		display: flex;
-		flex-direction: row;
-		gap: 10px;
+      flex-direction: row;
+      justify-content: space-between;
 	}
 }
 
@@ -66,6 +78,20 @@ nav {
 .history-list {
 	display: flex;
 	flex-direction: column;
+}
+
+.site-footer inner-column {
+	display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 10px;
+}
+
+.site-footer {
+	picture {
+		max-width: 100px;
+	}
 }
 
 .card-multi {
@@ -127,16 +153,22 @@ graphic-diptych {
 	}
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
-	graphic-diptych {
-		display: grid;
-		grid-template-columns: 2fr 1fr;
-		gap: 10px;
 
-		.info {
-			margin-top: 6em;
-		}
-	}
+
+.site-button {
+	display: inline-block;
+   background-color: white;
+   border: 1px solid var(--dark);
+   padding: 0.9em 1.5em;
+   color: var(--dark);
+   text-decoration: none;
+   min-width: 150px;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 1rem;
 }
 
-@media 
+.site-button:hover {
+	background-color: var(--dark);
+	color: white;
+}

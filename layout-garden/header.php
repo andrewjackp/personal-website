@@ -12,7 +12,7 @@
 	<body>
 		<header class='site-header'>
 			<div class='inner-column'>
-					<a href="#"><picture>
+					<a href="https://andypolito.com"><picture>
 						<img src="images/ajpw-logo.png" alt="ajpw">
 					</picture></a>
 				<nav class='site-nav'>

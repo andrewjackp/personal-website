@@ -1,6 +1,4 @@
-<div class="text-voice">
-	<h1 class='loud-voice'>Here is another text section</h1>
-</div>
+<h1 class='loud-voice alt-text'>Here is another text section</h1>
 
 <div class="alt-text-grid">
 	<alt-text-diptych>
@@ -25,6 +23,9 @@
 </div>					
 
 <style>
+	.alt-text{
+		margin-left: 0.5em;
+	}
 	.alt-text-grid {
 		display: grid;
 	}

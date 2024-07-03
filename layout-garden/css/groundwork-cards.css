@@ -4,6 +4,8 @@
   	grid-gap: 2rem;
 	margin-inline: auto;
 	padding: 20px;
+	margin-top: 2em;
+   margin-bottom: 2em;
 }
 
 .card {
@@ -36,6 +38,7 @@
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	line-height: 1.28em;
+	margin-left: 0.8em;
 }
 
 button {

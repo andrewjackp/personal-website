@@ -68,7 +68,10 @@ body {
 	.inner-column {
 		padding-top: 45px;
 	}
-	margin-bottom: 2em;
+	margin-top: 4em;
+	.loud-voice {
+		margin-left: 0.5px;
+	}
 
 }
 
@@ -285,6 +288,8 @@ footer-list {
 
 .wrestler-card-grid {
 	display: grid;
+	margin-top: 2em;
+   margin-bottom: 2em;
 }
 
 button {
@@ -356,7 +361,8 @@ text-diptych {
 	display: flex;
 	flex-direction: column;
 	border-bottom: 1px solid black;
-	margin-top: 10px;
+	margin-top: 2em;
+   margin-bottom: 2em;
 
 	.text-title {
 		margin-bottom: 15px;

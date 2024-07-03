@@ -123,7 +123,8 @@ html {
 									/* ? */
 									/* fit - creates a column when there's empty... */
 	gap: 50px 24px;
-	
+	margin-top: 2em;
+   margin-bottom: 2em;
 	padding: 24px;
 	
 	li {
