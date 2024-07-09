@@ -30,8 +30,7 @@ inner-column {
 /* SECTIONS */
 .site-header inner-column {
 	display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+   flex-direction: row;;
    align-items: center;
    gap: 10px;
 }
@@ -45,7 +44,7 @@ inner-column {
 nav {
 	display: flex;
 	flex-direction: column;
-   gap: 10px;
+   gap: 25px;
 }
 
 @media (min-width: 600px) {
@@ -75,6 +74,10 @@ nav {
 	}
 }
 
+.history inner-column {
+	padding-bottom: 0;
+}
+
 .history-list {
 	display: flex;
 	flex-direction: column;
@@ -83,7 +86,6 @@ nav {
 .site-footer inner-column {
 	display: flex;
    flex-direction: row;
-   justify-content: space-around;
    align-items: center;
    gap: 10px;
 }
@@ -113,6 +115,7 @@ nav {
 	.mid-voice {
 		font-size: 18px;
 		font-style: italic;
+		margin-bottom: 1em;
 	}
 	.loud-voice {
 		margin-bottom: .5em;
