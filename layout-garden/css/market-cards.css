@@ -26,6 +26,19 @@ html {
 }
 
 /* components (more primitive) */
+
+.button-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media (min-width: 800px){
+	.button-group {
+		flex-direction: row;
+	}
+}
+
 .button {
 	/* reset */
 	display: inline-block;
@@ -34,9 +47,7 @@ html {
 	padding: 0.9em 1.5em;
 	color: var(--dark);
 	text-decoration: none;
-	min-width: 150px;
 	text-align: center;
-	
 	font-family: sans-serif;
 	font-size: 1rem;
 	&:hover {
@@ -123,7 +134,6 @@ html {
 									/* ? */
 									/* fit - creates a column when there's empty... */
 	gap: 50px 24px;
-	margin-top: 2em;
    margin-bottom: 2em;
 	padding: 24px;
 	

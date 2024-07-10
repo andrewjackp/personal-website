@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="css/market-cards.css">
 
+<div class='heading-box'>
+	<h1>Grand Central Market Vendor Cards</h1>
+		<p>Here is a list of vendors inspired by the <a href="https://grandcentralmarket.com/vendors/" target="_blank">Grand Central Market</a> vendors page</p>
+</div>
+
 <ol class='vendor-list'>
 	<li class='vendor' data-category='drinks'>
 		<article class='vendor-card'>

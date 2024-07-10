@@ -236,6 +236,11 @@ footer-list {
 	line-height: 1.28em;
 }
 
+.heading-box {
+	padding: 24px;
+	line-height: 30px
+}
+
 .calm-voice, p {
 	font-family: serif;
 	font-size: 1rem;
