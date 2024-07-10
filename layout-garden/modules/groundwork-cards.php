@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="css/groundwork-cards.css">
-
+<h1>Groundwork Coffee Shop Page</h1>
+<p>These items' inspiration was taken from the <a href="https://www.groundworkcoffee.com/collections/organic-coffee" target="_blank">Groundworks</a> website.</p>
 <ul class='card-list'>
 		<li class='card-item'>
 			<article class="card">
@@ -10,7 +11,7 @@
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
 						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
-							<span class='description'>Medium roast | toast notes | etc </span>
+							<p class='soft-voice'>Medium roast | toast notes | etc </p>
 				</div>
 				<a class='button'>quick add</a>
 </article>
@@ -24,7 +25,7 @@
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
 						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
-							<span class='description'>Medium roast | toast notes | etc </span>
+							<p class='soft-voice'>Medium roast | toast notes | etc </p>
 				</div>
 				<a class='button'>quick add</a>
 </article>
@@ -38,7 +39,7 @@
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
 						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
-							<span class='description'>Medium roast | toast notes | etc </span>
+							<p class='soft-voice'>Medium roast | toast notes | etc </p>
 				</div>
 				<a class='button'>quick add</a>
 </article>
@@ -52,7 +53,7 @@
 				<div class="info">
 					<h1 class='soft-voice'>header</h1>
 						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
-							<span class='description'>Medium roast | toast notes | etc </span>
+							<p class='soft-voice'>Medium roast | toast notes | etc </p>
 				</div>
 				<a class='button'>quick add</a>
 </article>

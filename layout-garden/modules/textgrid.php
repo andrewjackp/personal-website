@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/textgrid.css">
 
 <h1 class='loud-voice'>
-	Here is your header!
+	Here's an example of a text layout
 </h1>
 <div class="text-grid">
 	<article class="text-card">

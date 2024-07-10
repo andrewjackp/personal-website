@@ -1,11 +1,16 @@
 .card-list {
 	display: grid;
- 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-  	grid-gap: 2rem;
+  	grid-gap: 10px;
 	margin-inline: auto;
 	padding: 20px;
 	margin-top: 2em;
    margin-bottom: 2em;
+}
+
+@media (min-width: 700px){
+	.card-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 .card {
@@ -15,7 +20,11 @@
 	.img-back {
 		display: none;
 	}
+	.info {
+		text-align: left;
+	}
 }
+
 
 .card:hover {
 	.img-back {

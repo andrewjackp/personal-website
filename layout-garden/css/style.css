@@ -28,6 +28,7 @@ body {
 	max-width: 1200px;
 	margin-inline: auto;
 	padding: 10px;
+	border: 1px solid black;
 }
 
 .site-header {
@@ -124,8 +125,6 @@ body {
 	background-color: beige;
 	position: relative;
 	z-index: 5;
-	border: 1px solid black;
-
 	picture {
 		border-radius: 5%;
 	}
@@ -513,6 +512,7 @@ text-diptych {
 
 	graphic-diptych {
 		display: grid;
+		grid-template-columns: 1fr 1fr;
 
 		picture {
 			grid-column: 1 / 2;
