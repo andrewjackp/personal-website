@@ -367,6 +367,7 @@ text-diptych {
 	border-bottom: 1px solid black;
 	margin-top: 2em;
    margin-bottom: 2em;
+   padding: 24px;
 
 	.text-title {
 		margin-bottom: 15px;
@@ -447,6 +448,10 @@ text-diptych {
 			max-width: 40ch;
 		}
 	}
+
+.review-container {
+	padding: 24px;
+}
 
 @media (min-width: 900px) {
 	.review-container {

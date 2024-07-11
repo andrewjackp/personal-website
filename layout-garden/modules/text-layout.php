@@ -1,4 +1,4 @@
-<div class="text-heading">
+<div class='heading-box'>
 	<h1>Check this heading out to check out</h1>
 </div>
 					

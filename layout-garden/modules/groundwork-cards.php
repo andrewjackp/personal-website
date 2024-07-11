@@ -18,24 +18,6 @@
 				<a class='button'>quick add</a>
 </article>
 		</li>
-			<li class='card-item'>
-			<article class="card">
-				<picture>
-					<img src="https://peprojects.dev/beta-one/andy/andy-polito/images/wrestling-ring.svg" class="img-top" alt="img">
-					<img src="https://peprojects.dev/beta-one/andy/andy-polito/images/wrestling-ring-upsidedown.svg" class="img-back">
-				</picture>
-				<div class="info">
-					<h1 class='soft-voice'>header</h1>
-						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
-							<p class='soft-voice'>Medium roast | toast notes | etc </p>
-				</div>
-				<div class="button-group">
-					<a class='button'>quick add</a>
-					<a class='button'>subscribe</a>
-				</div>
-				
-</article>
-		</li>
 		<li class='card-item'>
 			<article class="card">
 				<picture>
@@ -64,5 +46,22 @@
 				<a class='button'>quick add</a>
 </article>
 		</li>
-	
+		<li class='card-item'>
+			<article class="card">
+				<picture>
+					<img src="https://peprojects.dev/beta-one/andy/andy-polito/images/wrestling-ring.svg" class="img-top" alt="img">
+					<img src="https://peprojects.dev/beta-one/andy/andy-polito/images/wrestling-ring-upsidedown.svg" class="img-back">
+				</picture>
+				<div class="info">
+					<h1 class='soft-voice'>header</h1>
+						<h2 class='strong-voice'>subheader: and the type of coffee this is</h2>
+							<p class='soft-voice'>Medium roast | toast notes | etc </p>
+				</div>
+				<div class="button-group">
+					<a class='button'>quick add</a>
+					<a class='button'>subscribe</a>
+				</div>
+				
+			</article>
+		</li>
 </ul>

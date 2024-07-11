@@ -1,6 +1,10 @@
 
 <h1 class='review-text-heading'>Reviews</h1>
-<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list</p>
+
+<div class="heading-box">
+	<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list</p>
+</div>
+
 
 <div class="review-container">
 	<card-diptych>
