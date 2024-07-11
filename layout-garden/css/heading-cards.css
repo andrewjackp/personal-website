@@ -2,6 +2,7 @@
   display: grid;
   margin-top: 2em;
   margin-bottom: 2em;
+  padding: 24px;
 }
 
 .heading-card {
