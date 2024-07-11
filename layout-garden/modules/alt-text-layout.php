@@ -1,4 +1,7 @@
-<div class='heading-box'>Here is another text section with a rearranged order. This uses CSS Grid.
+<div class='heading-box'>
+	<p>
+		Here is another text section with a rearranged order. This uses CSS Grid.
+	</p>
 </div>
 
 <div class="alt-text-grid">
@@ -24,11 +27,10 @@
 </div>					
 
 <style>
-	.alt-text{
-		margin-left: 0.5em;
-	}
+	
 	.alt-text-grid {
 		display: grid;
+		padding: 10px;
 	}
 	alt-text-diptych {
 		display: grid;
@@ -38,7 +40,6 @@
 
 		.text-title {
 			grid-column: 1;
-			margin: 1em;
 		}
 
 		.paragraphs {
