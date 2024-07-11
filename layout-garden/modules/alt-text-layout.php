@@ -31,6 +31,7 @@
 	.alt-text-grid {
 		display: grid;
 		padding: 10px;
+		padding-bottom: 3em;
 	}
 	alt-text-diptych {
 		display: grid;
@@ -53,6 +54,7 @@
 			.text-title {
 				grid-column: 4;
 				grid-row: 1;
+				padding: 10px;
 		}
 		.paragraphs {
 				grid-column: 1;
