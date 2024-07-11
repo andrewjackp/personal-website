@@ -2,7 +2,7 @@
 <h1 class='review-text-heading'>Reviews</h1>
 
 <div class="heading-box">
-	<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list</p>
+	<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list. It was accomplished using flexbox and has a fun sticky feature for the main review.</p>
 </div>
 
 

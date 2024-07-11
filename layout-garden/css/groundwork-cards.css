@@ -19,6 +19,9 @@
 	.img-back {
 		display: none;
 	}
+	.img-top{
+		opacity: 1;
+	}
 	.info {
 		text-align: left;
 	}
@@ -26,8 +29,13 @@
 
 
 .card:hover {
+	picture {
+		background-color: lightgreen;
+	}
 	.img-back {
 		display: block;
+		transition: 0.3s;
+		opacity: 1;
 	}
 	.img-top {
 		display: none;

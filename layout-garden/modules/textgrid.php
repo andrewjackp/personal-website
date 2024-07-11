@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="css/textgrid.css">
 
-<h1 class='loud-voice'>
-	Here's an example of a text layout
-</h1>
+<div class='heading-box'>
+	Here's an example of a text layout using CSS Grid.
+</div>
 <div class="text-grid">
 	<article class="text-card">
 		<h2 class='soft-voice'>Second Heading</h2>

@@ -1,5 +1,5 @@
 <div class='heading-box'>
-	<h1>Check this heading out to check out</h1>
+	<h1>Here is a text layout that changes on responsive views.</h1>
 </div>
 					
 	<text-diptych>

@@ -4,12 +4,6 @@
 		display: block;
 		padding: 1em;
 	}
-	picture {
-		background-color: gray;
-	}
-	img {
-		opacity: 0.2;
-	}
 	.info {
 		text-align: left;
 		font-size: 1.5em;

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/groundwork-cards.css">
 <div class='heading-box'>
 	<h1>Groundwork Coffee Shop Page</h1>
-		<p>These items' inspiration was taken from the <a href="https://www.groundworkcoffee.com/collections/organic-coffee" target="_blank">Groundworks</a> website. These use a combination of CSS Grid and container queries.</p>
+		<p>These items' inspiration was taken from the <a href="https://www.groundworkcoffee.com/collections/organic-coffee" target="_blank">Groundworks</a> website. They were built using CSS Grid</p>
 </div>
 <ul class='card-list'>
 		<li class='card-item'>

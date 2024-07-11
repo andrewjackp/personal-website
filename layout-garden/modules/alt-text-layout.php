@@ -1,4 +1,5 @@
-<h1 class='loud-voice alt-text'>Here is another text section</h1>
+<div class='heading-box'>Here is another text section with a rearranged order. This uses CSS Grid.
+</div>
 
 <div class="alt-text-grid">
 	<alt-text-diptych>

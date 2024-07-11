@@ -2,7 +2,7 @@
 
 <div class='heading-box'>
 	<h1>Grand Central Market Vendor Cards</h1>
-		<p>Here is a list of vendors inspired by the <a href="https://grandcentralmarket.com/vendors/" target="_blank">Grand Central Market</a> vendors page</p>
+		<p>Here is a list of vendors inspired by the <a href="https://grandcentralmarket.com/vendors/" target="_blank">Grand Central Market</a> vendors page. These use a combination of CSS Grid and container queries.</p>
 </div>
 
 <ol class='vendor-list'>

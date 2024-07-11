@@ -36,6 +36,9 @@ html {
 @media (min-width: 900px){
 	.button-group {
 		flex-direction: row;
+		.button:nth-of-type(2) {
+			border-left: none;
+		}
 	}
 }
 

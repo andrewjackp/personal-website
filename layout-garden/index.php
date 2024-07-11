@@ -9,6 +9,24 @@
 			
 			</section>
 
+			<section class="reviews-layout">
+				<div class="inner-column">
+					<?php include('modules/reviews.php'); ?>
+				</div>
+			</section>
+
+			<section class="market-cards">
+				<div class="inner-column">
+					<?php include('modules/market-cards.php'); ?>
+				</div>
+			</section>
+
+			<section class="groundwork-cards">
+				<div class="inner-column">
+					<?php include('modules/groundwork-cards.php'); ?>
+				</div>
+			</section>
+
 			<section class='page-section'>
 				<h2 class='visually-hidden'>Pick a griddy</h2>
 				<div class="inner-column">
@@ -28,23 +46,6 @@
 			</div>
 		</section>
 
-		<section class="reviews-layout">
-			<div class="inner-column">
-				<?php include('modules/reviews.php'); ?>
-			</div>
-		</section>
-
-		<section class="market-cards">
-			<div class="inner-column">
-				<?php include('modules/market-cards.php'); ?>
-			</div>
-		</section>
-
-		<section class="groundwork-cards">
-			<div class="inner-column">
-				<?php include('modules/groundwork-cards.php'); ?>
-			</div>
-		</section>
 
 		<section class="text-grid-layout">
 			<div class="inner-column">
