@@ -446,8 +446,8 @@ text-diptych {
 
 	card-diptych {
 		position: sticky;
-      top: 20wpx;
-      align-self: start;
+    top: 20px;
+    align-self: start;
 		picture {
 			height: 465px;
 		}
