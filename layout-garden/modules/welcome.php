@@ -5,7 +5,7 @@
 
 	<div class="info">
 		<h1 class='loud-voice'>Heading level 1</h1>
-			<a class='button'>click here</a>
+			<a class='button' href="#">click here</a>
 	</div>	
 </graphic-diptych>
 

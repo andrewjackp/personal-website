@@ -30,14 +30,14 @@
 	
 	.alt-text-grid {
 		display: grid;
-		padding: 10px;
 		padding-bottom: 3em;
 	}
 	alt-text-diptych {
 		display: grid;
 		gap: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		border-bottom: 1px solid black;
-		margin: 0;
 
 		.text-title {
 			grid-column: 1;
@@ -45,7 +45,6 @@
 
 		.paragraphs {
 			grid-column: 4;
-			margin: 1em;
 			font-size: 14px;
 			line-height: 1.28em;
 		}

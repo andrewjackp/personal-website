@@ -43,7 +43,6 @@ html {
 }
 
 .button {
-	/* reset */
 	display: inline-block;
 	background-color: white;
 	border: 1px solid var(--dark);
@@ -57,6 +56,7 @@ html {
 		background-color: var(--dark);
 		color: white;
 	}
+	max-width: 200px;
 	width: 100%;
 }
 
@@ -139,7 +139,6 @@ html {
 									/* fit - creates a column when there's empty... */
 	gap: 50px 24px;
    margin-bottom: 2em;
-	padding: 24px;
 	
 	li {
 		container-type: inline-size;
