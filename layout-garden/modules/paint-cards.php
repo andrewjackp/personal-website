@@ -1,7 +1,12 @@
 <link rel="stylesheet" href="css/paint-cards.css">
 
 <div class="heading-box">
-	Here is a list cards where the parent is one card. This would ideally be used for a customer testimonial section on a website. It was built using flexbox.
+	<h1>
+		Card Lists
+	</h1>
+	<p>
+		Here is a list cards where the parent is one card. This would ideally be used for a customer testimonial section on a website. It was built using flexbox. The idea was inspired by the news section on <a href="https://foreignpolicy.design/">this</a> website.
+	</p>
 </div>
 	<ul class='category-list'>
 		<li class='category'>

@@ -232,7 +232,16 @@ footer-list {
 }
 
 .heading-box {
-	padding-bottom: 16px;
+	h1{
+		font-size: 50px;
+		font-style: italic;
+		padding-bottom: 0.2em;
+	}
+	p {
+		font-family: Helvetica;
+	}
+	padding-top: 0.28em;
+  padding-bottom: 0.58em;
 }
 
 .calm-voice, p {
@@ -256,7 +265,7 @@ footer-list {
 
 .loud-voice {
 	font-family: Arimo;
-	font-size: clamp(15px, 3vw, 1.25em);
+	font-size: clamp(35px, 3vw, 1.25em);
 	line-height: 1.1;
 }
 
@@ -401,7 +410,7 @@ text-diptych {
 		flex-direction: column;
 		border-bottom: 1px solid grey;
 		width: 100%;
-
+		line-height: 1.2em;
 		.info {
 			text-align: center;
 		}
@@ -415,7 +424,7 @@ text-diptych {
 	.info {
 		display:flex;
 		flex-direction: column;
-		margin-bottom: 1em;
+		line-height: 24px;
 	}
 } 
 
@@ -425,6 +434,13 @@ text-diptych {
 		border-bottom: 1px solid grey;
 		justify-content: space-between;
 		align-items: center;
+
+		.loud-voice {
+			font-weight: 600;
+		}
+		.mid-voice {
+			font-weight: 500;
+		}
 		picture {
 			max-width: 30%;
 		}
@@ -502,6 +518,11 @@ graphic-diptych {
 		}
 	}
 
+	.wrestler-card-grid {
+    	display: grid;
+   		gap: 5px;
+	}
+
 	.wrestler-card {
 		display: grid;
 		grid-template-columns: .9fr 2fr;
@@ -509,8 +530,20 @@ graphic-diptych {
 	}
 }
 
+
+@media (min-width: 700px) {
+		.wrestler-card-grid {
+    	display: grid;
+    	grid-template-columns: 1fr 1fr;
+	}
+
+	.wrestler-list-item {
+		border: 1px solid black;
+		border-radius: 10px;
+	}
+}
+
 @media (min-width: 900px) {
-	
 
 	graphic-diptych {
 		display: grid;
@@ -521,16 +554,12 @@ graphic-diptych {
 		}
 
        .info {
-       	gap: 10px;
-         display: grid;
-       	order: 1;
-       	align-self: center;
+       		gap: 10px;
+        	display: grid;
+       		order: 1;
+       		align-self: center;
      }
    }
-	.page-section .inner-column {
-		padding: 0;
-	}
-
 	.card-grid {
 		gap: 0;
 	}
@@ -552,7 +581,7 @@ graphic-diptych {
 
 	.wrestler-card-grid {
     	display: grid;
-    	grid-template-columns: 1fr 1fr 1fr;
+    	grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 
 	.wrestler-card {

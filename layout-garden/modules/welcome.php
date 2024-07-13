@@ -1,3 +1,7 @@
+<div class="heading-box">
+	<h1>Graphic Dipytch</h1>
+	<p>Cool graphic/card layout that rearranges at responsive layers</p>
+</div>
 <graphic-diptych>
 	<picture>
 		<img src="images/rectangle.png" alt="$todo">

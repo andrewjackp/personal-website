@@ -2,6 +2,7 @@
 <h1 class='review-text-heading'>Reviews</h1>
 
 <div class="heading-box">
+	<h1>Pitchfork Album Review Layout</h1>
 	<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list. It was accomplished using flexbox and has a fun sticky feature for the main review.</p>
 </div>
 
@@ -12,94 +13,94 @@
 			<img src="images/rectangle.png" alt="rectangle">
 		</picture>
 			<div class="info">
-				<span class="genre">R&B</span>
-				<span class="album-title">Album</span>
-				<span class="artist">Artist</span>
+				<span class="quiet-voice">R&B</span>
+				<span class="loud-voice">Album</span>
+				<span class="mid-voice">Artist</span>
 				<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 				<span class="author">By author</span>
 			</div>
 	</card-diptych>
 
 	<ul class='review-sublist'>
-		<li>
+		<li class='review-item'>
 			<card-diptych-sublist>
 			<picture>
 				<img src="images/rectangle.png" alt="rectangle">
 			</picture>
 				<div class="info">
-					<span class="genre">R&B</span>
-					<span class="album-title">Album</span>
-					<span class="artist">Artist</span>
+					<span class="quiet-voice">R&B</span>
+					<span class="loud-voice">Album</span>
+					<span class="mid-voice">Artist</span>
 					<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 					<span class="author">by author</span>
 				</div>
 		</card-diptych-sublist>
 		</li>
-		<li>
+		<li class='review-item'>
 			<card-diptych-sublist>
 			<picture>
 				<img src="images/rectangle.png" alt="rectangle">
 			</picture>
 				<div class="info">
-					<span class="genre">R&B</span>
-					<span class="album-title">Album</span>
-					<span class="artist">Artist</span>
+					<span class="quiet-voice">R&B</span>
+					<span class="loud-voice">Album</span>
+					<span class="mid-voice">Artist</span>
 					<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 					<span class="author">by author</span>
 				</div>
 		</card-diptych-sublist>
 		</li>
-		<li>
+		<li class='review-item'>
 			<card-diptych-sublist>
 			<picture>
 				<img src="images/rectangle.png" alt="rectangle">
 			</picture>
 				<div class="info">
-					<span class="genre">R&B</span>
-					<span class="album-title">Album</span>
-					<span class="artist">Artist</span>
+					<span class="quiet-voice">R&B</span>
+					<span class="loud-voice">Album</span>
+					<span class="mid-voice">Artist</span>
 					<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 					<span class="author">by author</span>
 				</div>
 		</card-diptych-sublist>
 		</li>
-		<li>
+		<li class='review-item'>
 			<card-diptych-sublist>
 			<picture>
 				<img src="images/rectangle.png" alt="rectangle">
 			</picture>
 				<div class="info">
-					<span class="genre">R&B</span>
-					<span class="album-title">Album</span>
-					<span class="artist">Artist</span>
+					<span class="quiet-voice">R&B</span>
+					<span class="loud-voice">Album</span>
+					<span class="mid-voice">Artist</span>
 					<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 					<span class="author">by author</span>
 				</div>
 		</card-diptych-sublist>
 		</li>
-				<li>
+		<li class='review-item'>
 			<card-diptych-sublist>
 			<picture>
 				<img src="images/rectangle.png" alt="rectangle">
 			</picture>
 				<div class="info">
-					<span class="genre">R&B</span>
-					<span class="album-title">Album</span>
-					<span class="artist">Artist</span>
+					<span class="quiet-voice">R&B</span>
+					<span class="loud-voice">Album</span>
+					<span class="mid-voice">Artist</span>
 					<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 					<span class="author">by author</span>
 				</div>
 		</card-diptych-sublist>
 		</li>
-				<li>
+		<li class='review-item'>
 			<card-diptych-sublist>
-			<picture>
-				<img src="images/rectangle.png" alt="rectangle">
-			</picture>
+				<picture>
+					<img src="images/rectangle.png" alt="rectangle">
+				</picture>
 				<div class="info">
-					<span class="genre">R&B</span>
-					<span class="album-title">Album</span>
-					<span class="artist">Artist</span>
+					<span class="quiet-voice">R&B</span>
+					<span class="loud-voice">Album</span>
+					<span class="mid-voice">Artist</span>
 					<span class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</span>
 					<span class="author">by author</span>
 				</div>

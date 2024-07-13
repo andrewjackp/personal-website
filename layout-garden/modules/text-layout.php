@@ -1,5 +1,6 @@
 <div class='heading-box'>
-	<h1>Here is a text layout that changes on responsive views.</h1>
+	<h1>Text layout</h1>
+	<p>Here is a text layout that changes on responsive views.</p>
 </div>
 					
 	<text-diptych>

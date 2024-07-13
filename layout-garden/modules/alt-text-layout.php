@@ -1,4 +1,7 @@
 <div class='heading-box'>
+	<h1>
+		CSS Grid Text Layout
+	</h1>
 	<p>
 		Here is another text section with a rearranged order. This uses CSS Grid.
 	</p>

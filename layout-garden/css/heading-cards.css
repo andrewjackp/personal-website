@@ -1,18 +1,17 @@
 .heading-card-grid {
   display: grid;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  gap: 5px;
 }
 
 .heading-card {
 	background-color: #f6c2cb;
-   padding: 10px;
-   margin-bottom: 1em;
+  border: 3px solid black;
+  border-radius: 10px;
    .info {
-   	margin-left: 0.5em;
+    padding: 10px;
    }
    .loud-voice {
-      margin-left: 0.5px;
+      font-size: 20px;
    }
 }
 
@@ -30,7 +29,6 @@
     }
     .heading-card {
         grid-template-columns: 2fr;
-        border-radius: 5%;
     }
 }
 
