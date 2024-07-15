@@ -14,7 +14,7 @@
 
 							<div class="info">
 								<span class='media-links title'>Akira Taue</span>
-								<p class='sub-title'>The most underrated four pillar</p>
+								<p class='sub-title'>Most underrated pillar</p>
 								<p class='caption'>Shines in tag matches</p>
 								<a class='button' href="#">link here</a>
 							</div>
