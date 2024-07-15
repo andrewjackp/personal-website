@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="css/textgrid.css">
 
 <div class='heading-box'>
-	Here's an example of a text layout using CSS Grid.
+	<h1>Text Layout CSS Grid arrangement</h1>
+	<p>Here's an example of a text layout using CSS Grid.</p>
 </div>
 <div class="text-grid">
 	<article class="text-card">
