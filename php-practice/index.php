@@ -18,7 +18,7 @@
 
 		". Computers can add, multiply, divide, and " . $verb . ". They can also " . $verb . " better than a human.
 
-			Some computers have their own " . $partOfTheBody . " Other’s have a/an " . $adjective . " screen that shows all kinds of " . $pluralNoun . " and " . $adjective . " figures. </p>"
+			Some computers have their own " . $partOfTheBody . ". Other’s have a/an " . $adjective . " screen that shows all kinds of " . $pluralNoun . " and " . $adjective . " figures. </p>"
 		?>
 	</body>
 	<footer>
