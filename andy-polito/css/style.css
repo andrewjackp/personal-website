@@ -7,19 +7,27 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-color: var(--wheat);
 }
 
 .page-content {
 	flex-grow: 1;
+	position: relative;
+	background-color: var(--white);
 }
 
 html {
 	--dark: black;
 }
 
+:root {
+	--wheat: #d7d1bf;
+	--white: #eeeae5;
+}
+
 inner-column {
 	display: block;
-	border: 1px solid black;
+	border: none;
 	padding: 20px;
 	padding-top: 2em;
    padding-bottom: 2em;
@@ -69,9 +77,21 @@ nav {
 
 
 .welcome {
-	span {
-		max-width: 50ch;
+	.loud-voice {
+		font-style: italic;
 	}
+	position: relative;
+}
+
+.welcome inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: none;
+}
+
+.info {
+	max-width: 60ch;
 }
 
 .history inner-column {
@@ -94,6 +114,9 @@ nav {
 	picture {
 		max-width: 100px;
 	}
+	background-color: var(--wheat);
+	position: relative;
+	z-index: 100;
 }
 
 .card-multi {
@@ -136,7 +159,12 @@ nav {
 }
 
 .mid-voice {
-	font-size: clamp(14px, 3vw, 25px);
+	font-size: clamp(24px, 3vw, 25px);
+}
+
+.soft-voice {
+	font-size: 20px;
+	line-height: 1.28em;
 }
 
 .loud-voice + .mid-voice {
@@ -145,6 +173,10 @@ nav {
 
 .loud-voice + .info {
 	margin-top: 1em;
+}
+
+.mid-voice + .soft-voice {
+	margin-top: 1.25em;
 }
 
 /* MODULES */
@@ -156,7 +188,22 @@ graphic-diptych {
 	}
 }
 
+.welcome-wrestling-ring-pic {
+	display: block;
+   position: absolute;
+   width: 300px;
+   bottom: -190px;
+   left: -120px;
+   z-index: 1;
+}
 
+.button-container {
+	display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 100%;
+   max-width: 250px;
+}
 
 .site-button {
 	display: inline-block;
