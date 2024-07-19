@@ -97,8 +97,12 @@ nav, a {
 .info {
 	text-wrap: balance;
 	max-width: 75ch;
-	padding-top: 4.5em;
+	padding-top: 3.5em;
 	padding-bottom: 3em;
+}
+
+.info + .info {
+	margin-top: -4.5em;
 }
 
 .history inner-column {
