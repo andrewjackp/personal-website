@@ -10,7 +10,7 @@
 	<body>
 		<header class='site-header'>
 			<inner-column>
-				<a href="#">
+				<a href="/index.php">
 					<picture>
 						<img src="../andy-polito/images/wrestling-ring.svg" alt="wrestling-ring">
 					</picture>
