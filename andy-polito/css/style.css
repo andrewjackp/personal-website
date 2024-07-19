@@ -22,7 +22,7 @@ html {
 
 :root {
 	--wheat: #d7d1bf;
-	--white: #eeeae5;
+	--white: #ffffff;
 }
 
 inner-column {
@@ -53,6 +53,10 @@ nav {
 	display: flex;
 	flex-direction: column;
    gap: 25px;
+}
+
+nav, a {
+	padding: 8px;
 }
 
 @media (min-width: 600px) {
@@ -91,7 +95,9 @@ nav {
 }
 
 .info {
-	max-width: 60ch;
+	max-width: 70ch;
+	padding-top: 5em;
+	padding-bottom: 3em;
 }
 
 .history inner-column {
@@ -159,16 +165,17 @@ nav {
 }
 
 .mid-voice {
-	font-size: clamp(24px, 3vw, 25px);
+	font-size: 1.5rem;
 }
 
 .soft-voice {
 	font-size: 20px;
-	line-height: 1.28em;
+	line-height: 1.3em;
+	opacity: 0.6;
 }
 
 .loud-voice + .mid-voice {
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 
 .loud-voice + .info {
@@ -176,8 +183,9 @@ nav {
 }
 
 .mid-voice + .soft-voice {
-	margin-top: 1.25em;
+	margin-top: 1.5em;
 }
+
 
 /* MODULES */
 graphic-diptych {
@@ -199,10 +207,9 @@ graphic-diptych {
 
 .button-container {
 	display: flex;
-   flex-direction: column;
+   flex-direction: row;
    gap: 10px;
    width: 100%;
-   max-width: 250px;
 }
 
 .site-button {
@@ -216,6 +223,10 @@ graphic-diptych {
    text-align: center;
    font-family: sans-serif;
    font-size: 1rem;
+}
+
+.codepen {
+	background-color: var(--wheat);
 }
 
 .site-button:hover {
