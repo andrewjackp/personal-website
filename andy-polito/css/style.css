@@ -202,12 +202,18 @@ graphic-diptych {
 }
 
 .welcome-wrestling-ring-pic {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.welcome-wrestling-ring-pic {
 	display: block;
-   position: absolute;
+	position: absolute;
    width: 300px;
    bottom: -190px;
    left: -120px;
    z-index: 1;
+}
 }
 
 .button-container {
