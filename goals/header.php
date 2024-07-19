@@ -10,7 +10,7 @@
 	<body>
 		<header class='site-header'>
 			<inner-column>
-				<a href="https://andypolito.com">
+				<a href="https://peprojects.dev/beta-one/andy">
 					<picture>
 						<img src="../andy-polito/images/wrestling-ring.svg" alt="wrestling-ring">
 					</picture>
