@@ -18,8 +18,6 @@
 				<nav class='site-nav'>
 					<ul class="nav-list">
 						<li class="nav-items">
-							<li><a href="#">First Page</a></li>
-							<li><a href="#">Second Page</a></li>
 						</li>
 					</ul>
 				</nav>
