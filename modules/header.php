@@ -12,7 +12,7 @@
 			<inner-column>
 				<a href="../index.php">
 					<picture>
-						<img src="../images/wrestling-ring.svg" alt="wrestling-ring">
+						<img src="images/wrestling-ring.svg" alt="wrestling-ring">
 					</picture>
 				</a>
 					<nav>
