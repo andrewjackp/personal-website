@@ -7,7 +7,7 @@
 					</picture>
 				</a>
 					<nav>
-						<a href="/index.php">Home</a>
+						<a href="index.php">Home</a>
 						<a href="https://peprojects.dev/beta-one/andy/layout-garden/">Layout Garden</a>	
 						<a href="../../goals">Goals</a>	
 						<a href="../../resume">Resume</a>	
