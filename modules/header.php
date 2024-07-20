@@ -5,14 +5,14 @@
 	<title>Andy Polito</title>
 	<meta name='description' content='Andy Polito'>
 	<meta property='og:image' content='https://peprojects.dev/beta-one/andy/layout-garden/images/meta-wrestle.jpg'>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
 		<header class='site-header'>
 			<inner-column>
 				<a href="../index.php">
 					<picture>
-						<img src="images/wrestling-ring.svg" alt="wrestling-ring">
+						<img src="../images/wrestling-ring.svg" alt="wrestling-ring">
 					</picture>
 				</a>
 					<nav>
