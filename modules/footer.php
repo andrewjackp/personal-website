@@ -3,7 +3,7 @@
 			<inner-column>
 				<a href="#">
 					<picture>
-						<img src="../images/cheese.svg" alt="cheese-img">
+						<img src="images/cheese.svg" alt="cheese-img">
 					</picture>
 				</a>
 					<nav>
