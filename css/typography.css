@@ -1,0 +1,26 @@
+.loud-voice {
+	font-size: clamp(32px, 4vw, 48px);
+	line-height: 1em;
+}
+
+.mid-voice {
+	font-size: 1.5rem;
+}
+
+.soft-voice {
+	font-size: 1rem;
+	line-height: 1.3em;
+	opacity: 0.6;
+}
+
+.loud-voice + .mid-voice {
+	margin-top: 1.5em;
+}
+
+.loud-voice + .info {
+	margin-top: 1em;
+}
+
+.mid-voice + .soft-voice {
+	margin-top: 1.5em;
+}

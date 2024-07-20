@@ -1,9 +1,9 @@
-<?php include('header.php'); ?>
+<?php include('modules/header.php'); ?>
 			<section class='welcome'>
 				<inner-column>
 					<div class="info">
 						<h1 class='loud-voice'>
-							<em>Andy Polito</em>
+							Andy Polito
 						</h1>
 					
 						<h2 class='mid-voice'>Front End Web Developer, Web Designer, Drummer </h2>
@@ -17,23 +17,9 @@
 						<a href="https://codepen.io/collection/JGqLyr" class="site-button codepen">View CodePen Collection</a>
 					</div>
 						<picture class="welcome-wrestling-ring-pic">
-							<img src="andy-polito/images/wrestling-ring.svg" alt="wrestling-ring">
+							<img src="images/wrestling-ring.svg" alt="wrestling-ring">
 						</picture>
 				</inner-column>
 			</section>
 		</main>
-	
-		<footer class='site-footer'>
-			<inner-column>
-				<a href="#">
-					<picture>
-						<img src="andy-polito/images/cheese.svg" alt="cheese-img">
-					</picture>
-				</a>
-					<nav>
-						<a href="#">Home</a>
-					</nav>
-			</inner-column>
-		</footer>
-	</body>
-</html>
+<?php include('modules/footer.php'); ?>

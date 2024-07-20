@@ -1,0 +1,150 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'settings.css';
+@import 'structure.css';
+@import 'typography.css';
+@import 'components.css';
+
+/* SECTIONS */
+.site-header inner-column {
+	display: flex;
+   flex-direction: row;;
+   align-items: center;
+   gap: 10px;
+}
+
+.site-header {
+	picture {
+		max-width: 100px;
+	}
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+   gap: 25px;
+}
+
+nav, a {
+	padding: 8px;
+}
+
+@media (min-width: 600px) {
+	nav {
+		flex-direction: row;
+	}
+}
+
+.media-links inner-column {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+}
+
+@media (min-width: 900px) {
+	.media-links inner-column {
+		display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+	}
+}
+
+.welcome {
+	position: relative;
+}
+
+.welcome inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: none;
+}
+
+.info {
+	text-wrap: balance;
+	max-width: 75ch;
+	padding-top: 2.5em;
+}
+
+.history inner-column {
+	padding-bottom: 0;
+}
+
+.history-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.site-footer inner-column {
+	display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+}
+
+.site-footer {
+	picture {
+		max-width: 100px;
+	}
+	background-color: var(--wheat);
+	position: relative;
+	z-index: 100;
+}
+
+.card-multi {
+	article {
+			border-top: 1px solid black;
+			padding: 10px;
+			picture {
+				max-width: 30%;
+				float: right;
+			}
+			overflow: hidden;
+			.info {
+				max-width: 70%;
+				float: left;
+				text-align: left;
+				line-height: 1.28em;
+		}
+	}
+	.mid-voice {
+		font-size: 18px;
+		font-style: italic;
+		margin-bottom: 1em;
+	}
+	.loud-voice {
+		margin-bottom: .5em;
+	}
+	.info + .info {
+		margin: 10px;
+	}
+	.mid-voice + span {
+		margin-top: .5em;
+	}
+}
+
+
+/* MODULES */
+graphic-diptych {
+	display: flex;
+	flex-direction: column;
+	.mid-voice + .site-button {
+			margin-top: 0.5em;
+	}
+}
+
+.welcome-wrestling-ring-pic {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.welcome-wrestling-ring-pic {
+	display: block;
+	position: absolute;
+   width: 300px;
+   bottom: -190px;
+   left: -120px;
+   z-index: 1;
+}
+}
+

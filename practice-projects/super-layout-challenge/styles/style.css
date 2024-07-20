@@ -1,0 +1,269 @@
+@import 'settings.css';
+
+* {
+	box-sizing: border-box;
+	font-family: sans;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+  	flex-direction: column;
+}
+
+main {
+	flex: 1;
+	background-color: beige;
+}
+
+
+section {
+	padding: 10px;
+	gap: 10px;
+}
+
+.inner-column {
+	display: block;
+	padding: 20px;
+	max-width: 980px;
+	margin-inline: auto;
+	z-index: 1;
+}
+
+/* structure */
+.site-header {
+	padding: 10px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.5em;
+   font-weight: 700;
+   letter-spacing: 0.12em;
+   text-shadow: 1.1px 1px black;
+   background: #b6d5e6;
+	picture {
+		display: block;
+	}
+	img {
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+	.inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	}
+}
+
+.welcome {
+	background-color: #54bd9c;
+	@media (max-width: 799px) {
+		.wrestling-ring-img {
+			display: none;
+	}
+		.second-welcome-img {
+			display: none;
+	}
+	}
+}
+
+.media-links {
+	background-color: beige;
+	position: relative;
+	.inner-column {
+		padding: 50px;
+	}
+}
+
+.site-footer {
+	background-color: #b6d5e6;
+	padding: 10px;
+	z-index: 1;
+	font-family: basetica-regular;
+	text-shadow: 1.1px 1px black;
+	li, a {
+		color: white;
+	}
+}
+
+li {
+	list-style-type: none;
+}
+
+
+.welcome .card {
+	picture {
+		display: block;
+		margin-bottom: 1em;
+		img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: none;
+		border-radius: 0%;
+		}	
+	}
+	.link {
+		display: none;
+	}
+	.welcome-title {
+		font-size: clamp(1em, 3vw, 2.4em);
+		line-height: 1em;
+		font-family: basetica-regular;
+	}
+}
+
+li {
+		margin-bottom: 1em;
+	}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.media-links .card {
+	font-family: basetica-regular;
+	picture {
+		aspect-ratio: 1 / 1;
+      max-width: 200px;
+      display: block;
+      overflow: hidden;
+      border-radius: 50%;
+		img {
+		   width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center top;
+		}
+	}	
+	.info {
+		line-height: 1.28em;
+		max-width: 250px;
+	}	
+	picture + .info {
+		margin-top: 1em;
+	}
+	.title {
+		font-size: clamp(1em, 5vw, 1.5em);
+		margin-top: 0.28em;
+	}
+	.sub-title {
+		font-size: clamp(1em, 3vw, 0.5em);
+	}
+	.caption {
+		font-size: clamp(1em, 3vw, 0.5em);
+	}
+	.caption + .link {
+		line-height: 1.5em;
+	} 
+}
+
+.media-links .wrestling-ring-img {
+	display:none;
+}
+
+.link {
+	border: 1px solid black;
+   border-radius: 10%;
+   padding: 5px;
+   /* text-align: center; */
+   background-color: #6fba9e;
+   color: white;
+   margin-top: 0.5em;
+}
+
+@media (min-width: 500px) {
+	.welcome .card {
+		flex-direction: row;
+		align-items: center;
+		max-width: 1000px;
+		gap: 10px;
+	}
+
+	.media-links .card {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 20px;
+	}
+	.media-links .wrestling-ring-img {
+		display: block;
+      position: absolute;
+      right: 0%;
+      bottom: -44px;
+      width: 26%;
+      height: 19%;
+      z-index: 0;
+      background-color: transparent;
+	}
+}
+
+@media (min-width: 800px) {
+	.welcome {
+		padding: 30px;
+		display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	position: relative;
+	}
+	.media-links ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 100px;
+	}
+	.media-links .card{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.media-links .wrestling-ring-img {
+		display: block;
+      position: absolute;
+      right: 0%;
+      top: 74%;
+      width: 26%;
+      height: 36%;
+      z-index: 0;
+	}
+
+	.welcome .wrestling-ring-img {
+	   display: block;
+      position: absolute;
+      left: -6%;
+      top: 35%;
+      max-width: 239px;
+	}
+
+	.second-welcome-img {
+		picture {
+			display: block;
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		display: block;
+		position: absolute;
+      right: 15%;
+      bottom: -10%;
+      max-width: 199px;
+	}
+
+	.welcome .card {
+		flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+	}
+	
+}

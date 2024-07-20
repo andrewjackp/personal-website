@@ -1,10 +1,9 @@
-<?php include('header.php'); ?>
-
+<?php include('../modules/header.php'); ?>
 <section class='welcome'>
 				<inner-column>
 					<div class="info">
 						<h1 class='loud-voice'>
-							<em>Drums</em>
+							Drums
 						</h1>
 					
 						<h2 class='mid-voice'>Goon</h2>
@@ -20,7 +19,7 @@
 
 					<div class="info">
 						<h1 class='loud-voice'>
-							<em>Live Drums</em>
+							Live Drums
 						</h1>
 						<h2 class='mid-voice'>Justus Proffit</h2>
 						<p class='soft-voice'>2021 Tour</p>
@@ -40,18 +39,4 @@
 				</inner-column>
 			</section>
 		</main>
-	
-		<footer class='site-footer'>
-			<inner-column>
-				<a href="#">
-					<picture>
-						<img src="../andy-polito/images/cheese.svg" alt="cheese-img">
-					</picture>
-				</a>
-					<nav>
-						<a href="../index.html">Home</a>
-					</nav>
-			</inner-column>
-		</footer>
-	</body>
-</html>
+<?php include('../modules/footer.php'); ?>

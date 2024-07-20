@@ -1,9 +1,9 @@
-<?php include('header.php'); ?>
+<?php include('../modules/header.php'); ?>
 			<section class='welcome'>
 				<inner-column>
 					<div class="info">
 						<h1 class='loud-voice'>
-							<em>Goals</em>
+							Goals
 						</h1>
 					
 						<h2 class='mid-voice'>End of the Month</h2>
@@ -27,18 +27,4 @@
 				</inner-column>
 			</section>
 		</main>
-	
-		<footer class='site-footer'>
-			<inner-column>
-				<a href="#">
-					<picture>
-						<img src="../andy-polito/images/cheese.svg" alt="cheese-img">
-					</picture>
-				</a>
-					<nav>
-						<a href="../index.html">Home</a>
-					</nav>
-			</inner-column>
-		</footer>
-	</body>
-</html>
+<?php include('../modules/footer.php'); ?>
