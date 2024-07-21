@@ -1,4 +1,4 @@
-<?php include('modules/header.php'); ?>
+<?php include('../modules/header.php'); ?>
 			<section class='welcome'>
 				<inner-column>
 					<div class="info">
@@ -20,4 +20,4 @@
 				</inner-column>
 			</section>
 		</main>
-<?php include('modules/footer.php'); ?>
+<?php include('../modules/footer.php'); ?>
