@@ -9,9 +9,9 @@
 					<nav>
 						<a href="../index.php">Home</a>
 						<a href="https://peprojects.dev/beta-one/andy/layout-garden/">Layout Garden</a>	
-						<a href="goals/index.php">Goals</a>	
-						<a href="/resume">Resume</a>	
-						<a href="/drumming">Drumming</a>	
+						<a href="goals">Goals</a>	
+						<a href="resume">Resume</a>	
+						<a href="drumming">Drumming</a>	
 					</nav>
 			</inner-column>
 		</footer>
