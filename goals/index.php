@@ -1,4 +1,5 @@
 <?php include('../modules/header.php'); ?>
+	<link rel="stylesheet" href="/css/style.css">
 			<section class='welcome'>
 				<inner-column>
 					<div class="info">
