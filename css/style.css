@@ -24,7 +24,7 @@ nav {
 	flex-direction: column;
    gap: 25px;
    padding: 8px;
-   
+
    a {
 	opacity: 0.6;
 	}
@@ -88,7 +88,6 @@ nav {
 	picture {
 		max-width: 100px;
 	}
-	background-color: var(--wheat);
 	position: relative;
 	z-index: 100;
 }

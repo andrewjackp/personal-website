@@ -11,7 +11,7 @@
 	<body>
 		<header class='site-header'>
 			<inner-column>
-				<a href="andy/index.php">
+				<a href="../index.php">
 					<picture>
 						<img src="images/wrestling-ring.svg" alt="wrestling-ring">
 					</picture>
