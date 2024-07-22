@@ -1,17 +1,40 @@
 <link rel="stylesheet" href="/andy-polito/css/style.css">
 <style>
 	.card {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 10px;
+		border: 2px solid black;
+		border-radius: 8px;
+		padding: 16px;
 	}
+	picture {
+			margin-top: 20px;
+			border-radius: 8px;
+			overflow: hidden;
+			max-width: 250px;
+			
+			img {
+				object-fit: cover;
+				width: 100%;
+				height: auto;
+			}
+		}
 	.info {
 		align-self: center;
 	}
 	.card-list {
 		display: grid;
-		gap: 10px;
+		grid-template-columns: 1fr;
+		gap: 20px;
+		padding: 16px;
 	}
+
+		@media (width > 800px) {
+			.card-list {
+				grid-template-columns: repeat(6, 1fr);
+					&:nth-of-type(3), &:nth-of-type(5), &:nth-of-type(8) {
+			grid-column: span 3;
+		}
+			}
+	}	
 </style>
 
 <?php
@@ -22,7 +45,7 @@ $lima = [
 	"favoriteFood" => "Lima beans",
 	"age" => 4,
 	"adopted" => false,
-	"portrait" => "/andy-polito/images/limabean.jpg",
+	"portrait" => "/images/limabean.jpg",
 ];
 
 $mrbanana = [
@@ -31,7 +54,7 @@ $mrbanana = [
 	"favoriteFood" => "Bananas",
 	"age" => 4,
 	"adopted" => false,
-	"portrait" => "/andy-polito/images/mr-banana.jpg",
+	"portrait" => "/images/mr-banana.jpg",
 ];
 
 $orangina = [
@@ -40,7 +63,7 @@ $orangina = [
 	"favoriteFood" => "Oranges",
 	"age" => 5,
 	"adopted" => true,
-	"portrait" => "/andy-polito/images/orangina.jpg",
+	"portrait" => "/images/orangina.jpg",
 ];
 
 
