@@ -1,4 +1,4 @@
-<?php include('../modules/header.php'); ?>
+<?php include('modules/header.php'); ?>
 <link rel="stylesheet" href="/css/style.css">
 	<section class='welcome'>
 				<inner-column>
@@ -40,4 +40,4 @@
 				</inner-column>
 			</section>
 		</main>
-<?php include('../modules/footer.php'); ?>
+<?php include('modules/footer.php'); ?>

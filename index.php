@@ -16,9 +16,6 @@
 						<a href="https://peprojects.dev/beta-one/andy/resume" class="site-button">Work History</a>
 						<a href="https://codepen.io/collection/JGqLyr" class="site-button codepen">View CodePen Collection</a>
 					</div>
-						<picture class="welcome-wrestling-ring-pic">
-							<img src="images/wrestling-ring.svg" alt="wrestling-ring">
-						</picture>
 				</inner-column>
 			</section>
 		</main>

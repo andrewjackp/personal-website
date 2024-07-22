@@ -23,11 +23,13 @@ nav {
 	display: flex;
 	flex-direction: column;
    gap: 25px;
+   padding: 8px;
+   
+   a {
+	opacity: 0.6;
+	}
 }
 
-nav, a {
-	padding: 8px;
-}
 
 @media (min-width: 600px) {
 	nav {
