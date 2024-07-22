@@ -1,4 +1,4 @@
-<style>
+ <style>
 	monster-card {
 		display: block;
 		border: 2px solid black;

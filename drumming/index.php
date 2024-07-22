@@ -1,5 +1,6 @@
 <?php include('../modules/header.php'); ?>
-<section class='welcome'>
+<link rel="stylesheet" href="/css/style.css">
+	<section class='welcome'>
 				<inner-column>
 					<div class="info">
 						<h1 class='loud-voice'>
