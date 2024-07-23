@@ -3,7 +3,6 @@
 <html lang='en'>
 	<head>
 	<meta charset='utf-8'>
-	<base href="<?=BASE_URL?>">
 	<meta name='viewport' content='width=device-width	initial-scale=1'>
 	<title>Andy Polito</title>
 	<meta name='description' content='Andy Polito'>
