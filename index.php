@@ -13,8 +13,8 @@
 							We can talk real life things like pro-wrestling.</p>
 					</div>
 					<div class="button-container">
-						<a href="https://peprojects.dev/beta-one/andy/resume" class="site-button">Work History</a>
-						<a href="https://codepen.io/collection/JGqLyr" class="site-button codepen">View CodePen Collection</a>
+						<a href="resume.php" class="site-button">Work History</a>
+						<a href="https://codepen.io/collection/JGqLyr" target="_code-pen" class="site-button codepen">View CodePen Collection</a>
 					</div>
 				</inner-column>
 			</section>

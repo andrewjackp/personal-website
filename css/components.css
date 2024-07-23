@@ -21,7 +21,7 @@
 }
 
 .codepen {
-	background-color: var(--wheat);
+	border: none;
 }
 
 .site-button:hover {
