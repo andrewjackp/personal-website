@@ -63,7 +63,7 @@ nav {
 }
 
 .info {
-	text-wrap: balance;
+	text-wrap: pretty;
 	max-width: 75ch;
 	padding-top: 2.5em;
 }
