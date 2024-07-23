@@ -1,3 +1,5 @@
+<?php include('config.php'); ?>
+<base href="<?=BASE_URL?>">
 <link rel="stylesheet" href="css/style.css">		
 		<footer class='site-footer'>
 				<inner-column>
