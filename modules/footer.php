@@ -2,6 +2,7 @@
 		<footer class='site-footer'>
 				<inner-column>
 					<nav>
+						<a href="#">Site Map:</a>
 						<a href="../index.php">Home</a>
 						<a href="https://peprojects.dev/beta-one/andy/layout-garden/">Layout Garden</a>	
 						<a href="goals.php">Goals</a>	

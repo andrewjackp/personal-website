@@ -16,9 +16,6 @@
 						<img src="images/wrestling-ring.svg" alt="wrestling-ring">
 					</picture>
 				</a>
-					<nav>
-						
-					</nav>
 			</inner-column>
 		</header>
 		<main class='page-content'>

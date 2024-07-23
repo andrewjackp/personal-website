@@ -10,7 +10,7 @@
 
 						<p class='soft-voice'>Hit me up if you want to build something great! 
 							If you don't know what you want, that's okay. 
-							We can talk real life things like pro-wrestling.</p>
+							We can talk real life things like <a href="https://www.cagematch.net/">pro-wrestling</a>.</p>
 					</div>
 					<div class="button-container">
 						<a href="resume.php" class="site-button">Work History</a>
