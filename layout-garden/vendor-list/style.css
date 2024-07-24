@@ -126,8 +126,6 @@ grand-central-market-list {
 										/* ? */
 										/* fit - creates a column when there's empty... */
 		gap: 50px 24px;
-	   margin-bottom: 2em;
-	   padding-top: 30px;
 		
 		li {
 			container-type: inline-size;

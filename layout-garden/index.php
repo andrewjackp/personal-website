@@ -12,4 +12,10 @@
 	</inner-column>
 </section>
 
+<section class='page-section'>
+	<inner-column>
+		<?php include('color-card-list/template.php'); ?>
+	</inner-column>
+</section>
+
 <?php include('../modules/footer.php'); ?>

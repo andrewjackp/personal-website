@@ -35,25 +35,12 @@ reviews-list {
 		font-size: 14px;
 	}
 
-	.heading-box {
-		h1{
-			font-size: 25px;
-			font-style: italic;
-			padding-bottom: 0.5em;
-		}
-		p {
-			font-family: Helvetica;
-			line-height: 1.6em;
-		}
-		padding-top: 1.3em;
-	   padding-bottom: 1.3em;
-	}
-
-
 	.review-text-heading {
 		border-top: 1px solid grey;
 		border-bottom: 1px solid grey;
-		padding: 10px;
+		padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 1em;
 	}
 
 	.review-container {
@@ -81,7 +68,7 @@ reviews-list {
 				line-height: 20px;
 			}
 			picture {
-				height: 360px;
+				height: auto;
 			}
 			img {
 				height: 100%;
