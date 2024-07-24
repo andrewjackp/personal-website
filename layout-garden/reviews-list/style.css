@@ -21,8 +21,18 @@ reviews-list {
 	}
 
 	.loud-voice {
-		font-size: 26px;
 		font-weight: 600;
+		font-size: 24px;
+	}
+	.mid-voice {
+		font-weight: 200;
+		font-size: 24px;
+	}
+
+	.preview, .author {
+		line-height: 1.2em;
+		margin-top: 0.5em;
+		font-size: 14px;
 	}
 
 	.heading-box {
@@ -56,16 +66,9 @@ reviews-list {
 			flex-direction: column;
 		}
 
-		.preview, .author {
-			line-height: 1.2em;
-			margin-top: 0.5em;
-			font-size: 13px;
-		}
-
 		span {
 			margin-top: 0.2em;
 		}	
-
 
 		card-diptych {
 			display: flex;
@@ -95,14 +98,6 @@ reviews-list {
 			padding-top: 10px;
          padding-bottom: 10px;
 
-			.loud-voice {
-				font-weight: 600;
-				font-size: 24px;
-			}
-			.mid-voice {
-				font-weight: 200;
-				font-size: 20px;
-			}
 			picture {
 				max-width: 35%;
 			}
