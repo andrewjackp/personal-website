@@ -36,7 +36,7 @@ reviews-list {
 			line-height: 1.6em;
 		}
 		padding-top: 1.3em;
-	  padding-bottom: 1.3em;
+	   padding-bottom: 1.3em;
 	}
 
 
@@ -51,14 +51,31 @@ reviews-list {
 		flex-direction: column;
 		position: relative;
 
+		.info {
+			display:flex;
+			flex-direction: column;
+		}
+
+		.preview, .author {
+			line-height: 1.2em;
+			margin-top: 0.5em;
+			font-size: 13px;
+		}
+
+		span {
+			margin-top: 0.2em;
+		}	
+
+
 		card-diptych {
 			display: flex;
 			flex-direction: column;
-			border-bottom: 1px solid grey;
+			padding-bottom: 20px;
 			width: 100%;
 			line-height: 1.2em;
 			.info {
 				text-align: center;
+				line-height: 20px;
 			}
 			picture {
 				height: 360px;
@@ -66,12 +83,7 @@ reviews-list {
 			img {
 				height: 100%;
 			}
-	}
-		.info {
-			display:flex;
-			flex-direction: column;
-			line-height: 24px;
-		}
+		}		
 	} 
 
 		card-diptych-sublist {
@@ -80,29 +92,28 @@ reviews-list {
 			border-bottom: 1px solid grey;
 			justify-content: space-between;
 			align-items: center;
+			padding: 15px;
 
 			.loud-voice {
 				font-weight: 600;
+				font-size: 24px;
 			}
 			.mid-voice {
-				font-weight: 500;
+				font-weight: 200;
+				font-size: 20px;
 			}
 			picture {
-				max-width: 30%;
+				max-width: 35%;
 			}
 			img {
 				object-fit: cover;
 	    		aspect-ratio: 1 / 1;
 			}
-			.preview {
+			.preview, .author {
 				max-width: 40ch;
-				line-height: 1.6em
-			}
-
-			span {
-				line-height: 1.9em
 			}
 		}
+
 
 	@media (min-width: 900px) {
 		.review-container {
