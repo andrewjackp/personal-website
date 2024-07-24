@@ -52,22 +52,7 @@ nav {
 	}
 }
 
-.welcome {
-	position: relative;
-}
 
-.welcome inner-column {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	border: none;
-}
-
-.info {
-	text-wrap: pretty;
-	max-width: 75ch;
-	padding-top: 2.5em;
-}
 
 .history inner-column {
 	padding-bottom: 0;
