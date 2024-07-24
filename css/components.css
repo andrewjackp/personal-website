@@ -28,3 +28,11 @@
 	background-color: var(--dark);
 	color: white;
 }
+
+@media (max-width: 550px){
+   .button-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 320px;
+}
+}
