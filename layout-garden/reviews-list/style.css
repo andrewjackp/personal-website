@@ -92,7 +92,8 @@ reviews-list {
 			border-bottom: 1px solid grey;
 			justify-content: space-between;
 			align-items: center;
-			padding: 15px;
+			padding-top: 10px;
+         padding-bottom: 10px;
 
 			.loud-voice {
 				font-weight: 600;
