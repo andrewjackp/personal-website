@@ -15,25 +15,35 @@ reviews-list {
 		line-height: 1.28em;
 	}
 
+	.attention-voice {
+		font-size: 36px;
+		font-weight: 600;
+	}
+
+	.loud-voice {
+		font-size: 26px;
+		font-weight: 600;
+	}
+
 	.heading-box {
 		h1{
-			font-size: 50px;
+			font-size: 25px;
 			font-style: italic;
-			padding-bottom: 0.2em;
+			padding-bottom: 0.5em;
 		}
 		p {
 			font-family: Helvetica;
+			line-height: 1.6em;
 		}
-		padding-top: 3.28em;
-	  padding-bottom: 0.58em;
+		padding-top: 1.3em;
+	  padding-bottom: 1.3em;
 	}
 
 
 	.review-text-heading {
 		border-top: 1px solid grey;
 		border-bottom: 1px solid grey;
-		padding: 20px;
-		margin-bottom: 2em;
+		padding: 10px;
 	}
 
 	.review-container {
@@ -86,6 +96,11 @@ reviews-list {
 			}
 			.preview {
 				max-width: 40ch;
+				line-height: 1.6em
+			}
+
+			span {
+				line-height: 1.9em
 			}
 		}
 
