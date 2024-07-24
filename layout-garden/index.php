@@ -6,4 +6,10 @@
 	</inner-column>
 </section>
 
+<section class="market-cards">
+	<inner-column>
+		<?php include('vendor-list/template.php'); ?>
+	</inner-column>
+</section>
+
 <?php include('../modules/footer.php'); ?>
