@@ -25,7 +25,6 @@ nav {
 	flex-direction: column;
    gap: 25px;
    padding: 8px;
-   align-items: center;
    a {
 	opacity: 0.6;
 	}
@@ -35,6 +34,7 @@ nav {
 @media (min-width: 600px) {
 	nav {
 		flex-direction: row;
+		align-items: center;
 	}
 }
 

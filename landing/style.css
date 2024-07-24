@@ -11,8 +11,16 @@ landing-container {
 	}
 
 	.info {
-		text-wrap: pretty;
+		text-wrap: balance;
 		max-width: 75ch;
 		padding-top: 2.5em;
+	}
+
+	.loud-voice + .mid-voice {
+		margin-top: 1.3em;
+	}
+
+	.mid-voice + .soft-voice {
+		margin-top: 1.3em;
 	}
 }
