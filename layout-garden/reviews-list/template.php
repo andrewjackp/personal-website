@@ -1,10 +1,10 @@
+<reviews-list>
+	<h1 class='review-text-heading'>Reviews</h1>
 
-<h1 class='review-text-heading'>Reviews</h1>
-
-<div class="heading-box">
-	<h1>Pitchfork Album Review Layout</h1>
-	<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list. It was accomplished using flexbox and has a fun sticky feature for the main review.</p>
-</div>
+	<div class="heading-box">
+		<h1>Pitchfork Album Review Layout</h1>
+		<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list. It was accomplished using flexbox and has a fun sticky feature for the main review.</p>
+	</div>
 
 
 <div class="review-container">
@@ -108,3 +108,5 @@
 		</li>
 	</ul>
 </div>
+
+</reviews-list>

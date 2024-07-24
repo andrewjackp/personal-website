@@ -1,4 +1,4 @@
-<?php include('modules/header.php'); ?>
+<?php include('header.php'); ?>
 			<section class='welcome'>
 				<inner-column>
 					<div class="info">

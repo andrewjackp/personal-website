@@ -4,6 +4,7 @@
 @import 'structure.css';
 @import 'typography.css';
 @import 'components.css';
+@import 'modules.css';
 
 /* SECTIONS */
 .site-header inner-column {

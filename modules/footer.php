@@ -3,8 +3,8 @@
 				<inner-column>
 					<nav>
 						<a href="#">Site Map:</a>
-						<a href="../index.php">Home</a>
-						<a href="https://peprojects.dev/beta-one/andy/layout-garden/">Layout Garden</a>	
+						<a href="/">Home</a>
+						<a href="layout-garden">Layout Garden</a>	
 						<a href="goals">Goals</a>	
 						<a href="resume.php">Resume</a>	
 						<a href="drums.php">Drumming</a>	
