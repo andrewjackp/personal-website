@@ -24,4 +24,10 @@
 	</inner-column>
 </section>
 
+<section>
+	<inner-column>
+		<?php include('text-grid-layout/template.php'); ?>
+	</inner-column>
+</section>
+
 <?php include('../modules/footer.php'); ?>
