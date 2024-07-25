@@ -18,4 +18,10 @@
 	</inner-column>
 </section>
 
+<section>
+	<inner-column>
+		<?php include('feature-grid/template.php'); ?>
+	</inner-column>
+</section>
+
 <?php include('../modules/footer.php'); ?>
