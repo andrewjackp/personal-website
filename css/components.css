@@ -20,13 +20,13 @@
    font-size: 1rem;
 }
 
-.codepen {
-	border: none;
+.site-button:hover {
+   background-color: var(--dark);
+   color: white;
 }
 
-.site-button:hover {
-	background-color: var(--dark);
-	color: white;
+.codepen {
+	border: none;
 }
 
 @media (max-width: 550px){

@@ -30,4 +30,15 @@
 	</inner-column>
 </section>
 
+<section>
+	<inner-column>
+		<?php include('wrestler-cards/template.php'); ?>
+	</inner-column>
+</section>
+
+<section>
+	<inner-column>
+		<?php include('graphic-diptych/template.php'); ?>
+	</inner-column>
+</section>
 <?php include('../modules/footer.php'); ?>
