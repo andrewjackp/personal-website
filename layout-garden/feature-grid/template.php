@@ -6,7 +6,7 @@
 	<ul class='feature-list'>
 		<li class="feature">
 				<article class="card">
-					<picture>
+					<picture class="icon">
 						<img class="img-icon"src="https://assets-global.website-files.com/63224dab1f0bdc58b0e4c37f/63289b165ffcd35e7481e623_heart.svg" alt="img-icon">
 					</picture>
 						<h1 class="loud-voice">
@@ -91,9 +91,7 @@
 					</li>
 					<li class="feature">
 						<article class="card">
-							<picture>
-								<img class="img-icon"src="https://assets-global.website-files.com/63224dab1f0bdc58b0e4c37f/63289b17ea75ba532033d288_star.svg" alt="img-icon">
-							</picture>
+								<img class="img-icon"src="images/heart.svg" alt="img-icon">
 							<h1 class="loud-voice">
 								Easy Commute
 							</h1>

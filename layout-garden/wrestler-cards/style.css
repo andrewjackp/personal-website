@@ -6,16 +6,23 @@ wrestler-list {
   		gap: 20px;
 	}
 
+		.info {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}	
+		.site-button {
+			margin-top: auto;
+		}
+
 	.wrestler-card {
-
-
-
 		picture {
 			aspect-ratio: 1 / 1;
    	   max-width: 200px;
    	   display: block;
    	   overflow: hidden;
    	   border-radius: 50%;
+   	   justify-self: center;
 			img {
 			   width: 100%;
    	      height: 100%;
@@ -23,15 +30,6 @@ wrestler-list {
    	      object-position: center top;
 			}
 		}	
-		.info {
-			line-height: 1.28em;
-			max-width: 50ch;
-			padding: 11px;
-		}	
-		picture + .info {
-			margin-top: 1em;
-		}
-
 		p {
 			line-height: 1.28em
 		}
@@ -49,11 +47,12 @@ wrestler-list {
 		.caption + .link {
 			line-height: 1.5em;
 		} 
+		
 	}
 
 
 		@media (min-width: 700px) {
-			.wrestler-card-grid {
+			.wrestler-card-list {
    	 		display: grid;
    	 		grid-template-columns: 1fr 1fr;
 		}
@@ -65,7 +64,7 @@ wrestler-list {
 	}
 
 	@media (min-width: 900px) {
-		.wrestler-card-grid {
+		.wrestler-card-list {
     		display: grid;
     		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}

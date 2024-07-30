@@ -1,7 +1,7 @@
 <reviews-list>
 	<div class="heading-box">
 		<h1>Pitchfork Album Review Layout</h1>
-		<p>My take on <a href="https://www.pitchfork.com">Pitchfork's</a> album review list. It was accomplished using flexbox and has a fun sticky feature for the main review.</p>
+		<p>My take on <a href="https://www.pitchfork.com" target="layout-garden">Pitchfork's</a> album review list. It was accomplished using flexbox and has a fun sticky feature for the main review.</p>
 	</div>
 
 <div class="review-container">
