@@ -13,7 +13,7 @@ text-container {
 	.info {
 		text-wrap: balance;
 		max-width: 75ch;
-		padding-top: 2.5em;
+		padding-block: 20px;
 	}
 
 	.loud-voice + .mid-voice {

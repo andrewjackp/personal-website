@@ -1,0 +1,16 @@
+.ink-voice {
+	color: var(--ink);
+}
+
+.info {
+	display: grid;
+	gap: 10px;
+}
+
+.attention-voice {
+	padding-bottom: 20px;
+}
+
+.loud-voice {
+	font-size: 32px;
+}
