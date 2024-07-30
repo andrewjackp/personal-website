@@ -1,6 +1,7 @@
 wrestler-list {
 	.wrestler-card-list {
 		display: grid;
+		grid-template-columns: 30%;
 		margin-top: 2em;
   		margin-bottom: 2em;
   		gap: 20px;
