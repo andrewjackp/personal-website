@@ -51,7 +51,7 @@ grand-central-market-list {
 	/* components */
 	.vendor-card {
 		--line: rgb(0 0 0 / .2);
-		--category-hover: red;
+		--category-hover: var(--ink-light);
 	
 		border: 1px solid var(--line);
 		border-radius: 8px;
@@ -83,10 +83,10 @@ grand-central-market-list {
 				color: white;
 			}
 			[data-category='drinks'] & {
-				--category-hover: blue;
+				--category-hover: black;
 			}
 			[data-category='dining'] & {
-				--category-hover: green;
+				--category-hover: var(--ink);
 			}
 		}
 	

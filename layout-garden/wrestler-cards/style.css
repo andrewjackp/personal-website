@@ -7,18 +7,20 @@ wrestler-list {
 	}
 
 		.info {
+			height: 100%;
 			display: flex;
 			flex-direction: column;
-			height: 100%;
 		}	
 		.site-button {
 			margin-top: auto;
 		}
 
 	.wrestler-card {
+		padding: 10px;
+
 		picture {
 			aspect-ratio: 1 / 1;
-   	   max-width: 200px;
+   	   max-width: 150px;
    	   display: block;
    	   overflow: hidden;
    	   border-radius: 50%;

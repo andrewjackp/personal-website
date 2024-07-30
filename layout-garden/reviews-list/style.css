@@ -97,7 +97,7 @@ reviews-list {
 	    		aspect-ratio: 1 / 1;
 			}
 			p {
-				max-width: none;
+				max-width: 40ch;
 			}
 		}
 
