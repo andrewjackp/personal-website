@@ -1,4 +1,9 @@
+layout-garden {
+	section:last-of-type {
+		padding-bottom: 100px;
+	}
 
-section:last-of-type {
-	padding-bottom: 100px;
+	inner-column {
+		padding-block: 70px;
+	}
 }

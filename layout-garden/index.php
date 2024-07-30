@@ -1,6 +1,7 @@
 <?php include('../header.php'); ?>
 
-<section class='reviews-list' id="reviews">
+<layout-garden>
+	<section class='reviews-list' id="reviews">
 	<inner-column>
 		<?php include('reviews-list/template.php'); ?>
 	</inner-column>
@@ -41,4 +42,6 @@
 		<?php include('graphic-diptych/template.php'); ?>
 	</inner-column>
 </section>
+</layout-garden>
+
 <?php include('../modules/footer.php'); ?>
