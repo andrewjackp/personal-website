@@ -5,7 +5,7 @@
 					<h1 class='attention-voice'>
 						Resume
 					</h1>
-					<h2 class='loud-voice'>Front web developer with an... array of experience</h1>
+					<h2 class='loud-voice'>Front End Web Developer and Drummer</h1>
 					<text-container>
 						<div class="info">
 							<h2 class='mid-voice'>Court Avenue</h2>

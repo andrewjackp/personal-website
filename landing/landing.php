@@ -3,9 +3,9 @@
 		<h1 class='loud-voice'>
 			Andy Polito
 		</h1>
-			<h2 class='mid-voice'>
+			<p class='mid-voice'>
 			Front End Web Developer, Web Designer, Drummer 
-			</h2>
+			</p>
 				<p class='soft-voice'>
 					Hit me up if you want to build something great! 
 					If you don't know what you want, that's okay. 

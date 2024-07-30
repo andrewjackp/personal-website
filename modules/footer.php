@@ -6,7 +6,7 @@
 						<a href="/">Home</a>
 						<a href="layout-garden">Layout Garden</a>	
 						<a href="goals">Goals</a>	
-						<a href="resume.php">Resume</a>	
+						<a href="resume">Resume</a>	
 						<a href="drums">Drumming</a>	
 					</nav>
 				</inner-column>
