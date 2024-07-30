@@ -1,7 +1,7 @@
 <?php include('../header.php'); ?>
 			<section class='welcome'>
 				<inner-column>
-					<landing-container>
+					<text-container>
 						<div class="info">
 						<h1 class='loud-voice'>
 							Goals
@@ -23,7 +23,7 @@
 
 						<p class='soft-voice'>I am three months into working full time as a front end web developer at a reputable agency.</p>
 					</div>
-					</landing-container>
+					</text-container>
 				</inner-column>
 			</section>
 		</main>

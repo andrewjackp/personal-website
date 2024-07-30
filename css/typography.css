@@ -12,3 +12,7 @@
 	font-size: 1rem;
 	line-height: 1.3em;
 }
+
+p {
+	color: var(--ink-light);
+}

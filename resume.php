@@ -2,7 +2,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 			<section class='welcome'>
 				<inner-column>
-					<landing-container>
+					<text-container>
 						<div class="info">
 							<h1 class='loud-voice'>
 								Resume
@@ -18,8 +18,7 @@
 
 							<p class='soft-voice'>Built a web app for an employee dashboard. Allowing technicians to log hours, take notes, and mark jobs complete or not. I did most of the HTML and CSS. The data layer was done in collaboration with senior software developers using C#, SQL, and Blazor for the frontend framework.</p>
 					</div>
-					
-					</landing-container>
+					</text-container>
 				</inner-column>
 			</section>
 		</main>

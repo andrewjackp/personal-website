@@ -1,5 +1,5 @@
 wrestler-list {
-	.wrestler-card-grid {
+	.wrestler-card-list {
 		display: grid;
 		margin-top: 2em;
   		margin-bottom: 2em;
@@ -7,6 +7,9 @@ wrestler-list {
 	}
 
 	.wrestler-card {
+
+
+
 		picture {
 			aspect-ratio: 1 / 1;
    	   max-width: 200px;
@@ -24,7 +27,6 @@ wrestler-list {
 			line-height: 1.28em;
 			max-width: 50ch;
 			padding: 11px;
-			text-align: center;
 		}	
 		picture + .info {
 			margin-top: 1em;
@@ -59,7 +61,6 @@ wrestler-list {
 		.wrestler-list-item {
 			border: 1px solid black;
 			border-radius: 10px;
-			padding: 20px;
 		}
 	}
 

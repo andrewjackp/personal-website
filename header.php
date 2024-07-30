@@ -25,7 +25,7 @@
 			<inner-column>
 				<a href="/">
 					<picture>
-						<img src="images/wrestling-ring.svg" alt="wrestling-ring">
+						<img src="images/wrestling-ring.svg" alt="wrestling-ring" width="100">
 					</picture>
 				</a>
 			</inner-column>

@@ -3,7 +3,7 @@
 		<h1>Four Pillars of AJPW</h1>
 			<p>A fun little factoid row of AJPW's best wrestlers using Grid.</p>
 	</div>
-		<ul class="wrestler-card-grid">
+		<ul class="wrestler-card-list">
 			<li class='wrestler-list-item'>
 				<article class='wrestler-card'>
 					<picture>
@@ -12,7 +12,6 @@
 				<div class="info">
 					<span class='title'>Akira Taue</span>
 					<p class='soft-voice'>Most underrated pillar</p>
-					<p class='soft-voice'>Shines in tag matches</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -25,7 +24,6 @@
 				<div class="info">
 					<span class='title'>Toshiaki Kawada</span>
 					<p class='soft-voice'>My favorite pillar</p>
-					<p class='soft-voice'>Best dumb jock wrestler</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -37,8 +35,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Kenta Kobashi</span>
-					<p class='soft-voice'>The golden child</p>
-					<p class='soft-voice'>Peak wrestler</p>
+					<p class='soft-voice'>Peak wrestler performance</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -51,7 +48,6 @@
 				<div class="info">
 					<span class='title'>Mitsuharu Misawa</span>
 					<p class='soft-voice'>Thee Guy</p>
-					<p class='soft-voice'>Perfect all around wrestler</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
