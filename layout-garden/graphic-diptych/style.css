@@ -1,6 +1,7 @@
 graphic-diptych {
 	display: grid;
 	gap: 15px;
+	padding-bottom: 90px;
 
 	.info {
 		display: grid;
