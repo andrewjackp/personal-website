@@ -7,4 +7,6 @@ html {
 	--white: #ffffff;
 	--ink: #17426d;
 	--ink-light: #717171;
+	--line: rgb(0 0 0 / .2);
 }
+

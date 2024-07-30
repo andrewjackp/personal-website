@@ -54,6 +54,7 @@ grand-central-market-list {
 		--category-hover: red;
 	
 		border: 1px solid var(--line);
+		border-radius: 8px;
 	
 		.category {
 			padding: 0.6em;

@@ -41,7 +41,7 @@ feature-grid {
 		}
 	
 		.card {
-			border: 2px solid black;
+			border: 1px solid var(--line);
 			border-radius: 8px;
 			padding: 16px;
 				
