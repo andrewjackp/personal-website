@@ -24,9 +24,8 @@ nav {
 	display: flex;
 	flex-direction: column;
    gap: 25px;
-   padding: 8px;
    a {
-	opacity: 0.6;
+	color: var(--ink-light);
 	}
 }
 
