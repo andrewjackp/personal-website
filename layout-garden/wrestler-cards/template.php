@@ -35,7 +35,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Kenta Kobashi</span>
-					<p class='soft-voice'>Peak wrestler performance</p>
+					<p class='soft-voice'>Easily one of the greatest ever.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -47,7 +47,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Mitsuharu Misawa</span>
-					<p class='soft-voice'>Thee Guy</p>
+					<p class='soft-voice'>Thee Guy. Also one of the greatest ever.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
