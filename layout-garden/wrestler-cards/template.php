@@ -11,7 +11,7 @@
 					</picture>
 				<div class="info">
 					<span class='title'>Akira Taue</span>
-					<p class='soft-voice'>Most underrated pillar</p>
+					<p class='soft-voice'>Most underrated pillar. Just a big mean dude.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -23,7 +23,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Toshiaki Kawada</span>
-					<p class='soft-voice'>My favorite pillar</p>
+					<p class='soft-voice'>My favorite pillar. Master of the Kawada kick. Gnarly dude all around.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>

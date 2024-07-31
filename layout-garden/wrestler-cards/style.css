@@ -1,22 +1,30 @@
 wrestler-list {
 	.wrestler-card-list {
 		display: grid;
-		grid-template-columns: 30%;
+		grid-template-columns: 1fr;
 		margin-top: 2em;
   		margin-bottom: 2em;
   		gap: 20px;
 	}
 
-		.info {
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-		}	
-		.site-button {
+	.wrestler-list-item {
+		display: flex;
+	}
+	.info {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}	
+	.site-button {
 			margin-top: auto;
-		}
+			max-width: 150px;
+	}
 
 	.wrestler-card {
+		display: grid;
+		align-items: center;
+		width: 100%;
 		padding: 10px;
 
 		picture {
@@ -32,34 +40,40 @@ wrestler-list {
    	      object-fit: cover;
    	      object-position: center top;
 			}
-		}	
+		}
+
 		p {
 			line-height: 1.28em
 		}
 
-		.title {
-			font-size: clamp(1em, 5vw, 1.5em);
-			margin-top: 0.28em;
-		}
-		.sub-title {
-			font-size: clamp(1em, 3vw, 0.5em);
-		}
-		.caption {
-			font-size: clamp(1em, 3vw, 0.5em);
-		}
-		.caption + .link {
-			line-height: 1.5em;
-		} 
-		
+	.title {
+		font-size: clamp(20px, 5vw, 1.5em);
+		margin-top: 0.28em;
+	}
+	.sub-title {
+		font-size: clamp(1em, 3vw, 0.5em);
+	}
+	.caption {
+		font-size: clamp(1em, 3vw, 0.5em);
+	}
+	.caption + .link {
+		line-height: 1.5em;
+	} 	
 	}
 
 
-		@media (min-width: 700px) {
-			.wrestler-card-list {
-   	 		display: grid;
-   	 		grid-template-columns: 1fr 1fr;
+	@media (min-width: 600px) {
+		.wrestler-card {
+		.info {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
 		}
-	
+		}	
+		.wrestler-card-list {
+   	 	display: grid;
+   	 	grid-template-columns: 1fr 1fr;
+		}
 		.wrestler-list-item {
 			border: 1px solid var(--line);
 			border-radius: 8px;
@@ -70,11 +84,13 @@ wrestler-list {
 		.wrestler-card-list {
     		display: grid;
     		grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-
-	.wrestler-card {
-      display: grid;
-      grid-template-columns: none;
-    }
+		}
+		.wrestler-card {
+			picture {
+			justify-self: center;
+		}
+		.site-button {
+			margin-inline: auto;
+		}
 	}
 }
