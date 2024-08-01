@@ -98,7 +98,7 @@
 		
 		// $total = floatval($toys) * floatval($dogs);
 
-		echo  $statement = "<p class='result'>$wrestler is $status</p>";
+		echo  "<p class='result'>$wrestler is $status</p>";
 
 	};
 ?>
@@ -110,6 +110,7 @@
 				form {
 					background: #e65451;
 					color: white;
+					border: 1px solid black;
 				}
 			</style>";
 		}
