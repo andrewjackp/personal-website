@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/css/style.css">
 <style>
 	form {
-		border: 0.5px solid var(--ink-light);
+		border: 1px solid var(--ink-light);
 		padding: 10px;
 		margin-inline: auto;
 	}
