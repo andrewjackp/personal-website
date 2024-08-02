@@ -30,7 +30,7 @@
 				</a>
 				<ul>
 					<li><a href="practice-projects/php-practice/intro-forms.php">Forms</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="contact/contact.php">Contact</a></li>
 				</ul>
 			</inner-column>
 		</header>
