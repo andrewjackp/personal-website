@@ -28,6 +28,7 @@
 						<img src="images/wrestling-ring.svg" alt="wrestling-ring" width="100">
 					</picture>
 				</a>
+				<a href="practice-projects/php-practice/intro-forms.php">FORMS</a>
 			</inner-column>
 		</header>
 		<main class='page-content'>
