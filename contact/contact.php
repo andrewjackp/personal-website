@@ -11,5 +11,5 @@
 		</text-container>
 	</inner-column>
 </section>
-
+</main>
 <?php include('../modules/footer.php'); ?>
