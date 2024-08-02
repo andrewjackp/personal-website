@@ -1,14 +1,19 @@
+<?php include('../../header.php'); ?>
+
 <link rel="stylesheet" href="/css/style.css">
 <style>
-	form {
+	.intro-form {
 		border: 1px solid var(--ink-light);
 		padding: 10px;
 		margin-inline: auto;
+		border-radius: 8px;
 	}
 	.field {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		gap: 8px;
+		padding-bottom: 10px;
 	}
 	.field label {
 		font-size: 14px;
@@ -35,7 +40,7 @@
 	<inner-column>
 		<h1 class="loud-voice">Let's see some wrestlers in the NJPW G1 this year</h1>
 
-<form method="POST">
+<form class="intro-form" method="POST">
 	<div class="field">
 		<label>Wrestlers</label>
 		<div class="shingo">
@@ -78,7 +83,7 @@
 		
 	</div>
 
-	<button type="submit" name="submitted">Submit</button>
+	<button class="site-button" type="submit" name="submitted">Submit</button>
 
 	<?php 
 	
@@ -107,7 +112,7 @@
 
 		if ($status == "washed") {
 			echo "<style>
-				form {
+				.intro-form {
 					background: #e65451;
 					color: white;
 					border: 1px solid black;
@@ -116,7 +121,7 @@
 		}
 		elseif ($status == "in his prime") {
 			echo "<style>
-				form {
+				.intro-form {
 					background: beige;
 				}
 			</style>";
@@ -126,3 +131,4 @@
 	</inner-column>
 </section>
 
+<?php include('../../modules/footer.php'); ?>

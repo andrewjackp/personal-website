@@ -54,6 +54,7 @@
 
 <section>
 	<inner-column>
+		<h1 class="loud-voice">Mad Libs</h1>
 		<form class="form" method="POST">
 			<div class="field">
 

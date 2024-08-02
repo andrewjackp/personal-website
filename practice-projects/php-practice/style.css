@@ -1,0 +1,10 @@
+form-index {
+	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.site-button {
+		max-width: 150px;
+	}
+}
