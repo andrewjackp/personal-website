@@ -5,7 +5,6 @@
 	.intro-form {
 		border: 1px solid var(--ink-light);
 		padding: 10px;
-		margin-inline: auto;
 		border-radius: 8px;
 	}
 	.field {
@@ -40,7 +39,7 @@
 	<inner-column>
 		<h1 class="loud-voice">Let's see some wrestlers in the NJPW G1 this year</h1>
 
-<form class="intro-form" method="POST">
+<form class="form" method="POST">
 	<div class="field">
 		<label>Wrestlers</label>
 		<div class="shingo">
@@ -112,7 +111,7 @@
 
 		if ($status == "washed") {
 			echo "<style>
-				.intro-form {
+				.form {
 					background: #e65451;
 					color: white;
 					border: 1px solid black;
@@ -121,7 +120,7 @@
 		}
 		elseif ($status == "in his prime") {
 			echo "<style>
-				.intro-form {
+				.form {
 					background: beige;
 				}
 			</style>";

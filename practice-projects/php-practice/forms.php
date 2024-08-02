@@ -12,7 +12,7 @@
 		
 		<div class="info">
 			<h1 class='mid-voice'>PHP Exercise Practice</h1>
-			<a href="practice-projects/php-practice/php-exercise-practice.php" class="site-button" target="_blank">Here</a>
+			<a href="practice-projects/php-practice/madlibs.php" class="site-button" target="_blank">Here</a>
 		</div>
 		</form-index>
 	</inner-column>

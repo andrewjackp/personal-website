@@ -1,22 +1,6 @@
 <?php include('../../header.php'); ?>
 
 <style>
-	.form {
-		border: 1px solid var(--ink-light);
-		padding: 10px;
-		margin-inline: auto;
-		border-radius: 8px;
-	}
-	.field {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 8px;
-		padding-bottom: 10px;
-	}
-	.field label {
-		font-size: 14px;
-	}
 	button[type="submit"], .field + .field {
 		margin-top: 10px;
 	}
