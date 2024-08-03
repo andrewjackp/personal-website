@@ -25,15 +25,17 @@
 	$adjective = "";
 	$adverb = "";
 	$madlib = "";
+	$count = 0;
 
 	if ( isset($_POST["submitted"]) ) {
 		$noun = $_POST["noun"];
 		$verb = $_POST["verb"];
 		$adjective = $_POST["adjective"];
 		$adverb = $_POST["adverb"];
+		$count = strlen($noun);
 	}
 
-	$madlib = "Do you <em>$verb</em> your $adjective $noun $adverb? That's hilarious!";
+	$madlib = "Do you <em>$verb</em> your $adjective $noun $adverb? That's hilarious! Also, $noun has $count characters";
 ?>
 
 <section>

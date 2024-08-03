@@ -11,7 +11,7 @@
 			</div>
 		
 		<div class="info">
-			<h1 class='mid-voice'>PHP Exercise Practice</h1>
+			<h1 class='mid-voice'>Madlibs</h1>
 			<a href="practice-projects/php-practice/madlibs.php" class="site-button" target="_blank">Here</a>
 		</div>
 
