@@ -52,7 +52,7 @@
 				<input type="text" id="a" name="adverb" value='<?=$adverb?>'>
 
 				<label for="adjective">Adjective</label>
-				<input type="text" id="a" name="adjective" value='<?=$adjective?>'>
+				<input type="text" id="adj" name="adjective" value='<?=$adjective?>'>
 			</div>
 	
 		<button class='site-button' name="submitted">Submit</button>

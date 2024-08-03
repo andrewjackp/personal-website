@@ -26,3 +26,6 @@ form-index {
 	.field label {
 		font-size: 14px;
 	}
+button[type="submit"], .field + .field {
+		margin-top: 10px;
+	}	

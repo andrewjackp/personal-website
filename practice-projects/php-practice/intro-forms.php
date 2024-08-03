@@ -43,27 +43,27 @@
 	<div class="field">
 		<label>Wrestlers</label>
 		<div class="shingo">
-			<input type="checkbox" name="wrestler" value="shingo">
+			<input type="radio" name="wrestler" value="shingo">
 			<label for="shingo">Shingo Takagi</label>
 		</div>
 		<div class="jake-lee">
-			<input type="checkbox" name="wrestler" value="jake lee">
+			<input type="radio" name="wrestler" value="jake lee">
 			<label for="jake-lee">Jake Lee</label>
 		</div>
 		<div class="take">
-			<input type="checkbox" name="wrestler" value="konuske takeshita">
+			<input type="radio" name="wrestler" value="konuske takeshita">
 			<label for="take">Konusuke Takeshita</label>
 		</div>
 		<div class="yuya">
-			<input type="checkbox" name="wrestler" value="yuya uemura">
+			<input type="radio" name="wrestler" value="yuya uemura">
 			<label for="yuya">Yuya Uemura</label>
 		</div>
 		<div class="naito">
-			<input type="checkbox" name="wrestler" value="tetsuya naito">
+			<input type="radio" name="wrestler" value="tetsuya naito">
 			<label for="naito">Tetsuya Naito</label>
 		</div>
 		<div class="kidd">
-			<input type="checkbox" name="wrestler" value="gabe kidd">
+			<input type="radio" name="wrestler" value="gabe kidd">
 			<label for="kidd">Gabe Kidd</label>
 		</div>
 	</div>
@@ -72,11 +72,11 @@
 		<label>Status</label>
 
 		<div class="washed">
-			<input type="checkbox" name="status" value="washed">
+			<input type="radio" name="status" value="washed">
 			<label for="washed">Washed</label>
 		</div>
 		<div class="prime">
-			<input type="checkbox" name="status" value="in his prime">
+			<input type="radio" name="status" value="in his prime">
 			<label for="prime">Prime</label>
 		</div>
 		

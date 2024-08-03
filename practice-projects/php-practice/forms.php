@@ -14,6 +14,11 @@
 			<h1 class='mid-voice'>PHP Exercise Practice</h1>
 			<a href="practice-projects/php-practice/madlibs.php" class="site-button" target="_blank">Here</a>
 		</div>
+
+		<div class="info">
+			<h1 class='mid-voice'>Count Characters</h1>
+			<a href="practice-projects/php-practice/count-chars.php" class="site-button" target="_blank">Here</a>
+		</div>
 		</form-index>
 	</inner-column>
 </section>
