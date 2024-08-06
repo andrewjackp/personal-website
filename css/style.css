@@ -19,7 +19,7 @@
 	position: sticky;
    top: 0;
    z-index: 1;
-   background: #ffffff;
+   background-color: #ffffff;
 	picture {
 		max-width: 100px;
 	}
@@ -74,14 +74,13 @@ nav {
 	flex-direction: column;
 }
 
-.site-footer inner-column {
+/*.site-footer inner-column {
 	display: flex;
    flex-direction: row;
    gap: 10px;
-}
+}*/
 
 .site-footer {
-	position: sticky;
    bottom: 0;
    z-index: 1;
    background: #ffffff;
