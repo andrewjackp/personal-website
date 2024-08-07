@@ -1,19 +1,14 @@
-:root {
-	--green: #b4d8bf;
-	--blue: #acd8e5;
-	--pink: #d3a0c5;
-	--orange: #f4cd9e;
-	--red: #f19899;
-	--white: #f7f0e3;
-}
-
-body {
+.s-u-r-l-body {
 	inner-column {
 		border: 3px solid black;
 		padding: 10px;
-}
+	}
+	background-color: var(--beige);
 }
 
+.page-content {
+	flex-grow: 1;
+}
 
 /* header section */
 
@@ -196,7 +191,7 @@ action-diptych {
 /* footer section */
 
 .s-u-r-site-footer {
-	background-color: var(--white);
+	background-color: var(--beige);
 	action-diptych {
 		display: block;
 		padding: 10px;
@@ -242,5 +237,5 @@ site-map {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		align-items: baseline;
-	
+	}
 }

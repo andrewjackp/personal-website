@@ -1,4 +1,4 @@
-<text-container>
+<action-diptych>
 	<div class="info">
 		<h1 class='loud-voice'>
 			Andy Polito
@@ -15,4 +15,4 @@
 				<div class="button-container">
 					<a href="#" target="contact" class="site-button">Contact</a>
 				</div>
-</text-container>
+</action-diptych>
