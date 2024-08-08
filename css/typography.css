@@ -12,7 +12,7 @@
 	line-height: 1.28em
 }
 
-.soft-voice {
+.soft-voice, p {
 	font-size: 1rem;
 	line-height: 1.3em;
 }

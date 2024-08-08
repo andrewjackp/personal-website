@@ -6,7 +6,7 @@
 	<title>Super Ultra Responsive Layout</title>
 	<meta name='description' content='Super-Ultra-Responsive-Layout'>
 	<meta property='og:image' content='[[meta-img]]'>
-	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="style.css">
 	</head>
 	<body class="s-u-r-l-body">
 		<header class='layout-site-header'>

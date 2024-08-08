@@ -1,161 +1,25 @@
 <?php include('header.php'); ?>
-			<section class="diptych">
+			<section class="welcome">
 				<inner-column>
-					<graphic-diptych>
-						<picture>
-							<img src="https://peprojects.dev/images/square.jpg" alt="square-img">
-						</picture>
-						<div class="info">
-							<h1 class="loud-voice">
-								Hello! This is a 'diptych!''
-							</h1>
-							<p class="quiet-voice">You can call it whatever you would like. This is a bunch of text that go here like Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maxime ab illo eligendi commodi.</p>
-						</div>
-					</graphic-diptych>
+					<?php include('welcome.php'); ?>
 				</inner-column>
 			</section>
 
 			<section class="call-to-action">
 				<inner-column>
-					<action-diptych>
-						<div class="info">
-							<h1 class="loud-voice">
-								This is a "call to action"
-							</h1>
-						<p class="quiet-voice">
-							These aren't names you should memorize. We're just making them up Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-						</p>
-					
-					</div>
-						<button class="site-button">HERE'S THE ACTION!</button>
-					</action-diptych>
+					<?php include('call-to-action.php'); ?>
 				</inner-column>
 			</section>
 
 			<section class="article-grid">
 				<inner-column>
-					<article class="article-card">
-						<action-diptych>
-							<div class="info">
-								<h1 class="loud-voice">
-									This is an "article grid" module. This is its heading. 
-								</h1>
-								<p class="quiet-voice">
-									These aren't names you should memorize. We're just making them up Lorem 
-						</p>
-									</div>
-								</action-diptych>
-							</article>
-					<ul class="article-list">
-						<li class="article-list-item">
-							<article class="article-card">
-								<action-diptych>
-									<div class="info">
-										<h1 class="loud-voice">
-											This is an "article grid" module. This is its heading. 
-										</h1>
-											<p class="quiet-voice">
-											These aren't names you
-						</p>
-											
-									</div>
-									<button class="site-button">ACT!</button>
-								</action-diptych>
-							</article>
-						</li>
-						<li class="article-list-item">
-							<article class="article-card">
-								<action-diptych>
-									<div class="info">
-										<h1 class="loud-voice">
-											This is an "article grid" module. This is its heading. 
-										</h1>
-											<p class="quiet-voice">
-											These aren't names you should memorize. We're just making them up Lorem 
-						</p>
-									</div>
-									<button class="site-button">HERE'S THE ACTION!</button>
-								</action-diptych>
-							</article>
-						</li>
-						<li class="article-list-item">
-							<article class="article-card">
-								<action-diptych>
-									<div class="info">
-										<h1 class="loud-voice">
-											This is an "article grid" module. This is its heading. 
-										</h1>
-											<p class="quiet-voice">
-											These aren't names you should memorize. We're just making them up Lorem 
-						</p>
-									</div>
-											<button class="site-button">HERE'S THE ACTION!</button>
-								</action-diptych>
-							</article>
-						</li>
-						<li class="article-list-item">
-							<article class="article-card">
-								<action-diptych>
-									<div class="info">
-										<h1 class="loud-voice">
-											This is an "article grid" module. This is its heading. 
-										</h1>
-											<p class="quiet-voice">
-											These aren't names you should memorize. We're just making them up Lorem 
-						</p>
-									</div>
-									<button class="site-button">HERE'S THE ACTION!</button>
-								</action-diptych>
-							</article>
-						</li>
-						<li class="article-list-item">
-							<article class="article-card">
-								<action-diptych>
-									<div class="info">
-										<h1 class="loud-voice">
-											This is an "article grid" module. This is its heading. 
-										</h1>
-											<p class="quiet-voice">
-											These aren't names you should memorize. We're just making them up Lorem 
-						</p>
-									</div>
-									<button class="site-button">HERE'S THE ACTION!</button>
-								</action-diptych>
-							</article>
-						</li>
-						<li class="article-list-item">
-							<article class="article-card">
-								<action-diptych>
-									<div class="info">
-										<h1 class="loud-voice">
-											This is an "article grid" module. This is its heading. 
-										</h1>
-											<p class="quiet-voice">
-											These aren't names you should memorize. We're just making them up Lorem 
-						</p>
-									</div>
-									<button class="site-button">HERE'S THE ACTION!</button>
-								</action-diptych>
-							</article>
-						</li>
-					</ul>
+					<?php include('article-card-grid.php'); ?>
 				</inner-column>
 			</section>
 
 			<section class="call-to-action-ii">
 				<inner-column>
-					<action-diptych>
-						<div class="info">
-							<h1 class="loud-voice">
-								This is a "call to action"
-							</h1>
-						<p class="quiet-voice">
-							These aren't names you should memorize. We're just making them up Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-						</p>
-					
-					</div>
-						<button class="site-button">HERE'S THE ACTION!</button>
-					</action-diptych>
+					<?php include('call-to-action-II.php'); ?>
 				</inner-column>
 			</section>
 		</main>
@@ -164,9 +28,9 @@
 				<section class="footer-text">
 					<action-diptych>
 						<div class="info">
-						<h1 class="loud-voice">
+						<h2 class="mid-voice">
 							This is the site footer and it has a 'site-map' module in it
-						</h1>
+						</h2>
 						<p class="quiet-voice">
 							Pretty standard thing right?
 						</p>
