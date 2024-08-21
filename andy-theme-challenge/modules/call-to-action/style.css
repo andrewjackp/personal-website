@@ -1,0 +1,38 @@
+
+call-to-action {
+	display: block;
+
+	display: grid;
+	gap: 10px;
+	grid-template-areas: "place";
+	align-items: end;
+	padding: 10vh 0;
+	.button {
+		margin-top: 20px;
+	}
+
+	img {
+		border-radius: 8px;
+	}
+
+	text-content {
+		display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 10px;
+
+   	.button {
+   		max-width: 75px;
+   	}
+
+   	@media(width > 600px) {
+			.button {
+				margin-top: auto;
+			}
+		}
+	}
+
+	@media(min-width: 700px){
+		grid-template-columns: 1fr 1fr;
+	}
+}
