@@ -1,32 +1,43 @@
 <!doctype html>
 
 <?php
+	/* router */
+	$page = null;
 	if (isset($_GET["page"]) ) {
 		$page = $_GET["page"];
 	} else {
 		$page = "home";
 	}
+
 ?>
 
 <html lang='en'>
 	<head>
 		<meta charset='utf-8'>
-		<title>Wrestle Docs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title><?=$page?></title>
 		<!-- meta -->
+		<link rel="stylesheet" href="css/site.css">
 	</head>
 
 	<body>
-		<?php if ($page == "home") { ?>
-			<h1>WrestleDocs Home Page</h1>
-		<?php } ?>
+		<header>
+			<?php include('site-menu.php'); ?>
+		</header>
 
-		<?php if ($page == "match-list") { ?>
-			<h1>WrestleDocs Match List</h1>
-		<?php } ?>
+		<main class="page-content">
+			<?php
+				if ($page == "home") {
+					include('home.php');
+				}
+				if ($page == "list") {
+					include("list.php");
+				}
+				if($page == "detail") {
+					include("detail.php");
+				}
+			?>			
+		</main>
 
-		<nav class="site-menu">
-			<a href="?page=home">Home</a>
-			<a href="?page=match-list">Matches</a>
-		</nav>
 	</body>
 </html>

@@ -1,0 +1,64 @@
+@import "reset.css";
+@import "setup.css";
+
+body {
+	background-color: #a5e2c8;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: underline;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	padding: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.page-content {
+	border: 1px dashed red;
+}
+
+match-card {
+	display: block;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+text-content {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: sans-serif;
+	line-height: 1.28em
+}
+
+.button {
+	margin-top: auto;
+}
+
+.match + .match {
+	margin-top: 30px;
+}
+
+.match-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+
+	@media (width > 600px){
+		grid-template-columns: 1fr 1fr;
+	};
+
+	@media (width > 900px){
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	};
+}
