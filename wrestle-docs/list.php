@@ -7,9 +7,11 @@
 
 		<li class="match">
 			<match-card>
-				<picture href='?page=detail&match=<?=$match["id"]?>'>
+				<a href='?page=detail&match=<?=$match["id"]?>'>
+					<picture>
 					<img src="<?=$match["Picture"]?>" alt="match-pic">
 				</picture>
+				</a>
 				
 				<text-content>
 					<h2 class="wrestlers">Wrestlers: <?=$match["MatchFixture"]?></h2>
