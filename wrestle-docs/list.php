@@ -7,7 +7,7 @@
 
 		<li class="match">
 			<match-card>
-				<picture>
+				<picture href='?page=detail&match=<?=$match["id"]?>'>
 					<img src="<?=$match["Picture"]?>" alt="match-pic">
 				</picture>
 				
