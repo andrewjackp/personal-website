@@ -1,15 +1,6 @@
 <!doctype html>
 
-<?php
-	/* router */
-	$page = null;
-	if (isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	} else {
-		$page = "home";
-	}
-
-?>
+<?php require('router.php'); ?>
 
 <html lang='en'>
 	<head>
@@ -27,17 +18,7 @@
 		</header>
 
 		<main class="page-content">
-			<?php
-				if ($page == "home") {
-					include('home.php');
-				}
-				if ($page == "list") {
-					include("list.php");
-				}
-				if($page == "detail") {
-					include("detail.php");
-				}
-			?>			
+			<?php getTemplate($page); ?>			
 		</main>
 
 	</body>
