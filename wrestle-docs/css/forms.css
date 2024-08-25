@@ -1,0 +1,50 @@
+form {
+	max-width: 400px;
+	padding: 30px 0;
+}
+
+field {
+	display: block;
+}
+
+field :is(label, input){
+	display: block;
+	width: 100%;
+}
+
+field label {
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	line-height: 1.4
+}
+
+field input[type='text'],
+field input[type='date'] {
+	border: 0;
+	padding: 10px;
+	font: inherit;
+	color: white;
+	line-height: 1.4;
+	margin-bottom: 8px;
+}
+
+field + field {
+	margin-top: 20px;
+}
+
+form button {
+	margin-top: 20px;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.error-msg {
+	margin-top: 5px;
+	color: red;
+}
+
+.loud-voice {
+	font-weight: 600;
+	color: white;
+}

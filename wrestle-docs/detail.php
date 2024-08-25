@@ -16,17 +16,16 @@
 
 <?php if ( isset($bout) ) { ?>
 
-	<h1><?=$bout["MatchFixture"]?></h1>
+	<h1 class='loud-voice match-detail'><?=$bout["MatchFixture"]?></h1>
 	
-	<picture>
+	<picture class='image'>
 		<img src="<?=$bout["Picture"]?>" alt="$todo">
 	</picture>
 	
-	<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. 	Consectetur fuga asperiores quasi repudiandae, dolorum 	cupiditate aliquid ipsa perspiciatis, consequuntur praesentium. 	At vitae libero fugiat, magnam ex atque inventore eius. Rerum.</p>
+	<p class='description'>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. 	Consectetur fuga asperiores quasi repudiandae, dolorum 	cupiditate aliquid ipsa perspiciatis, consequuntur praesentium. 	At vitae libero fugiat, magnam ex atque inventore eius. Rerum.</p>
 
 <?php } else { ?>
 
 	<h1>No match found</h1>
 
 <?php } ?>
-

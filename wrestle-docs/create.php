@@ -53,7 +53,7 @@
 				$match_date => $_POST["match_date"],
 			];
 
-			var_dump($wrestling_match);
+			// var_dump($wrestling_match);
 
 		} else {
 			echo "NOOOO";
@@ -61,7 +61,7 @@
 	}
 ?>
 
-<h1>Create</h1>
+<h1 class='loud-voice create'>Create</h1>
 
 <form method="POST">
 	<field>
@@ -83,7 +83,7 @@
 		<input type="date" name="match_date" min="1950-01-01" max="2025-08-31" value='<?=$match_date?>'>
 	</field>
 
-	<button type='submit' name='add'>
+	<button class='button' type='submit' name='add'>
 		Add match
 	</button>
 </form>

@@ -1,6 +1,6 @@
 <?php @include('match_data.php'); ?>
 
-<h1>WrestleDocs Match List</h1>
+<h1 class='loud-voice'>WrestleDocs Match List</h1>
 
 <ul class="match-list">
 	<?php foreach($match_data as $match) { ?>
@@ -14,7 +14,7 @@
 				</a>
 				
 				<text-content>
-					<h2 class="wrestlers">Wrestlers: <?=$match["MatchFixture"]?></h2>
+					<h2 class="loud-voice"><?=$match["MatchFixture"]?></h2>
 					<h3 class="promotion">Promotion: <?=$match["Promotion"]?></h3>
 					<h4 class="rating">Cagematch Rating: <?=$match["Rating"]?></h4>
 					<h4 class="rating">Meltzer Rating: <?=$match["WON"]?></h4>

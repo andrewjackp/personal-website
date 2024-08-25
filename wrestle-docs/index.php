@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/site.css">
 	</head>
 
-	<body>
+	<body class='<?=$page?>'>
 		<header>
 			<?php include('site-menu.php'); ?>
 		</header>

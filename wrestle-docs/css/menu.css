@@ -1,0 +1,19 @@
+nav a {
+	text-decoration: underline;
+}
+
+nav a.active {
+	border-bottom: 4px solid wheat;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	padding: 10px;
+	border-bottom: 4px solid transparent;
+	font-family: sans-serif;
+	font-size: 19px;
+	line-height: 1.28em
+}
