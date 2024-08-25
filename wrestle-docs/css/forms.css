@@ -15,7 +15,7 @@ field :is(label, input){
 field label {
 	font-family: sans-serif;
 	font-size: 15px;
-	color: black;
+	color: white;
 	line-height: 1.4
 }
 
@@ -24,7 +24,7 @@ field input[type='date'] {
 	border: 0;
 	padding: 10px;
 	font: inherit;
-	color: white;
+	color: black;
 	line-height: 1.4;
 	margin-bottom: 8px;
 }
