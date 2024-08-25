@@ -82,3 +82,8 @@ field :is(label, input){
 field + field {
 	margin-top: 20px;
 }
+
+.error-msg {
+	margin-top: 5px;
+	color: red;
+}
