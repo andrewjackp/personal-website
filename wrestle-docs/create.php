@@ -1,5 +1,8 @@
 <?php 
-	
+	$matchData = file_get_contents('wrestling-matches.json');
+
+	var_dump($matchData);
+
 	$wrestlers = "";
 	$promotion = "";
 	$match_date = date("m.d.y");
@@ -10,13 +13,28 @@
 	$wrestlersError = false;
 	$promotionError = false;
 	
-	if ( isset($_POST["add"]) ) {
+	$formSubmitted = isset($_POST["add"]);
+
+	if ($formSubmitted) {
 
 		if ( isset($_POST["wrestlers"]) ) {
 			$wrestlers = $_POST["wrestlers"];
 
 			if ( strlen($wrestlers) > 0) {
 				$hasWrestlers = true;
+
+				// add match
+
+				$newMatch = [
+					"wrestlers" => $wrestlers,
+				];
+
+				var_dump($newMatch);
+
+				// transform to JSON file
+				$matchJson = json_encode($newMatch);
+				file_put_contents('wrestling-matches.json', $matchJson);
+
 			} else {
 				$wrestlersError = "Please add wrestlers";
 			}
@@ -46,20 +64,9 @@
 			}	
 		}
 
-		if ($hasWrestlers && $hasPromotion && $hasMatch_date) {
-			$wrestling_match = [
-				$wrestlers => $_POST["wrestlers"],
-				$promotion => $_POST["promotion"],
-				$match_date => $_POST["match_date"],
-			];
-
-			// var_dump($wrestling_match);
-			echo "SUCCESSS";
-
 		} else {
 			echo "NOOOO";
 		}
-	}
 ?>
 
 <h1 class='loud-voice create'>Create</h1>

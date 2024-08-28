@@ -5,33 +5,47 @@ graphic-diptych {
 	gap: 30px;
 /*	grid-template-columns: repeat(5, 1fr); can do this too */
 	grid-template-areas: "whatever";
-	> * {
-		grid-area: whatever;
-	}
-	align-items: end;
+
+	align-items: baseline;
+
 	p {
 		margin-top: 20px;
 	}
 
+	@media (width > 600px) {
+		> * {
+			grid-area: whatever;
+		}
+
+		align-items: end;
+
+		.loud-voice, .link-box {
+    		color: white;
+    	}
+	}
+
+	/* without using grid areas */
 	picture {
 /*		grid-column: 1 / -1;*/
 	}
 
-	img {
+	picture {
 		border-radius: 8px;
 	}
 
 	text-content {
 		padding: 25px;
    	text-wrap: balance;
+   	color: var(--black);
 
+   	/* without using grid areas */
    	/*grid-column: 1 / -1;
-    	align-self: end;*/
-    	
+    	align-self: end;*    	
 	}
 
 	picture, text-content {
 /*		grid-row: 1/2;*/
+
 	}
 
 /*	@media (min-width:  700px) {
