@@ -111,7 +111,7 @@ reviews-list {
 
 		card-diptych {
 			position: sticky;
-	    	top: 10%;
+	    	top: 120px;
 	    	align-self: start;
 			
 			picture {
