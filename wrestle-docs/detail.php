@@ -16,10 +16,10 @@
 
 <?php if ( isset($bout) ) { ?>
 
-	<h1 class='loud-voice match-detail'><?=$bout["match-type"]?></h1>
+	<h1 class='loud-voice match-detail'><?=$bout["match_type"]?></h1>
 	
 	<picture class='image'>
-		<img src="<?=$bout[pPicture"]?>" alt="$todo">
+		<img src="<?=$bout["picture"]?>" alt="$todo">
 	</picture>
 	
 	<p class='description'>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. 	Consectetur fuga asperiores quasi repudiandae, dolorum 	cupiditate aliquid ipsa perspiciatis, consequuntur praesentium. 	At vitae libero fugiat, magnam ex atque inventore eius. Rerum.</p>
