@@ -22,7 +22,7 @@
 		<img src="<?=$bout["picture"]?>" alt="$todo">
 	</picture>
 	
-	<p class='description'>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. 	Consectetur fuga asperiores quasi repudiandae, dolorum 	cupiditate aliquid ipsa perspiciatis, consequuntur praesentium. 	At vitae libero fugiat, magnam ex atque inventore eius. Rerum.</p>
+	<p class='description'>A classic match between some all timers.</p>
 
 <?php } else { ?>
 
