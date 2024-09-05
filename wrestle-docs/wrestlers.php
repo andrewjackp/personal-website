@@ -7,23 +7,25 @@
 	$wrestlers = json_decode($wrestler_list, true);
 
 	if( isset($_GET["id"]) ) {
-		$this_wrestler_id = $_GET["id"];
+		$id = $_GET["id"];
 	};
 
-	echo $this_wrestler_id; // 0
+	echo $id; // 0
+
+	$found = null;
 
 	foreach($wrestlers as $wrestler) {
-			if($wrestler["id"] == $this_wrestler_id ){
-				 $this_wrestler_id = $wrestler;
+			if($wrestler["id"] == $id ){
+				 $found == $wrestler;
 		}
 	}
 ?>
 
 <?php if ( isset($wrestler) ) { ?>
 
-	<h1 class='loud-voice'><?=$wrestler["id"]?></h1>
+	<h1 class='loud-voice'><?=$wrestler["name"]?></h1>
 	
-	<h2><?=$wrestler["promotion"]?></h2>
+	<h2><?=$wrestler["promotion"][0]?>, <?=$wrestler["promotion"][1]?></h2>
 	
 	<p class='description'>A classic match between some all timers.</p>
 
