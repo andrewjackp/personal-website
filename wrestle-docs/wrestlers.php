@@ -17,13 +17,14 @@
 	foreach($wrestlers as $wrestler) {
 			if($wrestler["id"] == $id ){
 				 $found == $wrestler;
+				 echo $found;
 		}
 	}
 ?>
 
 <?php if ( isset($wrestler) ) { ?>
 
-	<h1 class='loud-voice'><?=$wrestler["name"]?></h1>
+	<h1 class='loud-voice'><?=$wrestler["id"]?></h1>
 	
 	<h2><?=$wrestler["promotion"][0]?>, <?=$wrestler["promotion"][1]?></h2>
 	
