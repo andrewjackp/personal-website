@@ -1,12 +1,12 @@
 [
   {
     "id": "w1",
-    "name": "Mitsuharu-Misawa",
-    "promotion" : ["AJPW", "NOAH"]
+    "name": "Mitsuharu Misawa",
+    "promotions" : ["AJPW", "NOAH"]
   },
   {
     "id": "w2",
-    "name": "Kenta-Kobashi",
-    "promotion" : ["AJPW", "NOAH"]
+    "name": "Kenta Kobashi",
+    "promotions" : ["AJPW", "NOAH"]
   }
 ]

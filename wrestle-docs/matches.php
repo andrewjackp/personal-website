@@ -1,5 +1,6 @@
-<?php @include('match_data.php'); 
+<?php include('match_data.php'); 
 ?>
+<?php $wrestlers_data = getData('wrestlers.json'); ?>
 
 <h1 class='loud-voice'>WrestleDocs Match List</h1>
 
@@ -15,7 +16,27 @@
 				</a>
 
 			<text-content>
-				<a href='?page=wrestlers&id=<?=$match["wrestlers"][0]?>' class="loud-voice"> <?=$match["wrestlers"][0]?> </a> vs <a href='?page=wrestlers&id=<?=$match["wrestlers"][1]?>' class="loud-voice"> <?=$match["wrestlers"][1]?> </a>
+
+				<?php $count = 0; 
+						$wrestlers_total = count($match["wrestlers"]);
+				?>
+				<?php foreach($match["wrestlers"] as $id) {
+
+					$count++;
+
+					$wrestler = getWrestlerById($wrestlers_data, $id);
+
+					?>
+
+					<a href='?page=wrestler&id=<?=$wrestler["id"]?>' class="loud-voice"> <?=$wrestler["name"]?> </a> 
+
+					<?php if($count < $wrestlers_total) {
+						echo "vs";
+					} ?>
+
+				<?php } ?>
+				
+
 				<h3 class="promotion">Promotion: <?=$match["promotion"]?></h3>
 				<h4 class="rating">Cagematch Rating: <?=$match["rating"]?></h4>
 				<h4 class="rating">Meltzer Rating: <?=$match["won_rating"]?></h4>

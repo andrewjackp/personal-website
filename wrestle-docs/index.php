@@ -1,5 +1,6 @@
 <!doctype html>
 
+<?php require('functions.php'); ?>
 <?php require('router.php'); ?>
 
 <html lang='en'>
