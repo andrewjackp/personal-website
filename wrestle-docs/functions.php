@@ -26,3 +26,17 @@ function getWrestlerById($wrestlers, $id) {
 	return $found;
 }
 
+function getPromotionById($promotions, $id) {
+	$found = null;
+
+	foreach($promotions as $promotion) {
+		if($promotion["id"] == $id) {
+			$found = $promotion;
+
+			break;
+		}
+	}
+
+	return $found;
+}
+

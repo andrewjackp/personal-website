@@ -1,8 +1,0 @@
-[
-  {
-    "id": "m1",
-    "match_type": "singles",
-    "promotion": "p1",
-    "wrestlers": ["w1", "w2"]
-  }
-]

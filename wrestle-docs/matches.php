@@ -1,6 +1,7 @@
-<?php include('match_data.php'); 
+<?php 
+	$wrestlers_data = getData('data/wrestlers.json'); 
+	$match_data = getData('data/matches.json');
 ?>
-<?php $wrestlers_data = getData('wrestlers.json'); ?>
 
 <h1 class='loud-voice'>WrestleDocs Match List</h1>
 

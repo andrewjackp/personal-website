@@ -2,7 +2,7 @@
 	
 	$id = $_GET["id"];
 
-	$wrestlers_data = getData('wrestlers.json');
+	$wrestlers_data = getData('data/wrestlers.json');
 
 	$wrestler = getWrestlerById($wrestlers_data, $id);
 ?>
@@ -17,7 +17,6 @@
 	</a>
 <?php } ?>
 	
-	<p class='description'>A classic match between some all timers.</p>
 
 <?php } else { ?>
 

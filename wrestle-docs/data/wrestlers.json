@@ -1,0 +1,100 @@
+[
+    {
+        "id": "w1",
+        "name": "Mitsuharu Misawa",
+        "promotions": [
+            "AJPW",
+            "NOAH"
+        ]
+    },
+    {
+        "id": "w2",
+        "name": "Kenta Kobashi",
+        "promotions": [
+            "AJPW",
+            "NOAH"
+        ]
+    },
+    {
+        "id": "w3",
+        "name": "Kazuchika Okada",
+        "promotions": [
+            "NJPW"
+        ]
+    },
+    {
+        "id": "w4",
+        "name": "Kenny Omega",
+        "promotions": [
+            "NJPW",
+            "AEW"
+        ]
+    },
+    {
+        "id": "w5",
+        "name": "Katsuyori Shibata",
+        "promotions": [
+            "NJPW"
+        ]
+    },
+    {
+        "id": "w6",
+        "name": "Toshiaki Kawada",
+        "promotions": [
+            "AJPW"
+        ]
+    },
+    {
+        "id": "w7",
+        "name": "Hiroshi Tanahashi",
+        "promotions": [
+            "NJPW"
+        ]
+    },
+    {
+        "id": "w8",
+        "name": "Kota Ibushi",
+        "promotions": [
+            "NJPW"
+        ]
+    },
+    {
+        "id": "w9",
+        "name": "Tetsuya Naito",
+        "promotions": [
+            "NJPW"
+        ]
+    },
+    {
+        "id": "w10",
+        "name": "Bryan Danielson",
+        "promotions": [
+            "WWE",
+            "AEW"
+        ]
+    },
+    {
+        "id": "w11",
+        "name": "Will Ospreay",
+        "promotions": [
+            "NJPW",
+            "AEW"
+        ]
+    },
+    {
+        "id": "t1",
+        "name": "Mitsuharu Misawa & Kenta Kobashi",
+        "promotions": [
+            "AJPW",
+            "NOAH"
+        ]
+    },
+    {
+        "id": "t2",
+        "name": "Toshiaki Kawada & Akira Taue",
+        "promotions": [
+            "AJPW",
+            "NOAH"
+        ]
+    }
+]
