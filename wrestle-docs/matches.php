@@ -12,8 +12,8 @@
 			<match-card>
 				<a href='?page=detail&match=<?=$match["id"]?>'>
 					<picture>
-					<img src="<?=$match["picture"]?>" alt="match-pic">
-				</picture>
+						<img src="<?=$match["picture"]?>" alt="match-pic">
+					</picture>
 				</a>
 
 			<text-content>
@@ -29,7 +29,7 @@
 
 					?>
 
-					<a href='?page=wrestler&id=<?=$wrestler["id"]?>' class="loud-voice"> <?=$wrestler["name"]?> </a> 
+					<a href='?page=wrestler-detail&id=<?=$wrestler["id"]?>' class="loud-voice"> <?=$wrestler["name"]?> </a> 
 
 					<?php if($count < $wrestlers_total) {
 						echo "vs";

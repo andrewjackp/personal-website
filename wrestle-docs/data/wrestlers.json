@@ -3,98 +3,98 @@
         "id": "w1",
         "name": "Mitsuharu Misawa",
         "promotions": [
-            "AJPW",
-            "NOAH"
+            "p1",
+            "p2"
         ]
     },
     {
         "id": "w2",
         "name": "Kenta Kobashi",
         "promotions": [
-            "AJPW",
-            "NOAH"
+            "p1",
+            "p2"
         ]
     },
     {
         "id": "w3",
         "name": "Kazuchika Okada",
         "promotions": [
-            "NJPW"
+            "p3"
         ]
     },
     {
         "id": "w4",
         "name": "Kenny Omega",
         "promotions": [
-            "NJPW",
-            "AEW"
+            "p3",
+            "p4"
         ]
     },
     {
         "id": "w5",
         "name": "Katsuyori Shibata",
         "promotions": [
-            "NJPW"
+            "p3"
         ]
     },
     {
         "id": "w6",
         "name": "Toshiaki Kawada",
         "promotions": [
-            "AJPW"
+            "p1"
         ]
     },
     {
         "id": "w7",
         "name": "Hiroshi Tanahashi",
         "promotions": [
-            "NJPW"
+            "p3"
         ]
     },
     {
         "id": "w8",
         "name": "Kota Ibushi",
         "promotions": [
-            "NJPW"
+            "p3"
         ]
     },
     {
         "id": "w9",
         "name": "Tetsuya Naito",
         "promotions": [
-            "NJPW"
+            "p3"
         ]
     },
     {
         "id": "w10",
         "name": "Bryan Danielson",
         "promotions": [
-            "WWE",
-            "AEW"
+            "p5",
+            "p4"
         ]
     },
     {
         "id": "w11",
         "name": "Will Ospreay",
         "promotions": [
-            "NJPW",
-            "AEW"
+            "p3",
+            "p4"
         ]
     },
     {
         "id": "t1",
         "name": "Mitsuharu Misawa & Kenta Kobashi",
         "promotions": [
-            "AJPW",
-            "NOAH"
+            "p1",
+            "p2"
         ]
     },
     {
         "id": "t2",
         "name": "Toshiaki Kawada & Akira Taue",
         "promotions": [
-            "AJPW",
-            "NOAH"
+            "p1",
+            "p2"
         ]
     }
 ]

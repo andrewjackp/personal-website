@@ -1,4 +1,6 @@
-<?php include('match_data.php'); ?>
+<?php 
+	$match_data = getData('data/matches.json'); 
+?>
 
 <?php 
 	if( isset($_GET["match"]) ) {

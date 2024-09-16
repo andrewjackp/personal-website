@@ -1,22 +1,27 @@
 [
   {
     "id": "p1",
-    "name": "AJPW"
+    "promotion_name": "AJPW",
+    "roster": ["w1", "w2", "w6"]
   },
   {
     "id": "p2",
-    "name": "NOAH"
+    "promotion_name": "NOAH",
+    "roster": ["w1", "w2"]
   },
   {
     "id": "p3",
-    "name": "NJPW"
+    "promotion_name": "NJPW",
+    "roster": ["w3", "w4", "w5", "w7"]
   },
   {
     "id": "p4",
-    "name": "AEW"
+    "promotion_name": "AEW",
+    "roster": ["w10", "w11"]
   },
   {
     "id": "p5",
-    "name": "WWE"
+    "promotion_name": "WWE",
+    "roster": ["w10"]
   }
 ]
