@@ -1,0 +1,11 @@
+<?php
+	$content = $content ?? "<h1 class='attention-voice'>Heading</h1>
+		<div class='info'>
+			<h2 class='mid-voice'>Contact method</h1>
+			<span class='ink-voice'>something @ something.com </span>
+		</div>"
+?>
+
+<generic-text>
+	<?=$content?>
+</generic-text>

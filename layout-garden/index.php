@@ -44,4 +44,4 @@
 </section>
 </layout-garden>
 
-<?php include('../modules/footer.php'); ?>
+<?php include('../modules/footer/template.php'); ?>

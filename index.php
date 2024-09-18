@@ -5,4 +5,4 @@
 				</inner-column>
 			</section>
 		</main>
-<?php include('modules/footer.php'); ?>
+<?php include('modules/footer/template.php'); ?>

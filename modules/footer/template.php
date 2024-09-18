@@ -2,7 +2,7 @@
 		<footer class='site-footer'>
 				<inner-column>
 					<nav>
-						<a href="index.php">Site Map:</a>
+						<a href="#">Site Map:</a>
 						<a href="index.php">Home</a>
 						<a href="layout-garden">Layout Garden</a>	
 						<a href="goals">Goals</a>	
