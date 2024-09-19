@@ -7,9 +7,4 @@
 	$data = json_decode($json, true);
 
 	return $data;
-
-	if ($data === null) {
-    echo "Error decoding JSON.";
-    exit;
-	}
 }

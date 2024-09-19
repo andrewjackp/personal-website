@@ -27,3 +27,14 @@ inner-column {
      line-height: 1.3em;
    }
 } 
+
+.site-footer {
+   bottom: 0;
+   z-index: 1;
+   background: #ffffff;
+	picture {
+		max-width: 100px;
+	}
+	position: relative;
+	z-index: 100;
+}

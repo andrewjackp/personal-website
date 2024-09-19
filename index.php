@@ -6,4 +6,4 @@
 	</inner-column>
 </section>
 
-<?php include('modules/footer/template.php'); ?>
+<?php include('footer.php'); ?>
