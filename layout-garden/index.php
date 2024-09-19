@@ -1,4 +1,3 @@
-<?php include('../header.php'); ?>
 
 <layout-garden>
 	<section class='reviews-list' id="reviews">
@@ -43,5 +42,3 @@
 	</inner-column>
 </section>
 </layout-garden>
-
-<?php include('../modules/footer/template.php'); ?>

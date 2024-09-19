@@ -1,7 +1,4 @@
-<?php include('../header.php'); ?>
-	<section class='welcome'>
-		<inner-column>
-			<h1 class='loud-voice'>
+		<h1 class='loud-voice'>
 				Drums
 			</h1>
 			
@@ -33,7 +30,3 @@
 					</article>
 				</li>
 			</ul class="resume-list">
-				</inner-column>
-			</section>
-		</main>
-<?php include('../modules/footer/template.php'); ?>

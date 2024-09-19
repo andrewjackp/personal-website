@@ -9,6 +9,7 @@
 ?>
 
 <?php include(getFile('config.php')); ?>
+<?php require('router.php');?>
 <!doctype html>
 <html lang='en'>
 	<head>
@@ -20,7 +21,7 @@
 	<meta property='og:image' content='https://peprojects.dev/beta-one/andy/layout-garden/images/meta-wrestle.jpg'>
 	<link rel="stylesheet" href="/css/style.css">
 	</head>
-	<body>
+	<body class='<?=$page?>'>
 		<header class='site-header'>
 			<inner-column>
 				<a href="index.php">

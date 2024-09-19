@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 			<section class='welcome'>
 				<inner-column>
-					<?php include('landing/landing.php'); ?>
+					<?php getTemplate($page); ?>	
 				</inner-column>
 			</section>
 		</main>
