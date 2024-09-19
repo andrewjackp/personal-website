@@ -3,7 +3,10 @@
 		<div class='info'>
 			<h2 class='mid-voice'>Contact method</h1>
 			<span class='ink-voice'>something @ something.com </span>
-		</div>"
+		</div>";
+
+		$heading = "<h1 class='attention-voice'>Heading</h1>";
+
 ?>
 
 <generic-text>

@@ -1,5 +1,3 @@
-<?php include('../header.php'); ?>
-
 <section>
 	<inner-column>
 		<?php $content = "<h1 class='attention-voice'>Contact</h1>
@@ -7,8 +5,6 @@
 			<h2 class='mid-voice'>Email</h1>
 			<span class='ink-voice'>andrewjackp@gmail.com</span>
 		</div>"?>
-		<?php include('../modules/generic-text.php'); ?>
+		<?php include('modules/generic-text.php'); ?>
 	</inner-column>
 </section>
-</main>
-<?php include('../modules/footer.php'); ?>

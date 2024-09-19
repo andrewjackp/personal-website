@@ -4,10 +4,10 @@
 	if (isset($_GET["page"]) ) {
 		$page = $_GET["page"];
 	} else {
-		$page = "home/index";
+		$page = "home";
 	}
 
 	function getTemplate($page) {
-		include($page . '.php');
+		include($page . '/' . "index.php");
 	}
 ?>
