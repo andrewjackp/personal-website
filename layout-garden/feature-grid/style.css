@@ -67,7 +67,7 @@ feature-grid {
 			.quiet-voice {
 				font-size: 0.7rem;
 			} 
-			.mid-voice {
+			.calm-voice {
 				font-size: 1rem;
 			}
 			.loud-voice {
@@ -76,7 +76,7 @@ feature-grid {
 			.loud-voice + .quiet-voice {
 				margin-top: 0.5em;
 			}
-			.loud-voice + .mid-voice {
+			.loud-voice + .calm-voice {
 				margin-top: 0.5em;
 			}
 			.italic-voice {

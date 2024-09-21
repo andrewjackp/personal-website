@@ -70,7 +70,7 @@ body {
 	line-height: 1em
 }
 
-.mid-voice {
+.calm-voice {
 	font-size: clamp(1em, 2vw, 2em);
 	line-height: 1em
 }
@@ -206,7 +206,7 @@ button {
 			height: 100%;
 			display: block;
 
-			.mid-voice {
+			.calm-voice {
 				padding: 10px;
 			}
 		}

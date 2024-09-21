@@ -1,5 +1,6 @@
 {
-    "positions": [
+    "positions":
+    [
         {
             "type": "Freelance",
             "years": "2021 to present",
@@ -25,7 +26,8 @@
             "tools": "HTML, CSS, JavaScript, WordPress, Shopify"
         }
     ],
-    "education": [
+    "education":
+    [
         {
             "institution": "Pasadena City College",
             "studies": "Communications"

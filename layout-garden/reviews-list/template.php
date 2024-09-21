@@ -12,7 +12,7 @@
 			<div class="info">
 				<span class="quiet-voice">R&B</span>
 				<span class="loud-voice">Album</span>
-				<span class="mid-voice">Artist</span>
+				<span class="calm-voice">Artist</span>
 				<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 				<span class="author">By author</span>
 			</div>
@@ -27,7 +27,7 @@
 				<div class="info">
 					<span class="quiet-voice">R&B</span>
 					<span class="loud-voice">Album</span>
-					<span class="mid-voice">Artist</span>
+					<span class="calm-voice">Artist</span>
 					<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 					<span class="author">by author</span>
 				</div>
@@ -41,7 +41,7 @@
 				<div class="info">
 					<span class="quiet-voice">R&B</span>
 					<span class="loud-voice">Album</span>
-					<span class="mid-voice">Artist</span>
+					<span class="calm-voice">Artist</span>
 					<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 					<span class="author">by author</span>
 				</div>
@@ -55,7 +55,7 @@
 				<div class="info">
 					<span class="quiet-voice">R&B</span>
 					<span class="loud-voice">Album</span>
-					<span class="mid-voice">Artist</span>
+					<span class="calm-voice">Artist</span>
 					<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 					<span class="author">by author</span>
 				</div>
@@ -69,7 +69,7 @@
 				<div class="info">
 					<span class="quiet-voice">R&B</span>
 					<span class="loud-voice">Album</span>
-					<span class="mid-voice">Artist</span>
+					<span class="calm-voice">Artist</span>
 					<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 					<span class="author">by author</span>
 				</div>
@@ -83,7 +83,7 @@
 				<div class="info">
 					<span class="quiet-voice">R&B</span>
 					<span class="loud-voice">Album</span>
-					<span class="mid-voice">Artist</span>
+					<span class="calm-voice">Artist</span>
 					<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 					<span class="author">by author</span>
 				</div>
@@ -97,7 +97,7 @@
 				<div class="info">
 					<span class="quiet-voice">R&B</span>
 					<span class="loud-voice">Album</span>
-					<span class="mid-voice">Artist</span>
+					<span class="calm-voice">Artist</span>
 					<p class="preview">Lorem ipsum dolor sit amet, consectetur, adipisicing elit.</p>
 					<span class="author">by author</span>
 				</div>

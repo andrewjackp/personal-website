@@ -3,7 +3,7 @@
 		<h1 class='loud-voice'>
 			Andy Polito
 		</h1>
-			<p class='mid-voice'>
+			<p class='calm-voice'>
 			Front End Web Developer, Web Designer, Drummer 
 			</p>
 				<p class='soft-voice'>

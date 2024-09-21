@@ -1,0 +1,26 @@
+[
+    {
+        "heading": "Five years",
+        "goals":
+        [
+            "Goal number one",
+            "Goal number two"
+        ]
+    },
+    {
+        "heading": "One year",
+        "goals":
+        [
+            "Goal number one",
+            "Goal number two"
+        ]
+    },
+    {
+        "heading": "One month",
+        "goals":
+        [
+            "Goal number one",
+            "Goal number two"
+        ]
+    }
+]

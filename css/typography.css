@@ -1,15 +1,27 @@
 .attention-voice {
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .loud-voice {
-	font-size: 48px;
+	font-size: clamp(36px, 5vw, 60px);
 	line-height: 1em;
+
+	@media (width > 600px) {
+		font-weight: 700;
+	}
 }
 
-.mid-voice {
-	font-size: 1.5rem;
-	line-height: 1.28em
+.calm-voice, p, li {
+	font-size: 1rem;
+	line-height: 1.4em
+}
+
+:is(.calm-voice, p) em {
+	font-style: italic;
+}
+
+:is(.calm-voice. p) strong {
+	font-weight: 700;
 }
 
 .soft-voice, p {
@@ -19,4 +31,8 @@
 
 p {
 	color: var(--ink-light);
+}
+
+p + h2 {
+	margin-top: 1em;
 }

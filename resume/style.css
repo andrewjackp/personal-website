@@ -7,14 +7,14 @@
 	gap: 10px;
 }
 
-.attention-voice {
-	padding-bottom: 20px;
+.info + .info {
+	margin-top: 1.4em;
 }
 
 .loud-voice {
 	font-size: 32px;
 }
 
-.mid-voice {
+.calm-voice {
 	color: black;
 }

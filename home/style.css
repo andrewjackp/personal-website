@@ -16,11 +16,11 @@ text-container {
 		padding-block: 20px;
 	}
 
-	.loud-voice + .mid-voice {
+	.loud-voice + .calm-voice {
 		margin-top: 1.3em;
 	}
 
-	.mid-voice + .soft-voice {
+	.calm-voice + .soft-voice {
 		margin-top: 1.3em;
 	}
 }

@@ -7,29 +7,6 @@
 @import 'modules.css';
 
 /* SECTIONS */
-.site-header inner-column {
-	display: flex;
-   flex-direction: row;;
-   align-items: center;
-   justify-content: space-between;
-   gap: 10px;
-}
-
-.site-header {
-	position: sticky;
-   top: 0;
-   z-index: 1;
-   background-color: #ffffff;
-	picture {
-		max-width: 100px;
-	}
-	ul {
-		display: flex;
-   	flex-direction: row;
-    	gap: 10px;
-	}
-	color: var(--ink-light);
-}
 
 nav {
 	display: flex;
@@ -100,7 +77,7 @@ nav {
 				line-height: 1.28em;
 		}
 	}
-	.mid-voice {
+	.calm-voice {
 		font-size: 18px;
 		font-style: italic;
 		margin-bottom: 1em;
@@ -111,7 +88,7 @@ nav {
 	.info + .info {
 		margin: 10px;
 	}
-	.mid-voice + span {
+	.calm-voice + span {
 		margin-top: .5em;
 	}
 }

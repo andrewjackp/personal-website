@@ -28,7 +28,7 @@
 				<section class="footer-text">
 					<action-diptych>
 						<div class="info">
-						<h2 class="mid-voice">
+						<h2 class="calm-voice">
 							This is the site footer and it has a 'site-map' module in it
 						</h2>
 						<p class="quiet-voice">
