@@ -1,5 +1,11 @@
 
 <?php
+	$pageTitle = "Resume";
+	$content = "My work history/CV in front end web development";
+	include('templates/modules/page-header/template.php');
+?>
+
+<?php
 	$resume_data = getData('data/resume.json');
     $positions = $resume_data["positions"];
     $schools = $resume_data["education"];

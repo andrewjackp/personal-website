@@ -1,1 +1,1 @@
-<?php include('modules/call-to-action.php');?>
+<?php include('templates/modules/call-to-action/index.php');?>

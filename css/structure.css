@@ -38,3 +38,7 @@ inner-column {
 	position: relative;
 	z-index: 100;
 }
+
+.page-header + .info {
+	margin-top: 1em;
+}
