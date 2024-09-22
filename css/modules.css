@@ -7,7 +7,7 @@
 @import '../layout-garden/text-grid-layout/style.css';
 @import '../layout-garden/wrestler-cards/style.css';
 @import '../layout-garden/graphic-diptych/style.css';
-@import '../drums/style.css';
-@import '../resume/style.css';
+@import '../templates/pages/drums/style.css';
+@import '../templates/pages/resume/style.css';
 @import '../layout-garden/style.css';
 @import '../practice-projects/php-practice/style.css';

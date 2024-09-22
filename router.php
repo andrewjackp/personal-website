@@ -7,7 +7,16 @@
 		$page = "home";
 	}
 
+	
+
 	function getTemplate($page) {
-		include($page . '/' . "index.php");
+
+		$pageFilePath = 'templates/pages/' . $page . '/' . "index.php";
+		
+		if( file_exists($pageFilePath) ) {
+			include('templates/pages/' . $page . '/' . "index.php");
+		} else {
+			echo "error $page does not exist";
+		}
 	}
 ?>

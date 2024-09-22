@@ -21,7 +21,7 @@
 		<title>Andy Polito</title>
 		<meta name='description' content='Andy Polito'>
 		<meta property='og:image' content='https://peprojects.dev/beta-one/andy/layout-garden/images/meta-wrestle.jpg'>
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/site.css">
 	</head>
 
 	<body class='<?=$page?>'>

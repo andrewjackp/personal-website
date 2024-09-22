@@ -29,8 +29,12 @@
 	line-height: 1.3em;
 }
 
-p {
+.soft-voice {
 	color: var(--ink-light);
+}
+
+.ink-voice {
+	color: var(--ink);
 }
 
 p + h2 {
