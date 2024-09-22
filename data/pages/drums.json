@@ -2,7 +2,7 @@
 
 	"id": "3214",
 	"slug": "drums",
-   "template": "default",
+   "template": "drums/index",
 
    "title": "You are drummin.",
 	"intro": "intro... to my drumming stuff",

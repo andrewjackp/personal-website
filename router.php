@@ -15,8 +15,6 @@
 		
 		if( file_exists($pageFilePath) ) {
 			include('templates/pages/' . $page . '/' . "index.php");
-		} else {
-			echo "error, the page: <error-code>$page</error-code>, does not exist";
-		}
+		} 
 	}
 ?>

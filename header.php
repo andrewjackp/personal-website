@@ -13,7 +13,6 @@
 <!doctype html>
 <?php require('functions.php'); ?>
 <!-- require router was here -->
-<?php require('router.php'); ?>
 <html lang='en'>
 	<head>
 		<meta charset='utf-8'>
@@ -25,7 +24,7 @@
 		<link rel="stylesheet" href="/css/site.css">
 	</head>
 
-	<body class='<?=$page?>'>
+	<body>
 		<header class='site-header'>
 			<inner-column>
 				<?php include('templates/partials/mast-head.php');?>

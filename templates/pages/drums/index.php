@@ -1,11 +1,15 @@
-<?php
+
+<section>
+	<inner-column>
+
+	<?php
 	$pageTitle = "I like to drum too";
 	include('templates/modules/page-header/template.php');
 ?>
 
-<h1 class='attention-voice'>
-	Drum Credits
-</h1>
+		<h1 class='attention-voice'>
+			Drum Credits
+		</h1>
 			
 	<ul class="resume-list">
 		<li class="resume-item">
@@ -35,3 +39,5 @@
 				</article>
 			</li>
 	</ul class="resume-list">
+	</inner-column>
+</section>

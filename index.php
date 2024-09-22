@@ -2,12 +2,10 @@
 
 <?php
 	//router
-	$page = null;
+	$page = "home";
 	if (isset($_GET["page"]) ) {
 		$page = $_GET["page"];
-	} else {
-		$page = "home";
-	}
+	} 
 
 	$pageDataFilePath = "data/pages/$page.json";
 	$pageData = null;

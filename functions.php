@@ -25,3 +25,15 @@ function show($things) {
 
 	echo '</code>';
 }
+
+function queryString() {
+	return $_SERVER('QUERY_STRING');
+}
+
+function styleGuideDetailLink($type){
+	if ($page == "project") {
+		$link = "?page=module&slug=$type";
+		echo "<a href='$link' target='$type'>LINK</a>";
+	}
+	
+}

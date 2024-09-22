@@ -4,7 +4,7 @@
    "slug": "layout-garden",
 
    "title": "Layout garden",
-   "template": "default",
+   "template": "layout-garden/index",
    "intro": "intro....",
 
 	"sections": [
