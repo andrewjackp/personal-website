@@ -1,7 +1,7 @@
 {
    "id" : "1234567",
    "slug": "goals",
-   "template": "standard",
+   "template": "default",
 
 	"title": "My goals",
 	"intro": "intro.... to goals",

@@ -4,7 +4,7 @@
    "slug": "resume",
 
    "title": "Resume",
-   "template": "defaults",
+   "template": "default",
    "intro": "intro....",
 
 	"sections": [
