@@ -1,11 +1,11 @@
 <?php
 	$projects = getData('data/projects.json');
-	$heading = $heading ?? "Project Spotlight Heading"
+	$project_heading = $project_heading ?? "Project Spotlight Heading";
 ?>
 
 <project-spotlight>
 
-	<h2 class="attention-voice"><?=$heading?></h2>
+	<h2 class="attention-voice"><?=$project_heading?></h2>
 
 	<ul class="project-list">
 		<?php foreach ($projects as $project) { ?>

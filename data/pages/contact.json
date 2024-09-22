@@ -1,0 +1,23 @@
+{
+   "id": "1138",
+   "slug": "contact",
+
+	"title": "Contact",
+	"template": "default",
+	"intro": "intro.... to contact info",
+
+	"sections": [
+		{
+         "module": "generic-text"
+      },
+      {
+        	"module": "call-to-action"
+      },
+      {
+         "module": "page-header"
+      },
+      {
+         "module": "project-spotlight"
+      }
+	]
+}

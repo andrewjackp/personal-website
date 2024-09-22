@@ -1,5 +1,7 @@
 html {
 	--dark: black;
+
+	--paper: #ff4dc0;
 }
 
 :root {

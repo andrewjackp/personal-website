@@ -1,0 +1,24 @@
+{
+
+	 "id": "234hbk123kid",
+   "slug": "resume",
+
+   "title": "Resume",
+   "template": "defaults",
+   "intro": "intro....",
+
+	"sections": [
+		{
+         "module": "generic-text"
+      },
+      {
+        	"module": "call-to-action"
+      },
+      {
+         "module": "page-header"
+      },
+      {
+         "module": "project-spotlight"
+      }
+	]
+}

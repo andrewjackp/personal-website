@@ -1,0 +1,24 @@
+{
+
+	"id": "3214",
+	"slug": "drums",
+   "template": "default",
+
+   "title": "You are drummin.",
+	"intro": "intro... to my drumming stuff",
+
+	"sections": [
+		{
+         "module": "generic-text"
+      },
+      {
+        	"module": "call-to-action"
+      },
+      {
+         "module": "page-header"
+      },
+      {
+         "module": "project-spotlight"
+      }
+	]
+}

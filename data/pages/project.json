@@ -1,0 +1,23 @@
+{
+   "id": "234h33bj",
+   "slug": "project-detail",
+
+	"title": "Project detail page",
+	"template": "default",
+	"intro": "intro....",
+
+	"sections": [
+		{
+         "module": "generic-text"
+      },
+      {
+        	"module": "call-to-action"
+      },
+      {
+         "module": "page-header"
+      },
+      {
+         "module": "project-spotlight"
+      }
+	]
+}
