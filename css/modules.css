@@ -12,6 +12,8 @@
 @import '../templates/pages/resume/style.css';
 @import '../templates/pages/goals/style.css';
 @import '../templates/modules/page-header/style.css';
+@import '../templates/modules/generic-text/style.css';
 @import '../templates/modules/project-spotlight/style.css';
+@import '../templates/modules/goals-list/style.css';
 @import '../templates/components/project-card/style.css';
 @import '../practice-projects/php-practice/style.css';

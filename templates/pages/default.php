@@ -6,6 +6,8 @@
 	</inner-column>
 	</section>
 
+<?php if ( isset($pageData["section"] ) ) { ?>
+
 <?php foreach ($pageData["sections"] as $section) {
 	$module = $section["module"];
 ?>
@@ -17,9 +19,10 @@
 	</section>
 
 <?php } ?>	
+<?php } ?>
 
-<section class='welcome'>
+<section>
 	<inner-column>
-		<?php getTemplate($page); ?>	
+		<?php getTemplate($page); ?>
 	</inner-column>
 </section>

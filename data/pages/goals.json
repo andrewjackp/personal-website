@@ -4,15 +4,14 @@
    "template": "default",
 
 	"title": "My goals",
-	"intro": "intro.... to goals",
+	"intro": "Things I want to accomplish",
 
 	"sections": [
 		{
-         "module": "generic-text",
-         "content": "<h2 class='attention-voice'>My goals</h2><p class='calm-voice'>here are some goals</p>"
+         "module": "generic-text"
       },
       {
-        	"module": "call-to-action"
+        	"module": "goals-list"
       },
       {
          "module": "page-header"

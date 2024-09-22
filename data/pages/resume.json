@@ -1,11 +1,11 @@
 {
 
-	 "id": "234hbk123kid",
+	"id": "234hbk123kid",
    "slug": "resume",
 
    "title": "Resume",
-   "template": "default",
-   "intro": "intro....",
+   "template": "resume/index",
+   "intro": "intro.... to da rez",
 
 	"sections": [
 		{

@@ -2,8 +2,8 @@
 
 	 "id": "111234hbj",
    "slug": "projects",
-   "template": "projects",
+   "template": "projects/index",
 
    "title": "Projects Page",
-   "intro": "intro...."
+   "intro": "intro.... to the projects"
 }

@@ -1,1 +1,9 @@
-style.css
+goals-module {
+	display: block;
+	border: 1px solid black;
+	padding: 10px;
+
+	.info, h2, span {
+		border: 1px solid black;
+	}
+}

@@ -16,19 +16,27 @@
 
 	<header class="page-header">
 
+		<inner-column>
+
 			<h1 class="loud-voice"><?=$title?></h1>
 
 			<p><?=$teaser?></p>
 
+		</inner-column>
 	</header>
 
-</article>
+
 
 <?php foreach ($sections as $section) {
 	$module = $section["module"];
 	?>
 
-	<?php include("templates/modules/$module/template.php"); ?>
+	<section>
+		<inner-column>
+			<?php include("templates/modules/$module/template.php"); ?>
+		</inner-column>
+	</section>
+	
 
 <?php } ?>	
-
+</article>

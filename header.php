@@ -12,7 +12,8 @@
 
 <!doctype html>
 <?php require('functions.php'); ?>
-<?php require('router.php'); ?> 
+<!-- require router was here -->
+<?php require('router.php'); ?>
 <html lang='en'>
 	<head>
 		<meta charset='utf-8'>
