@@ -1,0 +1,25 @@
+.project-list {
+	display: grid;
+	gap: 10px;
+
+	@media (width > 600px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+.project {
+	max-width: 300px;
+}
+
+
+project-spotlight {
+	display: block;
+
+	h2 + ul {
+		margin-top: 0.8em;
+	}
+}
+
+header + project-spotlight {
+	margin-top: 15px;
+}

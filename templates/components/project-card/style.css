@@ -1,0 +1,13 @@
+project-card {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+	border: 1px solid var(--ink-light);
+
+	h3, p, a, figure {
+		padding: 10px;
+		border: 1px solid var(--ink-light);
+	}
+}

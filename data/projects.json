@@ -1,0 +1,131 @@
+[
+    {
+        "title": "Project 1",
+        "slug": "example-project-name",
+        "teaser": "This project is great because..",
+        "url": "https://outside.url",
+        "case-study":
+        [
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "project-spotlight"
+            }
+        ]
+    },
+    {
+        "title": "Project 2",
+        "slug": "example-project-name",
+        "teaser": "This project is great because..",
+        "url": "https://outside.url",
+        "featured": true,
+        "case-study":
+        [
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "project-spotlight"
+            }
+        ]
+    },
+    {
+        "title": "Project 3",
+        "slug": "example-project-name",
+        "teaser": "This project is great because..",
+        "url": "https://outside.url",
+        "featured": true,
+        "case-study":
+        [
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "project-spotlight"
+            }
+        ]
+    },
+    {
+        "title": "Project 4",
+        "slug": "example-project-name",
+        "teaser": "This project is great because..",
+        "url": "https://outside.url",
+        "case-study":
+        [
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "project-spotlight"
+            }
+        ]
+    },
+    {
+        "title": "Project 5",
+        "slug": "example-project-name",
+        "teaser": "This project is great because..",
+        "url": "https://outside.url",
+        "case-study":
+        [
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "project-spotlight"
+            }
+        ]
+    },
+     {
+        "title": "Project 6",
+        "slug": "example-project-name",
+        "teaser": "This project is great because..",
+        "url": "https://outside.url",
+        "featured": true,
+        "case-study":
+        [
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "generic-text"
+            },
+            {
+                "module": "project-spotlight"
+            }
+        ]
+    }
+]
