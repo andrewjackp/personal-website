@@ -1,10 +1,6 @@
 <?php
-	$title = $title ?? "Heading for the page";
-	$content = $content ?? "Here is a short introduction to explain which project is on display here.";
-
-	include ('templates/modules/page-header/template.php');
-
 	$projects = getData('data/projects.json');
+	$heading = $heading ?? "Project Spotlight Heading"
 ?>
 
 <project-spotlight>

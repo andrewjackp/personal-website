@@ -28,17 +28,6 @@ inner-column {
    }
 } 
 
-.site-footer {
-   bottom: 0;
-   z-index: 1;
-   background: #ffffff;
-	picture {
-		max-width: 100px;
-	}
-	position: relative;
-	z-index: 100;
-}
-
 .page-header + .info {
 	margin-top: 1em;
 }

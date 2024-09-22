@@ -1,15 +1,19 @@
+<?php 
+	$heading = $heading ?? "Call to action heading";
+	$intro = $intro ?? "Introduction";
+	$message = $message ?? "message";
+?>
+
 <call-to-action>
 	<div class="info">
 		<h1 class='loud-voice'>
-			Andy Polito
+			<?=$heading?>
 		</h1>
 			<p class='calm-voice'>
-			Front End Web Developer, Web Designer, Drummer 
+			<?=$intro?>
 			</p>
 				<p class='soft-voice'>
-					Hit me up if you want to build something great! 
-					If you don't know what you want, that's okay. 
-					We can talk real life things like pro-wrestling.
+					<?=$message?>
 				</p>
 	</div>
 				<div class="button-container">

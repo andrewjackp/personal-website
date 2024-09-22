@@ -1,8 +1,6 @@
 <?php
 	$title = $project["title"];
-	$url = $project["url"];
-	$intro = $intro ?? "Here are my featured projects";
-	$heading = $heading ?? "Heading for the page";
+	$slug = $project["slug"];
 ?>
 
 <project-card>
@@ -13,5 +11,5 @@
 
 	<p>Teaser here</p>
 
-	<a href="<?=$url?>">Visit</a>
+	<a href="?page=project&slug=<?=$slug?>">Visit</a>
 </project-card>
