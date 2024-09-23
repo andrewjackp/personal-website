@@ -4,11 +4,6 @@
 	if (isset($_GET["page"]) ) {
 		$page = $_GET["page"];
 	} 
-?>
-
-<?php include('header.php'); ?>
-
-<?php
 
 	$pageDataFilePath = "data/pages/$page.json";
 	$pageData = null;
@@ -18,6 +13,11 @@
 		$pageData = json_decode($thePageJson, true);
 	}
 
+?>
+
+<?php include('header.php'); ?>
+
+<?php
 	if ($pageData) {
 
 		if (!isset($pageData["template"] ) ) { 

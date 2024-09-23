@@ -35,5 +35,16 @@ function styleGuideDetailLink($type){
 		$link = "?page=module&slug=$type";
 		echo "<a href='$link' target='$type'>LINK</a>";
 	}
-	
+}
+
+function pageClass($page) {
+	return "$page-page";
+}
+
+function pageTemplateClass($pageData) {
+	if ( isset($pageData["template"]) ) {
+		return "$pageData[template]-template";
+	} else {
+		return "default-template";
+	}
 }
