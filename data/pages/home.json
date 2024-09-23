@@ -3,25 +3,10 @@
    "slug": "home",
 
 	"title": "You are home.",
-   "template": "home/index",
 	"intro": "intro....",
+   "template": "home/index",
 
 	"sections": [
-		{
-         "module": "generic-text",
-         "content": "<h2 class='attention-voice'>here is the homepage</h2><p class='calm-voice'>Check it out!</p>"
-      },
-      {
-         "module": "generic-text"
-      },
-      {
-        	"module": "call-to-action"
-      },
-      {
-         "module": "page-header"
-      },
-      {
-         "module": "project-spotlight"
-      }
+		
 	]
 }

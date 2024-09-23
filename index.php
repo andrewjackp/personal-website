@@ -18,7 +18,10 @@
 	if ($pageData) {
 
 		if (!isset($pageData["template"] ) ) { 
-				include("templates/pages/default.php");
+
+			//including default template if none
+
+			include("templates/pages/default.php");
 		}	else {
 			include("templates/pages/$pageData[template].php");
 		}

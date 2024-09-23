@@ -6,21 +6,19 @@
 	</inner-column>
 	</section>
 
-<?php if ( isset($pageData["section"] ) ) { ?>
 
-<?php foreach ($pageData["sections"] as $section) {
-	$module = $section["module"];
-?>
+<?php if ( isset($pageData["sections"] ) ) { ?>
+	<?php foreach ($pageData["sections"] as $section) {
+		$module = $section["module"];
+		$link = "?page=module&slug=$section[module]";
+	?>
 
-	<section>
-		<inner-column>
-			
-			<?php styleGuideDetailLink($module, $pageData["slug"]) ?>
+		<section>
+			<inner-column>
+				<a href='<?=$link?>' target='<?=$module?>'>Details</a>
+				<?php include("templates/modules/$module/template.php"); ?>
+			</inner-column>
+		</section>
 
-			<?php include("templates/modules/$module/template.php"); ?>
-		</inner-column>
-	</section>
-
-<?php } ?>	
+	<?php } ?>	
 <?php } ?>
-
