@@ -31,7 +31,7 @@ function queryString() {
 }
 
 function styleGuideDetailLink($type){
-	if ($page == "project") {
+	if ($page == "style-guide") {
 		$link = "?page=module&slug=$type";
 		echo "<a href='$link' target='$type'>LINK</a>";
 	}
