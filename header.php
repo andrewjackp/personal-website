@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="/css/site.css">
 	</head>
 
-	<body>
+	<body class="<?=$page?>">
 		<header class='site-header'>
 			<inner-column>
 				<?php include('templates/partials/mast-head.php');?>

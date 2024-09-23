@@ -1,11 +1,14 @@
-<?php include('header.php'); ?>
-
 <?php
 	//router
 	$page = "home";
 	if (isset($_GET["page"]) ) {
 		$page = $_GET["page"];
 	} 
+?>
+
+<?php include('header.php'); ?>
+
+<?php
 
 	$pageDataFilePath = "data/pages/$page.json";
 	$pageData = null;
