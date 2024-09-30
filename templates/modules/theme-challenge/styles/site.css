@@ -1,0 +1,140 @@
+/* 
+	BTW in case it isn't obvious... the whole PSSST-CSS idea is a joke 
+	like... (it's just CSS)
+*/
+
+/* P reset */
+@import "preset.css";
+
+/* S etup */
+@import "setup.css";
+
+/* S ettings */
+@import "settings.css";
+/* @import "developer-styles.css"; */
+
+/* S tructure */
+@import "structure.css";
+
+/* T ypography */
+@import "typography.css";
+
+/* C omponents */
+@import "components.css";
+
+/* S tuff (modules) */
+@import "modules.css";
+
+/* S ections and more stuff */
+/* 
+	really this ends up being the "Scratch" area 
+	where you can put everything as you think it up --
+	then... when it starts for form meaninful groups - 
+	you can move them or create new files
+*/
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+#top {
+	position: sticky;
+	top: 0;
+	background-color: var(--white);
+	z-index: 1;
+	color: var(--darkblue);
+	font-family: Helvetica;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	font-weight: 700;
+}
+
+footer {
+	background-color: var(--white);
+	color: var(--darkblue);
+}
+
+
+section:is(.welcome) {
+  	background-color: var(--white);
+
+  	inner-column {
+  		padding: 0;
+  	}
+
+  	picture {
+  		border-radius: 0;
+  	}
+
+  	@media (width > 600px) {
+  		inner-column {
+  			padding: 20px;
+  		}
+
+  	picture {
+  		border-radius: 8px;
+  		}
+  	}
+}
+
+section:is(.latest){
+	background-color: var(--white);
+}
+
+section:is(.sign-up, .get-involved) {
+	/*inner-column {
+		max-width: var(--tight-inner-column);
+	}*/
+	background-color: var(--paper);
+	color: var(--white);
+}
+
+section.get-involved {
+	background-color: var(--highlight);
+}
+
+section.get-involved {
+	.button {
+		background-color: var(--ink);
+		color: var(--paper);
+	}
+
+	call-to-action {
+		text-content {
+			order: -1;
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	section.sign-up {
+		background-color: var(--white);
+		color: var(--black);
+	}
+
+	section.sign-up {
+		.button {
+			background-color: var(--white);
+			color: var(--darkblue);
+			border: 1.2px solid var(--blue);
+		}
+		.button:hover {
+			opacity: 0.7;
+		}
+	}
+
+	section.get-involved {
+		background-color: var(--white);
+		color: var(--black);
+	.button {
+			background-color: var(--white);
+			color: var(--darkblue);
+			border: 1.2px solid var(--blue);
+		}
+		.button:hover {
+			opacity: 0.7;
+		}
+}

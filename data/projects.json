@@ -33,9 +33,6 @@
                 "content": "<h2>How many layouts can I master?</h2><p>Well, I started strong and now I need to make way more.</p>"
             },
             {
-                "module": "page-header"
-            },
-            {
                 "module": "project-spotlight"
             }
         ]
@@ -50,15 +47,6 @@
         [
             {
                 "module": "generic-text"
-            },
-            {
-                "module": "generic-text"
-            },
-            {
-                "module": "generic-text"
-            },
-            {
-                "module": "project-spotlight"
             }
         ]
     },
@@ -112,12 +100,6 @@
         "featured": true,
         "case-study":
         [
-            {
-                "module": "generic-text"
-            },
-            {
-                "module": "generic-text"
-            },
             {
                 "module": "generic-text"
             },

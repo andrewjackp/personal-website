@@ -10,7 +10,7 @@
 			<a href="?page=goals" class='<?php if ($page == "goals") { echo "active"; }?>'>Goals</a>	
 			<a href="?page=resume" class='<?php if ($page == "resume") { echo "active"; }?>'>Resume</a>	
 			<a href="?page=drums" class='<?php if ($page == "drums") { echo "active"; }?>'>Drumming</a>	
-			<a href="?page=style-guide" class='<?php if ($page == "style-guide") { echo "active"; }?>'>Style Guide</a>	
+			<a href="?page=style-guide" class='<?php if ($page == "style-guide") { echo "active"; }?>'>Style Guide</a>
 		</nav>
 	</inner-column>
 </footer>
