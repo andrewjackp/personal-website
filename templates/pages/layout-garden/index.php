@@ -41,4 +41,10 @@
 		<?php include('graphic-diptych/template.php'); ?>
 	</inner-column>
 </section>
+
+<section class='#' id="#">
+	<inner-column>
+		<?php include('eames-institute/template.php'); ?>
+	</inner-column>
+</section>
 </layout-garden>
