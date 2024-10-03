@@ -38,12 +38,12 @@
 	}
 
 	@media (width > 1600px) {
+		grid-template-rows: 10vh 17vh 30vh 30vw;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 10vh 17vh 30vh 30vh;
 	}
 
 	@media (width > 2000px) {
-		grid-template-rows: 10vh 10vh 30vh 30vh;
+		grid-template-rows: 10vh 10vh 30vh 30vw;
 	}
 }
 
