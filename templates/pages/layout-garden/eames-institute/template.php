@@ -10,7 +10,6 @@
 </div>
 
 <eames-card>
-
 <ul class="eames-card-list" id="eames-card-list">
 	<li class='eames-card-item'>
 		<article class="eames-card">
