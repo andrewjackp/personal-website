@@ -10,7 +10,7 @@ function ToDo(todos = [], idMarker = 0) {
 
 	this.print = function(note = "") {
 		console.log(`---- ${note}`);
-		console.log('todos: ', this.todos);
+		console.log('todos: ', todos);
 	}
 }
 
