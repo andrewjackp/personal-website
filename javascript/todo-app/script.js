@@ -1,3 +1,30 @@
+
+function ToDo(todos, idMarker) {
+
+	this.todos = todos,
+	this.idMarker = idMarker,
+
+	this.complete = function(id) {
+		console.log(`completed: ${this.todos}`);
+	}
+}
+
+const randy = new ToDo("Dig hole", 7);
+const hogan = new ToDo("fly to mars", 1);
+
+randy.complete();
+
+console.log(hogan.idMarker);
+
+hogan.complete();
+
+ToDo.prototype.deliver = function() {
+	console.log(`the todo item, ${this.todos} is done.`);
+};
+
+hogan.deliver();
+
+
 const todoApp = {
 
 	todos: [],
