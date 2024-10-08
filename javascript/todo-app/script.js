@@ -1,48 +1,50 @@
-const todos = [];
+const todoApp = {
 
-let count = 0;
+	todos: [],
+	idMarker: 0,
 
-function print(note = ""){
-	console.log(`---- ${note}`);
-	console.log('todos: ', todos);
-}
+	print: function(note = "") {
+		console.log(`---- ${note}`);
+		console.log('todos: ', this.todos);
+	},
 
-function add(content){
+	add: function(content) {
 	const todo = {
-		id: `a${count++}`,
+		id: `a${this.idMarker++}`,
 		content: content
 	};
 
-	todos.push(todo);
-	print(`added ${content}`);
-}
+	this.todos = [...this.todos, todo];
+	this.print(`added ${content}`);
+	},	
 
-function remove(id){
-	var todo = {};
-	todos.splice(id, 1);
+ 	remove: function(id) {
+	this.todos.splice(id, 1);
+	this.print(`removed ${this.todos[id].content}`);
+	},
 
-	print(`removed ${todos[id].content}`);
-}
+ 	complete: function(id) {
+	this.todos[id].complete = true;
+	this.print(`completed: ${this.todos[id].content}`);
+	},
 
-function complete(id){
-	todos[id].complete = true;
-
-	print(`completed: ${todos[id].content}`);
-}
-
-function update(id, content) {
-	todos[id].content = content;
-	print(`updated: ${todos[id].content}`);
+ 	update: function(id, content) {
+	this.todos[id].content = content;
+	this.print(`updated: ${this.todos[id].content}`);
+	},
 };
 
+const otherTodo = todoApp;
 
-add("walk dog");
-add("brush teeth");
-add("make coffee");
-add("water the plants");
+todoApp.add("walk dog");
+todoApp.add("brush teeth");
+todoApp.add("make coffee");
+todoApp.add("water the plants");
 
-remove(1);
+todoApp.remove(1);
 
-complete(0);
+todoApp.complete(0);
 
-update(2, "make a new coffee");
+otherTodo.add("Go to the beaaach");
+
+todoApp.update(2, "make a new coffee");
