@@ -1,28 +1,39 @@
 
-function ToDo(todos, idMarker) {
+function ToDo(todos = [], idMarker = 0) {
 
 	this.todos = todos,
 	this.idMarker = idMarker,
 
 	this.complete = function(id) {
 		console.log(`completed: ${this.todos}`);
+	},
+
+	this.print = function(note = "") {
+		console.log(`---- ${note}`);
+		console.log('todos: ', this.todos);
 	}
 }
 
-const randy = new ToDo("Dig hole", 7);
-const hogan = new ToDo("fly to mars", 1);
+const task1 = new ToDo("Dig hole", 7);
+const task2 = new ToDo("fly to mars", 1);
 
-randy.complete();
+task1.complete();
 
-console.log(hogan.idMarker);
+console.log(task2.idMarker);
 
-hogan.complete();
+task2.print("add laundry");
 
-ToDo.prototype.deliver = function() {
-	console.log(`the todo item, ${this.todos} is done.`);
-};
+ToDo.prototype.add = function(content) {
+	const todo = {
+		id: `a${this.idMarker++}`,
+		content: content
+	};
 
-hogan.deliver();
+	this.todos = [...this.todos, todo];
+	this.print(`added ${content}`);
+}
+
+task2.add("make coffee");
 
 
 const todoApp = {
@@ -61,17 +72,17 @@ const todoApp = {
 	},
 };
 
-const otherTodo = todoApp;
+// const otherTodo = todoApp;
 
-todoApp.add("walk dog");
-todoApp.add("brush teeth");
-todoApp.add("make coffee");
-todoApp.add("water the plants");
+// todoApp.add("walk dog");
+// todoApp.add("brush teeth");
+// todoApp.add("make coffee");
+// todoApp.add("water the plants");
 
-todoApp.remove(1);
+// todoApp.remove(1);
 
-todoApp.complete(0);
+// todoApp.complete(0);
 
-otherTodo.add("Go to the beaaach");
+// otherTodo.add("Go to the beaaach");
 
-todoApp.update(2, "make a new coffee");
+// todoApp.update(2, "make a new coffee");
