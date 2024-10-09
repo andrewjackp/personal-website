@@ -30,7 +30,7 @@ ToDo.prototype.add = function(content) {
 	};
 
 	this.todos = [...this.todos, todo];
-	this.print(`added ${content}`);
+	this.print(`added ${content}, ${this.idMarker}`);
 }
 
 task2.add("make coffee");
@@ -57,18 +57,18 @@ const todoApp = {
 	},	
 
  	remove: function(id) {
-	this.todos.splice(id, 1);
-	this.print(`removed ${this.todos[id].content}`);
+		this.todos.splice(id, 1);
+		this.print(`removed ${this.todos[id].content}`);
 	},
 
  	complete: function(id) {
-	this.todos[id].complete = true;
-	this.print(`completed: ${this.todos[id].content}`);
+		this.todos[id].complete = true;
+		this.print(`completed: ${this.todos[id].content}`);
 	},
 
  	update: function(id, content) {
-	this.todos[id].content = content;
-	this.print(`updated: ${this.todos[id].content}`);
+		this.todos[id].content = content;
+		this.print(`updated: ${this.todos[id].content}`);
 	},
 };
 
