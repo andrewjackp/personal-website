@@ -1,32 +1,51 @@
 
-function ToDo(todos = [], idMarker = 0) {
+function ToDo(task, id = 0, complete = false) {
 
-	this.todos = todos,
-	this.idMarker = idMarker,
+	this.task = task,
+	this.id = id,
+	this.complete = complete
+	// this.status = completeCheck
 
-	this.complete = function(id) {
-		console.log(`completed: ${this.todos}`);
-	},
+};
 
-	this.print = function(note = "") {
-		console.log(`---- ${note}`);
-		console.log('todos: ', todos);
-	}
-}
+
+// let completeCheck = function(){
+// 	console.log(this.complete);
+// }
 
 let myTasks = [
-	new ToDo ("make coffee", 1),
-	new ToDo ("walk dog", 2),
-	new ToDo ("make lunch", 3)
+	new ToDo ("make coffee", 1, true),
+	new ToDo ("walk dog", 2, false),
+	new ToDo ("make lunch", 3, false),
+	new ToDo ("learn lesson", 4, true)
 ];
 
-localStorage.myTasks = JSON.stringify(myTasks);
+localStorage.setItem("myTasks", JSON.stringify(myTasks));
 
-let data = JSON.parse(localStorage.getItem('myTasks'));
+let tasks = JSON.parse(localStorage.getItem('myTasks'));
 
-data.forEach(tasks => {
-	console.log(tasks)
-});
+// tasks.forEach(todo => {
+// 	todo.status = completeCheck;
+// 	todo.status();
+// });
+
+function removeTask(id){
+	const filtered = tasks.filter(items => {
+		return items.id != id;
+	});
+	data = [...filtered];
+	console.log(filtered);
+};
+
+function update(task, id, complete) {
+	tasks[id].task = task;
+	tasks[id].complete = complete;
+};
+
+removeTask(1); 
+
+update("do the dishes", 2, false);
+
 
 // task1.complete();
 
