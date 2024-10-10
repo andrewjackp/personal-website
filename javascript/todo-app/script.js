@@ -46,6 +46,19 @@ removeTask(1);
 
 update("do the dishes", 2, false);
 
+ToDo.prototype.add = function(content) {
+	const todo = {
+		id: `a${this.idMarker++}`,
+		content: content
+	};
+
+	this.todos = [...this.todos, todo];
+	this.print(`added ${content}, ${this.idMarker}`);
+}
+
+ToDo.add("stuff");
+
+
 
 // task1.complete();
 
