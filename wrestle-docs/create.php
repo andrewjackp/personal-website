@@ -1,5 +1,5 @@
 <?php 
-	$matchData = file_get_contents('wrestling-matches.json');
+	$matchData = file_get_contents('data/matches.json');
 
 	var_dump($matchData);
 
