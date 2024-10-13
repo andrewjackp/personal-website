@@ -39,9 +39,11 @@ match-card {
 
 text-content {
 	display: block;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	font-family: sans-serif;
-	line-height: 1.4em;
+	display: grid;
+   flex-direction: column;
+   height: 100%;
+   align-items: end;
+   font-family: sans-serif;
+   line-height: 20px;
+   padding-top: 10px;
 }
