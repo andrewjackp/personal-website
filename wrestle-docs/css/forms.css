@@ -46,5 +46,5 @@ form button {
 
 .loud-voice {
 	font-weight: 600;
-	color: white;
+	color: inherit;
 }

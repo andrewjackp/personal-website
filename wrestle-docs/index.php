@@ -15,11 +15,19 @@
 
 	<body class='<?=$page?>'>
 		<header>
-			<?php include('site-menu.php'); ?>
+			<section>
+				<inner-column>
+					<?php include('site-menu.php'); ?>
+				</inner-column>
+			</section>
 		</header>
 
 		<main class="page-content">
-			<?php getTemplate($page); ?>			
+			<section>
+				<inner-column>
+					<?php getTemplate($page); ?>		
+				</inner-column>
+			</section>	
 		</main>
 
 	</body>

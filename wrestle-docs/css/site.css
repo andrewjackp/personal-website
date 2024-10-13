@@ -5,6 +5,7 @@
 @import "forms.css";
 @import "menu.css";
 @import "components.css";
+@import "structure.css";
 
 @keyframes gradient {
 	0% {
@@ -24,10 +25,6 @@ html {
 body {
 	padding: 20px;
 	min-height: 100vh;
-
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 }
 
 .page-content {
@@ -40,16 +37,20 @@ body {
 
 .match-list {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-areas: "one one one one two two" "one one one one three three";
 	gap: 10px;
 
-	@media (width > 600px){
+	.match:nth-of-type(1){
+		grid-area: one;
+}
+
+/*	@media (width > 600px){
 		grid-template-columns: 1fr 1fr;
 	};
 
 	@media (width > 900px){
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-	};
+	};*/
 }
 
 .image {

@@ -9,7 +9,6 @@
 	text-align: center;
 	letter-spacing: 0.05em;
 	font-family: "Raleway";
-	color: white;
 	text-shadow: -2px 2px 5px rgba(0,0,0,.2);
 }
 
@@ -22,10 +21,9 @@ match-card {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	border: 0.8px solid white;
+	border: 0.8px solid grey;
 	border-radius: 8px;
 	padding: 10px;
-	text-shadow: -2px 2px 5px rgba(0,0,0,.2);
 	line-height: 1.4em;
 
 	.button {
