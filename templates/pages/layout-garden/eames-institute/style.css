@@ -27,7 +27,7 @@
 .eames-card-list {
 	display: grid;
 	
-	gap: 10px;
+	gap: 0px;
 
 	@media (width > 700px) {
 		grid-template-areas:
@@ -37,13 +37,9 @@
 	}
 
 	@media (width > 1000px) {
-		gap: 30px 10px;
+		gap: 30px 30px;
 	}
 
-
-	@media (width > 2000px) {
-		grid-template-rows: 10vh 10vh 30vh 30vh;
-	}
 }
 
 .eames-card-item {
