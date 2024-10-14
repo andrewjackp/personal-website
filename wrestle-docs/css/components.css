@@ -35,6 +35,10 @@ match-card {
 		font-size: 20px;
 		text-shadow: -2px 2px 5px rgba(0,0,0,.2);
 	}
+
+	img {
+		max-height: 80%;
+	}
 }
 
 text-content {
@@ -43,6 +47,7 @@ text-content {
    flex-direction: column;
    height: 100%;
    align-items: end;
+   margin-top: auto;
    font-family: sans-serif;
    line-height: 20px;
    padding-top: 10px;
