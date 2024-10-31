@@ -2,8 +2,6 @@ import {listData} from "./data/stories.js";
 import {renderForm, isLoggedIn, signOut, handleSignIn, signIn} from "./views/sign-in.js";
 import {el} from "./utilities/utilities.js";
 
-console.clear();
-
 let app = null;
 
 const comments = [];
@@ -49,7 +47,6 @@ function renderDashboard(page) {
 
 window.addEventListener("click", (event) => {
 	const view = event.target.dataset.view;
-	const action = event.target.dataset.action;
 
 	if (view == "sign-in") {
 		console.log("sign in view");
@@ -69,41 +66,60 @@ window.addEventListener("click", (event) => {
 	}
 
 	if (view == "detail") {
-		console.log("hello: ", event.target.dataset.id);
+		console.log("article id: ", event.target.dataset.id);
 
 		app.innerHTML = renderDetail(event.target.dataset.id);
 
 		if (isLoggedIn == true) {
-			console.log("SUP");
 			app.innerHTML = renderCommentForm();
 		}
 	}
 });
 
-window.addEventListener("click", (event) => {
-	if (action == "signInOutButton") {
-		console.log("yes");
-		signOut(event.target.closest("form"));
-	}
+window.addEventListener("submit", (event) => {
+	event.preventDefault();
+
+	const action = event.target.dataset.action;
+	const form = event.target.dataset.form;
+
+	console.log(form);
+
+	// if (action == "signInOutButton") {
+	// 	console.log("yes");
+	// 	signOut(event.target.closest("form"));
+	// }
 	
-	if (action == "commentBtn") {
+	if (form === "comment-form") {
 		console.log("comment-clicked");
 
-		var commentInput = el(".comment-input");
+		console.log(event.target);
+
+		var commentInput = event.target.querySelector("#comment-input");
+
+		console.log(commentInput.value);
 
 		addComment(commentInput.value);
+
 	}
-})
+
+	if (form === "user-form") {
+		console.log("user form-clicked");
+
+		if (handleSignIn()){
+			app.innerHTML = renderList(listData);
+		}
+	}
+});
 
 function renderCommentForm() {
 	return `
-		<form id="comment-form">
-			<label for="comments">Share your thoughts</label>
-			<input type="text" class="comment-input">
-			<button type="submit" data-action="commentBtn">Add Comment</button>
-			<output></output>
+		<form data-form="comment-form" id="comment-form">
+			<label for="c">Share your thoughts</label>
+			<input type="text" id="comment-input">
+
+			<button type="submit">Add Comment</button>
 		</form>
-			`;
+	`;
 }
 
 function addComment(content) {
@@ -112,10 +128,7 @@ function addComment(content) {
 		content: content,
 		username: "andy"
 	};
-	console.log(content);
 	comments.push(content);
-
-	console.log(comments);
 }
 
 // function renderComment(comment) {
@@ -142,13 +155,5 @@ function initializeApp() {
 	signIn("andy");
 	app.innerHTML = renderList(listData);
 };
-
-document.addEventListener("submit", (event) => {
-	event.preventDefault();
-
-	if(handleSignIn()){
-		app.innerHTML = renderList(listData);
-	}
-});
 
 initializeApp();
