@@ -1,3 +1,12 @@
+
+body {
+	font-family: sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
 header {
 	border: 1px solid black;
 	padding: 20px;

@@ -4,7 +4,7 @@ import {el} from "./utilities/utilities.js";
 
 let app = null;
 
-const comments = [];
+let comments = [];
 
 let idMarker = 0;
 
@@ -119,36 +119,40 @@ function renderCommentForm() {
 
 			<button type="submit">Add Comment</button>
 		</form>
+		<div id="comment-outlet"></div>
 	`;
 }
 
 function addComment(content) {
+
 	const comment = {
 		id: `${idMarker++}`,
 		content: content,
 		username: "andy"
 	};
-	comments.push(content);
+	comments = [...comments, comment];
+	renderComments(comments);
 }
 
-// function renderComment(comment) {
-// 	return `
-// 		<article>
-// 			<h2>${comment.username}</h2>
-// 			<span>${comment.content}</span>
-// 		</article>
-// 	`;
-// }
+function renderComment(comment) {
+	return `
+		<article>
+			<h2>${comment.username}</h2>
+			<span>${comment.content}</span>
+		</article>
+	`;
+}
 
-// function renderComments(comments) {
-// 	let template = "<ul>";
-// 	list.forEach((comment) => {
-// 		template += `
-// 		<li>${renderComment(comment)}</li>`;
-// 	});
-// 	template += "</ul>";
-// 	return template;
-// }
+function renderComments(comments) {
+	var outlet = document.querySelector("#comment-outlet");
+	let template = "<ul>";
+	comments.forEach((comment) => {
+		template += `
+		<li>${renderComment(comment)}</li>`;
+	});
+	template += "</ul>";
+	outlet.innerHTML += template;
+}
 
 function initializeApp() {
 	app = document.getElementById("app");
