@@ -1,6 +1,6 @@
-import {listData} from "./data/stories.js";
-import {renderForm, isLoggedIn, signOut, handleSignIn, signIn} from "./views/sign-in.js";
-import {el} from "./utilities/utilities.js";
+import { listData } from "./data/stories.js";
+import { renderForm, isLoggedIn, signOut, handleSignIn, signIn } from "./views/sign-in.js";
+import { el } from "./utilities/utilities.js";
 
 let app = null;
 
@@ -34,6 +34,7 @@ function renderDetail(id) {
 	const found = listData.find(function (item) {
 		return item.id == id;
 	});
+	console.log(found);
 	return `
 		<article>
 		<h2>${found.newsStory}</h2>
@@ -71,7 +72,7 @@ window.addEventListener("click", (event) => {
 		app.innerHTML = renderDetail(event.target.dataset.id);
 
 		if (isLoggedIn == true) {
-			app.innerHTML = renderCommentForm();
+			app.innerHTML += renderCommentForm();
 		}
 	}
 });
@@ -90,16 +91,8 @@ window.addEventListener("submit", (event) => {
 	// }
 	
 	if (form === "comment-form") {
-		console.log("comment-clicked");
-
-		console.log(event.target);
-
 		var commentInput = event.target.querySelector("#comment-input");
-
-		console.log(commentInput.value);
-
 		addComment(commentInput.value);
-
 	}
 
 	if (form === "user-form") {
@@ -136,10 +129,13 @@ function addComment(content) {
 
 function renderComment(comment) {
 	return `
-		<article>
-			<h2>${comment.username}</h2>
-			<span>${comment.content}</span>
-		</article>
+		<li>
+			<article>
+				<h2>${comment.username}</h2>
+				<span>${comment.content}</span>
+			</article>
+		</li>
+	
 	`;
 }
 
@@ -147,11 +143,11 @@ function renderComments(comments) {
 	var outlet = document.querySelector("#comment-outlet");
 	let template = "<ul>";
 	comments.forEach((comment) => {
-		template += `
-		<li>${renderComment(comment)}</li>`;
+		template += 
+		renderComment(comment);
 	});
 	template += "</ul>";
-	outlet.innerHTML += template;
+	outlet.innerHTML = template;
 }
 
 function initializeApp() {

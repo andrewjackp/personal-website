@@ -1,4 +1,4 @@
-import {el} from "../utilities/utilities.js";
+import { el } from "../utilities/utilities.js";
 
 export let isLoggedIn = false;
 
