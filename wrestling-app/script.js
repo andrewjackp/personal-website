@@ -82,14 +82,13 @@ window.addEventListener("click", (event) => {
 
 	signInBtn = el(".sign-in");
 
-		if(signInBtn.textContent === "Sign Out"){
+	if (signInBtn.textContent === "Sign Out"){
 		console.log("btn says sign out");
 		signInBtn.setAttribute('data-action', 'sign-out');
 
-		if (action === "sign-out") {
+	if (action === "sign-out") {
 			console.log("signed out");
 			signOut(event.target.closest("form"));
-			
 		}
 		signInBtn.textContent === "Sign In";
 	}
