@@ -8,6 +8,8 @@ let comments = [];
 
 let idMarker = 0;
 
+var signInBtn = el("#sign-in");
+
 function renderItem(item) {
 	return `
 		<article>

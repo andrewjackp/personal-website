@@ -2,12 +2,14 @@ import { el } from "../utilities/utilities.js";
 
 export let isLoggedIn = false;
 
+var signInBtn = null;
+
 export function renderForm() {
 	return `
 	<form id="user-form" data-form="user-form">
   		<label for="username">Username:</label>
   		<input type="text" id="username" name="username">
-  		<button type="submit">Enter</button>
+  		<button type="submit" id="sign-in-btn">Enter</button>
 	<output>
 	</output>
 </form>
@@ -34,10 +36,10 @@ export function signIn(name) {
 
 	for (let cred = 0; cred < credentials.length; cred++) {
 		if (credentials[cred].username == name) {
+			signInBtn = el(".sign-in");
+			signInBtn.textContent = "Sign Out";
 			isLoggedIn = true;
-
 			return true;
-
 		} else {
 			return false;
 		}
@@ -48,7 +50,6 @@ export function signIn(name) {
 export function handleSignIn() {
 	var form = document.querySelector("#user-form");
 	var username = form.querySelector("#username");
-
 	signIn(username.value);
 }
 
