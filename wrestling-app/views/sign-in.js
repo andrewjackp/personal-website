@@ -34,6 +34,9 @@ export function signIn(name) {
 		}
 	];
 
+	signInBtn = el(".sign-in");
+	signInBtn.textContent = "";
+
 	for (let cred = 0; cred < credentials.length; cred++) {
 		if (credentials[cred].username == name) {
 			signInBtn = el(".sign-in");
@@ -50,7 +53,11 @@ export function signIn(name) {
 export function handleSignIn() {
 	var form = document.querySelector("#user-form");
 	var username = form.querySelector("#username");
+	var output = form.querySelector("output");
 	signIn(username.value);
+	output.innerHTML = `
+		Welcome ${username.value}
+	`
 }
 
 
@@ -58,8 +65,6 @@ export function signOut(form) {
 	var form = document.querySelector("#user-form");
 	var username = form.querySelector("#username");
 	var output = form.querySelector("output");
-
-	output.innerHTML = "";
 
 	const credentials = [
 		{
@@ -70,11 +75,14 @@ export function signOut(form) {
 	for (let cred = 0; cred < credentials.length; cred++) {
 		if (credentials[cred].username == "") {
 			isLoggedIn = false;
+			signInBtn = el(".sign-in");
+			signInBtn.textContent === "Sign In";
+			return false;
 		} else {
-			signOutButton((isLoggedIn = true));
+			return true;
 		}
 	}
-
+	signInBtn.textContent === "Sign In"
 	output.innerHTML = "you have signed out";
 }
 

@@ -50,6 +50,7 @@ function renderDashboard(page) {
 
 window.addEventListener("click", (event) => {
 	const view = event.target.dataset.view;
+	const action = event.target.dataset.action;
 
 	if (view == "sign-in") {
 		console.log("sign in view");
@@ -83,13 +84,14 @@ window.addEventListener("click", (event) => {
 
 		if(signInBtn.textContent === "Sign Out"){
 		console.log("btn says sign out");
-		signInBtn.setAttribute('data-view', 'sign-out');
+		signInBtn.setAttribute('data-action', 'sign-out');
 
-		if (view === "sign-out") {
-			console.log("yes");
+		if (action === "sign-out") {
+			console.log("signed out");
 			signOut(event.target.closest("form"));
-			signInBtn.textContent === "Sign In"
+			
 		}
+		signInBtn.textContent === "Sign In";
 	}
 });
 
@@ -169,6 +171,7 @@ function renderComments(comments) {
 function initializeApp() {
 	app = document.getElementById("app");
 	app.innerHTML = renderList(listData);
+	signIn("andy");
 };
 
 initializeApp();
