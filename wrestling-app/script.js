@@ -8,7 +8,7 @@ let comments = [];
 
 let idMarker = 0;
 
-var signInBtn = el("#sign-in");
+var signInBtn = null;
 
 function renderItem(item) {
 	return `
@@ -56,6 +56,7 @@ window.addEventListener("click", (event) => {
 		app.innerHTML = renderForm();
 	}
 
+
 	if (view == "list") {
 		console.log(view);
 
@@ -75,6 +76,19 @@ window.addEventListener("click", (event) => {
 
 		if (isLoggedIn == true) {
 			app.innerHTML += renderCommentForm();
+		}
+	}
+
+	signInBtn = el(".sign-in");
+
+		if(signInBtn.textContent === "Sign Out"){
+		console.log("btn says sign out");
+		signInBtn.setAttribute('data-view', 'sign-out');
+
+		if (view === "sign-out") {
+			console.log("yes");
+			signOut(event.target.closest("form"));
+			signInBtn.textContent === "Sign In"
 		}
 	}
 });
@@ -154,7 +168,6 @@ function renderComments(comments) {
 
 function initializeApp() {
 	app = document.getElementById("app");
-	signIn("andy");
 	app.innerHTML = renderList(listData);
 };
 

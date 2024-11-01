@@ -55,6 +55,7 @@ export function handleSignIn() {
 
 
 export function signOut(form) {
+	var form = document.querySelector("#user-form");
 	var username = form.querySelector("#username");
 	var output = form.querySelector("output");
 
@@ -76,3 +77,4 @@ export function signOut(form) {
 
 	output.innerHTML = "you have signed out";
 }
+
