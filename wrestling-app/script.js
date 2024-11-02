@@ -158,7 +158,7 @@ function renderComment(comment) {
 
 function renderComments(comments) {
 	var outlet = document.querySelector("#comment-outlet");
-	let template = "<ul>";
+	let template = "<ul id='comment-grid'>";
 	comments.forEach((comment) => {
 		template += 
 		renderComment(comment);

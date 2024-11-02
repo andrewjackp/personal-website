@@ -5,6 +5,12 @@ body {
 
 ul {
 	list-style-type: none;
+	display: grid;
+	gap: 10px;
+
+	@media (width > 700px) {
+		grid-template-columns : 1fr 1fr;
+	}
 }
 
 header {
@@ -17,9 +23,13 @@ header {
 
 article {
 	border: 1px solid black;
-	padding: 10px;
-	display: block;
+   padding: 10px;
+   display: block;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
 }
+
 
 form {
 	padding: 10px;
