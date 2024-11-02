@@ -86,11 +86,10 @@ window.addEventListener("click", (event) => {
 		console.log("btn says sign out");
 		signInBtn.setAttribute('data-action', 'sign-out');
 
-	if (action === "sign-out") {
+		if (action === "sign-out") {
 			console.log("signed out");
 			signOut(event.target.closest("form"));
 		}
-		signInBtn.textContent === "Sign In";
 	}
 });
 
@@ -170,7 +169,7 @@ function renderComments(comments) {
 function initializeApp() {
 	app = document.getElementById("app");
 	app.innerHTML = renderList(listData);
-	signIn("andy");
+	// signIn("andy");
 };
 
 initializeApp();

@@ -72,17 +72,17 @@ export function signOut(form) {
 		}
 	];
 
+	signInBtn = el(".sign-in");
+	signInBtn.textContent = "Sign In";
+
 	for (let cred = 0; cred < credentials.length; cred++) {
 		if (credentials[cred].username == "") {
 			isLoggedIn = false;
-			signInBtn = el(".sign-in");
-			signInBtn.textContent === "Sign In";
 			return false;
+			output.innerHTML = "you have signed out";
 		} else {
 			return true;
 		}
 	}
-	signInBtn.textContent === "Sign In"
-	output.innerHTML = "you have signed out";
 }
 
