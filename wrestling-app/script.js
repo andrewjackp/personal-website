@@ -81,10 +81,8 @@ window.addEventListener("submit", (event) => {
 
 	if (form === "user-form") {
 		console.log("user form-clicked");
-
-		if (handleSignIn()){
-			app.innerHTML = renderList(listData);
-		}
+		user.handleSignIn();
+		console.log(username.value, "- signed in")
 	}
 });
 
@@ -92,7 +90,7 @@ window.addEventListener("submit", (event) => {
 function initializeApp() {
 	app = document.getElementById("app");
 	renderHome();
-	user.signIn("andy");
+	// user.signIn("andy");
 };
 
 initializeApp();

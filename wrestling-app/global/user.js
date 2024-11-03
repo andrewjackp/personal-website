@@ -1,8 +1,16 @@
 import { users } from "../data/users.js";
 import db from "../global/database.js";
 
+let homeBtn = null;
+homeBtn = document.querySelector('#home-btn');
+
+
 function getCurrentUser() {
 	db.retrieve(db.user)
+}
+
+export function isSignedIn() {
+	return getCurrentUser();
 }
 
 function signIn(name) {
@@ -13,6 +21,18 @@ function signIn(name) {
 		alert("user not found");
 	}
 	
+}
+
+export function handleSignIn() {
+	var username = document.querySelector("#username");
+
+	
+
+	if( signIn(username.value)){
+		
+		homeBtn.textContent = `Hello ${username.value}`;
+		console.log(homeBtn)
+	}
 }
 
 //user.signUp
@@ -29,5 +49,6 @@ function signIn(name) {
 	//user.replyToComment
 
 export default {
-	signIn
+	signIn,
+	handleSignIn
 }
