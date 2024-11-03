@@ -2,8 +2,9 @@
 import { el } from "./utilities/utilities.js";
 import user from "./global/user.js";
 import { renderHome } from "./views/home.js";
-import { renderDetail } from "./views/article-detail.js";
+import { renderDetail, renderCommentForm } from "./views/article-detail.js";
 import { renderForm } from "./components/entry-form.js";
+import { renderDashboard } from "./views/dashboard.js";
 
 let app = null;
 
@@ -14,15 +15,10 @@ let idMarker = 0;
 var signInBtn = null;
 
 
-function renderDashboard(page) {
-	return `${page.title}`;
-}
-
 window.addEventListener("click", (event) => {
 	const view = event.target.dataset.view;
 	const action = event.target.dataset.action;
 
-	
 	if (view == "sign-in") {
 		console.log("sign in view");
 		app.innerHTML = renderForm();
@@ -45,6 +41,7 @@ window.addEventListener("click", (event) => {
 		console.log("article id: ", event.target.dataset.id);
 
 		app.innerHTML = renderDetail(event.target.dataset.id);
+		app.innerHTML += renderCommentForm();
 
 		// if (isLoggedIn == true) {
 		// 	app.innerHTML += renderCommentForm();

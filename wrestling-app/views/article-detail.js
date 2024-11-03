@@ -12,10 +12,9 @@ export function renderDetail(id) {
 		<h2>${found.newsStory}</h2>
 		</article>
 	`;
-	renderCommentForm();
 }
 
-function renderCommentForm() {
+export function renderCommentForm() {
 	return `
 		<form data-form="comment-form" id="comment-form">
 			<label for="c">Share your thoughts</label>
