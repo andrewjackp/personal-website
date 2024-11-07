@@ -1,16 +1,16 @@
 .attention-voice {
-	font-size: 45px;
-	font-weight: 700;
+	font-size: clamp(46px, 7vw, 65px);
+	font-weight: 800;
 }
 
 .loud-voice {
-	font-size: 35px;
-	font-weight: 500;
+	font-size: clamp(36px, 5vw, 60px);
+	font-weight: 600;
 }
 
 .quiet-voice {
 	color: var(--grey);
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 300;
 }
 
