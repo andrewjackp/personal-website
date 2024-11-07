@@ -29,7 +29,9 @@
 			</inner-column>
 		</section>
 			<section class='clients' id='clients'>
-			<inner-column></inner-column>
+			<inner-column>
+				<?php include('modules/clients/template.php'); ?>
+			</inner-column>
 		</section>
 		<section class='faqs' id='faqs'>
 			<inner-column></inner-column>
@@ -44,5 +46,6 @@
 	</footer>
 
 	<script src="modules/feature/controller.js"></script>
+	<script src="modules/clients/controller.js"></script>
 </body>
 </html>

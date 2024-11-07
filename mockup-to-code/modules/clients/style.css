@@ -1,0 +1,35 @@
+heading-box {
+	display: block;
+	text-align: center;
+
+	.loud-voice + .quiet-voice {
+		margin-top: 1em;
+	}
+}
+
+heading-box + .client-list {
+	margin-top: 1em;
+}
+
+.client-list {
+	display: grid;
+
+	@media(width > 600px) {
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+	
+}
+
+.client-card-item {
+	width: 100%;
+	height: 100%;
+}
+
+.client-article-card {
+	display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 15px;
+}
