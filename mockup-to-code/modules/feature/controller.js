@@ -35,8 +35,8 @@ const renderFeature = (feature) => {
 	return `
 		<li class='card-item'>
 			<article class="article-card">
+				<span class="id">${feature.id}</span>
 				<text-content>
-					<span class="id">${feature.id}</span>
 					<h2 class="title">${feature.title}</h2>
 					<p class="description">${feature.description}</p>
 				</text-content>
