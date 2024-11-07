@@ -8,7 +8,7 @@
 .card-item {
 	&:nth-of-type(1) {
 		grid-area: one;
-		.id {
+		.id-voice {
 			display: none;
 		}
 		.article-card {
