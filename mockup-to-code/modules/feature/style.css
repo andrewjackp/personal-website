@@ -1,3 +1,9 @@
+feature {
+	display: block;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
 .feature-card-list {
 	display: grid;
 

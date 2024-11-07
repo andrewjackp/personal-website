@@ -1,5 +1,8 @@
 center-content {
 	display: block;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	
 	border: 1px solid red;
 
 	display: flex;

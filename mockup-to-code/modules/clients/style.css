@@ -1,3 +1,9 @@
+clients {
+	display: block;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
 heading-box {
 	display: block;
 	text-align: center;
