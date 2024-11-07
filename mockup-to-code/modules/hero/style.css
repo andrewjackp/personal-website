@@ -1,0 +1,25 @@
+hero {
+	display: block;
+	border: 1px solid green;
+
+	padding: 18px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	text-align: center;
+
+	.button {
+		max-width: 100px;
+	}
+
+	.button-container {
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+	}
+}

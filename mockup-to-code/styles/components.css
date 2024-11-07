@@ -1,0 +1,38 @@
+.button {
+	border: 1px solid var(--blue);
+	padding: 10px;
+	display: inline-block;
+
+	font-size: 11px;
+	line-height: 1.4;
+
+	padding: 0.5em 1em;
+	color: var(--blue);
+	min-width: 120px;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.button-login {
+	border: 1px solid var(--blue);
+	padding: 10px;
+	display: inline-block;
+
+	font-size: 11px;
+	line-height: 1.4;
+
+	border-radius: var(--border);
+	padding: 0.5em 1em;
+	color: var(--blue);
+	min-width: 70px;
+	text-align: center;
+}
+
+.button-login:hover {
+	background-color: var(--blue);
+	color: var(--white);
+}

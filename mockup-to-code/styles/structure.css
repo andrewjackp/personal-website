@@ -15,14 +15,5 @@ inner-column {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px;
+	border: 1px solid blue;
 }
-
-inner-column.tight {
-	max-width: var(--tight-inner-column);
-}
-
-/* .site-header {
-	position: sticky;
-	top: 0;
-	z-index: 5;
-} */
