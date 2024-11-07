@@ -35,4 +35,9 @@
 .article-card {
 	display: grid;
    grid-template-columns: 10% 1fr;
+
+   text-content {
+   	display: block;
+   	line-height: 1.3em
+   }
 }

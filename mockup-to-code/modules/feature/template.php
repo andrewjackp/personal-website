@@ -3,8 +3,8 @@
 		<article class="article-card">
 		<span class="id">id</span>
 		<text-content>
-			<h2 class="title">title</h2>
-			<p class="description">desc</p>
+			<h2 class="loud-voice">title</h2>
+			<p class="quiet-voice">desc</p>
 		</text-content>
 	</article>
 	</li>

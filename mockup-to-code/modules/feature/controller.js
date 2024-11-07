@@ -35,10 +35,10 @@ const renderFeature = (feature) => {
 	return `
 		<li class='card-item'>
 			<article class="article-card">
-				<span class="id">${feature.id}</span>
+				<span class="id-voice">${feature.id}</span>
 				<text-content>
-					<h2 class="title">${feature.title}</h2>
-					<p class="description">${feature.description}</p>
+					<h2 class="soft-voice">${feature.title}</h2>
+					<p class="quiet-voice">${feature.description}</p>
 				</text-content>
 			</article>
 		</li>
