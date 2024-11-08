@@ -19,8 +19,8 @@ feature {
 				display: none;
 			}
 			.soft-voice {
-				font-size: 45px;
-				max-width: 30ch;
+				font-size: clamp(20px, 3vw, 40px);
+            max-width: 20ch;
 				line-height: 1em
 			}
 				.article-card {

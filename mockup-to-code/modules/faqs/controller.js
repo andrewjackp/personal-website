@@ -22,7 +22,7 @@ const faqList = [
 
 const renderFaq = (faq) => {
 	return `
-		<article>
+		<article class='faq-card'>
 		<h3>${faq.question}</h3>
 		<button>></button>
 		<p class="quiet-voice">${faq.answer}</p>
