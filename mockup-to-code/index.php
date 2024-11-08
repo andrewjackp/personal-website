@@ -40,7 +40,9 @@
 			</inner-column>
 		</section>
 		<section class='faqs' id='faqs'>
-			<inner-column></inner-column>
+			<inner-column>
+				<?php include('modules/faqs/template.php'); ?>
+			</inner-column>
 		</section>
 	</main>
 
@@ -50,5 +52,6 @@
 
 	<script src="modules/feature/controller.js"></script>
 	<script src="modules/clients/controller.js"></script>
+	<script src="modules/faqs/controller.js"></script>
 </body>
 </html>
