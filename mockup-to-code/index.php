@@ -34,10 +34,12 @@
 				<?php include('modules/clients/template.php'); ?>
 			</inner-column>
 		</section>
-		<section class='faqs' id='faqs'>
-			<inner-column></inner-column>
+		<section class='call-to-action' id='call-to-action'>
+			<inner-column>
+				<?php include('modules/call-to-action/template.php'); ?>
+			</inner-column>
 		</section>
-		<section class='clients' id='clientss'>
+		<section class='faqs' id='faqs'>
 			<inner-column></inner-column>
 		</section>
 	</main>
