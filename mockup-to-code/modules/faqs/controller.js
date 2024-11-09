@@ -23,9 +23,10 @@ const faqList = [
 const renderFaq = (faq) => {
 	return `
 		<article class='faq-card'>
-		<h3>${faq.question}</h3>
-		<button>></button>
-		<p class="quiet-voice">${faq.answer}</p>
+		<details>
+			<summary>${faq.question}</summary>
+			<p class="quiet-voice">${faq.answer}</p>
+		</details>
 		</article>
 	`
 }
@@ -41,6 +42,7 @@ const renderFaqList = (faqs) =>{
 // 		template += renderFaq;
 // 	});
 // 		template += "</ul>";
+//			retyrn template;
 // }
 
 renderFaqList(faqList);
