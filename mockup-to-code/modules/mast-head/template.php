@@ -24,7 +24,7 @@
 	<nav class='user-menu'>
 		<ul>
 			<li>
-				<a class='button' href='#'>GlobePic</a>
+				<a class='button' id="#logo" href='#'>GlobePic</a>
 			</li>
 				<li>
 				<a class='button-login' href='#'>Login</a>

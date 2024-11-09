@@ -1,7 +1,7 @@
 feature {
 	display: block;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .feature-card-list {
@@ -59,6 +59,10 @@ feature {
    text-content {
    	display: block;
    	line-height: 1em
+   }
+
+   .soft-voice {
+   	margin-top: 0.7em;
    }
 
    .soft-voice + .quiet-voice {
