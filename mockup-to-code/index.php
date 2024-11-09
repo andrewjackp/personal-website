@@ -47,7 +47,9 @@
 	</main>
 
 	<footer>
-		<inner-column></inner-column>
+		<inner-column>
+			<?php include('modules/footer/template.php'); ?>
+		</inner-column>
 	</footer>
 
 	<script src="modules/feature/controller.js"></script>
