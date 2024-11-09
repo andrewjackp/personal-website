@@ -1,3 +1,4 @@
+<faqs>
 <h2 class="loud-voice">
 	Frequently Asked Questions
 </h2>
@@ -7,3 +8,4 @@
 </span>
 
 <ul id='faq-list'></ul>
+</faqs>
