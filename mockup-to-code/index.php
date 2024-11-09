@@ -19,9 +19,9 @@
 				<?php include('modules/hero/template.php'); ?>
 			</inner-column>
 		</section>
-		<section class='center-content' id='center-content'>
+		<section class='product-overview' id='product-overview'>
 			<inner-column>
-				<?php include('modules/center-content/template.php'); ?>
+				<?php include('modules/product-overview/template.php'); ?>
 			</inner-column>
 		</section>
 			<section class='feature' id='feature'>

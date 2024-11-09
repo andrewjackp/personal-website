@@ -1,5 +1,6 @@
 faqs {
 	text-align: center;
+
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;
 	}
