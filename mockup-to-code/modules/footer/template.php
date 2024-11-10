@@ -40,7 +40,7 @@
 			<li><a href='#'>Email</a></li>
 
 			<email-content>
-				<input type="email">
+				<input type="email" placeholder="Email Address">
 					<a href="#"><picture><img src="images/email.svg" alt="email" class="email-icon"></picture></a>
 			</email-content>
 		
@@ -49,11 +49,17 @@
 </site-map>
 
 <site-disclaimer>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat  
-	</p>
+	<picture>
+		<image src="images/footer-logo.svg"></image>
+	</picture>
 	<ul>
 		<li><a href="#">Terms</a></li>
 		<li><a href="#">Privacy</a></li>
+		<li><a href="#">Cookies</a></li>
+	</ul>
+		<ul>
+		<li><a href="#"><picture><image src="images/linkedin.svg"></image></picture></a></li>
+		<li><a href="#"><picture><image src="images/facebook.svg"></image></picture></a></li>
+		<li><a href="#"><picture><image src="images/social-media.svg"></image></picture></a></li>
 	</ul>
 </site-disclaimer>
