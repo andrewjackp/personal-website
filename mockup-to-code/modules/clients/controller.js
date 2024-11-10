@@ -15,9 +15,24 @@ const renderClient = (item) => {
 	return `
 		<li class='client-card-item'>
 			<article class='client-article-card'>
-				<picture>
-				<img src="images/star.svg" alt="client-pic">
-				</picture>
+				<div class='star-ratings'>
+					<picture>
+					<img src="images/star.svg" alt="client-pic">
+					</picture>
+					<picture>
+					<img src="images/star.svg" alt="client-pic">
+					</picture>
+					<picture>
+					<img src="images/star.svg" alt="client-pic">
+					</picture>
+					<picture>
+					<img src="images/star.svg" alt="client-pic">
+					</picture>
+					<picture>
+					<img src="images/star.svg" alt="client-pic">
+					</picture>
+				</div>
+				
 				<p class='soft-voice'>${item.quote}</p>
 				<picture>
 					<img src="${item.img}" alt="client-img">

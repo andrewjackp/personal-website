@@ -40,3 +40,7 @@ heading-box + .client-list {
    gap: 15px;
    padding: 40 0 40;
 }
+
+.star-ratings {
+	display: flex;
+}
