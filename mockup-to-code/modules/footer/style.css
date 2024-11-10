@@ -84,6 +84,7 @@ site-disclaimer {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
+   flex-wrap: wrap;
    padding: 40px 0 40px;
 
 	p {
