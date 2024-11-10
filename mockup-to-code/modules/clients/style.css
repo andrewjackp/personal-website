@@ -38,4 +38,5 @@ heading-box + .client-list {
    align-items: center;
    text-align: center;
    gap: 15px;
+   padding: 40 0 40;
 }

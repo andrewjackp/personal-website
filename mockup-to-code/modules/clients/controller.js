@@ -1,12 +1,12 @@
 const clientQuotes = [
 	{	rating: "images/star.svg",
 		quote: "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
-		img: "",
+		img: "images/avatar.svg",
 		name: "Courtney Henry"
 	},
 	{	rating: "images/star.svg",
 		quote: "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.",
-		img: "",
+		img: "images/avatar.svg",
 		name: "Courtney Henry"
 	}
 ];
@@ -19,6 +19,9 @@ const renderClient = (item) => {
 				<img src="images/star.svg" alt="client-pic">
 				</picture>
 				<p class='soft-voice'>${item.quote}</p>
+				<picture>
+					<img src="${item.img}" alt="client-img">
+				</picture>
 				<span class='quiet-voice'>${item.name}</span>
 			</article>
 		</li>
