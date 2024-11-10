@@ -7,7 +7,8 @@
 	line-height: 1.4;
 
 	padding: 0.5em 1em;
-	color: var(--blue);
+	background-color: var(--blue);
+	color: var(--white);
 	min-width: 120px;
 	text-align: center;
 }
@@ -19,6 +20,7 @@
 
 .button-login {
 	border: 1px solid var(--blue);
+
 	padding: 10px;
 	display: inline-block;
 
@@ -35,4 +37,9 @@
 .button-login:hover {
 	background-color: var(--blue);
 	color: var(--white);
+}
+
+.button.free-trial {
+	background-color: var(--white);
+	color: var(--blue);
 }
