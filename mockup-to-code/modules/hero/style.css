@@ -24,4 +24,13 @@ hero {
 			flex-direction: row
 		}
 	}
+
+	hero-text-container {
+		display: block;
+		padding: 20px 0 0;
+
+		.attention-voice + .quiet-voice {
+			margin-top: 1.28em;
+		}
+	}
 }
