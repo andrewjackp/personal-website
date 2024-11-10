@@ -15,5 +15,12 @@ inner-column {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px;
-	border: 1px solid blue;
+}
+
+section:is(.hero) {
+	background-image: url("../images/hero_background.svg");
+}
+
+section:is(.faqs) inner-column {
+	max-width: var(--tight-inner-column);
 }

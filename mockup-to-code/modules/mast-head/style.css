@@ -1,7 +1,6 @@
 
 mast-head {
 	display: block;
-	border: 1px solid green;
 	.logo {
 		max-width: 68px;
 		* {
