@@ -9,6 +9,11 @@ main {
 	background-color: var(--lightblue);
 }
 
+#top {
+	background-color: var(--blue);
+	color: var(--white);
+}
+
 inner-column {
 	display: block;
 	max-width: var(--standard-inner-column); /* could be a variable in settings */

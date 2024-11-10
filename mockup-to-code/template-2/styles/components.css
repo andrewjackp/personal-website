@@ -21,6 +21,9 @@
 .button-login {
 	border: 1px solid var(--blue);
 
+	background-color: var(--white);
+	color: var(--blue);
+
 	padding: 10px;
 	display: inline-block;
 

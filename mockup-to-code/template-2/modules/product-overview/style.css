@@ -27,4 +27,16 @@ product-overview {
 	.loud-voice + .quiet-voice {
 		margin-top: 1.5em;
 	}
+
+	picture + .quiet-voice {
+		margin-top: 1.5em;
+	}
+
+	
+	learn-more {
+		display: flex;
+		gap: 5px;
+		align-items: center;
+		margin-top: 1em;
+	}	
 }
