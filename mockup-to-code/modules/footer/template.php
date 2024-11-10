@@ -40,7 +40,7 @@
 			<li><a href='#'>Email</a></li>
 
 			<email-content>
-				<p>By subscribing you are accepting to receive marketing info etc Privacy Policy</p>
+				<input type="email">
 					<a href="#"><picture><img src="images/email.svg" alt="email" class="email-icon"></picture></a>
 			</email-content>
 		
