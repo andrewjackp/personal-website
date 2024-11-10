@@ -10,6 +10,6 @@
 
 	<div class="button-container">
 		<a href="#" class="button">Get Started</a>
-		<a href="#" class="button free-trial">Start Free Trial</a>
+		<!-- <a href="#" class="button free-trial">Start Free Trial</a> -->
 	</div>
 </hero>
