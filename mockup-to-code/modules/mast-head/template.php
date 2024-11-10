@@ -1,5 +1,7 @@
 <mast-head>
-	<a class='home' href='#'>LOGO</a>
+	<picture>
+		<image src="images/header.svg">
+	</picture>
 	
 	<nav class='site-menu'>
 		<ul>
@@ -24,7 +26,11 @@
 	<nav class='user-menu'>
 		<ul>
 			<li>
-				<a class='button' id="#logo" href='#'>GlobePic</a>
+				<a id="#logo" href='#'>
+					<picture>
+						<img src="images/globe_en.svg" alt="">
+					</picture>
+				</a>
 			</li>
 				<li>
 				<a class='button-login' href='#'>Login</a>
