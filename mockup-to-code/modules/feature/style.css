@@ -60,10 +60,10 @@ feature {
    	line-height: 1em
    }
 
-   .soft-voice {
+/*   .soft-voice {
    	margin-top: 0.7em;
    }
-
+*/
    .soft-voice + .quiet-voice {
    	margin-top: 1.5em;
    }
