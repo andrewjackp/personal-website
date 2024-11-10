@@ -1,4 +1,4 @@
-<center-content>
+<product-overview>
 	<span class="quiet-voice">
 		Your Visual Language Partner
 	</span>
@@ -16,4 +16,4 @@
 			<img src="images/play-button.svg" alt="">
 		</picture>
 	</video-box>
-</center-content>
+</product-overview>

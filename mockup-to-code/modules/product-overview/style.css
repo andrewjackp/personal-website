@@ -1,4 +1,4 @@
-center-content {
+product-overview {
 	display: block;
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -14,13 +14,13 @@ center-content {
 
 	video-box {
 		display: block;
-      border: 0.5px solid red;
+/*      border: 0.5px solid red;*/
       max-width: 90%;
       padding: 100px;
 
-		img {
+	/*	img {
 			object-fit: none;
-		}
+		}*/
 	}
 
 	.quiet-voice + .loud-voice {
