@@ -1,0 +1,9 @@
+call-to-action {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	text-align: center;
+
+	padding: 40px 0 60px;
+}
