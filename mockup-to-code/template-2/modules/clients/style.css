@@ -20,7 +20,7 @@ heading-box + .client-list {
 	display: grid;
 
 	@media(width > 600px) {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		gap: 10px;
 	}
 	
@@ -38,6 +38,12 @@ heading-box + .client-list {
    text-align: center;
    gap: 15px;
    padding: 40 0 40;
+
+   p {
+   	max-width: 35ch;
+   	font-weight: 300;
+   	color: var(--grey);
+   }
 }
 
 .star-ratings {
