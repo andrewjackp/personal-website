@@ -6,7 +6,7 @@
 	<nav class='site-menu'>
 		<ul>
 			<li>
-				<a href='#'>Home</a>
+				<a href='../template-1'>Home</a>
 			</li>
 			<li>
 				<a href='#'>Updates</a>
