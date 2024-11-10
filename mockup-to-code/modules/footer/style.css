@@ -9,7 +9,7 @@ site-map {
 
 	display: grid;
 	@media(width > 600px){
-		grid-template-columns: 0.6fr 0.6fr 0.6fr 1fr;
+		grid-template-columns: 0.6fr 0.6fr 0.6fr 0.7fr;
 	}
 	gap: 20px;
 	padding: 80px 0 80px;
@@ -36,6 +36,11 @@ site-map {
 		display: flex;
 		flex-direction: column;
 
+		a, p {
+				color: var(--white);
+				opacity: 0.7;
+			}
+
 		ul, li {
 			font-weight: 100;
 			color: var(--white);
@@ -45,21 +50,32 @@ site-map {
 
 	.x-menu {
 		&:nth-of-type(4){
-			a, p {
-				color: var(--white);
-			}
+
+         @media(width > 600px) {
+         	background-color: #2f55db;
+         	padding: 32px;
+        		padding-left: 21px;
+         	margin-top: -2em;
+         }
 
 			p {
 				font-weight: 100;
+				line-height: 1.28em;
+            margin-top: 0.4em;
+			}
+
+			input {
+				border: 1px solid var(--grey);
+				background: var(--white);
+				border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            width: 88%;
 			}
 		}
 	}
 
 	email-content {
 		display: flex;
-	}
-	.email-icon {
-		width: 30px;
 	}
 }
 
@@ -87,6 +103,6 @@ site-disclaimer {
 	}
 
 	a {
-		font-weight: 700;
+		color: var(--white);
 	}
 }

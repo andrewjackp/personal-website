@@ -35,16 +35,15 @@
 
 	<nav class='x-menu'>
 		<h3 class='strong-voice'>Subscribe</h3>
-		
-		<ul>
-			<li><a href='#'>Email</a></li>
-
 			<email-content>
-				<input type="email" placeholder="Email Address">
-					<a href="#"><picture><img src="images/email.svg" alt="email" class="email-icon"></picture></a>
+				<input class="email_signup" type="email" placeholder="Email Address">
+				<a href="">
+					<picture>
+						<img src="images/email_link.svg" alt="">
+					</picture>
+				</a>
 			</email-content>
-		
-		</ul>
+			<p class='quiet-voice'>Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi. </p>
 	</nav>
 </site-map>
 
