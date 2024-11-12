@@ -57,7 +57,7 @@ heading-box + .client-list {
         "one two"
         "one three";
 
-   gap: 0px 10px;     
+   gap: 10px 10px;     
 
    picture {
    	grid-area: one;

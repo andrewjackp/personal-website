@@ -10,20 +10,21 @@ faqs {
 	summary {
 		cursor: pointer;	
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
+      gap: 20px;
 	}
 
 	summary::before {
 		content: none;
 	};
 
-	summary::after {
-		content: ">";
-		color: var(--grey);
+	summary::before {
+		content: "+";
+		color: var(--blue);
 	}
 
-	details[open] > summary::after {
-		content: '^';
+	details[open] > summary::before {
+		content: '-';
 	}
 
 	.faq-card {
