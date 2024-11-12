@@ -53,7 +53,6 @@ feature {
 .article-card {
 	display: grid;
    grid-template-columns: 10% 1fr;
-   align-items: center;
 
    text-content {
    	display: block;
