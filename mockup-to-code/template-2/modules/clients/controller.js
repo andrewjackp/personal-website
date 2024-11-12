@@ -17,11 +17,16 @@ const renderClient = (item) => {
 		<li class='client-card-item'>
 			<article class='client-article-card'>				
 				<p class='loud-voice'>${item.quote}</p>
-				<picture>
-					<img src="${item.img}" alt="client-img">
-				</picture>
-				<span class='strong-voice'>${item.name}</span>
-				<span class='quiet-voice'>${item.job}</span>
+					<div class='client-caption'> 
+						<picture>
+							<img src="${item.img}" alt="client-img">
+						</picture>
+
+						<div class='client-text-caption'>
+							<span class='strong-voice'>${item.name}</span>
+							<span class='quiet-voice'>${item.job}</span>
+						</div>
+					</div>
 			</article>
 		</li>
 	`

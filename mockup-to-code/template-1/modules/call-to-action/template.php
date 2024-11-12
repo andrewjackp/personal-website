@@ -8,5 +8,5 @@
 molestie at vulputate.
 	</h2>
 
-	<a href="#" class="button">Get free quotes ></a>
+	<a href="#" class="button">Get free quotes</a>
 </call-to-action>
