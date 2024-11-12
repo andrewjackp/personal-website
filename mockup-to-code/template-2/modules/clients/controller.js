@@ -21,11 +21,8 @@ const renderClient = (item) => {
 						<picture>
 							<img src="${item.img}" alt="client-img">
 						</picture>
-
-						<div class='client-text-caption'>
 							<span class='strong-voice'>${item.name}</span>
 							<span class='quiet-voice'>${item.job}</span>
-						</div>
 					</div>
 			</article>
 		</li>

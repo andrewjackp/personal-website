@@ -3,10 +3,10 @@
 	padding: 10px;
 	display: inline-block;
 
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 1.4;
 
-	padding: 0.5em 1em;
+	padding: 0.9em 1em;
 	background-color: var(--blue);
 	color: var(--white);
 	min-width: 120px;
@@ -27,11 +27,11 @@
 	padding: 10px;
 	display: inline-block;
 
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 1.4;
 
 	border-radius: var(--border);
-	padding: 0.5em 1em;
+	padding: 0.9em 1em;
 	color: var(--blue);
 	min-width: 70px;
 	text-align: center;

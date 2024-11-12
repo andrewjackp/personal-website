@@ -43,9 +43,29 @@ heading-box + .client-list {
    	max-width: 35ch;
    	font-weight: 300;
    	color: var(--grey);
+   	margin-bottom: 1em;
    }
 }
 
 .star-ratings {
 	display: flex;
+}
+
+.client-caption {
+	display: grid;
+    grid-template-areas:
+        "one two"
+        "one three";
+
+   gap: 0px 10px;     
+
+   picture {
+   	grid-area: one;
+   }
+   .strong-voice {
+   	grid-area: two;
+   }     
+   .quiet-voice {
+   	grid-area: three;
+   }
 }
