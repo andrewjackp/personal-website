@@ -27,14 +27,22 @@ faqs {
 		content: '-';
 	}
 
+	details[open] {
+		.quiet-voice {
+         border-left: 2px solid var(--blue);
+         padding-left: 4px;
+		}
+	}
+
 	.faq-card {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		border-bottom: 1px solid var(--grey);
 
-	.quiet-voice {
-		margin-top: 1em;
-		line-height: 1.28em
+		.quiet-voice {
+			margin-left: 3em;
+			margin-top: 1em;
+			line-height: 1.28em;
 		}
 	}
 
