@@ -3,7 +3,7 @@ const faqList = [
 	 	answer: "ASAP"
 	},
 	{ question: "Is There Any Warranty Exclusions", 
-	 	answer: "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+	 	answer: "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
 	},
 	{ question: "Are There Any Return Exclusions", 
 	 	answer: "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
