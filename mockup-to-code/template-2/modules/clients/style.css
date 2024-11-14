@@ -5,7 +5,10 @@ clients {
 
 heading-box {
 	display: block;
-	text-align: center;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;
