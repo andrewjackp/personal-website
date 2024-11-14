@@ -5,14 +5,15 @@
 	
 	<nav class='site-menu'>
 		<ul>
-			<li>
+				<li>
 				<a href='../template-1'>Home</a>
 			</li>
 			<li>
 				<a href='../template-2'>Updates</a>
 			</li>
 			<li>
-				<a href="#">Services</a>
+				<a href='../template-3'>Services</a>
+			</li>
 			</li>
 			<li>
 				<a href="#">Features</a>
