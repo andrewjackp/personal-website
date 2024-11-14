@@ -55,5 +55,6 @@
 	<script src="modules/feature/controller.js"></script>
 	<script src="modules/clients/controller.js"></script>
 	<script src="modules/faqs/controller.js"></script>
+	<script src="modules/product-overview/controller.js"></script>
 </body>
 </html>

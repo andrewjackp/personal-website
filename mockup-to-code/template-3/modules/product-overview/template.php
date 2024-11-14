@@ -4,16 +4,11 @@
 	</span>
 
 	<h2 class="loud-voice">
-		Etiam nulla lfulputate.
+		Consistency Across All Faces (And Tentacles)
 	</h2>
 
-	<span class="quiet-voice">
-		We specialize in monster-friendly design systems that scale from wiggly toes to toothy grins.
-	</span>
+	<ul id='preview-list'></ul>
 
-	<video-box>
-		<picture>
-			<img src="images/play-button.svg" alt="">
-		</picture>
-	</video-box>
+	<a href="" class='id-voice'>See All</a>
+
 </product-overview>

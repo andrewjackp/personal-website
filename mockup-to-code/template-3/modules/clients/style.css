@@ -20,8 +20,6 @@ heading-box + .client-list {
 	display: grid;
 
 	@media(width > 600px) {
-		grid-template-columns: 1fr 1fr;
-		gap: 10px;
 	}
 	
 }
@@ -32,12 +30,18 @@ heading-box + .client-list {
 }
 
 .client-article-card {
-	display: flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   gap: 15px;
-   padding: 40 0 40;
+	display: grid;
+	align-items: center;
+
+	@media (width > 600px) {
+		grid-template-columns: 1fr 1fr;
+   	gap: 10px 51px;
+	}
+	
+   padding-top: 3em;
+
+   text-content {
+   }
 }
 
 .star-ratings {

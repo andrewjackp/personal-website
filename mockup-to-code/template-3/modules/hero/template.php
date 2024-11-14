@@ -8,8 +8,8 @@
 		</p>
 	</hero-text-container>
 
-	<div class="button-container">
-		<a href="#" class="button">Get Started</a>
-		<a href="#" class="button free-trial">Start Free Trial</a>
-	</div>
+	<form action="">
+		<input type="text" placeholder="Email Address">
+		<a href="#" class="button-signup">Sign Up</a>
+	</form>
 </hero>

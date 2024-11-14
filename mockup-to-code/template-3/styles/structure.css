@@ -17,9 +17,5 @@ inner-column {
 }
 
 section:is(.hero) {
-	background-image: url("../images/hero_background.svg");
-}
-
-section:is(.faqs) inner-column {
-	max-width: var(--tight-inner-column);
+	background-color: var(--blue);
 }

@@ -3,6 +3,12 @@ faqs {
 	padding-top: 60px;
 	padding-bottom: 60px;
 
+	@media (width > 600px) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 3em;
+	}
+
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;
 	}

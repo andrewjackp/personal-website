@@ -26,11 +26,7 @@
 	<nav class='user-menu'>
 		<ul>
 			<li>
-				<a id="#logo" href='#'>
-					<picture>
-						<img src="images/globe_en.svg" alt="">
-					</picture>
-				</a>
+				<a class='button-signup' href='#'>SignUp</a>
 			</li>
 				<li>
 				<a class='button-login' href='#'>Login</a>

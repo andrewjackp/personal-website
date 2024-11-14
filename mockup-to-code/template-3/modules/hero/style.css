@@ -29,6 +29,18 @@ hero {
 		display: block;
 		padding: 20px 0 0;
 
+		.attention-voice {
+		 	text-transform: uppercase;
+		 	color: var(--white);
+		 	line-height: 1.28em;
+         letter-spacing: 1px;
+		}
+
+		.quiet-voice {
+			color: var(--white);
+			line-height: 1.2em;
+		}
+
 		.attention-voice + .quiet-voice {
 			margin-top: 1.28em;
 		}
