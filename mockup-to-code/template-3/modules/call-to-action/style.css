@@ -1,9 +1,12 @@
 call-to-action {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	align-items: center;
-	text-align: center;
+	display: grid;
+	 @media (width > 600px) {
+	 	grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		align-items: center;
+		text-align: center;
+	 }
+	
 
 	padding: 40px 0 60px;
 }
