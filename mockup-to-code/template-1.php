@@ -7,13 +7,12 @@
 	<link rel="stylesheet" href="styles/site.css">
 </head>
 <body>
-	<header id="top">
+<!-- 	<header id="top">
 		<inner-column>
 			<?php include('modules/mast-head/template.php'); ?>
 		</inner-column>
-	</header>
+	</header> -->
 	
-	<main id="page-content">
 		<section class='hero' id='hero'>
 			<inner-column>
 				<?php include('modules/hero/template.php'); ?>
@@ -44,13 +43,6 @@
 				<?php include('modules/faqs/template.php'); ?>
 			</inner-column>
 		</section>
-	</main>
-
-	<footer>
-		<inner-column>
-			<?php include('modules/footer/template.php'); ?>
-		</inner-column>
-	</footer>
 
 	<script src="modules/feature/controller.js"></script>
 	<script src="modules/clients/controller.js"></script>

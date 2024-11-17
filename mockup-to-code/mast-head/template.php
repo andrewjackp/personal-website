@@ -6,10 +6,10 @@
 	<nav class='site-menu'>
 		<ul>
 			<li>
-				<a href='../template-1'>Home</a>
+				<a href='?page=template-1'>Home</a>
 			</li>
 			<li>
-				<a href='../template-2'>Updates</a>
+				<a href='?page=template-2'>Updates</a>
 			</li>
 			<li>
 				<a href='../template-3'>Services</a>

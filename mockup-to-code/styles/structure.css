@@ -4,6 +4,14 @@ body {
 	min-height: 100vh; /* full viewport height */
 } 
 
+body.template-1 {
+	border: 5px solid green;
+}
+
+body.template-2 {
+	border: 5px solid red;
+}
+
 main {
 	flex-grow: 1; /* fill up available space + push the footer down */
 }
