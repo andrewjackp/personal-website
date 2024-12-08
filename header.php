@@ -1,17 +1,5 @@
-<?php 
-	function getFile($path) {
-		return dirname(__FILE__) . '/' . $path;
-	} 
-
-	function getFileAndInclude($path) {
-		include(getFile($path));
-	}
-?>
-
-<?php include(getFile('config.php')); ?>
-
 <!doctype html>
-<?php require('functions.php'); ?>
+
 <!-- require router was here -->
 <html lang='en'>
 	<head>

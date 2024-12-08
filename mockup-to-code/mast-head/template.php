@@ -12,7 +12,7 @@
 				<a href='?page=template-2'>Updates</a>
 			</li>
 			<li>
-				<a href='../template-3'>Services</a>
+				<a href='?page=template-3'>Services</a>
 			</li>
 			<li>
 				<a href="#">Features</a>

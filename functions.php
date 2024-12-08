@@ -1,4 +1,14 @@
-<?php function getData($path) {
+<?php 
+
+function getFile($path) {
+		return dirname(__FILE__) . '/' . $path;
+	} 
+
+function getFileAndInclude($path) {
+		include(getFile($path));
+	}
+
+function getData($path) {
 
 	//check if file exists..
 	// file_exists...

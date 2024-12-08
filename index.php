@@ -1,33 +1,18 @@
-<?php
-	//router
-	$page = "home";
-	if (isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	} 
-
-	$pageDataFilePath = "data/pages/$page.json";
-	$pageData = null;
-
-	if( file_exists($pageDataFilePath) ) {
-		$thePageJson = file_get_contents($pageDataFilePath);
-		$pageData = json_decode($thePageJson, true);
-	}
-
+<?php 
+	require('config.php'); 
+	require('functions.php');
+	include('router.php');
 ?>
 
 <?php include('header.php'); ?>
 
 <?php
+	
+	$pageData = getPageData($page);
+
 	if ($pageData) {
 
-		if (!isset($pageData["template"] ) ) { 
-
-			//including default template if none
-
-			include("templates/pages/default.php");
-		}	else {
-			include("templates/pages/$pageData[template].php");
-		}
+		getTemplate($page);
 
 	} else {
 		include("templates/pages/404.php");
