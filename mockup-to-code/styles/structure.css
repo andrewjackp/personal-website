@@ -10,6 +10,24 @@ body.template-1 {
 
 body.template-2 {
 	border: 5px solid red;
+
+	header {
+		background-color: var(--blue);
+		color: var(--white);
+	}
+
+	footer {
+		background-color: var(--white);
+		color: var(--grey);
+
+		.strong-voice {
+			color: black;
+		}
+
+		a {
+			color: var(--grey);
+		}
+	}
 }
 
 main {

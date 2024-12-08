@@ -5,11 +5,11 @@
 		</picture>
 	</a>
 	<ul>
-		<li>
+	<!-- 	<li>
 			<a href="practice-projects/php-practice/forms.php">Forms</a>
 		</li>
 		<li>
 			<a href="?page=contact">Contact</a>
-		</li>
+		</li> -->
 	</ul>
 </mast-head>

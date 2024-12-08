@@ -10,32 +10,32 @@
 	<main id="page-content">
 		<section class='hero' id='hero'>
 			<inner-column>
-				<?php include('modules/hero/template.php'); ?>
+				<?php include('template-2/modules/hero/template.php'); ?>
 			</inner-column>
 		</section>
 		<section class='product-overview' id='product-overview'>
 			<inner-column>
-				<?php include('modules/product-overview/template.php'); ?>
+				<?php include('template-2/modules/product-overview/template.php'); ?>
 			</inner-column>
 		</section>
 			<section class='feature' id='feature'>
 			<inner-column>
-				<?php include('modules/feature/template.php'); ?>
+				<?php include('template-2/modules/feature/template.php'); ?>
 			</inner-column>
 		</section>
 			<section class='clients' id='clients'>
 			<inner-column>
-				<?php include('modules/clients/template.php'); ?>
+				<?php include('template-2/modules/clients/template.php'); ?>
 			</inner-column>
 		</section>
 		<section class='call-to-action' id='call-to-action'>
 			<inner-column>
-				<?php include('modules/call-to-action/template.php'); ?>
+				<?php include('template-2/modules/call-to-action/template.php'); ?>
 			</inner-column>
 		</section>
 		<section class='faqs' id='faqs'>
 			<inner-column>
-				<?php include('modules/faqs/template.php'); ?>
+				<?php include('template-2/modules/faqs/template.php'); ?>
 			</inner-column>
 		</section>
 	</main>
