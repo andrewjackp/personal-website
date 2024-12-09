@@ -1,4 +1,4 @@
-var dataItems =[
+var dataItems = [
     {
         teaser: "Magazine",
         title: "Destination Eames: Cranbrook",
@@ -36,10 +36,10 @@ const renderItem = (item) => {
         };
 
         // Function to render all items
-        const renderItems = (items) => {
-            const cardList = document.getElementById('eames-card-list');
-            cardList.innerHTML = items.map(renderItem).join('');
-        };
+    const renderItems = (items) => {
+        const cardList = document.getElementById('eames-card-list');
+        cardList.innerHTML = items.map(renderItem).join('');
+    };
 
         // Initial render
-        renderItems(dataItems);
+renderItems(dataItems);

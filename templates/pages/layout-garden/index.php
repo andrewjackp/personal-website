@@ -1,6 +1,6 @@
-
 <layout-garden>
-	<section class='reviews-list' id="reviews">
+
+<section class='reviews-list' id="reviews">
 	<inner-column>
 		<?php include('reviews-list/template.php'); ?>
 	</inner-column>
@@ -48,3 +48,5 @@
 	</inner-column>
 </section>
 </layout-garden>
+
+<script src="data/JS/script.js"></script>

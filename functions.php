@@ -46,6 +46,8 @@ function styleGuideDetailLink($type){
 	}
 }
 
+/* No Longer using these below functions, getCurrentPageSlug (--  in router.php --) is accomplishing the same thing */
+
 function pageClass($page) {
 	$page = "";
 	return "$page-page";
