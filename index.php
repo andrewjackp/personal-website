@@ -13,9 +13,7 @@
 		
 		getTemplate();
 
-	} else {
-		include("templates/pages/404.php");
-	}
+	} 
 ?>
 
 <?php include('footer.php'); ?>
