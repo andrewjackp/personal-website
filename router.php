@@ -1,18 +1,29 @@
 <?php
 	/* router */
-	$page = "home";
-
-	if (isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	} 
 	
-	function getTemplate($page) {
-		echo "PAGE";
-		$pageFilePath = 'templates/pages/' . $page . '/' . "index.php";
+	function getCurrentPageSlug() {
+		$page = "home";
+
+		if (isset($_GET["page"]) ) {
+			$page = $_GET["page"];
+		} 
+
+		return $page;
+	}
+	
+	function getTemplate() {
+
+		$slug = getCurrentPageSlug();
+		
+		$pageFilePath = 'templates/pages/' . $slug . '/' . "index.php";
 		
 		if( file_exists($pageFilePath) ) {
-			include('templates/pages/' . $page . '/' . "index.php");
-		} 
+			include('templates/pages/' . $slug . '/' . "index.php");
+		} else {
+			include("templates/pages/404.php");
+		}
+
+		return $slug;
 	}
 
 

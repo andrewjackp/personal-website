@@ -23,7 +23,6 @@ function enableErrorReporting() {
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
 }
-
 enableErrorReporting();
 
 function show($things) {
@@ -48,10 +47,12 @@ function styleGuideDetailLink($type){
 }
 
 function pageClass($page) {
+	$page = "";
 	return "$page-page";
 }
 
 function pageTemplateClass($pageData) {
+	$pageData = "home";
 	if ( isset($pageData["template"]) ) {
 		return "$pageData[template]-template";
 	} else {

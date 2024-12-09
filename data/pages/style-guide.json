@@ -1,5 +1,6 @@
 {
 	"template": "default",
+   "slug": "style-guide",
 	"sections": [
 		{
          "module": "generic-text",

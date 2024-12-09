@@ -1,6 +1,5 @@
 <!doctype html>
 
-<!-- require router was here -->
 <html lang='en'>
 	<head>
 		<meta charset='utf-8'>
@@ -12,7 +11,7 @@
 		<link rel="stylesheet" href="css/site.css">
 	</head>
 
-	<body class="<?=pageClass($page)?> <?=pageTemplateClass($pageData)?>">
+	<body class="<?=getCurrentPageSlug()?>">
 		<header class='site-header'>
 			<inner-column>
 				<?php include('templates/partials/mast-head.php');?>

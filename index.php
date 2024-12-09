@@ -7,12 +7,11 @@
 <?php include('header.php'); ?>
 
 <?php
-	
-	$pageData = getPageData($page);
+	$slug = getCurrentPageSlug();
 
-	if ($pageData) {
-
-		getTemplate($page);
+	if ($slug) {
+		
+		getTemplate();
 
 	} else {
 		include("templates/pages/404.php");
