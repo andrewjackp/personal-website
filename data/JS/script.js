@@ -16,7 +16,7 @@ var dataItems = [
     },
 ];
 
-console.log("YOOOO");
+console.log("layout-garden, eames-institute module");
 
 const renderItem = (item) => {
             return `
@@ -35,11 +35,11 @@ const renderItem = (item) => {
             `;
         };
 
-        // Function to render all items
+// Function to render all items
     const renderItems = (items) => {
         const cardList = document.getElementById('eames-card-list');
         cardList.innerHTML = items.map(renderItem).join('');
     };
 
-        // Initial render
+// Initial render
 renderItems(dataItems);
