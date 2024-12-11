@@ -1,10 +1,9 @@
 <?php 
 	require('config.php'); 
 	require('functions.php');
-	include('router.php');
+	require('router.php');
+	require('header.php');
 ?>
-
-<?php include('header.php'); ?>
 
 <?php
 	$slug = getCurrentPageSlug();
