@@ -1,12 +1,12 @@
 <?php 
 
 function getFile($path) {
-		return dirname(__FILE__) . '/' . $path;
-	} 
+	return dirname(__FILE__) . '/' . $path;
+} 
 
 function getFileAndInclude($path) {
-		include(getFile($path));
-	}
+	include(getFile($path));
+}
 
 function getData($path) {
 
@@ -23,6 +23,7 @@ function enableErrorReporting() {
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
 }
+
 enableErrorReporting();
 
 function show($things) {
