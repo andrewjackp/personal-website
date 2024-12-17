@@ -2,7 +2,7 @@
 <section>
 	<inner-column>
 		<?php
-			$pageTitle = "Projects";
+			$title = "Projects";
 			include('templates/modules/page-header/template.php');
 		?>
 	</inner-column>

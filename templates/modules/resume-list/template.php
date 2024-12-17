@@ -1,7 +1,7 @@
 <?php
 	$resume_data = getData('data/resume.json');
-    $positions = $resume_data["positions"];
-    $schools = $resume_data["education"];
+   $positions = $resume_data["positions"];
+   $schools = $resume_data["education"];
 ?>
 
 <?php foreach( $positions as $position ) { ?>

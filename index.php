@@ -7,12 +7,14 @@
 
 <?php
 	$slug = getCurrentPageSlug();
+	$page = "home";
 
 	if ($slug) {
 		
 		getTemplate();
 
 	} 
+
 ?>
 
-<?php include('footer.php'); ?>
+<?php require('footer.php'); ?>

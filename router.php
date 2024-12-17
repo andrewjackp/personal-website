@@ -10,7 +10,7 @@
 
 		return $page;
 	}
-	
+
 	function getTemplate() {
 
 		$slug = getCurrentPageSlug();
@@ -20,7 +20,7 @@
 		if( file_exists($pageFilePath) ) {
 			include('templates/pages/' . $slug . '/' . "index.php");
 		} else {
-			include("templates/pages/404.php");
+			include('templates/pages/404.php');
 		}
 
 		return $slug;
@@ -39,6 +39,9 @@
 		}
 
 		echo "No data found";
+
 		return null;
 	}
+
+	
 ?>

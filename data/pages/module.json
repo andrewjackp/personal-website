@@ -1,3 +1,4 @@
 {
-	"template": "module"
+	"template": "module",
+	"slug" : "module-page"
 }

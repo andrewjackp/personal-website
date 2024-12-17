@@ -15,7 +15,7 @@
         	"module": "call-to-action"
       },
       {
-         "module": "page-header"
+         "module": "page-header",
       },
       {
          "module": "project-spotlight"
