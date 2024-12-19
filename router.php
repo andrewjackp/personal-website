@@ -11,6 +11,15 @@
 		return $page;
 	}
 
+	function getPageTitle($page) {
+		
+		$page = getPageData($page);
+
+		$title = $page["title"];
+
+		return $title;
+	}
+
 	function getTemplate() {
 
 		$slug = getCurrentPageSlug();
@@ -28,6 +37,8 @@
 
 
 	function getPageData($page) {
+
+		$page = getCurrentPageSlug();
 
 		$pageDataFilePath = "data/pages/$page.json";
 

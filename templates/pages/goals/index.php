@@ -2,7 +2,8 @@
 <section>
 	<inner-column>
 		<?php
-			$title = "Here are my goals";
+			$pageTitle = "Here are my goals";
+			include("templates/modules/page-header/template.php");
 		?>
 		<?php
 			include("templates/modules/goals-list/template.php");

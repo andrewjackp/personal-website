@@ -1,6 +1,7 @@
 
 <section>
 	<inner-column>
+		<?php $title = "My list of work" ?>
 		<?php include('templates/modules/page-header/template.php');?>
 	</inner-column>
 </section>

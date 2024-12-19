@@ -5,15 +5,15 @@
 	require('header.php');
 ?>
 
+
 <?php
 	$slug = getCurrentPageSlug();
 	$page = "home";
 
 	if ($slug) {
-		
 		getTemplate();
+	};
 
-	} 
 
 ?>
 

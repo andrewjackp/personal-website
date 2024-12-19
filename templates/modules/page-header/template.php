@@ -1,7 +1,7 @@
 
 <?php
-	$title = $pageData["title"] ?? "Page title here";
-	$intro = $pageData["intro"] ?? "..and some content regarding the page.";
+	$title = $title ?? "Page title here";
+	$intro = $intro ?? "..and some content regarding the page.";
 ?>
 
 <header class="page-header">
