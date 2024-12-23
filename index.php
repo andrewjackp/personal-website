@@ -1,3 +1,5 @@
+
+
 <?php 
 	require('config.php'); 
 	require('functions.php');
@@ -7,13 +9,8 @@
 
 
 <?php
-	$slug = getCurrentPageSlug();
-	$page = "home";
 
-	if ($slug) {
-		getTemplate();
-	};
-
+	getTemplate($currentPageSlug);
 
 ?>
 

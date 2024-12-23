@@ -1,12 +1,12 @@
 
 <?php
-	$title = $title ?? "Page title here";
+	$pageTitle = $pageTitle ?? "Page title here";
 	$intro = $intro ?? "..and some content regarding the page.";
 ?>
 
 <header class="page-header">
 
-	<h1 class='loud-voice'><?=$title?></h1>
+	<h1 class='loud-voice'><?=$pageTitle?></h1>
 
 		<p><?=$intro?></p>
 

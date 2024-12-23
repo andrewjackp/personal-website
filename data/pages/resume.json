@@ -2,8 +2,7 @@
 
 	"id": "234hbk123kid",
    "slug": "resume",
-
-   "title": "Resume",
+   "title": "resume",
    "template": "resume/index",
    "intro": "intro.... to da rez",
 
@@ -15,7 +14,7 @@
         	"module": "call-to-action"
       },
       {
-         "module": "page-header",
+         "module": "page-header"
       },
       {
          "module": "project-spotlight"

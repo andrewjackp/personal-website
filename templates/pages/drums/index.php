@@ -3,7 +3,7 @@
 	<inner-column>
 
 	<?php
-	$title = "I like to drum (in Garth Voice)";
+	$pageTitle = "I like to drum (in Garth Voice)";
 	include('templates/modules/page-header/template.php');
 ?>
 

@@ -3,6 +3,8 @@
 		<?php 
 			$data = getPageData('style-guide');
 
+			echo $data['title'];
+
 			$name = $data["slug"];
 			include("templates/modules/$name/template.php");
 		?>

@@ -1,46 +1,22 @@
 <?php
 	/* router */
-	
+
 	function getCurrentPageSlug() {
-		$page = "home";
+		$pageSlug = "home";
 
 		if (isset($_GET["page"]) ) {
-			$page = $_GET["page"];
+			$pageSlug = $_GET["page"];
 		} 
 
-		return $page;
+		return $pageSlug;
 	}
 
-	function getPageTitle($page) {
-		
-		$page = getPageData($page);
-
-		$title = $page["title"];
-
-		return $title;
-	}
-
-	function getTemplate() {
-
-		$slug = getCurrentPageSlug();
-		
-		$pageFilePath = 'templates/pages/' . $slug . '/' . "index.php";
-		
-		if( file_exists($pageFilePath) ) {
-			include('templates/pages/' . $slug . '/' . "index.php");
-		} else {
-			include('templates/pages/404.php');
-		}
-
-		return $slug;
-	}
+	$currentPageSlug = getCurrentPageSlug();
 
 
-	function getPageData($page) {
+	function getPageData($slug) {
 
-		$page = getCurrentPageSlug();
-
-		$pageDataFilePath = "data/pages/$page.json";
+		$pageDataFilePath = "data/pages/$slug.json";
 
 		if( file_exists($pageDataFilePath) ) {
 			$thePageJson = file_get_contents($pageDataFilePath);
@@ -54,5 +30,37 @@
 		return null;
 	}
 
-	
+	function getTemplate($slug) {
+
+		// back up template
+
+		$templateName = null;
+
+		$pageData = getPageData($slug);
+
+		// if we have a page template, assign to the slug.
+		if( isset($pageData['template']) ) {
+			// then load the template
+			$templateName = $pageData['template'];
+		} else {
+			// look for page specific template
+			// template will most likely share name with slug
+			$templateName = $slug;
+		}
+		
+		$pageFilePath = "templates/pages/$templateName.php";
+
+		if( file_exists($pageFilePath) ) {
+
+			include($pageFilePath);
+
+		} else {
+
+			echo "File path doesn't exist";
+
+			include("templates/pages/404.php");
+		}
+	}
+
+	$pageData = getPageData($currentPageSlug);
 ?>
