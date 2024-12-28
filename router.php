@@ -25,8 +25,6 @@
 			return $pageData;
 		}
 
-		echo "No data found";
-
 		return null;
 	}
 
@@ -55,8 +53,6 @@
 			include($pageFilePath);
 
 		} else {
-
-			echo "File path doesn't exist";
 
 			include("templates/pages/404.php");
 		}
