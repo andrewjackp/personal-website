@@ -1,9 +1,8 @@
 {
    "id": "1138",
    "slug": "contact",
-
-	"title": "Contact",
-	"template": "default",
+	"title": "contact",
+	"template": "contact/index",
 	"intro": "intro.... to contact info",
 
 	"sections": [

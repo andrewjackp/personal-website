@@ -17,6 +17,6 @@
 				</p>
 	</div>
 				<div class="button-container">
-					<a href="#" target="contact" class="site-button">Contact</a>
+					<a href="?page=contact" target="contact" class="site-button">Contact</a>
 				</div>
 </call-to-action>

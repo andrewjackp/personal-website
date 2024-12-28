@@ -2,12 +2,13 @@
 <section>
 	<inner-column>
 		<?php
-			$pageTitle = "Contact";
+			$pageTitle = "Contact Andy";
+			$intro = "";
 			include('templates/modules/page-header/template.php');
 		?>
 
 		<?php 
-			$content = "<div class='info'>
+			$section["content"] = "<div class='info'>
 				<h2 class='calm-voice'>Email</h1>
 				<span class='ink-voice'>andrewjackp@gmail.com</span>
 				</div>"
