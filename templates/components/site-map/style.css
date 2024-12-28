@@ -1,0 +1,31 @@
+.site-footer {
+   bottom: 0;
+   z-index: 1;
+   background: #ffffff;
+
+	picture {
+		max-width: 100px;
+	}
+
+	position: relative;
+	z-index: 100;
+}
+
+.footer-nav {
+	
+   a {
+		color: var(--ink-light);
+	}
+
+	a.active {
+		border-bottom: 4px solid wheat;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+   	gap: 25px;
+	}
+	
+}

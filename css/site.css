@@ -8,34 +8,6 @@
 
 /* SECTIONS */
 
-.site-footer {
-   bottom: 0;
-   z-index: 1;
-   background: #ffffff;
-	picture {
-		max-width: 100px;
-	}
-	position: relative;
-	z-index: 100;
-}
-
-.footer-nav {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-   gap: 25px;
-
-   a {
-	color: var(--ink-light);
-	}
-
-	a.active {
-		border-bottom: 4px solid wheat;
-	}
-	
-}
-
-
 .media-links inner-column {
 		display: flex;
 		flex-direction: column;

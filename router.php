@@ -34,7 +34,7 @@
 
 		// back up template
 
-		$templateName = null;
+		$templateName = "home";
 
 		$pageData = getPageData($slug);
 

@@ -11,14 +11,19 @@ mast-head {
    top: 0;
    z-index: 1;
    background-color: #ffffff;
+   border-bottom: 2px solid black;
+
 	picture {
 		max-width: 100px;
 	}
+
 	ul {
 		display: flex;
    	flex-direction: row;
     	gap: 10px;
 	}
+
 	color: var(--ink-light);
+
 }
 }
