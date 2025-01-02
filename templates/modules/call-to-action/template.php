@@ -9,14 +9,17 @@
 		<h1 class='loud-voice'>
 			<?=$heading?>
 		</h1>
-			<p class='calm-voice'>
+		
+		<p class='calm-voice'>
 			<?=$intro?>
-			</p>
-				<p class='soft-voice'>
-					<?=$message?>
-				</p>
+		</p>
+		
+		<p class='soft-voice'>
+			<?=$message?>
+		</p>		
 	</div>
-				<div class="button-container">
-					<a href="?page=contact" target="contact" class="site-button">Contact</a>
-				</div>
+	
+	<div class="button-container">
+		<a href="?page=contact" target="contact" class="site-button">Contact</a>
+	</div>
 </call-to-action>
