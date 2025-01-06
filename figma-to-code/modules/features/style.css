@@ -13,6 +13,14 @@ features {
 
 	.feature-card {
 		display: grid;
+
+		card-text {
+			display: block;
+			display: flex;
+    		flex-direction: column;
+    		gap: 6px;
+    		line-height: 1em;
+		}
 	}
 
 	&.default {
@@ -21,8 +29,12 @@ features {
 
 	&.template-one-feature-list {
 		.feature-card {
-			grid-template-columns: 1% 20%;
+			grid-template-columns: 5% 1fr;
 			gap: 10px;
+
+			.id-voice {
+				margin-top: 1em;
+			}
 		}
 
 		@media(width > 600px) {
@@ -33,6 +45,9 @@ features {
 			li {
 				&:nth-of-type(1) {
 				grid-area: one;
+				picture {
+					width: 60%;
+				}
 				.id-voice {
 				display: none;
 			}
@@ -47,18 +62,33 @@ features {
 			}
 			&:nth-of-type(2) {
 				grid-area: two;
+				picture {
+					display: none;
+				}
 			}
 			&:nth-of-type(3) {
 				grid-area: three;
+				picture {
+					display: none;
+				}
 			}
 			&:nth-of-type(4) {
 				grid-area: four;
+				picture {
+					display: none;
+				}
 			}
 			&:nth-of-type(5) {
 				grid-area: five;
+				picture {
+					display: none;
+				}
 			}
 			&:nth-of-type(6) {
 				grid-area: six;
+				picture {
+					display: none;
+				}
 			}
 		}
 	}
@@ -79,6 +109,9 @@ features {
 			.id-voice {
 				display: none;
 			}
+			picture {
+					display: none;
+				}
 		}
 	}
 }

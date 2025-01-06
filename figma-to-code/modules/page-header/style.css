@@ -6,6 +6,10 @@ page-header {
    align-items: center;
    gap: 20px;
    text-align: center;
+
+   &.none {
+      display: none;
+   }
 }
 
 .attention-voice {

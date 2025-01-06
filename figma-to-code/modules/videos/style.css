@@ -7,8 +7,12 @@ videos {
 	align-items: center;
 	text-align: center;
 
+	.quiet-voice {
+		max-width: 53ch;
+	}
+
 	.quiet-voice + .loud-voice {
-		margin-top: 0.5em;
+		margin-top: 0.4em;
 	}
 
 	.loud-voice + .quiet-voice {

@@ -17,7 +17,7 @@
          "cards": [
             {  
                "id": 0,
-               "heading": "first[0] card",
+               "heading": "card",
                "content": "blaaaaaa",
                "img" : ""
             },

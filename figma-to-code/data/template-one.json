@@ -14,32 +14,42 @@
       },
       {
          "module": "features",
-         "heading": "",
-         "caption": "",
+         "pageHeaderStyle": "none",
+         "heading" : "",
+         "caption" : "",
          "cardStyle": "template-one-feature-list",
          "cards": [
             {  
                "id": 0,
-               "heading": "first card",
-               "content": "blaaaaaa",
-               "img" : ""
+               "heading": "Sit quam gravida",
+               "content": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
+               "img" : "https://peprojects.dev/images/portrait.jpg"
             },
             {  
                "id": 1,
-               "heading": "second card",
-               "content": "blaaaaaa"
+               "heading": "Elementum enim tempus",
+               "content": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
             },
             {  
                "id": 2,
-               "heading": "third card",
-               "content": "blaaaaaa"
+               "heading": "Tempor egestas augue",
+               "content": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
             },
             {  
                "id": 3,
-               "heading": "fourth card",
-               "content": "blaaaaaa"
+               "heading": "Nulla ac lacinia",
+               "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+            },
+            {  
+               "id": 4,
+               "heading": "Nulla ac lacinia",
+               "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+            },
+            {  
+               "id": 5,
+               "heading": "Velit nibh a",
+               "content": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
             }
-
          ]
       },
       {

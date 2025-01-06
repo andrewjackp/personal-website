@@ -1,6 +1,7 @@
 <?php 
 	$cards = $props['cards'] ?? [1, 2, 3];
 	$cardStyle = $props['cardStyle'] ?? "default";
+	$img = $props['img'] ?? "";
 
 	include('modules/page-header/template.php');
 ?>
@@ -10,12 +11,16 @@
 		<?php foreach($cards as $card) { ?> 
 			<li>
 				<article class="feature-card">
-					<picture>
-						<img src="" alt="">
-					</picture>
 					<span class="id-voice"><?=$card['id']?></span>
-					<h2 class="loud-voice"><?=$card['heading']?></h2>
-					<p class='quiet-voice'><?=$card['content']?></p>
+
+					<card-text>
+						<h2 class="loud-voice"><?=$card['heading']?></h2>
+						<p class='quiet-voice'><?=$card['content']?></p>
+					</card-text>
+					
+					<picture>
+						<img src="<?=$card['img']?>" alt="none">
+					</picture>
 				</article>
 			</li>
 		<?php } ?>
