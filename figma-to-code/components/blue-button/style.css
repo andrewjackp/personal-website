@@ -1,0 +1,11 @@
+.button {
+    border: 1px solid var(--blue);
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 0.9em 1em;
+    background-color: var(--blue);
+    color: var(--white);
+    min-width: 120px;
+    text-align: center;
+}

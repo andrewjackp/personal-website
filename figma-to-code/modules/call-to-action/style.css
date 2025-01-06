@@ -1,0 +1,33 @@
+call-to-action {
+	display: block;
+	padding: 18px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	text-align: center;
+
+	.button {
+		max-width: 100px;
+	}
+
+	.button-container {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+
+		@media(width > 600px) {
+			flex-direction: row
+		}
+	}
+}	
+
+inner-column:has(call-to-action) {
+	background: antiquewhite;
+}
+
+	

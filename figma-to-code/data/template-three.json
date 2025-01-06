@@ -1,0 +1,26 @@
+{
+   "id": "3",
+   "slug": "template-three",
+   "title": "Template Three",
+
+   "sections": [
+      {
+         "module": "email-signup"
+      },
+      {
+         "module": "previews"
+      },
+      {
+         "module": "features"
+      },
+      {
+         "module": "testimonials"
+      },
+      {
+         "module": "call-to-action"
+      },
+      {
+         "module": "faqs"
+      }
+   ]
+}

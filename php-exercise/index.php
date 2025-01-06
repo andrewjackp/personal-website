@@ -3,7 +3,7 @@
 
 	include("data/$currentPageSlug.php");
 
-	function getModule($name){
+	function getModule($name, $props = []){
 		$filePath = "modules/$name/template.php";
 		if (file_exists ($filePath) ) {
 			include($filePath);
@@ -30,10 +30,10 @@
 		<header>
 			<h1><?=$pageData['name']?></h1>
 		</header>
-
+		
 		<?php 
 			foreach($pageData["sections"] as $section) {
-				getModule($section['moduleName']);
+				getModule($section['moduleName'], $section); 
 			}
 		?>
 	</main>

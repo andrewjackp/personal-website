@@ -1,0 +1,26 @@
+{
+   "id": "2",
+   "slug": "template-two",
+   "title": "Template Two",
+
+   "sections": [
+      {
+         "module": "call-to-action"
+      },
+      {
+         "module": "learn-more"
+      },
+      {
+         "module": "features",
+      },
+      {
+         "module": "testimonials"
+      },
+      {
+         "module": "faqs"
+      },
+      {
+         "module": "email-signup"
+      }
+   ]
+}

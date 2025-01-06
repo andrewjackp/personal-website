@@ -26,13 +26,14 @@ ul, li {
 	gap: 10px;
 }
 
-.card-list.default {
+.card-list {
 	display: grid;
    gap: 10px;
+
+   &.default {
    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-.card-list.second-grid-list {
-		display: grid;
-   	gap: 10px;
-   	grid-template-columns: 1fr 1fr;
+	}
+	&.second-page-list {
+		grid-template-columns: 1fr 1fr;
+	}
 }

@@ -1,0 +1,50 @@
+{
+	"id": "1",
+	"slug": "template-one",
+   "title": "Template One",
+
+	"sections": [
+		{
+         "module": "call-to-action"
+      },
+      {
+        	"module": "videos"
+      },
+      {
+         "module": "features",
+         "cards": [
+            {  
+               "id": 0,
+               "heading": "first card",
+               "content": "blaaaaaa",
+               "img" : ""
+            },
+            {  
+               "id": 1,
+               "heading": "second card",
+               "content": "blaaaaaa"
+            },
+            {  
+               "id": 2,
+               "heading": "third card",
+               "content": "blaaaaaa"
+            },
+            {  
+               "id": 3,
+               "heading": "fourth card",
+               "content": "blaaaaaa"
+            }
+
+         ]
+      },
+      {
+         "module": "testimonials"
+      },
+      {
+         "module": "call-to-action"
+      },
+      {
+         "module": "faqs"
+      }
+	]
+}

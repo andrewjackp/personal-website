@@ -1,14 +1,14 @@
 <?php 
-	$cardData = [1, 2, 3, 4, 5, 6];
-	$cardStyle = $cardStyle ?? "default";
+	$cards = $props['cards'] ?? [];
+	$cardStyle = $props['cardStyle'] ?? "default";
 ?>
 
 <ul class="card-list <?=$cardStyle?>" >
-	<?php foreach($cardData as $card) { ?> 
+	<?php foreach($cards as $card) { ?> 
 		<li>
 			<article class="card">
-				<h1>Heading</h1>
-				<p>Placeholder text</p>
+				<h1><?=$card['heading']?></h1>
+				<p><?=$card['content']?></p>
 			</article>
 		</li>
 	<?php } ?>

@@ -1,0 +1,11 @@
+.outline-btn {
+	background-color: var(--white);
+	color: var(--blue);
+	border: 1px solid var(--blue);
+   display: inline-block;
+   font-size: 13px;
+   line-height: 1.4;
+   padding: 0.9em 1em;
+   min-width: 120px;
+   text-align: center;
+}

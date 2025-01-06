@@ -14,6 +14,10 @@
 
 				"moduleName" => "card-list",
 				"cardStyle" => "second-page-list",
+				"cards" => [ 
+					["heading" => "first card", "content" => "blaah blah"],
+					["heading" => "second card", "content" => "bla haha ah blah"]
+				]
 			],
 			[
 
