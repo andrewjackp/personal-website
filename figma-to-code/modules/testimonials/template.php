@@ -2,20 +2,20 @@
 	include('modules/page-header/template.php');
 
 	$reviews= $props['reviews'] ?? [];
-	$cardStyle = $props['cardStyle'] ?? "default";
+	$reviewStyle = $props['reviewStyle'] ?? "default";
 	$img = $props['img'] ?? "";
 
 ?>
 
 <testimonials>
-	<ul class="review-list">
+	<ul class="review-list <?=$reviewStyle?>">
 		<?php foreach($reviews as $review) { ?>
 			<li>
 				<article class="review-card">
-					<picture>
+					<picture class="star-rating">
 						<img src="images/5-star.svg" alt="">
 					</picture>
-					<p class="quiet-voice"><?=$review['quote']?></p>
+					<p class="loud-voice"><?=$review['quote']?></p>
 					<picture>
 						<img src="<?=$review['img']?>" alt="">
 					</picture>

@@ -54,13 +54,28 @@
          ]
       },
       {
-         "module": "testimonials"
+         "module": "testimonials",
+         "reviewStyle": "template-two-list",
+         "heading" : "What Our Clients Say",
+         "caption" : "Neque, pulvinar vestibulum non aliquam.",
+         "reviews" : [
+            {
+               "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+               "img": "images/avatar.svg",
+               "name": "Courtney Henry"
+            },
+            {
+               "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+               "img": "images/avatar.svg",
+               "name": "Courtney Henry"
+            }
+         ]
       },
       {
          "module": "faqs"
       },
       {
-         "module": "email-signup"
+         "module": "get-quotes"
       }
    ]
 }
