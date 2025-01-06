@@ -5,13 +5,18 @@
 
 	"sections": [
 		{
-         "module": "call-to-action"
+         "module": "call-to-action",
+         "heading": "Monstrously Cohesive Visual Systems",
+         "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
       },
       {
         	"module": "videos"
       },
       {
          "module": "features",
+         "heading": "",
+         "caption": "",
+         "cardStyle": "template-one-feature-list",
          "cards": [
             {  
                "id": 0,

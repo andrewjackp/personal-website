@@ -11,7 +11,45 @@
          "module": "previews"
       },
       {
-         "module": "features"
+         "module": "features",
+         "titleStyle": "loud-voice",
+         "cardStyle": "template-two-feature-list",
+         "cards": [
+            {  
+               "id": 0,
+               "heading": "first[0] card",
+               "content": "blaaaaaa",
+               "img" : ""
+            },
+            {  
+               "id": 1,
+               "heading": "first card",
+               "content": "blaaaaaa"
+            },
+            {  
+               "id": 2,
+               "heading": "second card",
+               "content": "blaaaaaa"
+            },
+            {  
+               "id": 3,
+               "heading": "third card",
+               "content": "blaaaaaa"
+            },
+            {  "id" : 4,
+               "heading": "fourth card",
+               "content": "blaaaaaa"
+            },
+            {  "id" : 5,
+               "heading": "fifth card",
+               "content": "blaaaaaa"
+            },
+            {  "id" : 6,
+               "heading": "sixth card",
+               "content": "blaaaaaa"
+            }
+
+         ]
       },
       {
          "module": "testimonials"

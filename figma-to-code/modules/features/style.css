@@ -9,8 +9,23 @@ features {
 
 .feature-list {
 	display: grid;
+	gap: 10px;
 
-	@media(width > 600px) {
+	.feature-card {
+		display: grid;
+	}
+
+	&.default {
+   	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	}
+
+	&.template-one-feature-list {
+		.feature-card {
+			grid-template-columns: 1% 20%;
+			gap: 10px;
+		}
+
+		@media(width > 600px) {
 		grid-template-columns: 1fr 40vw;
 		grid-template-areas: "one two" "one three" "one four" "one five" "one six";
 		gap: 20px 20px;
@@ -50,12 +65,21 @@ features {
 
 	@media(width > 1000px) {
 		grid-template-columns: 1fr 1fr;
+		&:nth-of-type(1) {
+				grid-area: 1fr;
+		}
+	}
+
+}
+
+	&.template-two-feature-list {
+		grid-template-columns: 1fr 1fr 1fr;
+
+		.feature-card {
+			.id-voice {
+				display: none;
+			}
+		}
 	}
 }
 
-
-.feature-card {
-	display: grid;
-	grid-template-columns: 1% 20%;
-	gap: 10px;
-}
