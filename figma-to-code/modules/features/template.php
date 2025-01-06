@@ -1,5 +1,5 @@
 <?php 
-	$cards = $props['cards'] ?? [1, 2, 3];
+	$cards = $props['cards'] ?? [];
 	$cardStyle = $props['cardStyle'] ?? "default";
 	$img = $props['img'] ?? "";
 

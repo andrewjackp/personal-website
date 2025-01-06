@@ -1,0 +1,32 @@
+testimonials {
+	padding: 90px 0 40px;
+
+	.review-list {
+		display: grid;
+
+		@media(width > 600px) {
+			grid-template-columns: 1fr 1fr;
+			gap: 10px;
+		}
+	}	
+
+	.review-card {
+		display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	text-align: center;
+   	gap: 15px;
+   	padding: 40 0 40;
+	}
+}
+
+page-header {
+	padding-top: 70px;
+}
+
+section:has(testimonials) {
+	padding-bottom: 2em;
+	inner-column {
+		border: none;
+	}
+}
