@@ -53,7 +53,10 @@
          ]
       },
       {
-         "module": "testimonials"
+         "module": "testimonials",
+         "titleStyle" : "loud-voice",
+         "heading" : "What Our Clients Say",
+         "caption" : "Neque, pulvinar vestibulum non aliquam."
       },
       {
          "module": "call-to-action"
