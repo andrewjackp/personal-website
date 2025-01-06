@@ -1,0 +1,14 @@
+quotes {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	align-items: center;
+
+	padding-top: 70px;
+	padding-bottom: 50px;
+
+	.attention-voice {
+		text-align: center;
+	}
+}
