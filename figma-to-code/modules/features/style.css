@@ -35,6 +35,10 @@ features {
 			.id-voice {
 				margin-top: 1em;
 			}
+
+			picture {
+				display: none;
+			}
 		}
 
 		@media(width > 600px) {
@@ -47,6 +51,7 @@ features {
 				grid-area: one;
 				picture {
 					width: 60%;
+					display: block;
 				}
 				.id-voice {
 				display: none;
@@ -62,33 +67,18 @@ features {
 			}
 			&:nth-of-type(2) {
 				grid-area: two;
-				picture {
-					display: none;
-				}
 			}
 			&:nth-of-type(3) {
 				grid-area: three;
-				picture {
-					display: none;
-				}
 			}
 			&:nth-of-type(4) {
 				grid-area: four;
-				picture {
-					display: none;
-				}
 			}
 			&:nth-of-type(5) {
 				grid-area: five;
-				picture {
-					display: none;
-				}
 			}
 			&:nth-of-type(6) {
 				grid-area: six;
-				picture {
-					display: none;
-				}
 			}
 		}
 	}
