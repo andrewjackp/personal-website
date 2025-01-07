@@ -17,7 +17,7 @@
          "pageHeaderStyle": "none",
          "heading" : "",
          "caption" : "",
-         "cardStyle": "template-one-feature-list",
+         "cardStyle": "template-one-main-with-features-list",
          "cards": [
             {  
                "id": 0,

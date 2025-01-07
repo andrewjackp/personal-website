@@ -8,4 +8,5 @@
     color: var(--white);
     min-width: 120px;
     text-align: center;
+    letter-spacing: 0.03em;
 }

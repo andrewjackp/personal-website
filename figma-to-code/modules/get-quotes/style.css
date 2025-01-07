@@ -6,9 +6,13 @@ quotes {
 	align-items: center;
 
 	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 
 	.attention-voice {
 		text-align: center;
+	}
+
+	.attention-voice + .button-container {
+		margin-top: 1em;
 	}
 }

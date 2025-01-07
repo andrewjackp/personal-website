@@ -27,7 +27,7 @@ features {
    	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	}
 
-	&.template-one-feature-list {
+	&.template-one-main-with-features-list {
 		.feature-card {
 			grid-template-columns: 5% 1fr;
 			gap: 10px;
