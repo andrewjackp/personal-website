@@ -74,7 +74,25 @@
          "module": "get-quotes"
       },
       {
-         "module": "faqs"
+         "module": "faqs",
+         "faqs" : [
+            {
+               "question": "Q",
+               "answer" : "A"
+            },
+            {
+               "question": "Q",
+               "answer" : "A"
+            },
+            {
+               "question": "Q",
+               "answer" : "A"
+            },
+            {
+               "question": "Q",
+               "answer" : "A"
+            }
+         ]
       }
 	]
 }
