@@ -70,8 +70,19 @@ faqs {
 	}
 }
 
+page-header {
+	padding-top: 30px;
+}
+
 inner-column
 &.template-three-faq-style {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
+
+	@media(width > 600px) {
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+		align-items: center;
+	}
+	
 }
