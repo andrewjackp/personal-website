@@ -7,6 +7,9 @@ faqs {
 		margin-top: 1em;
 	}
 
+	.question-tab {
+
+	}
 	summary {
 		cursor: pointer;	
 		display: flex;
@@ -22,8 +25,19 @@ faqs {
 		color: var(--grey);
 	}
 
-	details[open] > summary::after {
+	details[open] > summary:is(.default)::after {
 		content: '^';
+	}
+
+	details[open]:is(.template-two-faqs) > summary::after {
+		content: '_';
+	}
+
+	details[open]:is(.template-two-faqs) {
+		.quiet-voice {
+         border-left: 2px solid var(--blue);
+         padding-left: 4px;
+		}
 	}
 
 	.faq-card {
@@ -35,5 +49,17 @@ faqs {
 		margin-top: 1em;
 		line-height: 1.28em
 		}
+
+		&.template-two-faqs[open] {
+		.quiet-voice {
+         border-left: 2px solid var(--blue);
+         padding-left: 4px;
+		}
 	}
+}
+
+inner-column
+&.template-three-faq-style {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }

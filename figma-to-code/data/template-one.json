@@ -75,21 +75,27 @@
       },
       {
          "module": "faqs",
+         "questionStyle": "default",
+         "summaryStyle": "default",
          "faqs" : [
             {
-               "question": "Q",
+               "question": "How soon will my order ship?",
                "answer" : "A"
             },
             {
-               "question": "Q",
+               "question": "Is there any warranty exclusions?",
+               "answer" : "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+            },
+            {
+               "question": "Are there any return exclusions?",
                "answer" : "A"
             },
             {
-               "question": "Q",
+               "question": "Will I be charged for a replacement item?",
                "answer" : "A"
             },
             {
-               "question": "Q",
+               "question": "How can I track my orders & payment?",
                "answer" : "A"
             }
          ]

@@ -72,7 +72,31 @@
          ]
       },
       {
-         "module": "faqs"
+         "module": "faqs",
+         "questionStyle" : "template-two-faqs",
+         "summaryStyle" : "template-two-faqs",
+         "faqs" : [
+            {
+               "question": "How soon will my order ship?",
+               "answer" : "A"
+            },
+            {
+               "question": "Is there any warranty exclusions?",
+               "answer" : "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam. "
+            },
+            {
+               "question": "Are there any return exclusions?",
+               "answer" : "A"
+            },
+            {
+               "question": "Will I be charged for a replacement item?",
+               "answer" : "A"
+            },
+            {
+               "question": "How can I track my orders & payment?",
+               "answer" : "A"
+            }
+         ]
       },
       {
          "module": "get-quotes"
