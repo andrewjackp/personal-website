@@ -16,12 +16,24 @@ faqs {
 		justify-content: space-between;
 	}
 
+	summary:is(.template-two-faqs) {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+		gap: 1em;
+	}
+
 	summary::before {
 		content: none;
 	};
 
 	summary::after {
 		content: ">";
+		color: var(--grey);
+	}
+
+	summary:is(.template-two-faqs)::after {
+		content: "+";
 		color: var(--grey);
 	}
 
