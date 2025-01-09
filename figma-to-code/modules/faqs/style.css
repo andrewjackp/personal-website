@@ -42,7 +42,7 @@ faqs {
 	}
 
 	details[open]:is(.template-two-faqs) > summary::after {
-		content: '_';
+		content: '-';
 	}
 
 	details[open]:is(.template-two-faqs) {
