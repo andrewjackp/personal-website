@@ -37,6 +37,7 @@
 			echo "no module called $name";
 		}
 	}
+
 ?>
 
 <!doctype html>
@@ -48,14 +49,7 @@
 	<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-	<header>
-		<section>
-			<inner-column>
-				<?php include('components/header/template.php');?>
-			</inner-column>
-		</section>
-	</header>
-
+	
 	<main>
 		<?php foreach($pageData["sections"] as $section) { ?>
 			<section>
@@ -67,12 +61,15 @@
 		
 	</main>
 
-	<footer>
+	<footer class=<?=$pageData['footerColor']?>>
 		<section>
 			<inner-column>
-				<?php include('components/footer/template.php');?>
+				<?php
+					include('modules/footer/template.php');
+				?>
 			</inner-column>
 		</section>
 	</footer>
+	
 </body>
 </html>

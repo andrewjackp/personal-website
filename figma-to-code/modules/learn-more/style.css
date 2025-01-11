@@ -1,0 +1,18 @@
+learn-more {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.quiet-voice {
+		padding-bottom: 1em;
+	}
+	page-header {
+		padding-top: 1.3em;
+	}
+
+	.lrn-more-btn {
+		color: var(--blue);
+		letter-spacing: 0.3px;
+	}
+}

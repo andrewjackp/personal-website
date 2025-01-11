@@ -2,9 +2,13 @@
    "id": "2",
    "slug": "template-two",
    "title": "Template Two",
+   "footerColor": "template-two-footer",
 
    "sections": [
       {
+         "module" : "header"
+      },
+      {  
          "module": "call-to-action",
          "heading": "Monstrously Cohesive Visual Systems",
          "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
@@ -71,6 +75,9 @@
             }
          ]
       },
+       {
+         "module": "call-to-action"
+      },
       {
          "module": "faqs",
          "questionStyle" : "template-two-faqs",
@@ -97,9 +104,6 @@
                "answer" : "A"
             }
          ]
-      },
-      {
-         "module": "get-quotes"
       }
    ]
 }

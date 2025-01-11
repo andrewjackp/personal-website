@@ -2,9 +2,10 @@
 	"id": "1",
 	"slug": "template-one",
    "title": "Template One",
+   "footerColor": "default",
 
 	"sections": [
-		{
+		{  
          "module": "call-to-action",
          "heading": "Monstrously Cohesive Visual Systems",
          "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."

@@ -5,6 +5,9 @@
 
    "sections": [
       {
+         "module" : "header"
+      },
+      {
          "module": "email-signup"
       },
       {
@@ -52,7 +55,16 @@
          ]
       },
       {
-         "module": "testimonials"
+         "module": "testimonials",
+         "articleCard": "template-three-list",
+         "heading" : "What Our Clients Say",
+         "reviews": [
+            {
+               "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+               "img": "images/avatar.svg",
+               "name": "Courtney Henry"
+            }
+         ]
       },
       {
          "module": "call-to-action"

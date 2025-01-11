@@ -8,6 +8,31 @@ testimonials {
    	text-align: center;
    	gap: 15px;
 	}
+	&.template-three-list {
+		.review-card {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 10px;
+
+		.star-rating {
+			display: none;
+		}
+
+		.loud-voice {
+			grid-column: 2 / 2;
+    		grid-row: 1 / 2;
+		}
+
+		.quiet-voice {
+			grid-row: 8 / 1;
+    		grid-column: 2 / 2;
+		}
+
+		picture {
+			grid-row: 1;
+		}
+		}
+	}
 
 	.review-list {
 		display: grid;
