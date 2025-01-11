@@ -2,7 +2,8 @@
 	"id": "1",
 	"slug": "template-one",
    "title": "Template One",
-   "footerColor": "default",
+   "headerStyle": "default-header",
+   "footerColor": "default-footer",
 
 	"sections": [
 		{  

@@ -2,11 +2,10 @@
    "id": "3",
    "slug": "template-three",
    "title": "Template Three",
+   "headerStyle": "default-header",
+   "footerColor": "default-footer",
 
    "sections": [
-      {
-         "module" : "header"
-      },
       {
          "module": "email-signup"
       },

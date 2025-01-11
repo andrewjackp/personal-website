@@ -49,6 +49,16 @@
 	<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+
+	<header class=<?=$pageData['headerStyle']?>>
+		<section>
+			<inner-column>
+				<?php 
+					include('modules/header/template.php');
+				?>
+			</inner-column>
+		</section>
+	</header>
 	
 	<main>
 		<?php foreach($pageData["sections"] as $section) { ?>
@@ -58,7 +68,6 @@
 				</inner-column>
 			</section>
 		<?php } ?>
-		
 	</main>
 
 	<footer class=<?=$pageData['footerColor']?>>

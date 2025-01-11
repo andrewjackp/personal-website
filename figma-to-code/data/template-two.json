@@ -2,12 +2,10 @@
    "id": "2",
    "slug": "template-two",
    "title": "Template Two",
+   "headerStyle": "default-header",
    "footerColor": "template-two-footer",
 
    "sections": [
-      {
-         "module" : "header"
-      },
       {  
          "module": "call-to-action",
          "heading": "Monstrously Cohesive Visual Systems",
