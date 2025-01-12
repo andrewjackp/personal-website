@@ -49,7 +49,7 @@ mast-head {
 		align-items: center;
 
 		li {
-			&:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4) {
+			&:nth-of-type(5), &:nth-of-type(6), &:nth-of-type(7) {
 				display: none;
 			}
 		}

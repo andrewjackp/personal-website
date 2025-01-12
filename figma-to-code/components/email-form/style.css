@@ -32,8 +32,7 @@
 		}
 		
 		input {
-			width: 100%; /* seems like you wouldn't need this... but you do */
-			/* note it's not inline or block - it's a flex-item now */
+			width: 100%; 
 			flex-grow: 1;
 
 			font: inherit;
