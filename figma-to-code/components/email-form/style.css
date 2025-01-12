@@ -1,7 +1,7 @@
 .email-input-form {
 	display: flex;
 	flex-direction: row;
-	gap: 14px;
+	gap: 5px;
 	
 	width: 100%;
 	max-width: 400px;
@@ -10,6 +10,9 @@
 	line-height: 0.7;
 	
 	--corners: 4px;
+
+	container-name: email;
+	container-type: inline-size;
 	
 	email-input {
 		flex-grow: 1; /* fill up all available space */
@@ -23,8 +26,6 @@
 		
 		border-radius: var(--corners);
 
-		container-name: email;
-		container-type: inline-size;
 		
 		.icon {
 			padding-left: 0.8em;
@@ -66,29 +67,30 @@
 		padding: 0 0.8em;
 		border-radius: var(--corners);
 
-		container-name: button;
-		container-type: inline-size;
-
-		flex-grow: 1;
-		display: flex;
-		align-items: center;
-		max-width: 48px;
-		width: 100%;
-
-	}
-	
-	@container email (width <= 300px) {
-		.icon {
-			display: none;
+		&:focus {
+			box-shadow: 0 0 0 3px rgb(0 0 0 / 0.2);
 		}
-	}
-	
-	@container button (width >= 30px) {
+
+		span.text {
+			display: block;
+		}
 		span.arrow {
 			display: none;
 		}
-		span.text {
-			display: block;
+	}
+	
+	@container email (width < 300px) {
+		.icon {
+			display: none;
+		}
+
+		button {
+			span.text {
+				display: none; /* you'd want to keep this for screen-readers somehow though */
+			}
+			span.arrow {
+				display: block;
+			}
 		}
 	}
 }

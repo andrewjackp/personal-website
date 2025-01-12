@@ -6,7 +6,7 @@
 		<input type='email' placeholder='Email Address' required />
 	</email-input>
 	
-	<button type='button'> <!-- just so the form won't submit -->
+	<button type='button'> 
 		<span class='arrow'>→</span>
 		<span class='text'>SignUp</span>
 	</button>
