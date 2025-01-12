@@ -38,12 +38,9 @@
 		<nav class='x-menu'>
 			<h3 class='strong-voice'>Subscribe</h3>
 				<email-content>
-					<input class="email_signup" type="email" placeholder="Email Address">
-						<a href="">
-							<picture>
-								<img src="images/email_link.svg" alt="">
-							</picture>
-						</a>
+				<?php
+					include('components/email-form/template.php');
+				?>
 				</email-content>
 					
 					<p class='quiet-voice'>Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi.

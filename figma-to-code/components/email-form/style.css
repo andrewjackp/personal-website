@@ -1,1 +1,94 @@
-style.css
+.email-input-form {
+	display: flex;
+	flex-direction: row;
+	gap: 14px;
+	
+	width: 100%;
+	max-width: 400px;
+	
+	font-size: 0.9rem;
+	line-height: 0.7;
+	
+	--corners: 4px;
+	
+	email-input {
+		flex-grow: 1; /* fill up all available space */
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		background-color: #2850e3;
+		color: white;
+		
+		border-radius: var(--corners);
+
+		container-name: email;
+		container-type: inline-size;
+		
+		.icon {
+			padding-left: 0.8em;
+		}
+		
+		input {
+			width: 100%; /* seems like you wouldn't need this... but you do */
+			/* note it's not inline or block - it's a flex-item now */
+			flex-grow: 1;
+
+			font: inherit;
+			border: 0; /* remove default */
+			
+			padding: 0.8em 1rem;
+			padding-right: 0;
+			
+			background: none;
+			color: currentColor;
+			
+			text-overflow: ellipsis;
+
+			&:focus {
+				outline: 0; /* remove focus - but move it to focus within */
+			}
+		}
+		&:focus-within {
+			box-shadow: 0 0 0 3px rgb(255 255 255 / 0.3);
+			/* just an example / but needs to be clear */
+		}
+	}
+	
+	button {
+		all: initial;
+		font: inherit;
+		
+		background-color: var(--white);
+		color: var(--blue);
+
+		padding: 0 0.8em;
+		border-radius: var(--corners);
+
+		container-name: button;
+		container-type: inline-size;
+
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		max-width: 48px;
+		width: 100%;
+
+	}
+	
+	@container email (width <= 300px) {
+		.icon {
+			display: none;
+		}
+	}
+	
+	@container button (width >= 30px) {
+		span.arrow {
+			display: none;
+		}
+		span.text {
+			display: block;
+		}
+	}
+}

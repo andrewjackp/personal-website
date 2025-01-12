@@ -7,7 +7,7 @@
 
    "sections": [
       {
-         "module": "email-signup"
+         "module": "sign-up"
       },
       {
          "module": "previews"
