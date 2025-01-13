@@ -5,6 +5,11 @@
    background-color: var(--white);
 }
 
+.template-two-header {
+	background-color: var(--blue);
+	color: var(--white);
+}
+
 mast-head {
 	display: block;
 	.logo {

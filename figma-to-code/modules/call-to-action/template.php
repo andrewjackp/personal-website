@@ -1,4 +1,8 @@
-<call-to-action>
+<?php
+	$callToAction = $props['callToAction'] ?? "";
+?>
+
+<call-to-action class=<?=$callToAction?>>
 	<?php include('modules/page-header/template.php'); ?>
 	<div class="button-container">
 		<?php 
@@ -7,7 +11,7 @@
 		?>
 
 		<?php
-		$text = "Start Free Trail";
+		$text = "Start Free Trial";
 		include('components/outline-button/template.php');
 		?>
 	</div>

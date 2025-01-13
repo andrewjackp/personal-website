@@ -1,7 +1,10 @@
 <mast-head>
+	<a href="?page=template-one">
 	<picture>
 		<image src="images/header.svg">
 	</picture>
+	</a>
+
 	
 	<nav class='site-menu'>
 		<ul>
