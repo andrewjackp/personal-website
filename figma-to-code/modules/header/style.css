@@ -6,6 +6,9 @@
 }
 
 .template-two-header {
+	position: sticky;
+   top: 0;
+   z-index: 1;
 	background-color: var(--blue);
 	color: var(--white);
 }
