@@ -10,34 +10,57 @@ testimonials {
 
    	&.template-three-testimonial-card {
 			display: grid;
-			
+
 			.star-rating {
 				display: none;
 			}
 
-			@media (width > 400px) {
+			@media (width > 500px) {
 				grid-template-columns: 1fr 1fr;
          	gap: 4em;
          	margin-top: 5.5em;
 
 			.loud-voice {
 				grid-column: 2 / 2;
-    			grid-row: 1 / 2;
+    			grid-row: 1;
     			align-self: baseline;
     			text-align: start;
 			}
 
 			.quiet-voice {
-				grid-row: 1 / 4;
+				grid-row: 1;
             grid-column: 2;
             text-align: start;
+            font-size: 20px;
          }
 
          picture {
 				grid-column: 1;	
 			}	
 
-			}       
+			}
+
+			@media (width < 600px) {
+				.quiet-voice {
+					grid-row: 1 / 4;
+				}
+			}
+
+			@media (width > 1200px) {
+				.quiet-voice {
+					grid-row: 1 /3;
+				}
+			} 
+
+			@media (width > 1400px) {
+				.quiet-voice {
+					grid-row: 2;
+				}
+
+				.loud-voice {
+					align-self: auto;
+				}
+			}      
 		}
 	}
 }
