@@ -26,10 +26,10 @@ call-to-action {
 	}
 }
 
-inner-column:has(.template-one-cta) {
+section:has(.template-one-cta) {
 	background-image: url('../../images/cta_background.svg');
 }
 
-inner-column:has(.template-two-cta) {
+section:has(.template-two-cta) {
 	background-image: url('../../images/cta_background.svg');
 }
