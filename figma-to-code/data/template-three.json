@@ -10,7 +10,21 @@
          "module": "sign-up"
       },
       {
-         "module": "previews"
+         "module": "previews",
+         "previews": [
+            {
+               "heading": "Fur Friendly Colors",
+               "content": "Bold, harmonious palettes that bring even the wildest textures together, ensuring your brand looks polished and cohesive, no matter the fur or features."
+            },
+            {
+               "heading": "All-Eyes Typography",
+               "content": "Readable and clear, designed to accommodate any number of eyes—whether you’ve got just one, or a hundred peeking through fur."
+            },
+            {
+               "heading": "Appendage Accessibility",
+               "content": "Our systems are designed for all, from claws to paws to wings, ensuring easy interaction no matter how you click, tap, or thump."
+            }
+         ]
       },
       {
          "module": "features",
@@ -56,6 +70,7 @@
       {
          "module": "testimonials",
          "articleCard": "template-three-list",
+         "reviewStyle": "template-three-testimonial-list",
          "heading" : "What Our Clients Say",
          "reviews": [
             {

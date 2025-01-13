@@ -50,6 +50,10 @@ testimonials {
 		@media(width > 600px) {
 			grid-template-columns: 1fr 1fr;
 			gap: 10px;
+
+			&.template-three-testimonial-list {
+				grid-template-columns: 1fr;
+			}
 		}
 
 		&.template-two-list {
