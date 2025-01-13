@@ -1,5 +1,5 @@
 testimonials {
-	padding: 90px 0 40px;
+	display: block;
 
 	.review-card {
 		display: flex;
@@ -7,35 +7,46 @@ testimonials {
    	align-items: center;
    	text-align: center;
    	gap: 15px;
-	}
-	&.template-three-list {
-		.review-card {
+
+   	&.template-three-testimonial-card {
 			display: grid;
-			grid-template-columns: 1fr 1fr;
-			gap: 10px;
+			
+			.star-rating {
+				display: none;
+			}
 
-		.star-rating {
-			display: none;
-		}
+			@media (width > 400px) {
+				grid-template-columns: 1fr 1fr;
+         	gap: 4em;
+         	margin-top: 5.5em;
 
-		.loud-voice {
-			grid-column: 2 / 2;
-    		grid-row: 1 / 2;
-		}
+			.loud-voice {
+				grid-column: 2 / 2;
+    			grid-row: 1 / 2;
+    			align-self: baseline;
+    			text-align: start;
+			}
 
-		.quiet-voice {
-			grid-row: 8 / 1;
-    		grid-column: 2 / 2;
-		}
+			.quiet-voice {
+				grid-row: 1 / 4;
+            grid-column: 2;
+            text-align: start;
+         }
 
-		picture {
-			grid-row: 1;
-		}
+         picture {
+				grid-column: 1;	
+			}	
+
+			}       
 		}
 	}
-
+}
+	
+	
 	.review-list {
+
 		display: grid;
+
 			&.default {
 				grid-template-columns: 1fr 1fr;
 
@@ -47,6 +58,7 @@ testimonials {
 					}
 				}
 			}
+
 		@media(width > 600px) {
 			grid-template-columns: 1fr 1fr;
 			gap: 10px;
@@ -71,7 +83,9 @@ testimonials {
 				}
 			}
 		}
-	}	
+	
+}
+		
 }
 
 page-header {

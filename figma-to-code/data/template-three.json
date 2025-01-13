@@ -69,7 +69,7 @@
       },
       {
          "module": "testimonials",
-         "articleCard": "template-three-list",
+         "articleCard": "template-three-testimonial-card",
          "reviewStyle": "template-three-testimonial-list",
          "heading" : "What Our Clients Say",
          "reviews": [
