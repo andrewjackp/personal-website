@@ -9,4 +9,20 @@ email-signup {
 		grid-template-columns: 1fr 1fr;
 		align-items: center;
 	}
+	.email-input-form {
+		email-input {
+			background: var(--blue);
+		}
+
+		input {
+			background: var(--white)!important;
+			border: 1px solid var(--blue)!important;
+			border-radius: var(--corners);
+		}
+
+		button {
+			background: var(--blue);
+			color: var(--white);
+		}
+	}	
 }
