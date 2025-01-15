@@ -7,9 +7,11 @@
 
    "sections": [
       {
+         "name": "customer-signup",
          "module": "sign-up"
       },
       {
+         "name": "product-previews",
          "module": "previews",
          "previews": [
             {
@@ -27,6 +29,7 @@
          ]
       },
       {
+         "name": "product-features",
          "module": "features",
          "titleStyle": "loud-voice",
          "cardStyle": "template-two-feature-list",
@@ -68,6 +71,7 @@
          ]
       },
       {
+         "name": "customer-testimonials",
          "module": "testimonials",
          "articleCard": "template-three-testimonial-card",
          "reviewStyle": "template-three-testimonial-list",
@@ -81,9 +85,7 @@
          ]
       },
       {
-         "module": "call-to-action"
-      },
-      {
+         "name": "faqs",
          "module": "faqs",
          "faqPageStyle": "template-three-faq-style",
          "questionStyle": "default",
@@ -110,6 +112,10 @@
                "answer" : "A"
             }
          ]
+      },
+       {
+         "name": "email-signup",
+         "module": "call-to-action"
       }
    ]
 }

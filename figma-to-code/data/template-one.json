@@ -7,15 +7,18 @@
 
 	"sections": [
 		{  
+         "name": "welcome",
          "module": "call-to-action",
          "callToAction" : "template-one-cta",
          "heading": "Monstrously Cohesive Visual Systems",
          "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
       },
-      {
+      {  
+         "name": "video-content",
         	"module": "videos"
       },
       {
+         "name": "product-features",
          "module": "features",
          "pageHeaderStyle": "none",
          "heading" : "",
@@ -56,6 +59,7 @@
          ]
       },
       {
+         "name": "customer-testimonials",
          "module": "testimonials",
          "titleStyle" : "loud-voice",
          "heading" : "What Our Clients Say",
@@ -73,10 +77,12 @@
             }
          ]
       },
-      {
+      {  
+         "name": "quotes",
          "module": "get-quotes"
       },
-      {
+      {  
+         "name": "faqs",
          "module": "faqs",
          "questionStyle": "default",
          "summaryStyle": "default",

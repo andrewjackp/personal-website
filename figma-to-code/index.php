@@ -62,7 +62,7 @@
 	
 	<main>
 		<?php foreach($pageData["sections"] as $section) { ?>
-			<section>
+			<section class="<?=$section['name']?>">
 				<inner-column>
 					<?=getModule($section['module'], $section)?>
 				</inner-column>
