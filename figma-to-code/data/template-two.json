@@ -21,7 +21,14 @@
       },
       {
          "name": "product-info",
-         "module": "learn-more"
+         "module": "learn-more",
+         "actions":[
+            {
+               "buttonType": "outline-button",
+               "content": "Learn More →",
+               "outlineStyle": "preview-btn"
+            }
+         ]
       },
       {  
          "name": "product-features",

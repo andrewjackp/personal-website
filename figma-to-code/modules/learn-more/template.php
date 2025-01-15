@@ -1,3 +1,7 @@
+<?php
+	$actions = $props['actions'] ?? [];
+?>
+
 <learn-more>
 
 	<picture>
@@ -14,6 +18,10 @@
 		include('modules/page-header/template.php');
 	?>
 	
-	<a href="" class="lrn-more-btn">Learn More →</a>
+	<div class="button-container">
+		<?php foreach($actions as $action):?>
+			<?php include("components/$action[buttonType]/template.php"); ?>
+		<?php endforeach; ?>	
+	</div>
 
 </learn-more>

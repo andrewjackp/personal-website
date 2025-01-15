@@ -10,11 +10,6 @@ learn-more {
 	page-header {
 		padding-top: 1.3em;
 	}
-
-	.lrn-more-btn {
-		color: var(--blue);
-		letter-spacing: 0.3px;
-	}
 }
 
 inner-column:has(learn-more) {
