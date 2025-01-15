@@ -21,7 +21,7 @@
 		flex-direction: row;
 		align-items: center;
 
-		background-color: var(--blue);
+		background-color: var(--darkblue);
 		color: white;
 		
 		border-radius: var(--corners);
@@ -42,7 +42,7 @@
 			padding: 0.8em 1rem;
 			padding-right: 0;
 			
-			background: var(--blue);
+			background: var(--darkblue);
 			color: var(--white);
 			
 			text-overflow: ellipsis;
