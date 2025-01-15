@@ -9,6 +9,16 @@
 		{  
          "name": "welcome",
          "module": "call-to-action",
+         "actions": [
+         {
+           "buttonType": "blue-button",
+           "content": "Get Started"
+         },
+         {
+           "buttonType": "outline-button",
+           "content": "Start Free Trial"
+         }
+      ],
          "callToAction" : "template-one-cta",
          "heading": "Monstrously Cohesive Visual Systems",
          "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
@@ -79,7 +89,13 @@
       },
       {  
          "name": "quotes",
-         "module": "get-quotes"
+         "module": "get-quotes",
+          "actions": [
+         {
+           "buttonType": "blue-button",
+           "content": "Get Free Quotes >"
+         }
+      ]
       },
       {  
          "name": "faqs",

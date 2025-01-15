@@ -9,6 +9,12 @@
       {  
          "name": "welcome",
          "module": "call-to-action",
+          "actions": [
+         {
+           "buttonType": "blue-button",
+           "content": "Get Started"
+         }
+      ],
          "callToAction" : "template-two-cta",
          "heading": "Monstrously Cohesive Visual Systems",
          "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."

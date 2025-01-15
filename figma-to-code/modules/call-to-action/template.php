@@ -1,18 +1,15 @@
 <?php
 	$callToAction = $props['callToAction'] ?? "";
+	$actions = $props['actions'] ?? [];
 ?>
 
 <call-to-action class=<?=$callToAction?>>
 	<?php include('modules/page-header/template.php'); ?>
-	<div class="button-container">
-		<?php 
-		$content = "Get Started";
-		include('components/blue-button/template.php');
-		?>
 
-		<?php
-		$text = "Start Free Trial";
-		include('components/outline-button/template.php');
-		?>
+	<div class="button-container">
+		<?php foreach($actions as $action):?>
+			<?php include("components/$action[buttonType]/template.php"); ?>
+		<?php endforeach; ?>
+
 	</div>
 </call-to-action>

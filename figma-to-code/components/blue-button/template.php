@@ -1,5 +1,2 @@
-<?php
-	$content = $content ?? "Click here";
-?>
 
-<a href="#" class="button"><?=$content?></a>
+<a href="#" class="button"><?=$action['content']?></a>

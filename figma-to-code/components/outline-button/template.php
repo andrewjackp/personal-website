@@ -1,5 +1,2 @@
 
-<?php
-	$text = $text ?? "click";
-?>
-<a href="#" class='outline-btn'><?=$text?></a>
+<a href="#" class='outline-btn'><?=$action['content']?></a>

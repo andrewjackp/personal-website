@@ -7,10 +7,6 @@ call-to-action {
    padding-top: 15px;
    padding-bottom: 95px;
 
-	.button {
-		max-width: 100px;
-	}
-
 	.button-container {
 		display: flex;
 		flex-direction: column;
