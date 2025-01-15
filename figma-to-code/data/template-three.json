@@ -26,6 +26,13 @@
                "heading": "Appendage Accessibility",
                "content": "Our systems are designed for all, from claws to paws to wings, ensuring easy interaction no matter how you click, tap, or thump."
             }
+         ],
+         "actions": [
+            { 
+               "buttonType": "outline-button",
+               "content": "See All",
+               "outlineStyle": "preview-btn"
+            }
          ]
       },
       {
@@ -115,7 +122,7 @@
       },
        {
          "name": "email-signup",
-         "module": "call-to-action"
+         "module": "email-signup"
       }
    ]
 }

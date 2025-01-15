@@ -10,3 +10,6 @@
    text-align: center;
    letter-spacing: 0.03em;
 }
+.preview-btn {
+   border: 1px solid white;
+}

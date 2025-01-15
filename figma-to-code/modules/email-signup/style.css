@@ -1,0 +1,12 @@
+email-signup {
+	display: block;
+
+	display: grid;
+
+	gap: 20px;
+
+	@media (width > 500px) {
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+}

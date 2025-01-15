@@ -86,7 +86,17 @@
       },
        {
          "name": "quotes",
-         "module": "call-to-action"
+         "module": "get-quotes",
+         "actions": [
+         {
+           "buttonType": "blue-button",
+           "content": "Get Free Quotes >"
+         },
+         {
+           "buttonType": "outline-button",
+           "content": "Free Sign Up >"
+         }
+      ]
       },
       {
          "name": "faqs",

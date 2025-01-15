@@ -21,7 +21,7 @@
 		flex-direction: row;
 		align-items: center;
 
-		background-color: #2850e3;
+		background-color: var(--blue);
 		color: white;
 		
 		border-radius: var(--corners);

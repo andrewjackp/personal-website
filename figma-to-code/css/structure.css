@@ -18,3 +18,11 @@ inner-column {
 	padding: 20px;
 	border: 1px solid blue;
 }
+
+section.email-signup {
+	display: flex;
+	height: 20vh;
+	min-height: 700px;
+	align-items: center;
+	gap: 10px;
+}

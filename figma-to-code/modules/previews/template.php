@@ -1,5 +1,6 @@
 <?php
 	$previews = $props['previews'] ?? [];
+	$actions = $props['actions'] ?? [];
 ?>
 
 <previews>
@@ -18,5 +19,11 @@
 		</li>
 	<?php } ?>
 </ul>
+
+<div class="button-container">
+	<?php foreach($actions as $action): ?>
+		<?php include("components/$action[buttonType]/template.php"); ?>
+	<?php endforeach; ?>
+</div>
 
 </previews>
