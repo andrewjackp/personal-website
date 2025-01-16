@@ -1,5 +1,4 @@
 body {
-	border: 1px solid blue;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh; /* full viewport height */
@@ -16,8 +15,8 @@ inner-column {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px;
-	border: 1px solid blue;
 }
+
 
 section.email-signup {
 	display: flex;
