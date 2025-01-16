@@ -10,4 +10,6 @@
 @import '../modules/previews/style.css';
 @import '../modules/email-signup/style.css';
 @import '../modules/footer/style.css';
-@import '../modules/header/style.css';
+@import '../modules/header/template-one-header/style.css';
+@import '../modules/header/template-two-header/style.css';
+@import '../modules/header/template-three-header/style.css';

@@ -29,7 +29,7 @@
 
 	$pageData = getPageData($currentPageSlug);
 
-	function getModule($name, $props = []){
+	function getModule($name, $props = []) {
 		$filePath = "modules/$name/template.php";
 		if (file_exists ($filePath) ) {
 			include($filePath);
@@ -38,6 +38,14 @@
 		}
 	}
 
+	function getHeader($name, $props = []) {
+		$filePath = "modules/header/$name/template.php";
+		if (file_exists ($filePath) ) {
+			include($filePath);
+		} else {
+			echo "no module called $name";
+		}
+	}
 ?>
 
 <!doctype html>
@@ -53,9 +61,9 @@
 	<header class=<?=$pageData['headerStyle']?>>
 		<section>
 			<inner-column>
-				<?php 
-					include('modules/header/template.php');
-				?>
+				<?php foreach($pageData['headers'] as $header):?>
+					<?php getHeader($header['name'], $header); ?>
+				<?php endforeach; ?>
 			</inner-column>
 		</section>
 	</header>

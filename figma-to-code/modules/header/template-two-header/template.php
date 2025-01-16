@@ -1,7 +1,11 @@
+<?php
+	$actions = $props['actions'] ?? [];
+?>
+
 <mast-head>
 	<a href="?page=template-one">
 	<picture>
-		<image src="images/header.svg">
+		<image src="images/temp2-header-images/t2-logo.svg">
 	</picture>
 	</a>
 
@@ -31,12 +35,14 @@
 			<li>
 				<a id="#logo" href='#'>
 					<picture>
-						<img src="images/globe_en.svg" alt="">
+						<img src="images/temp2-header-images/t2-en.svg" alt="">
 					</picture>
 				</a>
 			</li>
 				<li>
-				<a class='button-login' href='#'>Login</a>
+				<?php foreach($actions as $action):?>
+					<?php include("components/$action[buttonType]/template.php"); ?>
+				<?php endforeach; ?>
 			</li>
 		</ul>
 	</nav>

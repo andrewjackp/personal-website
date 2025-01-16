@@ -4,6 +4,21 @@
    "title": "Template Three",
    "headerStyle": "default-header",
    "footerColor": "default-footer",
+   "headers": [
+      {
+         "name": "template-three-header",
+         "actions" : [
+            {
+               "buttonType": "outline-button",
+               "content": "SignUp"
+            },
+            {
+               "buttonType": "blue-button",
+               "content": "Login"
+            }
+         ]
+      }
+   ],
 
    "sections": [
       {

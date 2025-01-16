@@ -4,6 +4,17 @@
    "title": "Template Two",
    "headerStyle": "template-two-header",
    "footerColor": "template-two-footer",
+   "headers": [
+      {
+         "name": "template-two-header",
+         "actions" : [
+            {
+               "buttonType": "outline-button",
+               "content": "Login"
+            }
+         ]
+      }
+   ],
 
    "sections": [
       {  
