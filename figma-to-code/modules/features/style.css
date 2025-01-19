@@ -9,7 +9,7 @@ features {
 
 .feature-list {
 	display: grid;
-	gap: 10px;
+	gap: 2em;
 
 	.feature-card {
 		display: grid;
@@ -94,7 +94,7 @@ features {
 
 	&.template-two-feature-list {
 
-		@media (width > 500px) {
+		@media (width > 600px) {
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 
@@ -121,7 +121,7 @@ features {
 			}
 		}
 
-		@media (width > 500px) {
+		@media (width > 600px) {
 			grid-template-columns: 1fr 1fr 1fr;
 			gap: 20px;
 		}
