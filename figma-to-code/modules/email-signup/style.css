@@ -25,4 +25,11 @@ email-signup {
 			color: var(--white);
 		}
 	}	
+
+	.text-container {
+		display: flex;
+   	flex-direction: column;
+    	gap: 35px;
+    	align-items: center;
+	}
 }

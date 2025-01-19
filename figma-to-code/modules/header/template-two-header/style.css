@@ -26,6 +26,7 @@ mast-head {
 		.home {
 			padding: 10px 0;
 		}
+
 		a:not(.home) {
 			padding: .5em 1em;
 		}

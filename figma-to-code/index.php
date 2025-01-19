@@ -59,13 +59,11 @@
 <body>
 
 	<header class=<?=$pageData['headerStyle']?>>
-		<section>
 			<inner-column>
 				<?php foreach($pageData['headers'] as $header):?>
 					<?php getHeader($header['name'], $header); ?>
 				<?php endforeach; ?>
 			</inner-column>
-		</section>
 	</header>
 	
 	<main>

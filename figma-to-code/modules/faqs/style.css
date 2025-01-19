@@ -1,7 +1,5 @@
 faqs {
 	display: block;
-	padding-top: 60px;
-	padding-bottom: 60px;
 
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;

@@ -1,5 +1,6 @@
 testimonials {
 	display: block;
+	padding-top: 20px;
 
 	.review-card {
 		display: flex;
@@ -95,6 +96,10 @@ testimonials {
 		&.template-two-list {
 			grid-template-columns: 1fr;
 
+			li + li {
+				margin-top: 1.7em;
+			}
+
 			.star-rating {
 				display: none;
 			}
@@ -116,9 +121,3 @@ page-header {
 	padding-top: 70px;
 }
 
-section:has(testimonials) {
-	padding-bottom: 2em;
-	inner-column {
-		border: none;
-	}
-}

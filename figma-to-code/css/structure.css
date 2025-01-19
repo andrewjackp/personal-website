@@ -17,11 +17,44 @@ inner-column {
 	padding: 20px;
 }
 
+section {
+	padding: 4.5em 4.5em;
+}
+
+/*section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
 
 section.email-signup {
 	display: flex;
 	height: 20vh;
 	min-height: 700px;
 	align-items: center;
-	gap: 10px;
 }
+
+section.welcome {
+	display: flex;
+	height: 20vh;
+	min-height: 700px;
+	align-items: center;
+}
+
+section.customer-signup {
+	display: flex;
+   justify-content: center;
+   gap: 13px;
+   flex-direction: column;
+   height: 55vh;
+}
+
+section.product-previews {
+	@media (width > 500px ) {
+		height: 65vh;
+	}
+	@media (width > 1800px) {
+		height: 20vh;
+	}
+}*/

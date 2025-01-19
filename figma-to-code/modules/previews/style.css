@@ -1,9 +1,9 @@
 previews {
 	display: block;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 15px;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
 
 	text-align: center;
 

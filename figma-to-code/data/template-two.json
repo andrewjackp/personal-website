@@ -48,37 +48,31 @@
          "cardStyle": "template-two-feature-list",
          "cards": [
             {  
-               "id": 0,
-               "heading": "card",
-               "content": "blaaaaaa",
-               "img" : ""
-            },
-            {  
                "id": 1,
-               "heading": "first card",
-               "content": "blaaaaaa"
+               "heading": "Et, odio elementum",
+               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
             },
             {  
                "id": 2,
-               "heading": "second card",
-               "content": "blaaaaaa"
+               "heading": "Et, odio elementum",
+               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
             },
             {  
                "id": 3,
-               "heading": "third card",
-               "content": "blaaaaaa"
+               "heading": "Et, odio elementum",
+               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
             },
             {  "id" : 4,
-               "heading": "fourth card",
-               "content": "blaaaaaa"
+               "heading": "Et, odio elementum",
+               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
             },
             {  "id" : 5,
-               "heading": "fifth card",
-               "content": "blaaaaaa"
+               "heading": "Et, odio elementum",
+               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
             },
             {  "id" : 6,
-               "heading": "sixth card",
-               "content": "blaaaaaa"
+               "heading": "Et, odio elementum",
+               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
             }
 
          ]
