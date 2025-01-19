@@ -12,6 +12,7 @@ faqs {
 		cursor: pointer;	
 		display: flex;
 		justify-content: space-between;
+		line-height: 1.2em;
 	}
 
 	summary:is(.template-two-faqs) {

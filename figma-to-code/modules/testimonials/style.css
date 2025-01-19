@@ -71,9 +71,21 @@ testimonials {
 	.review-list {
 
 		display: grid;
+		grid-template-columns: 1fr;
 
 			&.default {
-				grid-template-columns: 1fr 1fr;
+
+				li + li {
+					margin-top: 5em;
+				}
+
+				@media(width > 600px) {
+					grid-template-columns: 1fr 1fr;
+
+					li + li {
+						margin-top: 0;
+					}
+				}
 
 				.review-card {
 					.loud-voice {
