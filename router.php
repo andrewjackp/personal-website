@@ -54,7 +54,9 @@
 
 		} else {
 
-			include("templates/pages/404.php");
+			$pageFilePath = "templates/pages/error/index.php";
+			include($pageFilePath);
+
 		}
 	}
 

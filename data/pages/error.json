@@ -1,0 +1,9 @@
+{		
+	"id": "404",
+	"slug": "error",
+	"title": "Page not found",
+	"template": "error/index",
+	"intro": "Error page",
+
+	"sections" : []
+}
