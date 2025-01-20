@@ -3,7 +3,6 @@
    "slug": "template-two",
    "title": "Template Two",
    "headerStyle": "template-two-header",
-   "footerColor": "template-two-footer",
    "headers": [
       {
          "name": "template-two-header",
@@ -13,6 +12,13 @@
                "content": "Login"
             }
          ]
+      }
+   ],
+
+   "footerStyle": "template-two-footer",
+   "footers" : [
+      {
+         "name": "template-two-footer"
       }
    ],
 

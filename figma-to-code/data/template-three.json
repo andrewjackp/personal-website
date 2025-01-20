@@ -3,7 +3,6 @@
    "slug": "template-three",
    "title": "Template Three",
    "headerStyle": "default-header",
-   "footerColor": "default-footer",
    "headers": [
       {
          "name": "template-three-header",
@@ -17,6 +16,13 @@
                "content": "Login"
             }
          ]
+      }
+   ],
+
+   "footerStyle": "default-footer",
+   "footers" : [
+      {
+         "name": "default"
       }
    ],
 

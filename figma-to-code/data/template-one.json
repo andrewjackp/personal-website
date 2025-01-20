@@ -16,6 +16,13 @@
       }
    ],
 
+   "footerStyle": "default-footer",
+    "footers" : [
+      {
+         "name": "default"
+      }
+   ],
+
 	"sections": [
 		{  
          "name": "welcome",

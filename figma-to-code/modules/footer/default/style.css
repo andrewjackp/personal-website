@@ -103,11 +103,11 @@ site-map {
 
 site-disclaimer {
 	display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   padding: 40px 0 40px;
+	flex-direction: row;
+   	align-items: center;
+   	justify-content: space-between;
+   	flex-wrap: wrap;
+   	padding: 40px 0 40px;
 
 	p {
 		color: var(--grey);

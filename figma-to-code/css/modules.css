@@ -13,3 +13,5 @@
 @import '../modules/header/template-one-header/style.css';
 @import '../modules/header/template-two-header/style.css';
 @import '../modules/header/template-three-header/style.css';
+@import '../modules/footer/default/style.css';
+@import '../modules/footer/template-two-footer/style.css';

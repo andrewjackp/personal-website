@@ -46,6 +46,15 @@
 			echo "no module called $name";
 		}
 	}
+
+	function getFooter($name, $props = []) {
+		$filePath = "modules/footer/$name/template.php";
+		if (file_exists ($filePath) ) {
+			include($filePath);
+		} else {
+			echo "no module called $name";
+		}
+	}
 ?>
 
 <!doctype html>
@@ -76,12 +85,12 @@
 		<?php } ?>
 	</main>
 
-	<footer class=<?=$pageData['footerColor']?>>
+	<footer class=<?=$pageData['footerStyle']?>>
 		<section>
 			<inner-column>
-				<?php
-					include('modules/footer/template.php');
-				?>
+				<?php foreach($pageData['footers'] as $footer): ?>
+					<?php getFooter($footer['name'], $footer)?>
+				<?php endforeach; ?>
 			</inner-column>
 		</section>
 	</footer>
