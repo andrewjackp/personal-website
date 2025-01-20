@@ -6,7 +6,7 @@
 
 <div class="heading-box">
 	<h1>Eames Card Grid</h1>
-	<p>A card layout inspired by <a href="https://www.eamesinstitute.org/" target="_layout-garden">Instrument's</a> website for the Eames Institute using CSS Grid</p>
+	<p>A card layout inspired by <a href="https://www.eamesinstitute.org/" target="_layout-garden">Instrument's</a> website for the Eames Institute using CSS Grid and JavaScript.</p>
 </div>
 
 <eames-card>
