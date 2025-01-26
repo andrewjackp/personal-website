@@ -2,7 +2,7 @@
 import { el } from "./utilities/utilities.js";
 import user from "./global/user.js";
 import { renderHome } from "./views/home.js";
-import { renderDetail, renderCommentForm } from "./views/article-detail.js";
+import { renderDetail, renderCommentForm, addComment } from "./views/article-detail.js";
 import { renderForm } from "./components/entry-form.js";
 import { renderDashboard } from "./views/dashboard.js";
 

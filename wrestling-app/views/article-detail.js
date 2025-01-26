@@ -26,7 +26,7 @@ export function renderCommentForm() {
 	`;
 }
 
-function addComment(content) {
+export function addComment(content) {
 
 	const comment = {
 		id: `${idMarker++}`,
