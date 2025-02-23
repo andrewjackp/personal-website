@@ -11,7 +11,7 @@
 					</picture>
 				<div class="info">
 					<span class='title'>Akira Taue</span>
-					<p class='soft-voice'>Most underrated pillar. Just a big mean dude.</p>
+					<p class='soft-voice'>Most underrated pillar.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -23,7 +23,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Toshiaki Kawada</span>
-					<p class='soft-voice'>My favorite pillar. Master of the Kawada kick. Gnarly dude all around.</p>
+					<p class='soft-voice'>Master of the Kawada kick.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -35,7 +35,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Kenta Kobashi</span>
-					<p class='soft-voice'>Easily one of the greatest ever.</p>
+					<p class='soft-voice'>The greatest ever.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
@@ -47,7 +47,7 @@
 				</picture>
 				<div class="info">
 					<span class='title'>Mitsuharu Misawa</span>
-					<p class='soft-voice'>Thee Guy. Also one of the greatest ever.</p>
+					<p class='soft-voice'>One of the greatest ever.</p>
 					<a href="#" class="site-button">Watch more</a>
 				</div>
 				</article>
