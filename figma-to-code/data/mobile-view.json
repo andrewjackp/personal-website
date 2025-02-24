@@ -1,0 +1,30 @@
+{
+    "id": "1",
+    "slug": "mobile-view",
+    "title": "Template One",
+    "headerStyle": "default-header",
+    "headers":
+    [
+        {
+            "name": "mobile-view-header",
+            "mobileHeaderStyle": "mobile-menu",
+            "actions":
+            [
+                {
+                    "buttonType": "blue-button",
+                    "content": "Login"
+                }
+            ]
+        }
+    ],
+    "sections":
+    [
+        {
+            "name": "mobile-header",
+            "module": "mobile-header"
+        }
+    ],
+    "footerStyle": "",
+    "footers":
+    []
+}

@@ -1,147 +1,155 @@
 {
-	"id": "1",
-	"slug": "template-one",
-   "title": "Template One",
-   "headerStyle": "default-header",
-   "footerColor": "default-footer",
-   "headers": [
-      {
-         "name": "template-one-header",
-         "actions" : [
-            {
-               "buttonType": "blue-button",
-               "content": "Login"
-            }
-         ]
-      }
-   ],
-
-   "footerStyle": "default-footer",
-    "footers" : [
-      {
-         "name": "default"
-      }
-   ],
-
-	"sections": [
-		{  
-         "name": "welcome",
-         "module": "call-to-action",
-         "actions": [
-         {
-           "buttonType": "blue-button",
-           "content": "Get Started"
-         },
-         {
-           "buttonType": "outline-button",
-           "content": "Start Free Trial"
-         }
-      ],
-         "callToAction" : "template-one-cta",
-         "heading": "Monstrously Cohesive Visual Systems",
-         "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
-      },
-      {  
-         "name": "video-content",
-        	"module": "videos"
-      },
-      {
-         "name": "product-features",
-         "module": "features",
-         "pageHeaderStyle": "none",
-         "heading" : "",
-         "caption" : "",
-         "cardStyle": "template-one-main-with-features-list",
-         "cards": [
-            {  
-               "id": 0,
-               "heading": "Sit quam gravida",
-               "content": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
-               "img" : "https://peprojects.dev/images/portrait.jpg"
-            },
-            {  
-               "id": 1,
-               "heading": "Elementum enim tempus",
-               "content": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
-            },
-            {  
-               "id": 2,
-               "heading": "Tempor egestas augue",
-               "content": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
-            },
-            {  
-               "id": 3,
-               "heading": "Nulla ac lacinia",
-               "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
-            },
-            {  
-               "id": 4,
-               "heading": "Nulla ac lacinia",
-               "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
-            },
-            {  
-               "id": 5,
-               "heading": "Velit nibh a",
-               "content": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
-            }
-         ]
-      },
-      {
-         "name": "customer-testimonials",
-         "module": "testimonials",
-         "titleStyle" : "loud-voice",
-         "heading" : "What Our Clients Say",
-         "caption" : "Neque, pulvinar vestibulum non aliquam.",
-         "reviews" : [
-            {
-               "quote": "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
-               "img": "images/avatar.svg",
-               "name": "Courtney Henry"
-            },
-            {
-               "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel",
-               "img": "images/avatar.svg",
-               "name": "Courtney Henry"
-            }
-         ]
-      },
-      {  
-         "name": "quotes",
-         "module": "get-quotes",
-          "actions": [
-         {
-           "buttonType": "blue-button",
-           "content": "Get Free Quotes >"
-         }
-      ]
-      },
-      {  
-         "name": "faqs",
-         "module": "faqs",
-         "questionStyle": "default",
-         "summaryStyle": "default",
-         "faqs" : [
-            {
-               "question": "How soon will my order ship?",
-               "answer" : "A"
-            },
-            {
-               "question": "Is there any warranty exclusions?",
-               "answer" : "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
-            },
-            {
-               "question": "Are there any return exclusions?",
-               "answer" : "A"
-            },
-            {
-               "question": "Will I be charged for a replacement item?",
-               "answer" : "A"
-            },
-            {
-               "question": "How can I track my orders & payment?",
-               "answer" : "A"
-            }
-         ]
-      }
-	]
+    "id": "1",
+    "slug": "template-one",
+    "title": "Template One",
+    "headerStyle": "default-header",
+    "footerColor": "default-footer",
+    "headers":
+    [
+        {
+            "name": "template-one-header",
+            "mobileHeaderStyle": "mobile-menu",
+            "actions":
+            [
+                {
+                    "buttonType": "blue-button",
+                    "content": "Login"
+                }
+            ]
+        }
+    ],
+    "footerStyle": "default-footer",
+    "footers":
+    [
+        {
+            "name": "default"
+        }
+    ],
+    "sections":
+    [
+        {
+            "name": "welcome",
+            "module": "call-to-action",
+            "actions":
+            [
+                {
+                    "buttonType": "blue-button",
+                    "content": "Get Started"
+                },
+                {
+                    "buttonType": "outline-button",
+                    "content": "Start Free Trial"
+                }
+            ],
+            "callToAction": "template-one-cta",
+            "heading": "Monstrously Cohesive Visual Systems",
+            "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
+        },
+        {
+            "name": "video-content",
+            "module": "videos"
+        },
+        {
+            "name": "product-features",
+            "module": "features",
+            "pageHeaderStyle": "none",
+            "heading": "",
+            "caption": "",
+            "cardStyle": "template-one-main-with-features-list",
+            "cards":
+            [
+                {
+                    "id": 0,
+                    "heading": "Sit quam gravida",
+                    "content": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
+                    "img": "https://peprojects.dev/images/portrait.jpg"
+                },
+                {
+                    "id": 1,
+                    "heading": "Elementum enim tempus",
+                    "content": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
+                },
+                {
+                    "id": 2,
+                    "heading": "Tempor egestas augue",
+                    "content": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                },
+                {
+                    "id": 3,
+                    "heading": "Nulla ac lacinia",
+                    "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                },
+                {
+                    "id": 4,
+                    "heading": "Nulla ac lacinia",
+                    "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                },
+                {
+                    "id": 5,
+                    "heading": "Velit nibh a",
+                    "content": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+                }
+            ]
+        },
+        {
+            "name": "customer-testimonials",
+            "module": "testimonials",
+            "titleStyle": "loud-voice",
+            "heading": "What Our Clients Say",
+            "caption": "Neque, pulvinar vestibulum non aliquam.",
+            "reviews":
+            [
+                {
+                    "quote": "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
+                    "img": "images/avatar.svg",
+                    "name": "Courtney Henry"
+                },
+                {
+                    "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel",
+                    "img": "images/avatar.svg",
+                    "name": "Courtney Henry"
+                }
+            ]
+        },
+        {
+            "name": "quotes",
+            "module": "get-quotes",
+            "actions":
+            [
+                {
+                    "buttonType": "blue-button",
+                    "content": "Get Free Quotes >"
+                }
+            ]
+        },
+        {
+            "name": "faqs",
+            "module": "faqs",
+            "questionStyle": "default",
+            "summaryStyle": "default",
+            "faqs":
+            [
+                {
+                    "question": "How soon will my order ship?",
+                    "answer": "A"
+                },
+                {
+                    "question": "Is there any warranty exclusions?",
+                    "answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+                },
+                {
+                    "question": "Are there any return exclusions?",
+                    "answer": "A"
+                },
+                {
+                    "question": "Will I be charged for a replacement item?",
+                    "answer": "A"
+                },
+                {
+                    "question": "How can I track my orders & payment?",
+                    "answer": "A"
+                }
+            ]
+        }
+    ]
 }

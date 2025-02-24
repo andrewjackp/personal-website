@@ -49,7 +49,7 @@
 	</nav>
 
 	<nav class="mobile-view <?=$mobileHeaderStyle?>">
-		<a href="?page=mobile-view" class='link'>
+		<a href="javascript:window.history.back()" class='link'>
 			<div class="icon">
 				<svg viewBox='0 0 10 10'>
 					<circle cx='5' cy='5' r='5' />
