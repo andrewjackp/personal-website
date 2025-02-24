@@ -2,7 +2,7 @@
     "id": "1",
     "slug": "mobile-view",
     "title": "Template One",
-    "headerStyle": "default-header",
+    "headerStyle": "template-two-header",
     "headers":
     [
         {

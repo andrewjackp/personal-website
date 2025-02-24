@@ -1,1 +1,22 @@
-style.css
+mobile-menu {
+	display: block;
+	
+	ul {
+		display: block;
+		display: grid;
+		height: 100%;
+		align-content: center;
+		gap: 10px;
+	}
+}	
+
+.mobile-header {
+	padding: 0;
+}
+
+body:has(.mobile-header) {
+	background: var(--blue);
+	a {
+		color: var(--white);
+	}
+}

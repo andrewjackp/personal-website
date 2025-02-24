@@ -6,7 +6,6 @@ body {
 
 main {
 	flex-grow: 1;
-	border: 1px solid green;
 }
 
 inner-column {

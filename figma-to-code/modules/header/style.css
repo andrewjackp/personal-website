@@ -54,7 +54,7 @@ mast-head {
 	.mobile-menu {
 		display: none;
 
-		@media (width < 600px) {
+		@media (width < 700px) {
 			display: block;
 		}
 
@@ -80,7 +80,7 @@ mast-head {
 		}
 	}
 
-	@media (width < 600px) {
+	@media (width < 700px) {
 		.site-menu, .user-menu {
 			display: none;
 		}
