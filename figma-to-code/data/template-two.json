@@ -1,148 +1,159 @@
 {
-   "id": "2",
-   "slug": "template-two",
-   "title": "Template Two",
-   "headerStyle": "template-two-header",
-   "headers": [
-      {
-         "name": "template-two-header",
-         "actions" : [
-            {
-               "buttonType": "outline-button",
-               "content": "Login"
-            }
-         ]
-      }
-   ],
-
-   "footerStyle": "template-two-footer",
-   "footers" : [
-      {
-         "name": "template-two-footer"
-      }
-   ],
-
-   "sections": [
-      {  
-         "name": "welcome",
-         "module": "call-to-action",
-          "actions": [
-         {
-           "buttonType": "blue-button",
-           "content": "Get Started"
-         }
-      ],
-         "callToAction" : "template-two-cta",
-         "heading": "Monstrously Cohesive Visual Systems",
-         "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
-      },
-      {
-         "name": "product-info",
-         "module": "learn-more",
-         "actions":[
-            {
-               "buttonType": "outline-button",
-               "content": "Learn More →",
-               "outlineStyle": "preview-btn"
-            }
-         ]
-      },
-      {  
-         "name": "product-features",
-         "module": "features",
-         "titleStyle": "loud-voice",
-         "cardStyle": "template-two-feature-list",
-         "cards": [
-            {  
-               "id": 1,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  
-               "id": 2,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  
-               "id": 3,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  "id" : 4,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  "id" : 5,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  "id" : 6,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            }
-
-         ]
-      },
-      {
-         "name": "customer-testimonials",
-         "module": "testimonials",
-         "reviewStyle": "template-two-list",
-         "heading" : "What Our Clients Say",
-         "caption" : "Neque, pulvinar vestibulum non aliquam.",
-         "reviews" : [
-            {
-               "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
-               "img": "images/avatar.svg",
-               "name": "Courtney Henry"
-            },
-            {
-               "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
-               "img": "images/avatar.svg",
-               "name": "Courtney Henry"
-            }
-         ]
-      },
-       {
-         "name": "quotes",
-         "module": "get-quotes",
-         "actions": [
-         {
-           "buttonType": "blue-button",
-           "content": "Get Free Quotes >"
-         },
-         {
-           "buttonType": "outline-button",
-           "content": "Free Sign Up >"
-         }
-      ]
-      },
-      {
-         "name": "faqs",
-         "module": "faqs",
-         "questionStyle" : "template-two-faqs",
-         "summaryStyle" : "template-two-faqs",
-         "faqs" : [
-            {
-               "question": "How soon will my order ship?",
-               "answer" : "A"
-            },
-            {
-               "question": "Is there any warranty exclusions?",
-               "answer" : "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam. "
-            },
-            {
-               "question": "Are there any return exclusions?",
-               "answer" : "A"
-            },
-            {
-               "question": "Will I be charged for a replacement item?",
-               "answer" : "A"
-            },
-            {
-               "question": "How can I track my orders & payment?",
-               "answer" : "A"
-            }
-         ]
-      }
-   ]
+    "id": "2",
+    "slug": "template-two",
+    "title": "Template Two",
+    "headerStyle": "template-two-header",
+    "headers":
+    [
+        {
+            "name": "template-two-header",
+            "mobileHeaderStyle": "mobile-menu",
+            "actions":
+            [
+                {
+                    "buttonType": "outline-button",
+                    "content": "Login"
+                }
+            ]
+        }
+    ],
+    "footerStyle": "template-two-footer",
+    "footers":
+    [
+        {
+            "name": "template-two-footer"
+        }
+    ],
+    "sections":
+    [
+        {
+            "name": "welcome",
+            "module": "call-to-action",
+            "actions":
+            [
+                {
+                    "buttonType": "blue-button",
+                    "content": "Get Started"
+                }
+            ],
+            "callToAction": "template-two-cta",
+            "heading": "Monstrously Cohesive Visual Systems",
+            "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
+        },
+        {
+            "name": "product-info",
+            "module": "learn-more",
+            "actions":
+            [
+                {
+                    "buttonType": "outline-button",
+                    "content": "Learn More →",
+                    "outlineStyle": "preview-btn"
+                }
+            ]
+        },
+        {
+            "name": "product-features",
+            "module": "features",
+            "titleStyle": "loud-voice",
+            "cardStyle": "template-two-feature-list",
+            "cards":
+            [
+                {
+                    "id": 1,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 2,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 3,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 4,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 5,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 6,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                }
+            ]
+        },
+        {
+            "name": "customer-testimonials",
+            "module": "testimonials",
+            "reviewStyle": "template-two-list",
+            "heading": "What Our Clients Say",
+            "caption": "Neque, pulvinar vestibulum non aliquam.",
+            "reviews":
+            [
+                {
+                    "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                    "img": "images/avatar.svg",
+                    "name": "Courtney Henry"
+                },
+                {
+                    "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                    "img": "images/avatar.svg",
+                    "name": "Courtney Henry"
+                }
+            ]
+        },
+        {
+            "name": "quotes",
+            "module": "get-quotes",
+            "actions":
+            [
+                {
+                    "buttonType": "blue-button",
+                    "content": "Get Free Quotes >"
+                },
+                {
+                    "buttonType": "outline-button",
+                    "content": "Free Sign Up >"
+                }
+            ]
+        },
+        {
+            "name": "faqs",
+            "module": "faqs",
+            "questionStyle": "template-two-faqs",
+            "summaryStyle": "template-two-faqs",
+            "faqs":
+            [
+                {
+                    "question": "How soon will my order ship?",
+                    "answer": "A"
+                },
+                {
+                    "question": "Is there any warranty exclusions?",
+                    "answer": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam. "
+                },
+                {
+                    "question": "Are there any return exclusions?",
+                    "answer": "A"
+                },
+                {
+                    "question": "Will I be charged for a replacement item?",
+                    "answer": "A"
+                },
+                {
+                    "question": "How can I track my orders & payment?",
+                    "answer": "A"
+                }
+            ]
+        }
+    ]
 }

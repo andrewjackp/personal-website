@@ -1,5 +1,6 @@
 <?php
 	$actions = $props['actions'] ?? [];
+	$mobileHeaderStyle = $props['mobileHeaderStyle'] ?? [];
 ?>
 
 <mast-head>

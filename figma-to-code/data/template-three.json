@@ -1,143 +1,153 @@
 {
-   "id": "3",
-   "slug": "template-three",
-   "title": "Template Three",
-   "headerStyle": "default-header",
-   "headers": [
-      {
-         "name": "template-three-header",
-         "actions" : [
-            {
-               "buttonType": "outline-button",
-               "content": "SignUp"
-            },
-            {
-               "buttonType": "blue-button",
-               "content": "Login"
-            }
-         ]
-      }
-   ],
-
-   "footerStyle": "default-footer",
-   "footers" : [
-      {
-         "name": "default"
-      }
-   ],
-
-   "sections": [
-      {
-         "name": "customer-signup",
-         "module": "sign-up"
-      },
-      {
-         "name": "product-previews",
-         "module": "previews",
-         "previews": [
-            {
-               "heading": "Fur Friendly Colors",
-               "content": "Bold, harmonious palettes that bring even the wildest textures together, ensuring your brand looks polished and cohesive, no matter the fur or features."
-            },
-            {
-               "heading": "All-Eyes Typography",
-               "content": "Readable and clear, designed to accommodate any number of eyes—whether you’ve got just one, or a hundred peeking through fur."
-            },
-            {
-               "heading": "Appendage Accessibility",
-               "content": "Our systems are designed for all, from claws to paws to wings, ensuring easy interaction no matter how you click, tap, or thump."
-            }
-         ],
-         "actions": [
-            { 
-               "buttonType": "outline-button",
-               "content": "See All",
-               "outlineStyle": "preview-btn"
-            }
-         ]
-      },
-      {
-         "name": "product-features",
-         "module": "features",
-         "titleStyle": "loud-voice",
-         "cardStyle": "template-three-feature-list",
-         "cards": [
-            {  
-               "id": 1,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  
-               "id": 2,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  
-               "id": 3,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  "id" : 4,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  "id" : 5,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            },
-            {  "id" : 6,
-               "heading": "Et, odio elementum",
-               "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
-            }
-
-         ]
-      },
-      {
-         "name": "customer-testimonials",
-         "module": "testimonials",
-         "articleCard": "template-three-testimonial-card",
-         "reviewStyle": "template-three-testimonial-list",
-         "heading" : "What Our Clients Say",
-         "reviews": [
-            {
-               "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
-               "img": "images/avatar.svg",
-               "name": "Courtney Henry"
-            }
-         ]
-      },
-      {
-         "name": "faqs",
-         "module": "faqs",
-         "faqPageStyle": "template-three-faq-style",
-         "questionStyle": "default",
-         "summaryStyle": "default",
-         "faqs" : [
-            {
-               "question": "How soon will my order ship?",
-               "answer" : "A"
-            },
-            {
-               "question": "Is there any warranty exclusions?",
-               "answer" : "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
-            },
-            {
-               "question": "Are there any return exclusions?",
-               "answer" : "A"
-            },
-            {
-               "question": "Will I be charged for a replacement item?",
-               "answer" : "A"
-            },
-            {
-               "question": "How can I track my orders & payment?",
-               "answer" : "A"
-            }
-         ]
-      },
-       {
-         "name": "email-signup",
-         "module": "email-signup"
-      }
-   ]
+    "id": "3",
+    "slug": "template-three",
+    "title": "Template Three",
+    "headerStyle": "default-header",
+    "headers":
+    [
+        {
+            "name": "template-three-header",
+            "mobileHeaderStyle": "mobile-menu",
+            "actions":
+            [
+                {
+                    "buttonType": "outline-button",
+                    "content": "SignUp"
+                },
+                {
+                    "buttonType": "blue-button",
+                    "content": "Login"
+                }
+            ]
+        }
+    ],
+    "footerStyle": "default-footer",
+    "footers":
+    [
+        {
+            "name": "default"
+        }
+    ],
+    "sections":
+    [
+        {
+            "name": "customer-signup",
+            "module": "sign-up"
+        },
+        {
+            "name": "product-previews",
+            "module": "previews",
+            "previews":
+            [
+                {
+                    "heading": "Fur Friendly Colors",
+                    "content": "Bold, harmonious palettes that bring even the wildest textures together, ensuring your brand looks polished and cohesive, no matter the fur or features."
+                },
+                {
+                    "heading": "All-Eyes Typography",
+                    "content": "Readable and clear, designed to accommodate any number of eyes—whether you’ve got just one, or a hundred peeking through fur."
+                },
+                {
+                    "heading": "Appendage Accessibility",
+                    "content": "Our systems are designed for all, from claws to paws to wings, ensuring easy interaction no matter how you click, tap, or thump."
+                }
+            ],
+            "actions":
+            [
+                {
+                    "buttonType": "outline-button",
+                    "content": "See All",
+                    "outlineStyle": "preview-btn"
+                }
+            ]
+        },
+        {
+            "name": "product-features",
+            "module": "features",
+            "titleStyle": "loud-voice",
+            "cardStyle": "template-three-feature-list",
+            "cards":
+            [
+                {
+                    "id": 1,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 2,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 3,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 4,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 5,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                },
+                {
+                    "id": 6,
+                    "heading": "Et, odio elementum",
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                }
+            ]
+        },
+        {
+            "name": "customer-testimonials",
+            "module": "testimonials",
+            "articleCard": "template-three-testimonial-card",
+            "reviewStyle": "template-three-testimonial-list",
+            "heading": "What Our Clients Say",
+            "reviews":
+            [
+                {
+                    "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                    "img": "images/avatar.svg",
+                    "name": "Courtney Henry"
+                }
+            ]
+        },
+        {
+            "name": "faqs",
+            "module": "faqs",
+            "faqPageStyle": "template-three-faq-style",
+            "questionStyle": "default",
+            "summaryStyle": "default",
+            "faqs":
+            [
+                {
+                    "question": "How soon will my order ship?",
+                    "answer": "A"
+                },
+                {
+                    "question": "Is there any warranty exclusions?",
+                    "answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+                },
+                {
+                    "question": "Are there any return exclusions?",
+                    "answer": "A"
+                },
+                {
+                    "question": "Will I be charged for a replacement item?",
+                    "answer": "A"
+                },
+                {
+                    "question": "How can I track my orders & payment?",
+                    "answer": "A"
+                }
+            ]
+        },
+        {
+            "name": "email-signup",
+            "module": "email-signup"
+        }
+    ]
 }
