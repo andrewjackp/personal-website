@@ -40,4 +40,14 @@
 			</li>
 		</ul>
 	</nav>
+
+	<nav class="mobile-view <?=$mobileHeaderStyle?>">
+		<a href="?page=mobile-view" class='link'>
+			<div class="icon">
+				<svg viewBox='0 0 10 10'>
+					<circle cx='5' cy='5' r='5' />
+				</svg>
+			</div>
+		</a>
+	</nav>
 </mast-head>
