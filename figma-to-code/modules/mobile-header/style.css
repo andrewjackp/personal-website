@@ -7,6 +7,7 @@ mobile-menu {
 		height: 100%;
 		align-content: center;
 		gap: 10px;
+		grid-template-rows: 14% 8% 2% 15% 16%;
 	}
 }	
 
