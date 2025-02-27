@@ -42,11 +42,17 @@
 	</inner-column>
 </section>
 
-<section class='#' id="#">
+<section class='eames' id="eames-institute">
 	<inner-column>
 		<?php include('eames-institute/template.php'); ?>
 	</inner-column>
 </section>
+
+<section class='auto-fill-cards' id='auto-fill'>
+	<?php include('auto-fill/template.php'); ?>
+</section>
+
+
 </layout-garden>
 
 <script src="data/JS/script.js"></script>
