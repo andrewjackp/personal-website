@@ -1,11 +1,12 @@
-<section class="left-right">
-	<div class="left">
-	<article>
-		<h3>hello hello</h3>
-		<p>a bunch of words</p>
-		<p>sub caption with links</p>
-	</article>
-</div>
+<inner-column>
+	<div class="left-right">
+		<div class="left">
+			<article>
+				<h3>hello hello</h3>
+				<p>a bunch of words</p>
+				<p>sub caption with links</p>
+			</article>
+		</div>
 
 <div class="right">
 	<ul class="picture-list">
@@ -59,4 +60,5 @@
 		</li>
 	</ul>
 </div>
-</section>
+</div>
+</inner-column>
