@@ -1,6 +1,6 @@
 .attention-voice {
 	font-size: 30px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Jost", sans-serif;
 	color: var(--dark);
 
 	@media (width >= 600px) {
@@ -9,7 +9,7 @@
 }
 
 .loud-voice {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Jost", sans-serif;
 	font-size: clamp(36px, 5vw, 60px);
 	line-height: 1em;
 	color: var(--dark);

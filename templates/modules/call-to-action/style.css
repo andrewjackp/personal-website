@@ -3,5 +3,9 @@ call-to-action {
 
 	.attention-voice {
 		font-size: clamp(50px, 10vw, 30px);
-}
+	}
+
+	.info {
+		gap: 0;
+	}
 }

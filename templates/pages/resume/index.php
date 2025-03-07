@@ -1,7 +1,7 @@
 
 <section>
 	<inner-column>
-		<?php $pageTitle = "My list of work" ?>
+		<?php $pageTitle = "Resume" ?>
 		<?php include('templates/modules/page-header/template.php');?>
 	</inner-column>
 </section>

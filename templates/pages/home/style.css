@@ -24,4 +24,7 @@ text-container {
 		margin-top: 1.3em;
 	}
 }
-	
+
+.page-header {
+	border-bottom: 1px var(--dark);
+	}

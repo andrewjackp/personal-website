@@ -4,16 +4,15 @@
    $schools = $resume_data["education"];
 ?>
 
+<resume-list>
 <?php foreach( $positions as $position ) { ?>
-
-	<div class='info'>
-		<h2 class='attention-voice'><?=$position["type"]?></h2>
-		<p class='ink-voice'><?=$position["years"]?></p>
-		<p class='calm-voice'><?=$position["tasks"]?></p>
-		<p class='soft-voice'><?=$position["tools"]?></p>
-	</div>
+	<h2 class='attention-voice'><?=$position["type"]?></h2>
+	<p class='ink-voice'><?=$position["years"]?></p>
+	<p class='calm-voice'><?=$position["tasks"]?></p>
+	<p class='soft-voice'><?=$position["tools"]?></p>
 
 <?php } ?>
+</resume-list>
 
 <?php foreach( $schools as $schooling ) { ?>
 
@@ -23,3 +22,5 @@
 	</div>
 
 <?php } ?>
+
+	

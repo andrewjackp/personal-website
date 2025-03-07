@@ -1,0 +1,12 @@
+resume-list {
+	display: block;
+	display: grid;
+	gap: 10px;
+
+	@media(width >= 600px){
+		display: grid;
+    	grid-template-columns: 1fr 1fr;
+    	gap: 10px;
+    	align-items: baseline;
+	}
+}

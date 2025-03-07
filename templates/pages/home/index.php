@@ -12,7 +12,8 @@
 
 <section>
 	<inner-column>
-		<?php $pageTitle = "My list of work" ?>
+		<?php $pageTitle = "Experience" ?>
+		<?php $intro = "" ?>
 		<?php include('templates/modules/page-header/template.php');?>
 	</inner-column>
 </section>

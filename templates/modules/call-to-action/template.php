@@ -19,7 +19,7 @@
 		</p>		
 	</div>
 	
-	<div class="button-container">
+	<!-- <div class="button-container">
 		<a href="?page=contact" target="contact" class="site-button">Contact</a>
-	</div>
+	</div> -->
 </call-to-action>
