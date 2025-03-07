@@ -10,16 +10,11 @@
 	</inner-column>
 </section>
 
-<section>
+<section class="resume" id="experience">
 	<inner-column>
 		<?php $pageTitle = "Experience" ?>
 		<?php $intro = "" ?>
 		<?php include('templates/modules/page-header/template.php');?>
-	</inner-column>
-</section>
-
-<section>
-	<inner-column>
 		<?php
 			include('templates/modules/resume-list/template.php');
 		?>

@@ -1,8 +1,10 @@
 <mast-head>
-	<a href="index.php">
-		<picture>
-			<img src="images/wrestling-ring.svg" alt="wrestling-ring" width="100">
-		</picture>
+	<a class='link'>
+		<div class="icon">
+			<svg viewBox='0 0 10 10'>
+				<circle cx='5' cy='5' r='5' />
+			</svg>
+		</div>
 	</a>
 	
 <!-- <a href="#" class='attention-voice'>Andy Polito</a> -->

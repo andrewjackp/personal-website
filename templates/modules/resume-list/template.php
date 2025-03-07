@@ -6,7 +6,7 @@
 
 <resume-list>
 <?php foreach( $positions as $position ) { ?>
-	<h2 class='attention-voice'><?=$position["type"]?></h2>
+	<h2 class='loud-voice'><?=$position["type"]?></h2>
 	<p class='ink-voice'><?=$position["years"]?></p>
 	<p class='calm-voice'><?=$position["tasks"]?></p>
 	<p class='soft-voice'><?=$position["tools"]?></p>
