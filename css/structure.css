@@ -2,6 +2,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background: var(--white);
 }
 
 .page-content {
@@ -31,3 +32,4 @@ inner-column {
 .page-header + .info {
 	margin-top: 1em;
 }
+

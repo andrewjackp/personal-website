@@ -1,11 +1,11 @@
 <mast-head>
-<!-- 	<a href="index.php">
+	<a href="index.php">
 		<picture>
 			<img src="images/wrestling-ring.svg" alt="wrestling-ring" width="100">
 		</picture>
-	</a> -->
+	</a>
 	
-<a href="#" class='attention-voice'>Andy Polito</a>
+<!-- <a href="#" class='attention-voice'>Andy Polito</a> -->
 
 <ul>
 	<li>

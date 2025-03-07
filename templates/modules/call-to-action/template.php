@@ -6,11 +6,11 @@
 
 <call-to-action>
 	<div class="info">
-		<h1 class='loud-voice'>
+		<h1 class='attention-voice'>
 			<?=$heading?>
 		</h1>
 		
-		<p class='calm-voice'>
+		<p class='loud-voice'>
 			<?=$intro?>
 		</p>
 		

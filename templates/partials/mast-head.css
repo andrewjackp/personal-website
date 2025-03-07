@@ -25,5 +25,8 @@ mast-head {
 
 	color: var(--ink-light);
 
+	.attention-voice {
+		color: var(--ink-light);
+	}
 }
 }

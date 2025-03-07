@@ -1,13 +1,21 @@
 .attention-voice {
 	font-size: 30px;
+	font-family: "Montserrat", sans-serif;
+	color: var(--dark);
+
+	@media (width >= 600px) {
+		font-weight: 500;
+	}
 }
 
 .loud-voice {
+	font-family: "Montserrat", sans-serif;
 	font-size: clamp(36px, 5vw, 60px);
 	line-height: 1em;
+	color: var(--dark);
 
 	@media (width > 600px) {
-		font-weight: 700;
+		font-size: clamp(80px, 10vw, 60px);
 	}
 }
 
@@ -34,7 +42,7 @@
 }
 
 .ink-voice {
-	color: var(--ink);
+	color: var(--dark);
 }
 
 p + h2 {

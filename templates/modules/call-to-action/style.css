@@ -1,0 +1,7 @@
+call-to-action {
+	display: block;
+
+	.attention-voice {
+		font-size: clamp(50px, 10vw, 30px);
+}
+}

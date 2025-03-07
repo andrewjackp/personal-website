@@ -4,7 +4,7 @@
    flex-wrap: wrap;
    gap: 10px;
    width: 100%;
-   margin-top: 2em;
+   margin-top: 1.1em;
 }
 
 .site-button {
@@ -15,6 +15,7 @@
    color: var(--dark);
    text-decoration: none;
    min-width: 150px;
+   max-width: 200px;
    text-align: center;
    font-family: sans-serif;
    font-size: 1rem;
