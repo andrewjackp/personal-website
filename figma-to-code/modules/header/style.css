@@ -7,6 +7,13 @@ mast-head {
 		}
 	}
 
+	picture {
+		display: flex;
+		img {
+			flex-shrink: 0;
+		}
+	}
+
 	nav {
 		ul {
 			display: flex;
@@ -66,7 +73,7 @@ mast-head {
 		}
 
 		.link {
-			display: block;
+			display: flex;
 			max-width: 80px;
 		}
 
@@ -77,6 +84,7 @@ mast-head {
 		.icon {
 			color: orange;
 			max-width: 30px;
+			flex-shrink: 0;
 		}
 	}
 
