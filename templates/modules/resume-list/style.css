@@ -6,9 +6,13 @@ resume-list {
 	@media(width >= 600px){
 		display: grid;
     	grid-template-columns: 1fr 1fr;
-    	gap: 10px;
+    	gap: 10px 50px;
     	align-items: baseline;
 	}
 
 	margin-top: 0.9em;
+
+	.loud-voice {
+		font-size: 25px;
+	}
 }

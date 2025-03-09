@@ -1,4 +1,4 @@
-text-container {
+
 	.welcome {
 		position: relative;
 	}
@@ -23,4 +23,12 @@ text-container {
 	.calm-voice + .soft-voice {
 		margin-top: 1.3em;
 	}
-}
+
+	.loud-voice {
+		font-size: 25px;
+	}
+
+	.page-header {
+		padding-bottom: 13px;
+    	border-bottom: 2px solid var(--dark);
+	}
