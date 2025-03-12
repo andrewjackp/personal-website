@@ -5,24 +5,8 @@
 			"label" => "Home"
 		],
 		[
-			"slug" => "layout-garden",
-			"label" => "Layout Garden"
-		],
-		[
-			"slug" => "resume",
-			"label" => "Resume"
-		],
-		[
 			"slug" => "drums",
 			"label" => "Drums"
-		],
-		[
-			"slug" => "style-guide",
-			"label" => "Style Guide"
-		],
-		[
-			"slug" => "theme-challenge",
-			"label" => "Theme Challenge"
 		]
 	];
 ?>

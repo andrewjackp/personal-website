@@ -10,13 +10,13 @@
 <!-- <a href="#" class='attention-voice'>Andy Polito</a> -->
 
 <ul>
-	<li>
+	<!-- <li>
 		<a href="?page=resume">Work</a>
 	</li>
 	
 	<li>
 		<a href="?page=about">About</a>
-	</li>
+	</li> -->
 
 	<li>
 		<a href="?page=contact">Contact</a>
