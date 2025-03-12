@@ -14,6 +14,9 @@
 <?php } ?>
 </resume-list>
 
+<?php $pageTitle = "Education" ?>
+<?php $intro = "" ?>
+<?php include('templates/modules/page-header/template.php');?>
 <?php foreach( $schools as $schooling ) { ?>
 
 	<div class='info'>
