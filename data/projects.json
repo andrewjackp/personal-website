@@ -5,7 +5,7 @@
         "teaser": "This project is great because..",
         "url": "https://outside.url",
         "case-study":
-        [   
+        [
             {
                 "module": "generic-text"
             },
@@ -21,10 +21,10 @@
         ]
     },
     {
-        "title": "Project 2",
-        "slug": "project-2",
-        "teaser": "This project is great because..",
-        "url": "https://outside.url",
+        "title": "Figma to Code",
+        "slug": "figma-to-code",
+        "teaser": "Convert Design to Code",
+        "url": "https://peprojects.dev/beta-one/andy/figma-to-code/",
         "featured": true,
         "case-study":
         [
@@ -33,15 +33,15 @@
                 "content": "<h2>How many layouts can I master?</h2><p>Well, I started strong and now I need to make way more.</p>"
             },
             {
-                "module": "project-spotlight"
+                "module": "figma-to-code"
             }
         ]
     },
     {
-        "title": "Project 3",
+        "title": "Theme Challenge",
         "slug": "project-3",
-        "teaser": "This project is great because..",
-        "url": "https://outside.url",
+        "teaser": "Conveying a Luxurious Theme",
+        "url": "https://peprojects.dev/beta-one/andy/theme-challenge/",
         "featured": true,
         "case-study":
         [
@@ -74,7 +74,7 @@
     {
         "title": "Project 5",
         "slug": "project-5",
-        "teaser": "This project is great because..",
+        "teaser": "Convert Figma File to Code",
         "url": "https://outside.url",
         "case-study":
         [
@@ -92,11 +92,11 @@
             }
         ]
     },
-     {
-        "title": "Project 6",
+    {
+        "title": "Layout Garden",
         "slug": "project-6",
-        "teaser": "This project is great because..",
-        "url": "https://outside.url",
+        "teaser": "Collection of Layouts",
+        "url": "?page=layout-garden",
         "featured": true,
         "case-study":
         [

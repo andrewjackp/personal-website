@@ -1,18 +1,13 @@
 .project-list {
 	display: grid;
 	gap: 10px;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
 
-@media (width > 600px) {
-	.project-list {
-		
+	@media (width >= 600px) {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
-.project {
-	max-width: 300px;
-}
+
 
 
 project-spotlight {

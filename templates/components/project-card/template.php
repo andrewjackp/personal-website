@@ -1,15 +1,14 @@
 <?php
 	$title = $project["title"];
 	$slug = $project["slug"];
+	$url = $project["url"];
+	$teaser = $project["teaser"];
 ?>
 
 <project-card>
-	<figure>
-		<img src="images/wrestling-ring.svg" alt="">
-	</figure>
 	<h3><?=$title?></h3>
 
-	<p>Teaser here</p>
+	<p><?=$teaser?></p>
 
-	<a href="?page=project&slug=<?=$slug?>">Visit</a>
+	<a href="<?=$url?>" target="_blank">Visit</a>
 </project-card>

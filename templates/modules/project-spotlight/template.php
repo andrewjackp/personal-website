@@ -1,6 +1,6 @@
 <?php
 	$projects = getData('data/projects.json');
-	$project_heading = $project_heading ?? "Project Spotlight Heading";
+	$project_heading = $project_heading ?? "";
 ?>
 
 <project-spotlight>
