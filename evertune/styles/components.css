@@ -1,0 +1,16 @@
+.blue-btn {
+	display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: var(--blue);
+   border-radius: 8px;
+   padding: 0.65em;
+   color: white;
+   text-decoration: none;
+   min-width: 150px;
+   max-width: 200px;
+   text-align: center;
+   align-items: center;
+   font-size: 1rem;
+   gap: 3px;
+}

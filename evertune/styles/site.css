@@ -1,0 +1,75 @@
+@import 'settings.css';
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'typography.css';
+@import 'components.css';
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto;
+}
+
+inner-column {
+	display: block;
+	padding: 20px;
+	max-width: 1100px;
+	margin-inline: auto;
+}
+
+sidebar {
+	display: block;
+	height: 100%;
+	width: 160px; 
+ 	position: fixed;
+ 	z-index: 1;
+ 	border: 1px solid black;
+}
+
+header {
+	border-bottom: 2px solid var(--lightgray);
+	display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 5px;
+	margin-left: 160px;
+	padding: 15px;
+
+	.categories {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 5px;
+	}
+
+	.category-info {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.settings {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+		}
+
+		.item {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 5px;
+		}
+	}
+}
+
+.page-content {
+	margin-left: 160px;
+	flex-grow: 1;
+}
