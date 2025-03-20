@@ -65,6 +65,10 @@ sidebar {
  	.car-list {
  		margin-top: 1em;
 
+ 		.logo-voice {
+ 			margin-top: 10px;
+ 		}
+
  		summary:hover	{
  			cursor: pointer;
  		}
