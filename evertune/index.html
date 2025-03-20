@@ -8,6 +8,7 @@
 	<title>Evertune</title>
 	<link rel="stylesheet" href="styles/site.css">
 	<script src='https://cdn.plot.ly/plotly-3.0.1.min.js'></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
 	<sidebar>
@@ -163,22 +164,50 @@
 		
 		<section>
 			<inner-column>
+				<div class="button-container">
+					<a href="#" class='overview-btn'>Overview</a>
+					<a href="#" class='vector-btn'>By Brand Vector</a>
+				</div>
+
+				<div class="graph-text-container">
+					<h2 class="loud-voice">Brand scores for Porsche in Luxury SUVs</h2>
+					<p class="quiet-voice">% Probability AI will recommend Porsche</p>
+				</div>
 				<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
 			</inner-column>
 		</section>
 
 		<section>
 			<inner-column>
+
+				<div class="graph-text-container">
+					<h2 class="loud-voice">How Porsche compares to other brands in Luxury SUVS</h2>
+					<p class="quiet-voice">% Probability AI will recommend Porsche</p>
+				</div>
+
 				<div id='graphDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
 			</inner-column>
 		</section>
 
 		<section>
 			<inner-column>
-				chart 3
+				<div class="graph-text-container">
+					<h2 class="loud-voice">Brand scores for Porsche in Luxury SUVs</h2>
+					<p class="quiet-voice">% Probability AI will recommend a brand</p>
+				</div>
+				<div id='graphDivTwo'></div>
 			</inner-column>
 		</section>
 
+		<section>
+			<inner-column>
+				<div class="graph-text-container">
+					<h2 class="loud-voice">How the results changed between model versions</h2>
+					<p class="quiet-voice">AI Brand Score</p>
+				</div>
+				<div id="fourthDiv" style="width:100%;height:500;"></div>
+			</inner-column>
+		</section>
 		
 	</main>
 	<script src="script.js"></script>

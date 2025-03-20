@@ -6,6 +6,11 @@
 	font-size: 40px;
 }
 
+.loud-voice {
+	color: var(--gray);
+	font-size: 23px;
+}
+
 .brand-voice {
 	color: var(--gray);
 	font-size: 14px;
