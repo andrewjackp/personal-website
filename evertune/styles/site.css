@@ -131,7 +131,7 @@ header {
 		display: flex;
    	flex-direction: row;
    	justify-content: space-between;
-   	gap: 15em;
+   	gap: 9em;
 
    	@media (width < 1000px) {
    		gap: 0;
