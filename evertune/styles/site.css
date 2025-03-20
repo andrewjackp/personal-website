@@ -13,9 +13,9 @@ body {
 
 inner-column {
 	display: block;
-	padding: 20px;
-	max-width: 1100px;
-/*	margin-inline: auto;*/
+	padding: 10px;
+	max-width: 1500px;
+	margin-inline: auto;
 }
 
 sidebar {
@@ -98,6 +98,13 @@ header {
 	margin-left: 215px;
 	padding: 15px;
 
+	inner-column {
+		display: flex;
+   	flex-direction: row;
+   	justify-content: space-between;
+   	gap: 25em;
+	}
+
 	.categories {
 		display: flex;
 		flex-direction: row;
@@ -138,8 +145,9 @@ header {
 
 page-header {
 	display: block;
-	display: grid;
-	grid-template-columns: 85% 15%;
+	display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 	line-height: 2.3em;
 	padding-top: 10px;
 }

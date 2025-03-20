@@ -25,6 +25,7 @@
    padding: 1px;
    color: var(--blue);
    text-decoration: none;
+   min-width: 125px;
    max-width: 200px;
    text-align: center;
    align-items: center;
