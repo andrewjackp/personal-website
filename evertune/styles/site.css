@@ -131,7 +131,6 @@ header {
 		display: flex;
    	flex-direction: row;
    	justify-content: space-between;
-   	gap: 9em;
 
    	@media (width < 1000px) {
    		gap: 0;
@@ -214,4 +213,10 @@ page-header {
 			margin-bottom: 0.25em;
 		}
 	}
+}
+
+#myDiv {
+	display: block;
+   width: 100%;
+   height: auto;
 }
