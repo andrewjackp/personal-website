@@ -22,7 +22,7 @@
    background-color: var(--white);
    border: 1px solid var(--blue);
    border-radius: 8px;
-   padding: 1px;
+   padding: 0.8em 0.5em;
    color: var(--blue);
    text-decoration: none;
    min-width: 125px;
