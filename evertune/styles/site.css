@@ -114,6 +114,10 @@ header {
    	flex-direction: row;
    	justify-content: space-between;
    	gap: 15em;
+
+   	@media (width < 1000px) {
+   		gap: 0;
+   	}
 	}
 
 	.categories {
@@ -178,11 +182,17 @@ page-header {
    flex-direction: row;
    justify-content: space-between;
 	padding: 20px;
-	padding-top: 10px;
+	padding-top: 30px;
 
 	@media (width < 1000px){
 		display: flex;
    	flex-direction: column;
    	gap: 10px;
+	}
+
+	.text-container {
+		.attention-voice {
+			margin-bottom: 0.25em;
+		}
 	}
 }
