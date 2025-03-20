@@ -8,7 +8,7 @@
 
 .brand-voice {
 	color: var(--gray);
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 500;
 }
@@ -17,4 +17,20 @@
 	color: var(--gray);
 	font-size: 23px;
 	font-weight: 500;
+}
+
+.quiet-voice {
+	color: var(--quietgray);
+	font-size: 12px;
+}
+
+.logo-voice {
+	color: var(--darkblue);
+	font-size: 12px;
+}
+
+.link-voice {
+	color: var(--blue);
+	text-decoration: underline;
+	cursor: pointer;
 }

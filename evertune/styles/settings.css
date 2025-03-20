@@ -1,6 +1,9 @@
 :root {
 	--darkblue: #143146;
 	--blue: #3a8ac0;
-	--gray: #5d5d5d;
+	--lightblue: #c3e8fa;
+	--gray: #6d6d6d;
+	--sidebar_gray: #a9a9a9;
+	--quietgray: #7a7a7a;
 	--lightgray: #e6e6e6;
 }

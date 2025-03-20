@@ -21,10 +21,72 @@ inner-column {
 sidebar {
 	display: block;
 	height: 100%;
-	width: 160px; 
+	width: 215px; 
  	position: fixed;
  	z-index: 1;
- 	border: 1px solid black;
+ 	border-right: 1px solid var(--lightgray);
+ 	padding: 1px;
+
+ 	ul {
+ 		margin-top: 1.6em;
+ 		display: flex;
+ 		flex-direction: column;
+ 		gap: 10px;
+ 	}
+
+ 	.sidebar-list {
+ 		li {
+ 			border-bottom: 1px solid var(--sidebar_gray);
+ 		}
+
+ 		a {
+ 			margin-bottom: 1.5em;
+ 		}
+
+ 		a:active {
+ 			color: var(--blue);
+ 		}
+
+ 		a:hover{
+ 			color: var(--blue);
+ 		}
+
+ 		li + li {
+ 			margin-top: 1em;
+ 		}
+ 	}
+
+ 	.car-list {
+ 		margin-top: 1em;
+
+ 		summary:hover	{
+ 			cursor: pointer;
+ 		}
+
+
+ 	}
+ 	
+ 	.metric-item {
+ 		display: flex;
+ 		flex-direction: row;
+ 		gap: 10px;
+ 		align-items: center;
+ 		padding: 10px;
+ 		border: none;
+ 		min-width: 180px;
+
+ 			&.open {
+ 			border: 0px;
+ 			background: var(--lightblue);
+ 			color: black;
+ 			border-radius: 8px;
+
+ 			.quiet-voice {
+ 				color: black;
+ 			}
+ 		}
+ 	}
+
 }
 
 header {
@@ -33,7 +95,7 @@ header {
    align-items: center;
    justify-content: space-between;
    gap: 5px;
-	margin-left: 160px;
+	margin-left: 215px;
 	padding: 15px;
 
 	.categories {
@@ -70,6 +132,14 @@ header {
 }
 
 .page-content {
-	margin-left: 160px;
+	margin-left: 215px;
 	flex-grow: 1;
+}
+
+page-header {
+	display: block;
+	display: grid;
+	grid-template-columns: 85% 15%;
+	line-height: 2.3em;
+	padding-top: 10px;
 }

@@ -5,11 +5,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Evertune</title>
 	<link rel="stylesheet" href="styles/site.css">
+	<script src='https://cdn.plot.ly/plotly-3.0.1.min.js'></script>
 </head>
 <body>
 	<sidebar>
 		<inner-column>
-			siderbar
+			<nav class='sidebar-list'>
+				<a href="#" class='logo-voice'>evertune</a>
+				<ul>
+					<li><a href="#" class='quiet-voice'>Account Overview</a></li>
+					<li><a href="#" class='quiet-voice'>New Tracker</a></li>
+				</ul>
+			</nav>
+			<nav class="car-list">
+				<details>
+					<summary class='logo-voice'>
+						Porsche
+					</summary>
+
+					<ul class="metric-list">
+						<p class="logo-voice">Luxury SUVs -</p>
+						<button class='metric-item' id="toggle">
+							<picture>
+								<img src="images/word_association.svg" alt="metric-img">
+							</picture>
+							<a href="#" class="quiet-voice">Word Association</a>
+						</button>
+						<button class='metric-item' id="toggle">
+							<picture>
+								<img src="images/brand_index.png" alt="metric-img">
+							</picture>
+							<a href="#" class="quiet-voice">AI Brand Index</a>
+						</button>
+						<button class='metric-item' id="toggle">
+							<picture>
+								<img src="images/consumer.png" alt="metric-img">
+							</picture>
+							<a href="#" class="quiet-voice">Consumer Preferences</a>
+						</button>
+					</ul>
+				</details>
+			</nav>
 		</inner-column>
 	</sidebar>
 	<header>
@@ -55,31 +91,36 @@
 	</header>
 
 	<main class='page-content'>
-		<page-header>
-			<inner-column>
-				<h1 class="attention-voice">
-					AI Brand Index
-				</h1>
-			</inner-column>
+		<inner-column>
+			<page-header>
+				<div class="text-container">
+					<h1 class="attention-voice">
+						AI Brand Index
+					</h1>
+					<span class="quiet-voice">
+						What brands does AI think of first? The AI Brand Index measures unaided awareness of brands in models. <span href="#" class='link-voice'>Learn more</a>
+					</span>
+				</div>
+				<div class="btn-container">
+					<a href="#" class="light-btn">Download <picture><img src="images/arrow_down.svg" alt="arrow img"></picture></a>
+				</div>
+					
 		</page-header>
 
 		<section>
-			<inner-column>
-				chart one
-			</inner-column>
+			<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
 		</section>
 
 		<section>
-			<inner-column>
-				chart two
-			</inner-column>
+			<div id='graphDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
 		</section>
 
 		<section>
-			<inner-column>
-				chart three
-			</inner-column>
+			chart three
 		</section>
+
+		</inner-column>
 	</main>
+	<script src="script.js"></script>
 </body>
 </html>
