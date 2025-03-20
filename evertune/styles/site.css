@@ -30,7 +30,7 @@ sidebar {
 
  	@media (width < 500px) {
  		width: 100%;
- 		height: 37%;
+ 		height: 39%;
  	}
 
  	ul {
@@ -171,6 +171,12 @@ header {
 			@media (width < 800px) {
 				display: none;
 			}
+
+			a {
+				color: var(--blue);
+			}&:nth-of-type(3){
+				color: white;
+			}
 		}
 
 		.item {
@@ -189,7 +195,7 @@ header {
 
 	@media (width < 500px) {
 		margin-left: 0;
-		margin-top: 90%;
+		margin-top: 100%;
 		z-index: 0
 	}
 }
