@@ -75,7 +75,7 @@ sidebar {
  		border: none;
  		min-width: 180px;
 
- 			&.open {
+ 			&.visited {
  			border: 0px;
  			background: var(--lightblue);
  			color: black;
@@ -91,11 +91,6 @@ sidebar {
 
 header {
 	border-bottom: 2px solid var(--lightgray);
-	display: flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 5px;
-	margin-left: 215px;
 	padding: 15px;
 
 	inner-column {
@@ -149,5 +144,6 @@ page-header {
    flex-direction: row;
    justify-content: space-between;
 	line-height: 2.3em;
+	padding: 20px;
 	padding-top: 10px;
 }

@@ -1,8 +1,22 @@
-const toggle = document.querySelector("#toggle");
+// const toggle = document.querySelector("#toggle");
 
-toggle.addEventListener("click", function() {
-	this.closest(".metric-item").classList.toggle("open");
-});
+// toggle.addEventListener("click", function() {
+// 	this.closest(".metric-item").classList.toggle("open");
+// });
+
+var metricBtn = document.querySelectorAll('.metric-item');
+//Add this for toggling btn color
+lastOpened = null;
+
+metricBtn.forEach(btn => btn.addEventListener('click', function() {
+  var blueBtn = this.closest('.metric-item');
+  blueBtn.classList.toggle("visited");
+  
+  if (lastOpened && lastOpened !== blueBtn)
+      lastOpened.classList.remove("visited");
+      lastOpened = blueBtn;
+}));
+
 
 var trace1 = {
   x: [1, 2, 3, 4],
