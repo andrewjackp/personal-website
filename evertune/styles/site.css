@@ -97,11 +97,23 @@ sidebar {
  	}
 
  	.ai-info {
- 		margin-top: 50px;
+ 		margin-top: 80px;
+ 	}
 
- 		@media (width < 500px) {
+ 	.account-info {
+ 		margin-top: 100px;
+ 		border-top: 1px solid var(--sidebar_gray); 	
+ 		border-bottom: 1px solid var(--sidebar_gray);
+
+ 		ul {
+ 			margin-top: 0;
+ 		}	
+ 	}
+
+ 	@media (width < 500px) {
+ 		.ai-info, .account-info {
  			display: none;
- 		}
+ 		}	
  	}
 }
 
