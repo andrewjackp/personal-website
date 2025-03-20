@@ -34,3 +34,8 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+.logout-voice {
+	color: var(--orange);
+	font-size: 12px;
+}
