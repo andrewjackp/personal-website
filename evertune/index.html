@@ -19,6 +19,7 @@
 					<li><a href="#" class='quiet-voice'>New Tracker</a></li>
 				</ul>
 			</nav>
+
 			<nav class="car-list">
 				<details>
 					<summary class='logo-voice'>
@@ -26,7 +27,7 @@
 					</summary>
 
 					<ul class="metric-list">
-						<p class="logo-voice">Luxury SUVs -</p>
+						<p class="logo-voice">Luxury SUVs - </p>
 						<button class='metric-item' id="toggle">
 							<picture>
 								<img src="images/word_association.svg" alt="metric-img">
@@ -47,6 +48,23 @@
 						</button>
 					</ul>
 				</details>
+			</nav>
+
+			<nav class="ai-info">
+				<ul>
+					<button class='metric-item' id="toggle">
+						<picture>
+							<img src="images/brand_index.png" alt="metric-img">
+						</picture>
+						<a href="#" class="quiet-voice">AI Brand Index</a>
+					</button>
+					<button class='metric-item' id="toggle">
+						<picture>
+							<img src="images/consumer.png" alt="metric-img">
+						</picture>
+						<a href="#" class="quiet-voice">Consumer Preferences</a>
+					</button>
+				</ul>
 			</nav>
 		</inner-column>
 	</sidebar>
@@ -120,15 +138,21 @@
 		
 		
 		<section>
-			<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+			<inner-column>
+				<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+			</inner-column>
 		</section>
 
 		<section>
-			<div id='graphDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+			<inner-column>
+				<div id='graphDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+			</inner-column>
 		</section>
 
 		<section>
-			chart three
+			<inner-column>
+				chart 3
+			</inner-column>
 		</section>
 
 		
