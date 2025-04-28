@@ -1,4 +1,10 @@
 <inner-column>
+
+	<div class="heading-box">
+		<h1>Auto Fill Grid Layout</h1>
+		<p>Cool grid layout inspired by this <a href="https://www.matthiaskoller.me/" target="_blank">page</a></p>
+	</div>
+
 	<div class="left-right">
 		<div class="left">
 			<article>
