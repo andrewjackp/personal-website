@@ -1,6 +1,6 @@
 <div class="heading-box">
 	<h1>Sabrage Concierge Card Grid</h1>
-	<p>A card list inspired by <a href="https://sabrageconcierge.com/" target="_layout-garden">Sabrage Concierge's</a> website, built by <a href="https://www.nonverbaloriginals.com/">Non Verbal Original's Agency</a>.</p>
+	<p>A card list inspired by <a href="https://sabrageconcierge.com/" target="_layout-garden">Sabrage Concierge's</a> website, built by <a href="https://www.nonverbaloriginals.com/" target="_layout-garden">Non Verbal Original's Agency</a>.</p>
 </div>
 
 <ul class="service-card-list">
