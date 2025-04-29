@@ -49,7 +49,15 @@
 </section>
 
 <section class='auto-fill-cards' id='auto-fill'>
-	<?php include('auto-fill/template.php'); ?>
+	<inner-column>
+		<?php include('auto-fill/template.php'); ?>
+	</inner-column>
+</section>
+
+<section class='concierge-cards' id='concierge-card-list'>
+	<inner-column>
+		<?php include('concierge-cards/template.php'); ?>
+	</inner-column>
 </section>
 
 
