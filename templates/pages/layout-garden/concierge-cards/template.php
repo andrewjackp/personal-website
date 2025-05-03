@@ -11,7 +11,7 @@
 			</picture>
 			
 			<div class="concierge-info">
-				<h2>Heading</h2>
+				<h2 class='loud-voice'>Heading</h2>
 				<p>1</p>
 			</div>
 			
@@ -27,7 +27,7 @@
 			</picture>
 			
 			<div class="concierge-info">
-				<h2>Heading</h2>
+				<h2 class='loud-voice'>Heading</h2>
 				<p>1</p>
 			</div>
 				<div class="caption">
@@ -43,7 +43,7 @@
 			</picture>
 
 			<div class="concierge-info">
-				<h2>Heading</h2>
+				<h2 class='loud-voice'>Heading</h2>
 				<p>1</p>
 			</div>
 			

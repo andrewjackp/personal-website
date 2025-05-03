@@ -60,6 +60,12 @@
 	</inner-column>
 </section>
 
+<section class='carl-hauser-cards' id='carl-hauser-card-list'>
+	<inner-column>
+		<?php include('carl-hauser-cards/template.php'); ?>
+	</inner-column>
+</section>
+
 
 </layout-garden>
 
