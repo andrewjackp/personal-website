@@ -66,6 +66,12 @@
 	</inner-column>
 </section>
 
+<section class='varyer-cards' id='varyer-card-list'>
+	<inner-column>
+		<?php include('varyer-cards/template.php'); ?>
+	</inner-column>
+</section>
+
 
 </layout-garden>
 
