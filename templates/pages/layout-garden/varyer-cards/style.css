@@ -33,15 +33,14 @@ img {
 		display: flex;
 		flex-direction: column;
 		gap: 5px;
-		padding: 20px;
-		padding-bottom: 10px;
+		padding: 5px;
 		margin-top: auto;
 		align-items: center;
 		margin-bottom: 10px;
 
 		.loud-voice {
-			font-size: clamp(25px, 3vw, 12px);
-			max-width: 10ch;
+			font-size: clamp(25px, 2vw, 12px);
+			max-width: 16ch;
 		}
 		.soft-voice {
 			text-transform: uppercase;

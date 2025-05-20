@@ -55,7 +55,7 @@
 			
 		<div class="text-info">
 			<h3 class='soft-voice'>Other headlines</h3>
-			<h2 class='loud-voice'>Check other things</h2>
+			<h2 class='loud-voice'>Other things</h2>
 			<span class='soft-voice'>20 may 2025</span>
 		</div>
 			
