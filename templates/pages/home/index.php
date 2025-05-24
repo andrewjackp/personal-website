@@ -10,6 +10,12 @@
 	</inner-column>
 </section>
 
+<section>
+	<inner-column>
+		<?php include('templates/modules/home-cards/template.php');?>
+	</inner-column>
+</section>
+
 <section class="resume" id="experience">
 	<inner-column>
 		<?php $pageTitle = "Experience" ?>

@@ -1,0 +1,23 @@
+.home-card-list {
+	display: grid;
+	gap: 20px;
+
+	@media (width > 500px) {
+
+		grid-template-columns: repeat(3, 1fr);
+	
+		.home-card-item:nth-of-type(1){
+			grid-column: span 1;
+			grid-row: span 2;
+		}
+
+		.home-card-item:nth-of-type(2){
+			grid-column: span 2;
+			grid-row: span 1;
+		}	
+	}
+}
+
+.home-card-details {
+	border: 1px solid black;
+}
