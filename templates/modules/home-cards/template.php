@@ -38,7 +38,7 @@
 	<li class='home-card-item'>
 		<article class='home-card-details'>
 			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+				<img src="images/black-rectangle.png" alt="">
 			</picture>
 
 			<div class="text-info">

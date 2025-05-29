@@ -1,6 +1,6 @@
 .home-card-list {
 	display: grid;
-	gap: 3.2em;
+	grid-gap: 2.1em;
 
 	@media (width > 500px) {
 
@@ -23,7 +23,7 @@
 
 		.home-card-item:nth-of-type(4){
 			grid-column: 1 / 4;
-			grid-row: 4 / 6;
+			grid-row: 4;
 		}	
 	}
 }
