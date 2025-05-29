@@ -1,4 +1,4 @@
-<!-- <ul class='home-card-list'>
+<ul class='home-card-list'>
 	<li class='home-card-item'>
 		<article class='home-card-details'>
 			<picture>
@@ -47,4 +47,4 @@
 			
 		</article>
 	</li>
-</ul> -->
+</ul>
