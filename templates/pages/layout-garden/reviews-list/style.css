@@ -73,6 +73,7 @@ reviews-list {
 			}
 			picture {
 				height: auto;
+				border-radius: 8px;
 			}
 			img {
 				height: 100%;
@@ -91,6 +92,7 @@ reviews-list {
 
 			picture {
 				max-width: 35%;
+				border-radius: 8px;
 			}
 			img {
 				object-fit: cover;

@@ -23,6 +23,11 @@
 
 		.home-card-item:nth-of-type(4){
 			grid-column: 1 / 4;
+			grid-row: 5;
+		}	
+
+		.home-card-item:nth-of-type(5){
+			grid-column: 3;
 			grid-row: 4;
 		}	
 	}
@@ -39,7 +44,12 @@
 	flex-direction: column;
 
 	img {
-		object-fit: cover;
+		cursor: pointer;
+    	transition: all .5s ease;
+	}
+
+	img:hover {
+		transform: scale(1.5);
 	}
 
 	.text-info {

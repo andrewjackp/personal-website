@@ -47,4 +47,18 @@
 			
 		</article>
 	</li>
+
+	<li class='home-card-item'>
+		<article class='home-card-details'>
+			<picture>
+				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			</picture>
+
+			<div class="text-info">
+				<span>Projects?</span>
+			</div>
+			
+		</article>
+	</li>
+
 </ul>

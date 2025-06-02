@@ -60,6 +60,10 @@ grand-central-market-list {
 			padding: 0.6em;
 			transition: 0.3s;
 		}
+
+		picture {
+			
+		}
 	
 		.info {
 			padding: 1.5em;
@@ -98,8 +102,12 @@ grand-central-market-list {
 				grid-column: 2 / 3;
 				grid-row: 1 / 4;
 				border-left: 1px solid var(--line);
+
+				border-top-right-radius: 8px;
+				border-bottom-right-radius: 8px;
 				
 				writing-mode: vertical-lr;
+
 				span {
 					display: block;
 					transform: rotate(180deg);
@@ -108,6 +116,7 @@ grand-central-market-list {
 	
 			picture {
 				grid-column: 1 / 2;
+				border-top-left-radius: 8px;
 			}
 			
 			.info {

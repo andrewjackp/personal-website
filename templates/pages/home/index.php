@@ -15,7 +15,7 @@
 		<?php include('templates/modules/home-cards/template.php');?>
 	</inner-column>
 </section>
-
+<!-- 
 <section class="resume" id="experience">
 	<inner-column>
 		<?php $pageTitle = "Experience" ?>
@@ -33,4 +33,4 @@
 		<?php include('templates/modules/page-header/template.php');?>
 		<?php include('templates/modules/project-spotlight/template.php');?>
 	</inner-column>
-</section>
+</section> -->
