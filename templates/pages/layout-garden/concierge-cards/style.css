@@ -19,6 +19,10 @@ img {
 	flex-direction: column;
 	gap: 15px;
 	height: auto;
+
+	picture {
+		border-radius: 8px;
+	}
 }
 
 .service-card-list {
@@ -27,7 +31,7 @@ img {
 	
 	@media (width > 600px) {
 		grid-template-columns: 1.5fr 1fr 1fr;
-		grid-gap: 2em;		
+		grid-gap: 20px;		
 	}
 }
 

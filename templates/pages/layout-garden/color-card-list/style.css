@@ -5,11 +5,13 @@ color-card-list {
 
   .heading-card-grid {
     display: grid;
-    gap: 5px;
+    gap: 20px;
   }
   
   picture {
     opacity: 0.3;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
 
   img {
@@ -38,7 +40,7 @@ color-card-list {
   @media (min-width: 600px) {
     .heading-card-grid {
       grid-template-columns: 1fr 1fr;
-      gap: 10px;
+      gap: 20px;
     }
     .heading-card {
       grid-template-columns: 2fr;

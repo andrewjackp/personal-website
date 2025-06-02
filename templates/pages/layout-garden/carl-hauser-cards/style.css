@@ -7,6 +7,10 @@
 	gap: 6px;
 	height: 100%;
 	width: 100%;
+
+	picture {
+		border-radius: 8px;
+	}
 }
 
 .card-details:hover {
