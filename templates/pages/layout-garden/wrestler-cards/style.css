@@ -25,7 +25,8 @@ wrestler-list {
 		display: grid;
 		align-items: center;
 		width: 100%;
-		padding: 10px;
+		height: 100%;
+		padding: 25px;
 
 		picture {
 			aspect-ratio: 1 / 1;
