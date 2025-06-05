@@ -72,6 +72,12 @@
 	</inner-column>
 </section>
 
+<section class='pool-day-email-signup' id='pool-day-signup-section'>
+	<inner-column>
+		<?php include('pool-day-email-signup/template.php'); ?>
+	</inner-column>
+</section>
+
 
 </layout-garden>
 
