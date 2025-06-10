@@ -1,6 +1,17 @@
-picture {
+
+.first-img {
+	height: 660px;
+}
+
+.brand-card-item {
+	display: flex;
+	flex-direction: column;
+
+	picture {
 	display: block;
 	flex-grow: 2;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 
 img {
@@ -11,13 +22,6 @@ img {
 	object-position: center center;
 }
 
-.first-img {
-	height: 660px;
-}
-
-.brand-card-item {
-	display: flex;
-	flex-direction: column;
 }
 
 .brand-card-details {

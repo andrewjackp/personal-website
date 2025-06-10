@@ -1,0 +1,45 @@
+
+.art-brand-list {
+	display: grid;
+	
+	@media (width > 500px) {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em 20px;
+	}
+	
+}
+
+.design-studio-card {
+	padding: 10px;
+	height: 100%;
+
+	picture {
+		border-radius: 8px;
+	}
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+
+	font-family: sans-serif;
+	line-height: 0.76em;
+	
+	margin-top: 5px;
+	
+	.heading {
+		text-transform: uppercase;
+		font-size: 11px;
+	}
+	
+	.caption {
+		font-size: 10px;
+	}
+}
+
+
+
+
+
+
+

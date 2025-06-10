@@ -33,6 +33,10 @@ img {
 		grid-template-columns: 1.5fr 1fr 1fr;
 		grid-gap: 20px;		
 	}
+
+	li + li {
+		margin-top: 20px;
+	}
 }
 
 .concierge-info {

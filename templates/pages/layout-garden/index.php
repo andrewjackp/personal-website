@@ -78,6 +78,12 @@
 	</inner-column>
 </section>
 
+<section class='dothingsnyc' id='dothingsnyc-section'>
+	<inner-column>
+		<?php include('dothingsnyc/template.php'); ?>
+	</inner-column>
+</section>
+
 
 </layout-garden>
 
