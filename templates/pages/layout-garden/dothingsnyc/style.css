@@ -29,6 +29,7 @@
 .text-container {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 
 	font-family: sans-serif;
 	line-height: 0.76em;
