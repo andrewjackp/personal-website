@@ -25,9 +25,13 @@
 	</li>
 	<li class='home-card-item'>
 		<article class='home-card-details'>
-			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<a href="?page=layout-garden
+			" target="_layout-garden">
+				<picture>
+				<img src="images/layout-gaaarden.png" alt="">
 			</picture>
+			</a>
+			
 
 			<div class="text-info">
 				<span>Layout Garden</span>
