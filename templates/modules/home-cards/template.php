@@ -13,9 +13,11 @@
 	</li>
 	<li class='home-card-item'>
 		<article class='home-card-details'>
-			<picture>
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
+			<a href="?page=resume" target="_resume">
+				<picture>
+					<img src="images/resume.png" alt="">
+				</picture>
+			</a>
 
 			<div class="text-info">
 				<span>Experience</span>
