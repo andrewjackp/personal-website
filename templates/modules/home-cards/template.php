@@ -43,10 +43,12 @@
 	</li>
 	<li class='home-card-item'>
 		<article class='home-card-details'>
-			<picture>
-				<img src="images/black-rectangle.png" alt="">
-			</picture>
-
+			<a href="?page=drums">
+				<picture>
+					<img src="images/black-rectangle.png" alt="">
+				</picture>
+			</a>
+			
 			<div class="text-info">
 				<span>Drums?</span>
 			</div>
@@ -54,7 +56,7 @@
 		</article>
 	</li>
 
-	<li class='home-card-item'>
+<!-- 	<li class='home-card-item'>
 		<article class='home-card-details'>
 			<picture>
 				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
@@ -65,6 +67,6 @@
 			</div>
 			
 		</article>
-	</li>
+	</li> -->
 
 </ul>

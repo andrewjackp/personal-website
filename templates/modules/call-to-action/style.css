@@ -8,4 +8,8 @@ call-to-action {
 	.info {
 		gap: 0;
 	}
+
+	.loud-voice + .soft-voice {
+		margin-top: 0.3em;
+	}
 }
