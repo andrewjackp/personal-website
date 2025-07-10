@@ -3,10 +3,6 @@
 		[
 			"slug" => "home",
 			"label" => "Home"
-		],
-		[
-			"slug" => "drums",
-			"label" => "Drums"
 		]
 	];
 ?>
