@@ -1,10 +1,12 @@
 <ul class='home-card-list'>
 	<li class='home-card-item'>
 		<article class='home-card-details'>
-			<picture>
-				<img src="images/andy-on-drums.jpeg" alt="">
-			</picture>
-
+			<a href="?page=about">
+				<picture>
+					<img src="images/andy-on-drums.jpeg" alt="">
+				</picture>
+			</a>
+			
 			<div class="text-info">
 				<span>About</span>
 			</div>
