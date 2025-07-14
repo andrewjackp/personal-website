@@ -56,10 +56,15 @@ features {
 				.id-voice {
 				display: none;
 			}
-			.soft-voice {
+			.loud-voice {
 				font-size: clamp(20px, 3vw, 40px);
             max-width: 20ch;
-				line-height: 1em
+				line-height: 1.2em;
+				font-weight: 550
+			}
+			.soft-voice {
+				font-size: 18px;
+				margin-bottom: 20px;
 			}
 				.feature-card {
 					grid-template-columns: 1fr;
