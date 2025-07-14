@@ -60,7 +60,8 @@ features {
 				font-size: clamp(20px, 3vw, 40px);
             max-width: 20ch;
 				line-height: 1.2em;
-				font-weight: 550
+				font-weight: 550;
+				margin-bottom: 10px;
 			}
 			.soft-voice {
 				font-size: 18px;
