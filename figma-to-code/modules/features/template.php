@@ -15,7 +15,7 @@
 
 					<card-text>
 						<h2 class="loud-voice"><?=$card['heading']?></h2>
-						<p class='quiet-voice'><?=$card['content']?></p>
+						<p class='soft-voice'><?=$card['content']?></p>
 					</card-text>
 					
 					<picture>

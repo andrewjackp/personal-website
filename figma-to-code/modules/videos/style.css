@@ -13,11 +13,11 @@ videos {
 		margin-top: 0.4em;
 	}
 
-	.loud-voice + .quiet-voice {
+	.loud-voice + .soft-voice {
 		margin-top: 1.5em;
 	}
 
-	.quiet-voice + picture {
+	.soft-voice + picture {
 		margin-top: 1em;
 	}
 	

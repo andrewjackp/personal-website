@@ -1,5 +1,5 @@
 .attention-voice {
-	font-size: clamp(30px, 4vw, 65px);
+	font-size: clamp(30px, 5vw, 65px);
 	font-weight: 700;
 }
 
@@ -10,8 +10,16 @@
 
 .quiet-voice {
 	color: var(--grey);
-	font-size: 13px;
+	font-size: 20px;
+   max-width: 62ch;
 	font-weight: 300;
+}
+
+.soft-voice {
+	color: var(--grey);
+	font-size: 15px;
+   max-width: 62ch;
+	font-weight: 200;
 }
 
 .id-voice {

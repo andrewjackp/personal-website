@@ -7,7 +7,7 @@
 		Etiam nulla lfulputate.
 	</h2>
 
-	<p class="quiet-voice">
+	<p class="soft-voice">
 		We specialize in monster-friendly design systems that scale from wiggly toes to toothy grins.
 	</p>
 	<picture>
