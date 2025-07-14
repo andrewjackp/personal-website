@@ -13,6 +13,7 @@ page-header {
 .attention-voice {
    &.default {
       font-size: clamp(40px, 4vw, 65px);
+      line-height: 1.2em;
    }
    &.loud-voice {
       font-size: clamp(36px, 3vw, 1em);
