@@ -1,8 +1,22 @@
 faqs {
 	display: block;
+	margin-bottom: 4em;
 
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;
+	}
+
+	.attention-voice {
+		font-weight: 550;
+      max-width: 25ch;
+	}
+
+	.quiet-voice {
+		font-size: 18px;
+		letter-spacing: 0.1px;
+		line-height: 1.4em;
+      max-width: 75ch;
+		margin-bottom: 20px;
 	}
 
 	.question-tab {
@@ -13,6 +27,9 @@ faqs {
 		display: flex;
 		justify-content: space-between;
 		line-height: 1.2em;
+		font-size: 19px;
+		letter-spacing: 0.4px;
+		font-weight: 550;
 	}
 
 	summary:is(.template-two-faqs) {
@@ -59,6 +76,7 @@ faqs {
 
 	.quiet-voice {
 		margin-top: 1em;
+		margin-bottom: 0px;
 		line-height: 1.28em
 		}
 
