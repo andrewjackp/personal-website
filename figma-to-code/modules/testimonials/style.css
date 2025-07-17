@@ -1,6 +1,11 @@
 testimonials {
 	display: block;
-	padding-top: 20px;
+	margin-top: 35px;
+   margin-bottom: 50px;
+
+   page-header {
+   	margin-bottom: 4em;
+   }
 
 	.review-card {
 		display: flex;
@@ -72,6 +77,8 @@ testimonials {
 
 		display: grid;
 		grid-template-columns: 1fr;
+		margin-top: 20px;
+		margin-bottom: 25px;
 
 			&.default {
 
@@ -81,6 +88,8 @@ testimonials {
 
 				@media(width > 600px) {
 					grid-template-columns: 1fr 1fr;
+					padding-left: 145px;
+    				padding-right: 145px;
 
 					li + li {
 						margin-top: 0;
@@ -89,9 +98,10 @@ testimonials {
 
 				.review-card {
 					.loud-voice {
-						font-size: 1em;
-						line-height: 1.3em;
-						font-weight: 300;
+						font-size: 14px;
+						line-height: 1.4em;
+						font-weight: 400;
+						max-width: 32ch;
 					}
 				}
 			}

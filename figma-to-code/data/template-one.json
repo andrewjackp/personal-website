@@ -12,7 +12,7 @@
             "actions":
             [
                 {
-                    "buttonType": "blue-button",
+                    "buttonType": "header-button",
                     "content": "Login"
                 }
             ]
@@ -60,33 +60,33 @@
             [
                 {
                     "id": 0,
-                    "heading": "Etiam nulla lectus molestie at vulputate.",
+                    "heading": "Etiam Nulla Lectus Molestie At Vulputate.",
                     "content": "Neque, pulvinar vestibulum non aliquam.",
                     "img": "https://peprojects.dev/images/portrait.jpg"
                 },
                 {
                     "id": 1,
-                    "heading": "Elementum enim tempus",
+                    "heading": "Sit Quam Gravida",
                     "content": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
                 },
                 {
                     "id": 2,
-                    "heading": "Tempor egestas augue",
+                    "heading": "Elementum Enim Tempus",
                     "content": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
                 },
                 {
                     "id": 3,
-                    "heading": "Nulla ac lacinia",
+                    "heading": "Tempor Egestas Augue",
                     "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
                 },
                 {
                     "id": 4,
-                    "heading": "Nulla ac lacinia",
+                    "heading": "Nulla Ac Lacinia",
                     "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
                 },
                 {
                     "id": 5,
-                    "heading": "Velit nibh a",
+                    "heading": "Velit Nibh A",
                     "content": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
                 }
             ]

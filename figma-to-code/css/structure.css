@@ -13,12 +13,9 @@ inner-column {
 	max-width: var(--standard-inner-column); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-	padding: 20px;
+	padding: 45px;
 }
 
-section {
-	padding: 4.5em 1em;
-}
 
 /*section {
 	display: flex;

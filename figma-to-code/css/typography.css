@@ -10,7 +10,7 @@
 
 .quiet-voice {
 	color: var(--grey);
-	font-size: 20px;
+	font-size: 13px;
    max-width: 62ch;
 	font-weight: 300;
 }

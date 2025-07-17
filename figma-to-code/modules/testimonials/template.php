@@ -1,4 +1,6 @@
-<?php 
+
+<testimonials>
+	<?php 
 	include('modules/page-header/template.php');
 
 	$reviews= $props['reviews'] ?? [];
@@ -6,10 +8,7 @@
 	$img = $props['img'] ?? "";
 
 	$articleCard = $props['articleCard'] ?? "";
-
-?>
-
-<testimonials>
+	?>
 	<ul class="review-list <?=$reviewStyle?>">
 		<?php foreach($reviews as $review) { ?>
 			<li>

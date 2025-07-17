@@ -3,7 +3,9 @@ features {
 	padding-top: 20px;
 
 	.loud-voice {
-		font-size: 1em;
+		font-size: 15px;
+      font-weight: 550;
+      margin-bottom: 10px;
 	}
 }
 
@@ -14,12 +16,18 @@ features {
 	.feature-card {
 		display: grid;
 
+		.soft-voice {
+			color: #616161;
+			font-size: 12px;
+			margin-top: -3px;
+		}
+
 		card-text {
 			display: block;
 			display: flex;
     		flex-direction: column;
     		gap: 6px;
-    		line-height: 1em;
+    		line-height: 0.9em;
 		}
 	}
 
@@ -30,7 +38,7 @@ features {
 	&.template-one-main-with-features-list {
 		.feature-card {
 			grid-template-columns: 5% 1fr;
-			gap: 10px;
+			gap: 10px 10px;
 
 			.id-voice {
 				margin-top: 1em;
@@ -42,9 +50,13 @@ features {
 		}
 
 		@media(width > 600px) {
-		grid-template-columns: 1fr 40vw;
+		grid-template-columns: 1fr 37vw;
 		grid-template-areas: "one two" "one three" "one four" "one five" "one six";
-		gap: 20px 20px;
+		gap: 81px 20px;
+
+			li + li {
+				margin-bottom: -1em;
+			}
 		
 			li {
 				&:nth-of-type(1) {
@@ -57,14 +69,14 @@ features {
 				display: none;
 			}
 			.loud-voice {
-				font-size: clamp(20px, 3vw, 40px);
+				font-size: clamp(20px, 5vw, 40px);
             max-width: 20ch;
 				line-height: 1.2em;
 				font-weight: 550;
-				margin-bottom: 10px;
+				letter-spacing: 0.8px;
 			}
 			.soft-voice {
-				font-size: 18px;
+				font-size: 14px;
 				margin-bottom: 20px;
 			}
 				.feature-card {

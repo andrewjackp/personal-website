@@ -17,5 +17,6 @@ page-header {
    }
    &.loud-voice {
       font-size: clamp(36px, 3vw, 1em);
+      font-weight: 550;
    }
 }
