@@ -5,6 +5,8 @@ quotes {
 	gap: 1em;
 	align-items: center;
 	text-align: center;
+	margin-top: 2em;
+   margin-bottom: 2em;
 
 	.attention-voice {
 		text-align: center;

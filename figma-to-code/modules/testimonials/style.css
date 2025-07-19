@@ -79,6 +79,7 @@ testimonials {
 		grid-template-columns: 1fr;
 		margin-top: 20px;
 		margin-bottom: 25px;
+		gap: 10px;
 
 			&.default {
 

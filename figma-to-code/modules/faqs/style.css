@@ -1,6 +1,7 @@
 faqs {
 	display: block;
 	margin-bottom: 4em;
+	padding: 20px;
 
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;
@@ -30,6 +31,7 @@ faqs {
 		font-size: 19px;
 		letter-spacing: 0.4px;
 		font-weight: 550;
+		gap: 10px;
 	}
 
 	summary:is(.template-two-faqs) {
@@ -72,7 +74,7 @@ faqs {
 	.faq-card {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		border-bottom: 1px solid var(--grey);
+		border-bottom: 1px solid var(--lightgrey);
 
 	.quiet-voice {
 		margin-top: 1em;

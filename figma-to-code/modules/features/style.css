@@ -40,6 +40,12 @@ features {
 				opacity: 0;
 			}
 		}
+
+		@media (width < 450px) {
+			.id-voice {
+				opacity: 0;
+			}
+		}
 	}
 
 	&.default {
@@ -49,7 +55,7 @@ features {
 	&.template-one-main-with-features-list {
 		.feature-card {
 			grid-template-columns: 5% 1fr;
-			gap: 10px 10px;
+			gap: 10px 20px;
 
 			.id-voice {
 			}
