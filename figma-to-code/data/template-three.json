@@ -11,11 +11,11 @@
             "actions":
             [
                 {
-                    "buttonType": "outline-button",
+                    "buttonType": "header-outline-btn",
                     "content": "SignUp"
                 },
                 {
-                    "buttonType": "blue-button",
+                    "buttonType": "header-button",
                     "content": "Login"
                 }
             ]

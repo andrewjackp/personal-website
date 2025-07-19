@@ -30,5 +30,5 @@ section:has(.template-one-cta) {
 
 section:has(.template-two-cta) {
 	background-image: url('../../images/cta_background.svg');
-	padding: 6em 4.5em;
+	padding: 10em 4.5em;
 }

@@ -1,0 +1,16 @@
+.header-outline-btn {
+    border: 1px solid var(--blue);
+    border-radius: var(--corners);
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 10px;
+    background-color: var(--white);
+    color: var(--blue);
+    min-width: 80px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+a:hover {
+    color: inherit;
+}
