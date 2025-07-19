@@ -97,12 +97,16 @@ testimonials {
 				}
 
 				.review-card {
+					
+					height: 100%;
+
 					.loud-voice {
 						font-size: 14px;
 						line-height: 1.4em;
 						font-weight: 400;
 						max-width: 32ch;
 						color: var(--grey);
+						margin-bottom: auto;
 					}
 				}
 			}

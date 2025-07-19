@@ -44,7 +44,7 @@ faqs {
 	};
 
 	summary::after {
-		content: ">";
+		content: url("img/right-arrow.svg");
 		color: var(--grey);
 	}
 
@@ -54,7 +54,7 @@ faqs {
 	}
 
 	details[open] > summary:is(.default)::after {
-		content: '^';
+		content: url("img/up-arrow.svg");
 	}
 
 	details[open]:is(.template-two-faqs) > summary::after {
