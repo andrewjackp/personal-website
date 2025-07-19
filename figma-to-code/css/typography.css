@@ -10,19 +10,22 @@
 
 .quiet-voice {
 	color: var(--grey);
-	font-size: 1rem;
    max-width: 62ch;
 	font-weight: 300;
+	font-size: 1.5rem;
+   line-height: 1.2em;
 }
 
 .soft-voice {
 	color: var(--grey);
-	font-size: 15px;
+	font-size: 1.4rem;
    max-width: 62ch;
 	font-weight: 200;
+	line-height: 1.2em;
 }
 
 .id-voice {
 	color: var(--blue);
 	font-weight: 800;
+	font-size: 2rem;
 }

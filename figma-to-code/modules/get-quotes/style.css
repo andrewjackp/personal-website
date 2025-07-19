@@ -4,6 +4,7 @@ quotes {
 	flex-direction: column;
 	gap: 1em;
 	align-items: center;
+	text-align: center;
 
 	.attention-voice {
 		text-align: center;

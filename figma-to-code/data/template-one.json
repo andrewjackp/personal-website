@@ -117,8 +117,7 @@
             "actions":
             [
                 {
-                    "buttonType": "blue-button",
-                    "content": "Get Free Quotes >"
+                    "buttonType": "quote-btn"
                 }
             ]
         },

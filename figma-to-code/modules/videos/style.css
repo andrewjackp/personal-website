@@ -5,7 +5,7 @@ videos {
 	align-items: center;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 4em;
 
 	.quiet-voice {
 		max-width: 53ch;
@@ -16,7 +16,7 @@ videos {
 	}
 
 	.loud-voice + .soft-voice {
-		margin-top: 1.5em;
+		margin-top: 0.9em;
 	}
 
 	.soft-voice + picture {

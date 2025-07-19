@@ -4,7 +4,7 @@ testimonials {
    margin-bottom: 50px;
 
    page-header {
-   	margin-bottom: 4em;
+   	margin-bottom: 2em;
    }
 
 	.review-card {
@@ -12,7 +12,7 @@ testimonials {
    	flex-direction: column;
    	align-items: center;
    	text-align: center;
-   	gap: 15px;
+   	gap: 5px;
 
    	&.template-three-testimonial-card {
 			display: grid;
@@ -83,13 +83,11 @@ testimonials {
 			&.default {
 
 				li + li {
-					margin-top: 5em;
+					margin-top: 2em;
 				}
 
 				@media(width > 600px) {
 					grid-template-columns: 1fr 1fr;
-					padding-left: 145px;
-    				padding-right: 145px;
 
 					li + li {
 						margin-top: 0;
@@ -120,11 +118,16 @@ testimonials {
 			}
 		}
 
+		@media(width > 800px) {
+			padding-left: 145px;
+         padding-right: 145px;
+		}
+
 		&.template-two-list {
 			grid-template-columns: 1fr;
 
 			li + li {
-				margin-top: 1.7em;
+				margin-top: 1em;
 			}
 
 			.star-rating {
