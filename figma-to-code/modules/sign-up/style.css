@@ -20,5 +20,5 @@ sign-up {
 section:has(sign-up) {
 	background-color: var(--blue);
 	color: var(--white);
-	padding: 6em 4.5em;
+	padding: 10em 4.5em;
 }
