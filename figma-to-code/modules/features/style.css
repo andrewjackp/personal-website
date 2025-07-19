@@ -1,6 +1,7 @@
 features {
 	display: block;
 	padding-top: 20px;
+	margin-bottom: 4em;
 
 	.loud-voice {
 		font-size: 1.6rem;
