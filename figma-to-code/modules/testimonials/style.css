@@ -1,7 +1,7 @@
 testimonials {
 	display: block;
-	margin-top: 35px;
-   margin-bottom: 50px;
+	margin-top: 4em;
+   margin-bottom: 4em;
 
    page-header {
    	margin-bottom: 2em;
@@ -112,7 +112,7 @@ testimonials {
 
 		@media(width > 600px) {
 			grid-template-columns: 1fr 1fr;
-			gap: 10px;
+			gap: 30px;
 
 			&.template-three-testimonial-list {
 				grid-template-columns: 1fr;
@@ -120,8 +120,8 @@ testimonials {
 		}
 
 		@media(width > 800px) {
-			padding-left: 145px;
-         padding-right: 145px;
+			/*padding-left: 145px;
+         padding-right: 145px;*/
 		}
 
 		&.template-two-list {
