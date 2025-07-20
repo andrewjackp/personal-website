@@ -3,8 +3,12 @@ testimonials {
 	margin-top: 4em;
    margin-bottom: 4em;
 
+   @media (width < 500px) {
+   	margin-bottom: 0em;
+   }
+
    page-header {
-   	margin-bottom: 2em;
+   	margin-bottom: 1.3em;
    }
 
 	.review-card {

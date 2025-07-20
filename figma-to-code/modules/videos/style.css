@@ -27,3 +27,9 @@ videos {
 		width: 50%;
 	}
 }
+
+@media (width < 500px) {
+	videos {
+		margin-bottom: 0em;
+	}
+}
