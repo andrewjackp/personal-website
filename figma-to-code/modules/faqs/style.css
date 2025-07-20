@@ -27,7 +27,7 @@ faqs {
 		display: flex;
 		justify-content: space-between;
 		line-height: 1.2em;
-		font-size: 19px;
+		font-size: 1.4rem;
 		letter-spacing: 0.4px;
 		font-weight: 550;
 		gap: 10px;
@@ -75,14 +75,14 @@ faqs {
 		padding-bottom: 20px;
 		border-bottom: 1px solid var(--lightgrey);
 
-	.quiet-voice {
+	.soft-voice {
 		margin-top: 1em;
 		margin-bottom: 0px;
 		line-height: 1.28em
 		}
 
 		&.template-two-faqs[open] {
-		.quiet-voice {
+		.soft-voice {
          border-left: 2px solid var(--blue);
          padding-left: 4px;
 		}

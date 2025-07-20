@@ -23,7 +23,7 @@
 
 				<summary class="<?=$summaryStyle?>"><?=$faq['question']?></summary>
 				
-				<p class="quiet-voice"><?=$faq['answer']?></p>
+				<p class="soft-voice"><?=$faq['answer']?></p>
 
 				</details>
 			</article>
