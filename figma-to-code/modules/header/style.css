@@ -24,7 +24,9 @@ mast-head {
 		.home {
 			padding: 10px 0;
 		}
-
+		a {
+			font-size: 1rem;
+		}
 		a:not(.home) {
 			padding: .5em 1em;
 		}
