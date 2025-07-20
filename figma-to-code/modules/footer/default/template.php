@@ -31,7 +31,7 @@
 					<li><a href='#'>Id maecenas</a></li>
 					<li><a href='#'>Id orci</a></li>
 					<li><a href='#'>Magna ultricies</a></li>
-					<li><a href='#'>Quis risus</a></li>
+					<li><a href='#'>Quis Risis</a></li>
 				</ul>
 		</nav>
 

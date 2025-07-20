@@ -10,7 +10,15 @@
             opacity: 0.7;
       	}
    	}
-	}	
+   		@media (width < 500px) {
+   			.x-menu + .x-menu {
+   				
+   			}
+
+   			.site-menu + .x-menu {
+   				
+   			}
+		}		
 }
 
 .template-one-footer {
@@ -26,11 +34,12 @@ site-map {
 		grid-template-columns: 0.6fr 0.6fr 0.4fr 0.7fr
 	}
 
-	@media (width < 600px) {
+	@media (width < 700px) {
 		grid-template-columns: 1fr 1fr;
+		gap: 2.4em;
 	}
 
-	@media (width < 500px) {
+	@media (width < 400px) {
 		grid-template-columns: 1fr;
 	}
 	
@@ -62,14 +71,14 @@ site-map {
 		flex-direction: column;
 
 		a, p {
-				color: var(--grey);
+				color: var(--white);
 				opacity: 0.7;
 			}
 
 		ul, li {
 			font-weight: 100;
 			color: var(--grey);
-			line-height: 1.58em
+			line-height: 2em
 		}
 	}
 
