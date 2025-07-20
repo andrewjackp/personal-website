@@ -1,7 +1,6 @@
 .email-input-form {
 	display: flex;
 	flex-direction: row;
-	gap: 5px;
 	
 	width: 100%;
 	max-width: 400px;
@@ -60,8 +59,8 @@
 		all: initial;
 		font: inherit;
 		
-		background-color: var(--white);
-		color: var(--blue);
+		background-color: var(--blue);
+		color: var(--white);
 
 		padding: 0 0.8em;
 		border-radius: var(--corners);

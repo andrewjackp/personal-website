@@ -7,7 +7,7 @@
 	</email-input>
 	
 	<button type='button'> 
-		<span class='arrow'>→</span>
+		<span class='arrow'><picture><img src="images/white-right-arrow.svg" alt=""></picture></span>
 		<span class='text'>SignUp</span>
 	</button>
 </form>

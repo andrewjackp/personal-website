@@ -6,12 +6,12 @@
 		<nav class='site-menu'>
 			<h3 class='strong-voice'>Product</h3>
 			<ul>
-				<li><a href='#'>Thing 1</a></li>
-				<li><a href='#'>Thing 2</a></li>
-				<li><a href='#'>Thing 3</a></li>
-				<li><a href='#'>Thing 4</a></li>
-				<li><a href='#'>Thing 5</a></li>
-				<li><a href='#'>Thing 6</a></li>
+				<li><a href='#'>Diam orci</a></li>
+				<li><a href='#'>Mi feugiat</a></li>
+				<li><a href='#'>Netus fermentum</a></li>
+				<li><a href='#'>Suspendisse viverra</a></li>
+				<li><a href='#'>Id dolor</a></li>
+				<li><a href='#'>Erat mattis</a></li>
 			</ul>
 		</nav>
 
@@ -19,19 +19,19 @@
 			<h3 class='strong-voice'>Information</h3>
 
 			<ul>
-				<li><a href='#'>Thing 1</a></li>
-				<li><a href='#'>Thing 2</a></li>
-				<li><a href='#'>Thing 3</a></li>
+				<li><a href='#'>Nibh</a></li>
+				<li><a href='#'>Egestas</a></li>
+				<li><a href='#'>Dictum</a></li>
 			</ul>
 		</nav>
 
 		<nav class='x-menu'>
 			<h3 class='strong-voice'>Company</h3>
 				<ul>
-					<li><a href='#'>Thing 1</a></li>
-					<li><a href='#'>Thing 2</a></li>
-					<li><a href='#'>Thing 3</a></li>
-					<li><a href='#'>Thing 4</a></li>
+					<li><a href='#'>Id maecenas</a></li>
+					<li><a href='#'>Id orci</a></li>
+					<li><a href='#'>Magna ultricies</a></li>
+					<li><a href='#'>Quis risus</a></li>
 				</ul>
 		</nav>
 
