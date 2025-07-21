@@ -114,6 +114,7 @@ testimonials {
 					}*/
 					.soft-voice {
 						margin-bottom: auto;
+						max-width: 32ch;
 					}
 				}
 			}
