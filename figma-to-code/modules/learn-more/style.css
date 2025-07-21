@@ -3,6 +3,7 @@ learn-more {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 2em;
 
 	.quiet-voice {
 		padding-bottom: 1em;

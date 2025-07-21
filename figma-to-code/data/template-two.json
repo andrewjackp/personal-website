@@ -62,32 +62,38 @@
                 {
                     "id": 1,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/cloud.svg"
                 },
                 {
                     "id": 2,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/cloud.svg"
                 },
                 {
                     "id": 3,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/cloud.svg"
                 },
                 {
                     "id": 4,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/cloud.svg"
                 },
                 {
                     "id": 5,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/cloud.svg"
                 },
                 {
                     "id": 6,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/cloud.svg"
                 }
             ]
         },
@@ -117,12 +123,15 @@
             "actions":
             [
                 {
-                    "buttonType": "blue-button",
-                    "content": "Get Free Quotes >"
+                    "buttonType": "quote-btn",
+                    "content": "Get Free Quote",
+                    "img": "images/right-arrow.svg"
                 },
                 {
-                    "buttonType": "outline-button",
-                    "content": "Free Sign Up >"
+                    "buttonType": "quote-btn",
+                    "content": "Free Sign Up",
+                    "outlineStyle": "outline-style",
+                    "img": "images/blue-right-arrow.svg"
                 }
             ]
         },

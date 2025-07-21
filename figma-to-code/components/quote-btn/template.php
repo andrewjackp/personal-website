@@ -1,1 +1,7 @@
-<a href="#" class="quote-btn">Get free quote <picture><img src="images/right-arrow.svg" alt="arrow-btn"></picture></a>
+<?php
+	$outlineStyle = $action['outlineStyle'] ?? "";
+	$content = $action['content'] ?? "";
+	$img = $action['img'] ?? "";
+?>
+
+<a href="#" class="quote-btn <?=$outlineStyle?>"><?=$action['content']?> <picture><img src="<?=$action['img']?>" alt="arrow-btn"></picture></a>

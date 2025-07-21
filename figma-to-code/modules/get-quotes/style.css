@@ -21,4 +21,14 @@ quotes {
 	.attention-voice + .button-container {
 		margin-top: 1em;
 	}
+
+	.button-container {
+		display: flex;
+		flex-direction: column;
+
+		@media (width > 600px) {
+			flex-direction: row;
+			gap: 20px;
+		}
+	}
 }

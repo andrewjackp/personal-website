@@ -16,3 +16,8 @@
 a:hover {
     color: inherit;
 }
+
+.outline-style {
+    background-color: var(--white);
+    color: var(--blue);
+}
