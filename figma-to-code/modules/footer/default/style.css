@@ -5,11 +5,12 @@
 		
 	site-map {
     	& .site-menu, & .x-menu {
-        a, p {
-            color: var(--white);
-            opacity: 0.7;
-      	}
-   	}
+        	a, p {
+            	color: var(--white);
+            	opacity: 0.7;
+      		}
+   		}
+
    		@media (width < 500px) {
    			.x-menu + .x-menu {
    				
@@ -19,6 +20,32 @@
    				
    			}
 		}		
+	}
+}
+
+.template-two-footer {
+	background-color: var(--white);
+	color: var(--blue);
+
+	.strong-voice {
+		color: black;
+	}
+
+	site-map {
+    & .site-menu, & .x-menu {
+        a, p {
+        		color: var(--grey);
+        	}
+    	}
+
+    	& .x-menu {
+        &:nth-of-type(4) {
+            @media (width > 600px) {
+                background-color: var(--white);
+            }
+        }
+    }
+	}
 }
 
 .template-one-footer {
