@@ -16,7 +16,7 @@
 					<picture class="star-rating">
 						<img src="images/5-star.svg" alt="">
 					</picture>
-					<p class="loud-voice"><?=$review['quote']?></p>
+					<p class="soft-voice"><?=$review['quote']?></p>
 					<picture>
 						<img src="<?=$review['img']?>" alt="">
 					</picture>

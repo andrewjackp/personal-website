@@ -104,12 +104,15 @@ testimonials {
 					
 					height: 100%;
 
-					.loud-voice {
+					/*.loud-voice {
 						font-size: 1.4rem;
 						line-height: 1.4em;
 						font-weight: 400;
 						max-width: 32ch;
 						color: var(--grey);
+						margin-bottom: auto;
+					}*/
+					.soft-voice {
 						margin-bottom: auto;
 					}
 				}
