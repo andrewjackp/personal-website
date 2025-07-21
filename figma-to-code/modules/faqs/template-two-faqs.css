@@ -19,12 +19,12 @@ faqs {
 	};
 
 	summary::before {
-		content: "+";
+		content: url("images/plus-sign.svg");
 		color: var(--blue);
 	}
 
 	details[open] > summary::before {
-		content: '-';
+		content: url("images/minus-sign.svg");
 	}
 
 	details[open] {

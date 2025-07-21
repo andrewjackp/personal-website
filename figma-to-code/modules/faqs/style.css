@@ -50,7 +50,7 @@ faqs {
 	}
 
 	summary:is(.template-two-faqs)::after {
-		content: "+";
+		content: url("img/plus-sign.svg");
 		color: var(--grey);
 	}
 
@@ -59,7 +59,7 @@ faqs {
 	}
 
 	details[open]:is(.template-two-faqs) > summary::after {
-		content: '-';
+		content: url("img/minus-sign.svg");
 	}
 
 	details[open]:is(.template-two-faqs) {
