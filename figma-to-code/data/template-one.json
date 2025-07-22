@@ -117,7 +117,9 @@
             "actions":
             [
                 {
-                    "buttonType": "quote-btn"
+                    "buttonType": "quote-btn",
+                    "content": "Get Free Quote",
+                    "img": "images/right-arrow.svg"
                 }
             ]
         },

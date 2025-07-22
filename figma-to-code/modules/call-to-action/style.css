@@ -5,12 +5,6 @@ call-to-action {
    align-items: center;
    gap: 1em;
 
-   padding: clamp(1rem, 5vw, 5rem);
-
-   @media (height < 820px) {
-   	
-   }
-
 	.button-container {
 		display: flex;
 		flex-direction: column;
@@ -31,6 +25,12 @@ call-to-action {
 
 section:has(.template-one-cta) {
 	background-image: url('../../images/cta_background.svg');
+
+	padding: 10em 4.5em;
+
+   @media (width < 600px), (height < 800px) {
+   	padding: clamp(1rem, 10vw, 7rem);
+   }
 
 	/*@media (height < 850px) {
 		padding: 0.5em 1.9em;

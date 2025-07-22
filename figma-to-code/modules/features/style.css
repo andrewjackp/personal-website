@@ -1,6 +1,5 @@
 features {
 	display: block;
-	padding-top: 20px;
 	margin-bottom: 4em;
 
 	@media (width < 500px) {
