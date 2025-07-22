@@ -25,11 +25,13 @@ call-to-action {
 
 section:has(.template-one-cta) {
 	background-image: url('../../images/cta_background.svg');
-	padding: 10em 4.5em;
+
+	padding: clamp(1rem, 5vw, 5rem);
+	/*padding: 10em 4.5em;
 
 	@media (width < 500px) {
 		padding: 0.5em 1.9em;
-	}
+	}*/
 }
 
 section:has(.template-two-cta) {
