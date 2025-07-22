@@ -132,7 +132,7 @@
             [
                 {
                     "question": "How soon will my order ship?",
-                    "answer": "A"
+                    "answer": "Nunc enim nunc mattis leo massa."
                 },
                 {
                     "question": "Is there any warranty exclusions?",
@@ -140,15 +140,15 @@
                 },
                 {
                     "question": "Are there any return exclusions?",
-                    "answer": "A"
+                    "answer": "Elementum ullamcorper felis nulla scelerisque."
                 },
                 {
                     "question": "Will I be charged for a replacement item?",
-                    "answer": "A"
+                    "answer": "Nunc enim nunc mattis leo massa."
                 },
                 {
                     "question": "How can I track my orders & payment?",
-                    "answer": "A"
+                    "answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc."
                 }
             ]
         }

@@ -1,7 +1,6 @@
 faqs {
 	display: block;
-	margin-bottom: 4em;
-	padding: 20px;
+	margin-bottom: 1em;
 
 	.loud-voice + .quiet-voice {
 		margin-top: 1em;
@@ -13,8 +12,7 @@ faqs {
 	}
 
 	.quiet-voice {
-		letter-spacing: 0.1px;
-		line-height: 1.4em;
+		line-height: 1.2em;
       max-width: 75ch;
 		margin-bottom: 20px;
 	}
@@ -27,10 +25,10 @@ faqs {
 		display: flex;
 		justify-content: space-between;
 		line-height: 1.2em;
-		font-size: 1.4rem;
-		letter-spacing: 0.4px;
+		font-size: clamp(1em, 3vw, 1.3rem);
 		font-weight: 550;
 		gap: 10px;
+		text-wrap: balance;
 	}
 
 	summary:is(.template-two-faqs) {

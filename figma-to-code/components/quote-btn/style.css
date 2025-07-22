@@ -2,6 +2,7 @@
     border: 1px solid var(--blue);
     display: inline-block;
     display: flex;
+    gap: 0.4em;
     justify-content: space-around;
     align-items: center;
     font-size: clamp(0.8rem, 3vw, 1.1rem);
