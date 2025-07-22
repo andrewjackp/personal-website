@@ -10,7 +10,7 @@ page-header {
    }
 }
 
-.attention-voice {
+/*.attention-voice {
    &.default {
       font-size: clamp(40px, 5vw, 60px);
       line-height: 1.2em;
@@ -20,4 +20,4 @@ page-header {
       font-weight: 550;
       line-height: 1.2em;
    }
-}
+}*/

@@ -13,7 +13,7 @@ inner-column {
 	max-width: var(--standard-inner-column); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-	padding: 25px;
+	padding: 1em;
 }
 
 
