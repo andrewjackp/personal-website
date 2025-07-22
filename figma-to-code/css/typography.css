@@ -16,6 +16,7 @@
    max-width: 62ch;
 	font-weight: 300;
 	font-size: clamp(1.1rem, 4vw, 1.5rem);
+	text-wrap: balance;
    line-height: 1.2em;
 }
 
@@ -23,6 +24,7 @@
 	color: var(--grey);
 	font-size: clamp(1.2rem, 4vw, 1.5rem);
    max-width: 62ch;
+   text-wrap: balance;
 	font-weight: 200;
 	line-height: 1.2em;
 }
