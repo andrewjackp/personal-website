@@ -2,11 +2,14 @@ page-header {
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 1em;
    text-align: center;
 
    &.none {
       display: none;
+   }
+
+   .attention-voice + .quiet-voice {
+      margin-top: 0.2em;
    }
 }
 

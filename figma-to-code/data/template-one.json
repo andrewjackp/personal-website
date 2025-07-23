@@ -46,8 +46,10 @@
             "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
         },
         {
-            "name": "video-content",
-            "module": "videos"
+            "name": "hero-content",
+            "module": "hero",
+            "heading": "Etiam nulla lfulputate.",
+            "caption": "We specialize in monster-friendly design systems that scale from wiggly toes to toothy grins."
         },
         {
             "name": "product-features",

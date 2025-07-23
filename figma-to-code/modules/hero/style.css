@@ -1,4 +1,4 @@
-videos {
+hero {
 	display: block;
 	display: flex;
 	flex-direction: column;
@@ -25,15 +25,19 @@ videos {
 	picture {
 		width: 50%;
 	}
+
+	page-header + picture {
+		margin-top: 1em;
+	}
 }
 
 @media (width < 500px) {
-	videos {
+	hero {
 		margin-bottom: 0em;
 	}
 }
 
-section:has(videos) {
+section:has(hero) {
 	padding: 3em 4.5em;
 
    @media (width < 600px), (height < 800px) {

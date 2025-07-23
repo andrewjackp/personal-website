@@ -19,6 +19,10 @@ testimonials {
    	text-align: center;
    	gap: 0.5em;
 
+   	.star-rating {
+   		margin-bottom: 0.5em;
+   	}
+
    	&.template-three-testimonial-card {
 			display: grid;
 
