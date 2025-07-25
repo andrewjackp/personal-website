@@ -75,7 +75,7 @@ features {
 		@media(width > 700px) {
 		grid-template-columns: 1fr 37vw;
 		grid-template-areas: "one two" "one three" "one four" "one five" "one six";
-		gap: 15px 95px;
+		gap: 1em 1em;
 
 			li + li {
 
