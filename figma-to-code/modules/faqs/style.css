@@ -76,8 +76,10 @@ faqs {
 	.soft-voice {
 		margin-top: 1em;
 		margin-bottom: 0px;
-		line-height: 1.28em
-		}
+		line-height: 1.28em;
+		min-width: fit-content;
+      font-size: 0.95rem;
+	}
 
 		&.template-two-faqs[open] {
 		.soft-voice {

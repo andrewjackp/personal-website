@@ -21,6 +21,10 @@ quotes {
 		margin-top: 1em;
 	}
 
+	.quiet-voice {
+		margin-bottom: 0.2em;
+	}
+
 	.button-container {
 		display: flex;
 		flex-direction: column;

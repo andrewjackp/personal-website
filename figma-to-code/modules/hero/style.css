@@ -7,6 +7,7 @@ hero {
 
 	.quiet-voice {
 		max-width: 53ch;
+		margin-bottom: 0.2em;
 	}
 
 	.quiet-voice + .loud-voice {
@@ -19,6 +20,12 @@ hero {
 
 	.soft-voice + picture {
 		margin-top: 1em;
+	}
+
+	page-header {
+		.attention-voice + .quiet-voice {
+			margin-top: 0.5em;
+		}
 	}
 
 	page-header + picture {
