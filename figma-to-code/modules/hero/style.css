@@ -4,7 +4,6 @@ hero {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	gap: 0.2em;
 
 	.quiet-voice {
 		max-width: 53ch;
@@ -20,10 +19,6 @@ hero {
 
 	.soft-voice + picture {
 		margin-top: 1em;
-	}
-	
-	picture {
-		width: 50%;
 	}
 
 	page-header + picture {

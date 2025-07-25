@@ -24,7 +24,7 @@
 	color: var(--grey);
 	font-size: clamp(1rem, 4vw, 1.3rem);
    max-width: 62ch;
-   text-wrap: balance;
+   text-wrap: pretty;
 	font-weight: 200;
 	line-height: 1.2em;
 }
