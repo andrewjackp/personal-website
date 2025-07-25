@@ -31,6 +31,10 @@ hero {
 	page-header + picture {
 		margin-top: 1em;
 	}
+
+	picture {
+		width: 80%;
+	}
 }
 
 @media (width < 500px) {
