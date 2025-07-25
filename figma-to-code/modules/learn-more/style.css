@@ -6,10 +6,18 @@ learn-more {
 	margin-top: 2em;
 
 	.quiet-voice {
-		padding-bottom: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
 	}
+
+	.attention-voice {
+
+	}
+
 	page-header {
-		padding-top: 1.3em;
+		.attention-voice + .quiet-voice {
+        margin-top: 0.8em;
+    	}
 	}
 }
 
