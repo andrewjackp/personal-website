@@ -10,6 +10,7 @@ features {
       font-weight: 550;
       margin-bottom: 0.2em;
       line-height: 1.2em;
+      font-size: 1.3rem;
 	}
 }
 
@@ -55,7 +56,6 @@ features {
 		.feature-card {
 			grid-template-columns: 5% 1fr;
 			gap: 10px 20px;
-			align-items: baseline;
 
 			@media (width < 550px) {
 
@@ -94,11 +94,11 @@ features {
 				}
 				
 			.loud-voice {
-				font-size: clamp(20px, 5vw, 40px);
             max-width: 20ch;
 				line-height: 1.2em;
 				font-weight: 550;
 				letter-spacing: 0.8px;
+				font-size: 3.3rem;
 			}
 			.soft-voice {
 				margin-bottom: 20px;

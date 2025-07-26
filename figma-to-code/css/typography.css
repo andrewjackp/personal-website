@@ -6,7 +6,7 @@
 }
 
 .loud-voice {
-	font-size: clamp(1.3rem, 5vw, 1.9rem);
+	font-size: clamp(1.3rem, 5vw, 2.9rem);
 	font-weight: 600;
 	line-height: 1.2em;
 }
