@@ -8,7 +8,7 @@ features {
 
 	.loud-voice {
       font-weight: 550;
-      margin-bottom: 0.2em;
+      margin-bottom: 0.7em;
       line-height: 1.2em;
       font-size: 1.3rem;
 	}
@@ -99,6 +99,7 @@ features {
 				font-weight: 550;
 				letter-spacing: 0.8px;
 				font-size: 3.3rem;
+				margin-bottom: 0.2em;
 			}
 			.soft-voice {
 				margin-bottom: 20px;
