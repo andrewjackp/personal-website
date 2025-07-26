@@ -4,8 +4,7 @@ quotes {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin-top: 2.5em;
-   margin-bottom: 2.5em;
+	padding: clamp(1.5rem, 5vw, 10rem);
 
    @media (width < 500px) {
    	margin-top: 1em;

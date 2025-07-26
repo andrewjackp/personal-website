@@ -2,8 +2,8 @@ faqs {
 	display: block;
 	margin-bottom: 1em;
 
-	.loud-voice + .quiet-voice {
-		margin-top: 1em;
+	.attention-voice + .quiet-voice {
+		margin-top: 0.7em;
 	}
 
 	.attention-voice {
@@ -14,12 +14,17 @@ faqs {
 	.quiet-voice {
 		line-height: 1.2em;
       max-width: 75ch;
-		margin-bottom: 20px;
+		margin-bottom: 1em;
 	}
 
 	.question-tab {
 
 	}
+
+	.faq-list {
+		margin-bottom: 4.5em;
+	}
+
 	summary {
 		cursor: pointer;	
 		display: flex;
@@ -90,7 +95,7 @@ faqs {
 }
 
 page-header {
-	padding-top: 30px;
+	margin-bottom: 1em;
 }
 
 inner-column

@@ -14,7 +14,7 @@
 	<?php 
 		include('modules/page-header/template.php');
 	?>
-	<ul id='faq-list'>
+	<ul class='faq-list'>
 	<?php foreach($faqs as $faq) { ?>
 		<li>
 			<article class='faq-card'>
