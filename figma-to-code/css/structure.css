@@ -13,11 +13,16 @@ inner-column {
 	max-width: var(--standard-inner-column); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-	padding: 1.4em;
+	padding: clamp(1.2rem, 4vw, 5rem);
+}
+
+inner-column:has(mast-head) {
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
 }
 
 section {
-	padding: clamp(1.2rem, 5vw, 10rem);
+	
 }
 
 
