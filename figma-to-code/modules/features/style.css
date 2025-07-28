@@ -101,7 +101,8 @@ features {
 				line-height: 1.2em;
 				font-weight: 550;
 				letter-spacing: 0.8px;
-				font-size: 3.3rem;
+				font-size: 3rem;
+				text-wrap: pretty;
 				margin-bottom: 0.2em;
 			}
 			.soft-voice {
