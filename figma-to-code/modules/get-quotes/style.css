@@ -34,3 +34,7 @@ quotes {
 		}
 	}
 }
+
+section:has(quotes) {
+	padding: clamp(1.2rem, 4vw, 5rem);
+}

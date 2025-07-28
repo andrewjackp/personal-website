@@ -167,3 +167,7 @@ site-disclaimer {
 		padding-top: 10px;
 	}
 }
+
+section:has(footer){
+	padding: clamp(1.2rem, 4vw, 5rem);
+}

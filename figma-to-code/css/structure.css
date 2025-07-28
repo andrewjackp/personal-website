@@ -18,7 +18,9 @@ inner-column {
 
 inner-column:has(mast-head) {
 	padding-top: 1.2em;
-	padding-bottom: 1.2em;
+   padding-bottom: 1.2em;
+   padding-left: clamp(1.2rem, 3vw, 2.3rem);
+   padding-right: clamp(1.2rem, 3vw, 2.3rem);
 }
 
 section {
