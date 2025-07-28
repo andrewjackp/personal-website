@@ -96,7 +96,7 @@
         {
             "name": "customer-testimonials",
             "module": "testimonials",
-            "titleStyle": "loud-voice",
+            "titleStyle": "default",
             "heading": "What Our Clients Say",
             "caption": "Neque, pulvinar vestibulum non aliquam.",
             "reviews":
