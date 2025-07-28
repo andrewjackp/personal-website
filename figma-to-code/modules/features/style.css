@@ -108,8 +108,8 @@ features {
 				line-height: 1.2em;
 				font-weight: 550;
 				letter-spacing: 0.8px;
-				font-size: clamp(1.9rem, 5vw, 3.5rem);
-				text-wrap: pretty;
+				font-size: clamp(1.9rem, 5vw, 3.3rem);
+				text-wrap: balance;
 				margin-bottom: 0.2em;
 			}
 			.soft-voice {
