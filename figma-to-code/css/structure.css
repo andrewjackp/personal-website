@@ -16,6 +16,10 @@ inner-column {
 	padding: 1.4em;
 }
 
+section {
+	padding: clamp(1.2rem, 5vw, 10rem);
+}
+
 
 /*section {
 	display: flex;

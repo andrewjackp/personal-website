@@ -3,7 +3,6 @@ learn-more {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 2em;
 
 	.quiet-voice {
 		margin-top: 0.5em;
@@ -22,6 +21,4 @@ learn-more {
 }
 
 inner-column:has(learn-more) {
-	padding-top: 50px;
-   padding-bottom: 50px;
 }

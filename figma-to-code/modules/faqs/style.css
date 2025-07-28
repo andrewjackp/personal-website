@@ -1,6 +1,5 @@
 faqs {
 	display: block;
-	margin-bottom: 1em;
 
 	.attention-voice + .quiet-voice {
 		margin-top: 0.7em;

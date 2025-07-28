@@ -43,9 +43,9 @@ hero {
 	}
 }
 
-section:has(hero) {
+/*section:has(hero) {
 	padding: 3em 4.5em;
 
    @media (width < 600px), (height < 800px) {
    	padding: clamp(1rem, 5vw, 7rem);
-}
+}*/
