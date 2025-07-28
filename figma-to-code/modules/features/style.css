@@ -41,7 +41,7 @@ features {
 			&:nth-of-type(1) {
 
 			.id-voice {
-				opacity: 0;
+				display: none;
 			}
 		}
 	}
