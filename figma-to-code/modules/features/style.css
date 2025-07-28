@@ -57,19 +57,24 @@ features {
 			grid-template-columns: 5% 1fr;
 			gap: 10px 20px;
 
-			@media (width < 550px) {
-
-				grid-template-columns: 1fr;
-				text-align: center;
-
-			.id-voice {
-				opacity: 0;
-			}
-		}
-
 			picture {
 				display: none;
 			}
+		}
+
+		@media (width < 550px) {
+			.feature-card {
+				grid-template-columns: 1fr;
+				text-align: center;
+			}
+
+			li + li {
+				margin-top: 1.3em;
+			}
+		}
+
+		li + li {
+			margin-top: 1.3em;
 		}
 
 		@media(width > 700px) {
@@ -106,6 +111,7 @@ features {
 			}
 				.feature-card {
 					grid-template-columns: 1fr;
+
 				}
 			}
 			&:nth-of-type(2) {
