@@ -19,7 +19,7 @@
 		align-items: center;
 		gap: 5px;
 
-		background-color: var(--darkblue);
+		background-color: var(--blue);
 		color: white;
 		
 		border-radius: var(--corners);
@@ -59,7 +59,6 @@
 		all: initial;
 		font: inherit;
 		
-		background-color: var(--blue);
 		color: var(--white);
 
 		padding: 0 0.8em;

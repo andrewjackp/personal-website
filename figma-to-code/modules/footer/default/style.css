@@ -112,13 +112,14 @@ site-map {
 	.x-menu {
 		&:nth-of-type(4){
 
+		padding: 32px;
+    	background-color: #2f55db;
+
          @media(width > 600px) 
          {
          	padding: 32px;
         	padding-left: 21px;
          	margin-top: -2em;
-         	background-color: #2f55db;
-
          }
 
 			p {
@@ -129,7 +130,9 @@ site-map {
 			}
 
 			input {
-				border: 1px solid var(--grey);
+				border-top: 0.7px solid var(--grey);
+				border-bottom: 0.7px solid var(--grey);
+				border-left: 0.7px solid var(--grey);
 				background: var(--white);
 				border-top-left-radius: 5px;
             	border-bottom-left-radius: 5px;
