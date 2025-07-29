@@ -45,6 +45,13 @@
 			
 			text-overflow: ellipsis;
 
+			border-top: 0.7px solid var(--grey);
+			border-bottom: 0.7px solid var(--grey);
+			border-left: 0.7px solid var(--grey);
+			background: var(--white);
+			border-top-left-radius: 5px;
+         border-bottom-left-radius: 5px;
+
 			&:focus {
 				outline: 0; /* remove focus - but move it to focus within */
 			}
