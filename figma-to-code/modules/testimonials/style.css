@@ -142,6 +142,7 @@ testimonials {
 		}
 
 		&.template-two-list {
+		
 			grid-template-columns: 1fr;
 
 			li + li {
@@ -161,7 +162,7 @@ testimonials {
 
 				.soft-voice {
 					font-weight: 500;
-					font-size: 2rem;
+					font-size: clamp(1.3rem, 3vw, 2rem);
 					max-width: 40ch;
 					text-wrap: balance;
 				}
