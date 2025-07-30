@@ -90,7 +90,7 @@
 
 		button {
 			span.text {
-				display: none; /* you'd want to keep this for screen-readers somehow though */
+				display: none;
 			}
 			span.arrow {
 				display: block;
