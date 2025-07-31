@@ -2,20 +2,21 @@
     border: 1px solid var(--blue);
     display: inline-block;
     display: flex;
-    gap: 0.4em;
+    gap: 0.8em;
     justify-content: space-around;
     align-items: center;
-    font-size: clamp(0.8rem, 3vw, 1.1rem);
+    font-size: clamp(0.8rem, 3vw, 1rem);
     line-height: 1.4;
-    padding: 10px;
+    padding: 0.65em;
     background-color: var(--blue);
     color: var(--white);
-    min-width: 170px;
+    min-width: 150px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-inline: auto;
 
     picture {
-        margin-left: auto;
+/*        margin-left: auto;*/
     }
 }
 a:hover {
