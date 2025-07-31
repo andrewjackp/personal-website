@@ -20,12 +20,17 @@ mast-head {
 			flex-direction: row;
 			align-items: center;
 			gap: 5px;
+
+			.header-btn-container {
+				
+			}
 		}
 		.home {
 			padding: 10px 0;
 		}
 		a {
 			font-size: 1rem;
+			text-wrap: nowrap;
 		}
 		a:not(.home) {
 			padding: .5em 1em;
@@ -45,14 +50,14 @@ mast-head {
 		}
 	}
 
-	@media (width < 600px) {
+	@media (width < 700px) {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
 
 		li {
-			&:nth-of-type(5), &:nth-of-type(6), &:nth-of-type(7) {
+			&:nth-of-type(4), &:nth-of-type(5), {
 				display: none;
 			}
 		}

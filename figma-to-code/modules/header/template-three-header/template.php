@@ -14,25 +14,25 @@
 	<nav class='site-menu'>
 		<ul>
 			<li>
-				<a href='?page=template-one'>Home</a>
+				<a href='?page=template-one'>Template One</a>
 			</li>
 			<li>
-				<a href='?page=template-two'>Updates</a>
+				<a href='?page=template-two'>Template Two</a>
 			</li>
 			<li>
-				<a href='?page=template-three'>Services</a>
+				<a href='?page=template-three'>Template Three</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="#">Features</a>
 			</li>
 				<li>
 				<a href="#">About Us</a>
-			</li>
+			</li> -->
 		</ul>
 	</nav>
 
 	<nav class='user-menu'>
-		<ul>
+		<ul class='header-btn-container'>
 			<li>
 				<?php foreach($actions as $action):?>
 					<?php include("components/$action[buttonType]/template.php"); ?>
