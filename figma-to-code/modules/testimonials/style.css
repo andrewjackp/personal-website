@@ -23,9 +23,6 @@ testimonials {
    	text-align: center;
    	gap: 0.5em;
 
-   	.star-rating {
-   		margin-bottom: 0.5em;
-   	}
 
    	.quiet-voice {
    		font-size: clamp(0.9rem, 3vw, 1rem);

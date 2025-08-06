@@ -4,4 +4,8 @@
 	$img = $action['img'] ?? "";
 ?>
 
-<a href="#" class="quote-btn <?=$outlineStyle?>"><?=$action['content']?> <picture><img src="<?=$action['img']?>" alt="arrow-btn"></picture></a>
+<a href="#" class="quote-btn <?=$outlineStyle?>"><?=$action['content']?> 
+		<picture>
+			<img src="<?=$action['img']?>" alt="arrow-btn">
+		</picture>
+</a>

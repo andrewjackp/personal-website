@@ -11,16 +11,22 @@ previews {
 
 	.preview-list {
 		display: grid;
-		gap: 10px;
+		gap: 1.7em;
+	}
 
-		padding-top: 1em;
-      padding-bottom: 1em;
+	.attention-voice {
+		margin-bottom: 0.75em;
 	}
 
 	.preview-card {
 		line-height: 1.2em;
 		display: flex;
 		flex-direction: column;	
+
+		.quiet-voice {
+			font-size: 0.9rem;
+         line-height: 1.5em;
+		}
 	}
 
 	@media (width > 600px) {

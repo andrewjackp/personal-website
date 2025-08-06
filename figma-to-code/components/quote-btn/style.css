@@ -2,7 +2,7 @@
     border: 1px solid var(--blue);
     display: inline-block;
     display: flex;
-    gap: 0.8em;
+/*    gap: 0.8em;*/
     justify-content: space-around;
     align-items: center;
     font-size: clamp(0.8rem, 3vw, 1rem);
@@ -17,7 +17,7 @@
     margin-inline: auto;
 
     picture {
-        margin-left: auto;
+/*        margin-left: auto;*/
     }
 }
 a:hover {

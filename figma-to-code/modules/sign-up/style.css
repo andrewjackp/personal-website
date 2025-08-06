@@ -4,7 +4,7 @@ sign-up {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 10px;
+	gap: 2em;
 
 	.attention-voice {
 		text-transform: uppercase;
@@ -20,5 +20,10 @@ sign-up {
 section:has(sign-up) {
 	background-color: var(--blue);
 	color: var(--white);
-/*	padding: 10em 4.5em;*/
+
+	padding: 10em 4.5em;
+
+	@media (width < 600px), (height < 800px) {
+   	padding: clamp(1rem, 10vw, 7rem);
+   }
 }
