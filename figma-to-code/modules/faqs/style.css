@@ -40,6 +40,7 @@ faqs {
 		flex-direction: row-reverse;
 		justify-content: flex-end;
 		gap: 1em;
+		align-items: center;
 	}
 
 	summary::before {
