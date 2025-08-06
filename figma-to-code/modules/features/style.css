@@ -1,7 +1,8 @@
 features {
 	display: block;
 
-	@media (width < 500px) {
+		@media (width < 500px) {
+	
 	}
 
 	.loud-voice {
@@ -147,11 +148,9 @@ features {
 		}
 	}
 
-}
+}&.template-two-feature-list {
 
-	&.template-two-feature-list {
-
-		margin-top: 3.5em;
+		margin-top: 1.5em;
 
 		page-header {
 			margin-bottom: 2em;
@@ -203,11 +202,20 @@ features {
 				font-size: 1rem;
 			}
 	}
+}&.template-three-feature-list {
 
-	&.template-three-feature-list {
+	margin-top: 1.2em;
+
 		li {
 			text-align: center;
 		}
+
+		@media (width < 600px) {
+			li + li {
+				margin-top: 1.2em;
+			}
+		}
+
 		.feature-card {
 			justify-content: center;
 
@@ -222,7 +230,8 @@ features {
 		}
 
 		picture {
-			display: none;
+			grid-row: 1;
+			margin-inline: auto;
 		}
 	}
 }

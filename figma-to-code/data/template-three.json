@@ -71,32 +71,38 @@
                 {
                     "id": 1,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/temp-3-product-features/cloud.svg"
                 },
                 {
                     "id": 2,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/temp-3-product-features/watch.svg"
                 },
                 {
                     "id": 3,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/temp-3-product-features/youtube.svg"
                 },
                 {
                     "id": 4,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/temp-3-product-features/thermos.svg"
                 },
                 {
                     "id": 5,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/temp-3-product-features/wind.svg"
                 },
                 {
                     "id": 6,
                     "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam."
+                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "img": "images/temp-3-product-features/zoom.svg"
                 }
             ]
         },
