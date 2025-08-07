@@ -47,11 +47,18 @@ testimonials {
     			text-align: start;
 			}
 
+			.soft-voice {
+				grid-column: 2;
+				grid-row: 1;
+    			font-size: 2rem;
+            font-weight: 500;
+            color: black;
+			}
+
 			.quiet-voice {
 				grid-row: 1;
             grid-column: 2;
-            text-align: start;
-            font-size: 20px;
+            align-self: end;
          }
 
          picture {
