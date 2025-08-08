@@ -26,7 +26,13 @@ testimonials {
 
    	.quiet-voice {
    		font-size: clamp(0.9rem, 3vw, 1rem);
-   		padding-bottom: clamp(1em, 2vw, 6em);
+   		max-width: none;
+   		font-weight: 500;
+   	}
+
+   	.soft-voice {
+   		grid-row: 2;
+   		max-width: none;
    	}
 
    	&.template-three-testimonial-card {
@@ -36,42 +42,41 @@ testimonials {
 				display: none;
 			}
 
-			@media (width > 800px) {
+			picture {
+				
+			}
+
+			@media (width > 750px) {
 				grid-template-columns: 1fr 1fr;
          	gap: 4em;
          	margin-top: 1.2em;
 
-			.loud-voice {
-				grid-column: 2 / 2;
-    			grid-row: 1;
-    			align-self: baseline;
-    			text-align: start;
-			}
+				.loud-voice {
+					grid-column: 2 / 2;
+    				grid-row: 1;
+    				align-self: baseline;
+    				text-align: start;
+				}
 
-			.soft-voice {
-				grid-column: 2;
-				grid-row: 1;
-    			font-size: 2rem;
-            font-weight: 500;
-            color: black;
-			}
+				.soft-voice {
+					grid-column: 2;
+					grid-row: 1;
+    				font-size: 2rem;
+            	font-weight: 500;
+            	color: black;
+				}
 
-			.quiet-voice {
-				grid-row: 1;
-            grid-column: 2;
-            align-self: end;
-         }
-
-         picture {
-				grid-column: 1;	
-			}	
-
-			}
-
-			@media (width < 600px) {
 				.quiet-voice {
 					grid-row: 1;
-				}
+            	grid-column: 2;
+            	align-self: center;
+            	margin-top: clamp(15rem, 6vw, 21rem);;
+         	}
+
+         	picture {
+					grid-column: 1;	
+				}	
+
 			}
 
 			@media (width > 1200px) {
