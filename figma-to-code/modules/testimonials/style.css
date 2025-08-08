@@ -43,7 +43,7 @@ testimonials {
 			}
 
 			picture {
-				
+
 			}
 
 			@media (width > 750px) {
@@ -61,7 +61,7 @@ testimonials {
 				.soft-voice {
 					grid-column: 2;
 					grid-row: 1;
-    				font-size: 2rem;
+    				font-size: clamp(1.5rem, 3vw, 2rem);
             	font-weight: 500;
             	color: black;
 				}
@@ -70,7 +70,7 @@ testimonials {
 					grid-row: 1;
             	grid-column: 2;
             	align-self: center;
-            	margin-top: clamp(15rem, 6vw, 21rem);;
+            	margin-top: clamp(12rem, 6vw, 21rem);;
          	}
 
          	picture {
