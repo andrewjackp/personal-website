@@ -51,7 +51,7 @@
 
 <site-disclaimer>
 	<picture>
-		<image src="images/header.svg"></image>
+		<image src="images/temp2-footer-images/blue-logo.svg"></image>
 	</picture>
 	<ul>
 		<li><a href="#">Terms</a></li>
