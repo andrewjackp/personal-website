@@ -9,7 +9,7 @@
 	</div>
 	
 <picture>
-	<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+	<img src="images/feather-frame.svg" alt="">
 </picture>
 
 </email-signup>
