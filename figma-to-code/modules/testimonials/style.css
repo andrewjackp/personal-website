@@ -7,7 +7,7 @@ testimonials {
 
    page-header {
    	
-   	margin-bottom: 1.5em;
+   	margin-bottom: 0.9em;
 
    		@media (width < 500px) {
       		.attention-voice + .quiet-voice {
@@ -181,7 +181,7 @@ testimonials {
 				}
 
 				picture {
-					margin-top: 1.7em;
+					margin-top: 0.8em;
 				}
 			}
 
