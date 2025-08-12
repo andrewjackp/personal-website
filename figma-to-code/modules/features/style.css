@@ -23,6 +23,10 @@ features {
 	.feature-card {
 		display: grid;
 
+		@media (width < 700px) {
+			text-align: center;
+		}
+
 		.soft-voice {
 			color: #616161;
 			margin-top: -3px;
@@ -179,7 +183,15 @@ features {
 			gap: 10px;
 
 			picture {
-				grid-column: span 1 / 3;
+				grid-row: 1;
+
+				@media (width > 700px) {
+					margin-right: auto;
+				}
+
+				@media (width < 700px) {
+					margin-inline: auto;
+				}
 			}
 
 			.id-voice {
@@ -188,7 +200,6 @@ features {
 
 			card-text {
 				grid-row: 2;
-    			grid-column: span 2 / 4;
 			}
 
 			li {
