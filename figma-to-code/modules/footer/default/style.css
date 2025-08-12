@@ -26,7 +26,7 @@
 		&:nth-of-type(4){
 
 		padding: 32px;
-    background-color: #2f55db;
+    	background-color: #2f55db;
    	margin-top: -2em;
 
          @media (width > 600px) {
@@ -34,14 +34,14 @@
          }
 
          @media (width < 550px) {
-         		margin-top: 0;
+         	margin-top: 0;
          }
 
 			p {
 				font-weight: 100;
-        line-height: 1.48em;
-        margin-top: 1em;
-        font-size: 1rem;
+        		line-height: 1.48em;
+        		margin-top: 1em;
+        		font-size: 1rem;
 			}
 
 			input {
@@ -50,8 +50,8 @@
 				border-left: 0.7px solid var(--grey);
 				background: var(--white);
 				border-top-left-radius: 5px;
-            	border-bottom-left-radius: 5px;
-            	width: 88%;
+            border-bottom-left-radius: 5px;
+            width: 88%;
 			}
 		}
 	}
@@ -84,18 +84,17 @@
 
     	background-color: #2f55db;
 
-         @media(width > 600px) 
-         {
+         @media(width > 600px) {
          	padding: 32px;
-        	padding-left: 21px;
+        		padding-left: 21px;
          	margin-top: -2em;
          }
 
 			p {
 				font-weight: 100;
-            	line-height: 1.48em;
-                margin-top: 1em;
-                font-size: 1rem;
+            line-height: 1.48em;
+            margin-top: 1em;
+            font-size: 1rem;
 			}
 
 			input {
@@ -103,9 +102,14 @@
 				border-bottom: 0.7px solid var(--grey);
 				border-left: 0.7px solid var(--grey);
 				background: var(--white);
-				border-top-left-radius: 5px;
+				border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            width: 88%;
+
+            @container email (width < 300px) {
+            	border-top-left-radius: 5px;
             	border-bottom-left-radius: 5px;
-            	width: 88%;
+            }
 			}
 		}
 	}

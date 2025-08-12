@@ -1,7 +1,7 @@
 .attention-voice {
 	font-size: clamp(1.5rem, 5vw, 3.3rem);
 	font-weight: 700;
-	text-wrap: pretty;
+	text-wrap: balance;
 	line-height: 1.2em;
 }
 
