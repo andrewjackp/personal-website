@@ -112,6 +112,8 @@ testimonials {
 				@media(width > 600px) {
 					grid-template-columns: 1fr 1fr;
 
+					margin-top: 1.2em;
+
 					li + li {
 						margin-top: 0;
 					}
