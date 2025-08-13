@@ -7,11 +7,9 @@ mast-head {
 		}
 	}
 
-	picture {
-		display: flex;
-		img {
-			flex-shrink: 0;
-		}
+/*	for the left-side logo*/
+	a {
+		flex-shrink: 0;
 	}
 
 	nav {
@@ -44,6 +42,8 @@ mast-head {
 		align-items: center;
 
 		li {
+			/*	for the right-side menu logo*/
+			flex-shrink: 0;
 			&:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4) {
 				display: block;
 			}
