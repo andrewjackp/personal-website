@@ -48,8 +48,8 @@
         {
             "name": "hero-content",
             "module": "hero",
-            "heading": "Etiam nulla lfulputate.",
-            "caption": "We specialize in monster-friendly design systems that scale from wiggly toes to toothy grins."
+            "heading": "Your Strategic Visual Communications Partner",
+            "caption": "We specialize in building flexible, human-centered design systems that grow with your brand—from the smallest details to the broadest expressions."
         },
         {
             "name": "product-features",
@@ -62,34 +62,30 @@
             [
                 {
                     "id": 0,
-                    "heading": "Etiam Nulla Lectus Molestie At Vulputate.",
-                    "content": "Neque, pulvinar vestibulum non aliquam.",
+                    "heading": "Integrated Engagement Framework",
+                    "content": "Driving alignment through strategic touchpoints to enhance cross-functional collaboration and operational impact.",
                     "img": "images/feather-frame.svg"
                 },
                 {
                     "id": 1,
-                    "heading": "Sit Quam Gravida",
-                    "content": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
+                    "heading": "Optimized Structural Alignment",
+                    "content": "We facilitate cohesive integration across key touchpoints, ensuring strategic alignment with evolving organizational needs. Emphasis is placed on adaptive frameworks that drive measurable outcomes.",
+                    "img": "images/feather-frame.svg"
                 },
                 {
                     "id": 2,
-                    "heading": "Elementum Enim Tempus",
-                    "content": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+                    "heading": "Scalable Operational Synergies",
+                    "content": "Leveraging cross-functional efficiencies, we enable seamless scalability. Our focus remains on sustainable growth through proactive stakeholder engagement and value-driven initiatives."
                 },
                 {
                     "id": 3,
-                    "heading": "Tempor Egestas Augue",
-                    "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+                    "heading": "Enhanced Performance Enablement",
+                    "content": "Through targeted enablement strategies, we support dynamic performance outcomes. This includes fostering resilience within core teams and leveraging data insights to inform decision-making."
                 },
                 {
                     "id": 4,
-                    "heading": "Nulla Ac Lacinia",
-                    "content": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
-                },
-                {
-                    "id": 5,
-                    "heading": "Velit Nibh A",
-                    "content": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+                    "heading": "Streamlined Process Optimization",
+                    "content": "Continuous improvement is embedded in our approach, aligning processes with enterprise goals. We prioritize agility, accountability, and impact-focused innovation."
                 }
             ]
         },
@@ -98,16 +94,16 @@
             "module": "testimonials",
             "titleStyle": "default",
             "heading": "What Our Clients Say",
-            "caption": "Neque, pulvinar vestibulum non aliquam.",
+            "caption": "Trusted by industry leaders and forward-thinking brands alike.",
             "reviews":
             [
                 {
-                    "quote": "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
+                    "quote": "Their ability to align creative strategy with business objectives resulted in design solutions that not only resonated with our audience but also drove measurable impact",
                     "img": "images/avatar.svg",
                     "name": "Courtney Henry"
                 },
                 {
-                    "quote": "Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel",
+                    "quote": "This approach flawlessly combines creativity with precision. We’ve seen significant improvements in consistency, scalability, and overall customer engagement thanks to the systems they put in place.",
                     "img": "images/avatar.svg",
                     "name": "Courtney Henry"
                 }

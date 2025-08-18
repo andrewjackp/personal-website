@@ -1,7 +1,7 @@
 <?php
 	$faqs = $props['faqs'] ?? [];
 	$props['heading'] = "Frequently Asked Questions";
-	$props['caption'] = "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.";
+	$props['caption'] = "Clarity and transparency are central to how we work. Below are answers to some of the most common inquiries from our partners.";
 
 	$questionStyle = $props['questionStyle'] ?? "default";
 
