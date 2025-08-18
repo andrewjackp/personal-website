@@ -20,9 +20,6 @@
 /*        margin-left: auto;*/
     }
 }
-a:hover {
-    color: inherit;
-}
 
 .outline-style {
     background-color: var(--white);

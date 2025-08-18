@@ -6,12 +6,11 @@
 		<nav class='site-menu'>
 			<h3 class='strong-voice'>Product</h3>
 			<ul>
-				<li><a href='#'>Diam orci</a></li>
-				<li><a href='#'>Mi feugiat</a></li>
-				<li><a href='#'>Netus fermentum</a></li>
-				<li><a href='#'>Suspendisse viverra</a></li>
-				<li><a href='#'>Id dolor</a></li>
-				<li><a href='#'>Erat mattis</a></li>
+				<li><a href='#'>Enterprise Brand Systems</a></li>
+				<li><a href='#'>Integrated Marketing Solutions</a></li>
+				<li><a href='#'>Customer Experience Platforms</a></li>
+				<li><a href='#'>Digital Transformation Services</a></li>
+				<li><a href='#'>Data-Driven Strategy</a></li>
 			</ul>
 		</nav>
 
@@ -19,19 +18,21 @@
 			<h3 class='strong-voice'>Information</h3>
 
 			<ul>
-				<li><a href='#'>Nibh</a></li>
-				<li><a href='#'>Egestas</a></li>
-				<li><a href='#'>Dictum</a></li>
+				<li><a href='#'>About Our Company</a></li>
+				<li><a href='#'>Leadership & Governance</a></li>
+				<li><a href='#'>Corporate Responsibility</a></li>
 			</ul>
 		</nav>
 
 		<nav class='x-menu'>
 			<h3 class='strong-voice'>Company</h3>
 				<ul>
-					<li><a href='#'>Id maecenas</a></li>
-					<li><a href='#'>Id orci</a></li>
-					<li><a href='#'>Magna ultricies</a></li>
-					<li><a href='#'>Quis Risis</a></li>
+					<li><a href='#'>About Us</a></li>
+  					<li><a href='#'>Leadership Team</a></li>
+  					<li><a href='#'>Careers</a></li>
+  					<li><a href='#'>Newsroom</a></li>
+  					<li><a href='#'>Investor Relations</a></li>
+  					<li><a href='#'>Sustainability & Impact</a></li>
 				</ul>
 		</nav>
 
@@ -43,7 +44,7 @@
 				?>
 				</email-content>
 					
-					<p class='soft-voice'>Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi.
+					<p class='soft-voice'>Join our community to receive insights, updates, and resources designed to help your business grow. From industry trends to strategic best practices, we’ll deliver the knowledge you need—straight to your inbox.
 					</p>
 		</nav>
 
