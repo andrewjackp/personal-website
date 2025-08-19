@@ -1,5 +1,7 @@
 <?php
 	$actions = $props['actions'] ?? [];
+	$heading = $props['heading'] ?? "Consistency Across All Faces (and Tentacles)";
+	$caption = $props['caption'] ?? "We specialize in monster-friendly design systems that scale from wiggly toes to toothy grins.";
 ?>
 
 <learn-more>
@@ -13,8 +15,6 @@
 	</span>
 
 	<?php 
-		$props['heading'] = "Consistency Across All Faces (and Tentacles)";
-		$props['caption'] = "We specialize in monster-friendly design systems that scale from wiggly toes to toothy grins.";
 		include('modules/page-header/template.php');
 	?>
 	

@@ -2,6 +2,8 @@
 	$cards = $props['cards'] ?? [];
 	$cardStyle = $props['cardStyle'] ?? "default";
 	$img = $props['img'] ?? "";
+	$heading = $props['heading'] ?? "";
+	$caption = $props['caption'] ?? "";
 
 	include('modules/page-header/template.php');
 ?>

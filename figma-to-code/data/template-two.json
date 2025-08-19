@@ -38,7 +38,7 @@
             ],
             "callToAction": "template-two-cta",
             "heading": "Monstrously Cohesive Visual Systems",
-            "caption": "Creating visual languages for brands with bold identities and even bolder appetites, keeping every detail on-brand."
+            "caption": "Why did the monster hire a designer? Because his branding was a real nightmare."
         },
         {
             "name": "product-info",
@@ -50,49 +50,53 @@
                     "content": "Learn More →",
                     "outlineStyle": "preview-btn"
                 }
-            ]
+            ],
+            "heading": "Consistency Across All Monsters (and Tentacles)",
+            "caption": "Why don’t monsters ever need rebranding? Because their scary face is already their logo."
         },
         {
             "name": "product-features",
             "module": "features",
             "titleStyle": "loud-voice",
             "cardStyle": "template-two-feature-list",
+            "heading": "Our AI is so smart, it corrected my spilling…",
+            "caption": "Finally, a feature that makes fewer mistakes than your other LLM.",
             "cards":
             [
                 {
                     "id": 1,
-                    "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "heading": "Cloud-Powered Excuses",
+                    "content": "Our AI can explain why your project is late—now with 99.9% uptime.",
                     "img": "images/cloud.svg"
                 },
                 {
                     "id": 2,
-                    "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "heading": "Infinite Buzzwords",
+                    "content": "Synergy, blockchain, quantum—our system auto-generates jargon so you sound smart in meetings.",
                     "img": "images/cloud.svg"
                 },
                 {
                     "id": 3,
-                    "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "heading": "Predictive Coffee Runs",
+                    "content": "Our algorithm knows when you need caffeine before you do. It’s basically a psychic barista.",
                     "img": "images/cloud.svg"
                 },
                 {
                     "id": 4,
-                    "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "heading": "AI-Powered Eye Rolls",
+                    "content": "Detects bad design decisions instantly, then rolls its virtual eyes so you don’t have to.",
                     "img": "images/cloud.svg"
                 },
                 {
                     "id": 5,
-                    "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "heading": "Auto-Meme Generator",
+                    "content": "Because sometimes the best way to explain ROI is with a cat picture.",
                     "img": "images/cloud.svg"
                 },
                 {
                     "id": 6,
-                    "heading": "Et, odio elementum",
-                    "content": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+                    "heading": "Monster-Friendly UI",
+                    "content": "Scales perfectly from tiny goblin thumbs to Godzilla-sized claws.",
                     "img": "images/cloud.svg"
                 }
             ]
@@ -102,16 +106,16 @@
             "module": "testimonials",
             "reviewStyle": "template-two-list",
             "heading": "What Our Clients Say",
-            "caption": "Neque, pulvinar vestibulum non aliquam.",
+            "caption": "Because apparently our moms’ reviews don’t count",
             "reviews":
             [
                 {
-                    "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                    "quote": "Neque, pulvinar vestibulum non aliquam” sounds fancy… but really it just means our clients like us enough to keep paying invoices",
                     "img": "images/avatar.svg",
                     "name": "Courtney Henry"
                 },
                 {
-                    "quote": "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+                    "quote": "Before we used this service, our brand was as organized as my sock drawer. Now at least the left and right socks match",
                     "img": "images/avatar.svg",
                     "name": "Courtney Henry"
                 }
