@@ -124,6 +124,7 @@
         {
             "name": "quotes",
             "module": "get-quotes",
+            "heading": "Before we used this service, our brand was as organized as my sock drawer. Now at least the left and right socks match.",
             "actions":
             [
                 {
