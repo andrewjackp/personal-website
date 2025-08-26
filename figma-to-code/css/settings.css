@@ -11,4 +11,7 @@ html {
 
 	--border: 5px;
 	--corners: 4px;
+
+	--small-border-radius: 5px;
+	--large-border-radius: 75px;
 }

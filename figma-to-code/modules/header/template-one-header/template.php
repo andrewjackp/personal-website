@@ -22,6 +22,9 @@
 			<li>
 				<a href='?page=template-three'>Template Three</a>
 			</li>
+			<li>
+				<?php include('components/slider/template.php'); ?>
+			</li>
 			<!-- <li>
 				<a href="#">Features</a>
 			</li>
@@ -29,6 +32,7 @@
 				<a href="#">About Us</a>
 			</li> -->
 		</ul>
+
 	</nav>
 
 	<nav class='user-menu'>

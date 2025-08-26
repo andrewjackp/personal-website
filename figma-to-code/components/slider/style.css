@@ -1,0 +1,18 @@
+body {
+/*	--small-border-radius: 5px;
+	--large-border-radius: 75px;
+	--border: 0px;*/
+}
+
+.box {
+	
+}
+
+input {
+	max-width: 200px;
+}
+
+inner-column {
+	/*border: var(--border);
+	border-radius: var(--small-border-radius);*/
+}
