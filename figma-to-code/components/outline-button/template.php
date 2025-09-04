@@ -1,4 +1,4 @@
 <?php
 	$outlineStyle = $action['outlineStyle'] ?? "";
 ?>
-<a href="#" class="outline-btn <?=$outlineStyle?>"><?=$action['content']?></a>
+<a href="#" class="button outline <?=$outlineStyle?>"><?=$action['content']?></a>

@@ -1,1 +1,1 @@
-<a href="#" class="header-button"><?=$action['content']?></a>
+<a href="#" class="button header"><?=$action['content']?></a>

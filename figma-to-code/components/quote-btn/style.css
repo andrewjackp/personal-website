@@ -1,5 +1,6 @@
 .quote-btn {
     border: 1px solid var(--blue);
+    border-radius: var(--small-border-radius);
     display: inline-block;
     display: flex;
     gap: 0.8em;

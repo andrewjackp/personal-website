@@ -1,7 +1,8 @@
-.outline-btn {
+.outline {
 	background-color: var(--white);
 	color: var(--blue);
 	border: 1px solid var(--blue);
+   border-radius: var(--small-border-radius);
    display: inline-block;
    font-size: clamp(0.8rem, 3vw, 1.1rem);
    line-height: 1.4;

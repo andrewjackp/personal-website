@@ -3,7 +3,7 @@ const range = document.querySelector("[id='r']");
 
 	range.addEventListener('input', function(event){
 
-		const allColumns = document.querySelectorAll("inner-column");
+		const allColumns = document.querySelectorAll(".button");
 
 		allColumns.forEach(function(column) {
 

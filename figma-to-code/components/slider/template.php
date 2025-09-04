@@ -1,5 +1,5 @@
 <div class="box">
-	<input type="range" id='r' min="0" max="75">
+	<input type="range" id='r' min="0" max="85">
 </div>
 
 <script src="components/slider/script.js">
