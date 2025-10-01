@@ -1,7 +1,7 @@
 <?php 
 
 	function getCurrentPageSlug() {
-		$pageSlug = "data";
+		$pageSlug = "main-page";
 
 		if (isset($_GET["page"]) ) {
 			$pageSlug = $_GET["page"];
@@ -53,22 +53,18 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Arimo:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	
+
 </head>
 <body>
 	
 	<main>
-		<?php if ($pageData && isset($pageData["sections"])): ?>
-   		<?php foreach ($pageData["sections"] as $section): ?>
-        		<section class="<?=$section['name']?>">
-            	<inner-column>
-               	<?=getModule($section['module'], $section)?>
-            	</inner-column>
+   	<?php foreach ($pageData["sections"] as $section): ?>
+        	<section class="<?=$section['name']?>">
+            <inner-column>
+               <?=getModule($section['module'], $section)?>
+            </inner-column>
         		</section>
     	<?php endforeach; ?>
-		<?php else: ?>
-    		<p>No sections found.</p>
-		<?php endif; ?>
 	</main>
 	
 </body>

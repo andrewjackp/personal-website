@@ -1,4 +1,12 @@
 document.querySelectorAll(".toggle-btn").forEach((btn) => {
+    //this iss attaching to every button
+    // event delegation
+    // listen to document
+
+    // document.addEventListener('click', (e) => {
+    //     if(e.target.contains)
+    // })
+
     btn.addEventListener("click", (e) => {
         e.preventDefault();
         const card = e.target.closest(".review-card");
@@ -13,7 +21,7 @@ document.querySelectorAll(".toggle-btn").forEach((btn) => {
         } else {
             desc.style.display = "-webkit-box"; 
             desc.style.webkitBoxOrient = "vertical";
-            desc.style.webkitLineClamp = "3"; // clamp back to 3 lines
+            desc.style.webkitLineClamp = "3"; 
             btn.textContent = "Read More";
             btn.setAttribute("data-expanded", "false");
     }

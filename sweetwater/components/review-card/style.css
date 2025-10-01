@@ -26,7 +26,7 @@
 	}
 	
 	.description {
-		line-height: 1.2em;
+		line-height: 1.4em;
 		max-width: 150ch;
 	}
 	
@@ -49,9 +49,22 @@
 	.toggle-btn {
 		display: none;
 	}
+
+	.starRating {
+		display: flex;
+		flex-direction: row;
+		width: 18%;
+		margin-left: -4px;
+
+		svg {
+			width: 25px; 
+  			height: 25px;
+  			flex-shrink: 0; 
+		}
+	}
 	
 	.description {
-		max-width: 65ch;
+		max-width: 100ch;
 		display: -webkit-box;
  		-webkit-box-orient: vertical;
  		overflow: hidden;
@@ -60,7 +73,7 @@
 	
 	@container (width < 500px) {
 		.description {
-			-webkit-line-clamp: 2;;
+			-webkit-line-clamp: 2;
 		}
 		.toggle-btn {
 			display: block;
