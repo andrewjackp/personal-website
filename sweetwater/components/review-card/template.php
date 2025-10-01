@@ -7,6 +7,7 @@ function renderReviewCard($item) {
             <h2 class='starRating'>{$item['starRating']}</h2>
 
             <p class='description'>{$item['description']}</p>
+            
             <a class='toggle-btn' href='#' data-expanded='false'>Read More</a>
 
             <p class='user'>by {$item['user']}</p>

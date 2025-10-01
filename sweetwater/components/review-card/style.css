@@ -46,21 +46,21 @@
 		margin-top: 1.2em;
 	}
 	
-	border: 1px solid red;
-	
 	.toggle-btn {
 		display: none;
 	}
 	
 	.description {
 		max-width: 65ch;
+		display: -webkit-box;
+ 		-webkit-box-orient: vertical;
+ 		overflow: hidden;
+ 		text-overflow: ellipsis;		
 	}
 	
 	@container (width < 500px) {
 		.description {
-			white-space: nowrap;
-  			overflow: hidden;
-  			text-overflow: ellipsis;
+			-webkit-line-clamp: 2;;
 		}
 		.toggle-btn {
 			display: block;
