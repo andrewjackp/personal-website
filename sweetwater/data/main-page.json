@@ -4,7 +4,11 @@
     "sections":
     [
         {
-            "name": "review-list",
+            "name": "review-form-section",
+            "module": "review-form"
+        },
+        {
+            "name": "review-list-section",
             "module": "review-list",
             "reviews":
             [

@@ -1,7 +1,7 @@
 .review-card {
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: 10px;
 	gap: 10px;
 	container-type: inline-size;
 	
@@ -78,7 +78,12 @@
 		.toggle-btn {
 			display: block;
 			max-width: 120px;
+			background: none;
 			color: var(--blue);
+			display: flex;
+         align-items: flex-start;
+         border: none;
+         margin-left: -6px;
 		}
 	}
 }

@@ -2,7 +2,7 @@
     include('components/review-card/template.php');
 ?>
 
-<ul class="review-list" id="review-card-list">
+<ul class="review-card-list" id="review-card-list">
     <?php foreach ($reviews as $item): ?>
         <li class='review'>
             <?= renderReviewCard($item) ?>

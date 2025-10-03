@@ -1,0 +1,32 @@
+.review-form {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 400px;
+}
+
+label.required:after {
+  content: " *"; 
+  color: red;
+}
+
+.required {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #333333;
+}
+
+.loud-voice {
+	font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.form-btn {
+	background-color: var(--blue);
+	padding: 1em;
+	border: none;
+	border-radius: 30px;
+	color: var(--white);
+	font-size: 15px;
+	font-weight: 500;
+}

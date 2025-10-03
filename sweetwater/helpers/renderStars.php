@@ -1,6 +1,6 @@
 <?php
 if (!function_exists('renderStars')) {
-    function renderStars($rating, $maxStars = 5) {
+    function renderStars($rating) {
         $filledStar = '
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                  fill="gold" width="20" height="20" aria-hidden="true">
@@ -35,15 +35,12 @@ if (!function_exists('renderStars')) {
                     fill='url(#{$gradId})' stroke='gold' stroke-width='2'/>
             </svg>";
 
-        $rating = (float) $rating;
-        $full = floor($rating);
-        $hasHalf = ($rating - $full) >= 0.5;
-
         $stars = '';
-        for ($i = 1; $i <= $maxStars; $i++) {
-            if ($i <= $full) {
+
+        for ($i = 1; $i <= 5; $i++) {
+            if ($rating >= $i) {
                 $stars .= $filledStar;
-            } elseif ($i == $full + 1 && $hasHalf) {
+            } elseif ($rating % 1 !== 0) {
                 $stars .= $halfStar;
             } else {
                 $stars .= $emptyStar;
