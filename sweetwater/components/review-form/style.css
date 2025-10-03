@@ -4,6 +4,18 @@
 	flex-direction: column;
 	gap: 10px;
 	width: 400px;
+
+	textarea {
+		border: 1px solid var(--lightgrey);
+		resize: none;
+		border-radius: 5px;
+	}
+
+	input {
+		border: 1px solid var(--lightgrey);
+		padding: 10px;
+		border-radius: 5px;
+	}
 }
 
 label.required:after {
@@ -18,7 +30,7 @@ label.required:after {
 }
 
 .loud-voice {
-	font-size: clamp(1rem, 2vw, 2rem);
+	font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 .form-btn {
@@ -30,3 +42,15 @@ label.required:after {
 	font-size: 15px;
 	font-weight: 500;
 }
+
+.image-area {
+	border: 1px solid var(--lightgrey);
+	padding: 25px;
+	border-radius: 5px;
+
+	select {
+		margin-left: -23px;
+		height: 40px;
+}
+}
+
