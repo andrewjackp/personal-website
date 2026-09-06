@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contentful-backed landing page</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 780px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+    img { max-width: 100%; height: auto; border-radius: 8px; }
+    .cta { display: inline-block; margin: 16px 0; padding: 12px 20px; background: #111; color: #fff; text-decoration: none; border-radius: 6px; }
+    .modules { display: grid; gap: 16px; margin-top: 32px; }
+    .module { border: 1px solid #ddd; border-radius: 8px; padding: 16px; }
+  </style>
+</head>
+<body>
+  <main id="app">Loading…</main>
+  <script type="module">
+    import { documentToHtmlString } from "https://esm.sh/@contentful/rich-text-html-renderer";
+
+    const SPACE = "d9ba8feu73io";
+    const TOKEN = "i9ibOU0-6LvdaSJ4n2lx_0TqoSOgaAgrRF_3-fMIac8";
+    const url = `https://cdn.contentful.com/spaces/${SPACE}/environments/master/entries` +
+      `?content_type=campaignLandingPage&include=2&access_token=${TOKEN}`;
+
+    const data = await fetch(url).then(r => r.json());
+
+    const assets = {};
+    (data.includes?.Asset || []).forEach(a => (assets[a.sys.id] = a));
+    const linked = {};
+    (data.includes?.Entry || []).forEach(e => (linked[e.sys.id] = e));
+
+    const f = data.items[0].fields;
+    const heroId = f.heroImage?.sys?.id;
+    const heroUrl = heroId && assets[heroId] ? "https:" + assets[heroId].fields.file.url : "";
+
+    const modules = (f.relatedModules || []).map(link => {
+      const m = linked[link.sys.id];
+      return m ? `<div class="module"><h3>${m.fields.title}</h3><p>${m.fields.description || ""}</p>
+        <a href="${m.fields.link || "#"}">Learn more</a></div>` : "";
+    }).join("");
+
+    document.getElementById("app").innerHTML = `
+      <h1>${f.title || ""}</h1>
+      ${heroUrl ? `<img src="${heroUrl}" alt="" />` : ""}
+      <div>${f.body ? documentToHtmlString(f.body) : ""}</div>
+      ${f.ctaLabel ? `<a class="cta" href="${f.ctaUrl || "#"}">${f.ctaLabel}</a>` : ""}
+      <div class="modules">${modules}</div>
+    `;
+  </script>
+</body>
+</html>
