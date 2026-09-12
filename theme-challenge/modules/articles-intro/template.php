@@ -3,9 +3,9 @@
 
 <articles-intro>
 	<header>
-		<h2 class='attention-voice'>Heading for this section here</h2>
+		<h2 class='attention-voice'>Dispatches From the Fleet</h2>
 
-		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
+		<p>Guides, stories, and updates from the world of private aviation — what membership actually feels like, where members are flying next, and what's changing in the skies.</p>
 	</header>
 
 	<article-grid>
