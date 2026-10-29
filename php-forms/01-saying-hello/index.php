@@ -1,27 +1,5 @@
 <?php
-/*
-	E4P #01 — Saying Hello
-
-	INPUTS:
-	-
-
-	PROCESSING:
-	-
-
-	OUTPUTS:
-	-
-
-	CONSTRAINTS (from the book):
-	-
-
-	CHALLENGE I'm doing:
-	-
-
-	NOTES (what tripped me up / what I'd do in JS):
-	-
-
-	next:
-*/
+	$name = "Andy";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,9 +14,10 @@
 	<h1>#01 Saying Hello</h1>
 
 	<!-- form goes here -->
-
+	
 	<?php
-		// PHP logic goes here
+		echo "<p> What is your name? $name</p>"
+		echo "<p> Hello $name, nice to meet you.</p>"
 	?>
 
 </body>

@@ -23,6 +23,9 @@
 		"19-bmi-calculator" => "BMI Calculator",
 		"20-multistate-sales-tax" => "Multistate Sales Tax Calculator",
 	];
+
+	// the folder this page lives in (e.g. /php-forms) so links work with or without a trailing slash
+	$base = dirname($_SERVER["SCRIPT_NAME"]);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,11 +39,11 @@
 
 	<ol>
 		<?php foreach ($exercises as $folder => $title) { ?>
-			<li><a href="<?= $folder ?>/"><?= $title ?></a></li>
+			<li><a href="<?= $base ?>/<?= $folder ?>/"><?= $title ?></a></li>
 		<?php } ?>
 	</ol>
 
-	<p><a href="count-chars/">Earlier attempt (#2 + #3 together)</a></p>
+	<p><a href="<?= $base ?>/count-chars/">Earlier attempt (#2 + #3 together)</a></p>
 
 </body>
 </html>
