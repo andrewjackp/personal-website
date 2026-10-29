@@ -16,8 +16,8 @@
 	<!-- form goes here -->
 	
 	<?php
-		echo "<p> What is your name? $name</p>"
-		echo "<p> Hello $name, nice to meet you.</p>"
+		echo "<p> What is your name? $name</p>";
+		echo "<p> Hello $name, nice to meet you.</p>";
 	?>
 
 </body>
