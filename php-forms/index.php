@@ -43,6 +43,10 @@
 		<?php } ?>
 	</ol>
 
+	<p><a href="<?= $base ?>/checklists/">Checklists</a></p>
+
+	<p><a href="<?= $base ?>/monster-adoption/">Monster Adoption</a> (<a href="<?= $base ?>/monster-adoption/style-tile.php">style tile</a>)</p>
+
 	<p><a href="<?= $base ?>/count-chars/">Earlier attempt (#2 + #3 together)</a></p>
 
 </body>
