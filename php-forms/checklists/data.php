@@ -83,7 +83,7 @@
 				"lesson" => [
 					"label" => "I followed the lesson and did the in-video challenges",
 					"note" => "About 90 minutes. Pause and do the challenges.",
-					"practice" => "practice/arrays-loops.php",
+					"practice" => "practice/arrays-loops/",
 				],
 				"brief" => [
 					"label" => "I read the monster adoption brief",
