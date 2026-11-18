@@ -102,4 +102,50 @@
 				],
 			],
 		],
+
+		"functions" => [
+			"title" => "Functions",
+			"items" => [
+				"lesson" => [
+					"label" => "I watched the video and did the challenges",
+					"note" => "About 130 minutes. How long did it really take? Write it down and report back.",
+					"practice" => "practice/functions/",
+				],
+				"syntax" => [
+					"label" => "I can define a function and call it",
+					"note" => "function keyword + a name. A recipe that only runs when you call it.",
+					"practice" => "practice/functions/",
+				],
+				"scope" => [
+					"label" => "I understand scope",
+					"note" => "Each function has its own refrigerator. It can't see the \$variables outside it.",
+					"practice" => "practice/functions/scope.php",
+				],
+				"parameters" => [
+					"label" => "I know parameters from arguments",
+					"note" => "Parameters are the slots you plan. Arguments are the values you pass in when you call it.",
+					"practice" => "practice/functions/",
+				],
+				"return" => [
+					"label" => "I understand return values",
+					"note" => "return hands a value back and ends the function right there. echo just prints.",
+					"practice" => "practice/functions/return.php",
+				],
+				"built-in" => [
+					"label" => "I've used built-in functions and looked them up in the manual",
+					"note" => "Try phpinfo(). Find 3 built-ins you've already used without noticing.",
+					"practice" => "practice/functions/built-in.php",
+				],
+				"where-php" => [
+					"label" => "I wrote about where PHP will be useful in my projects",
+					"note" => "About 20 minutes. Partials, variables, arrays, loops, functions: which projects need which?",
+					"practice" => "practice/functions/where-php.md",
+				],
+				"in-the-wild" => [
+					"label" => "I found PHP use-cases in the wild",
+					"note" => "About 30 minutes. Take screenshots and say what PHP would do there.",
+					"practice" => "practice/functions/in-the-wild.md",
+				],
+			],
+		],
 	];
